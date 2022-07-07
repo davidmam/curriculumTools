@@ -1377,6 +1377,30 @@ class AssessmentType():
     definition text not null
     );
     '''
+
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.name = kwargs.get("name")
+        self.definition = kwargs.get("definition")
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+            
+        
+    def create(self):
+        '''
+        Creates a new database entry for the AssessmentType entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into AssessmentType (name, definition) VALUES (%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.name,self.definition))
+        self.id = cursor.lastrowid   
+
 class Assessment():
     
     '''
@@ -1388,6 +1412,73 @@ class Assessment():
     foreign key (atype) references AssessmentType (ID)
     );
     '''
+
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.name = kwargs.get("name")
+        self.description = kwargs.get("description")
+        self.atype = kwargs.get('atype')
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+        self.ILO =[]
+        self.loadILO()
+        
+    def create(self):
+        '''
+        Creates a new database entry for the Assessment entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into Assessment (name, description, atype) VALUES (%s,%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.name,self.description, self.atype))
+        self.id = cursor.lastrowid   
+
+    def loadILO(self):
+        '''
+        Loads ILO links from the database. Does not create new links or ILOs.
+
+        Returns
+        -------
+        None.
+
+        '''
+        self.ILO=[]
+        sql = "SELECT i.ID, i.ILOtext, i.category from ActivityILO  i inner join AssessmentActivityILOMAP m on m.activityiloID = i.ID where m.assessmentID = %s"
+        cursor = self.factory.db.cursor()
+        cursor.execute(sql, (self.id))
+        for ilo in cursor.fetchall():
+            self.ILO.append(ilo)
+            
+    def map_ilo(self,  ilo, remove=False):
+        '''
+        Adds ILO to the Activity, if it is not already assosciated
+
+        Parameters
+        ----------
+        ilo : ActivityILO
+            DESCRIPTION.
+
+        Returns
+        -------
+        None.
+
+        '''
+        sqli = "INSERT INTO AssessmentActivityILOMAP (assessmentID, activityiloID) VALUES (%s , %s)"
+        sqld = "DELETE FROM ActivityILOMAP where assessmentID = %s and activityID = %s"
+        ilos= [x for x in self.ILO if x[0]==ilo.id]
+        cursor = self.factory.db.cursor()
+        if ilos and remove:
+            cursor.execute(sqld, (self.id, ilo.id))
+        elif ilos or remove:
+            pass
+        else:
+            cursor.execute(sqli,(self.id, ilo.id))
+        self.loadILO()
     
 class AssessmentInstance():
     '''
@@ -1404,3 +1495,31 @@ class AssessmentInstance():
     duration text not null
     );
     '''
+    
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.moduleIO = kwargs.get("moduleID")
+        self.weightpercent = kwargs.get("weightpercent")
+        self.weekstart = kwargs.get("weekstart")
+        self.weekend = kwargs.get("weekend")
+        self.assessmentID = kwargs.get("assessmentID")
+        self.seq = kwargs.get("seq")
+        self.duration = kwargs.get("duration")
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+            
+        
+    def create(self):
+        '''
+        Creates a new database entry for the TeachingActivityType entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into AssessmentInstance (moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration) VALUES (%s,%s,%s,%s,%s,%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.moduleID,self.weightpercent,self.weekstart,self.weekend,self.assessmentID,self.seq,self.duration))
+        self.id = cursor.lastrowid   
