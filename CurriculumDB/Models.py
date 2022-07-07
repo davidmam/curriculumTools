@@ -75,7 +75,6 @@ class CurriculumFactory():
     
     @lru_cache
     def get_module_by_id(self, id):
-        #TODO
         '''
         retreives the given id number Module from the database and caches the object.        
 
@@ -99,7 +98,6 @@ class CurriculumFactory():
         return prog
 
     def get_or_create_Module(self, **kwargs):
-        #TODO
         '''
         Create a new Module object, retrieving from the database as necessary,or from the cache
         
@@ -124,7 +122,6 @@ class CurriculumFactory():
     
     @lru_cache
     def get_TeachingActivityType_by_id(self, id):
-        #TODO
         '''
         retreives the given id number TeachingActivityType from the database and caches the object.        
 
@@ -147,7 +144,6 @@ class CurriculumFactory():
         return prog
 
     def get_or_create_TeachingActivityType(self, **kwargs):
-        #TODO
         '''
         Create a new TeachingActivityType object, retrieving from the database as necessary,or from the cache
         
@@ -172,7 +168,6 @@ class CurriculumFactory():
 
     @lru_cache
     def get_TeachingActivity_by_id(self, id):
-        #TODO
         '''
         retreives the given id number TeachingActivity from the database and caches the object.        
 
@@ -183,7 +178,8 @@ class CurriculumFactory():
 
         Returns
         -------
-        Module
+        TeachingActivity
+        
         CREATE or REPLACE Table TeachingActivity (
         ID integer not null primary key auto_increment,
         name text not null,
@@ -206,11 +202,10 @@ class CurriculumFactory():
         cursor.execute(query, (id))
         (name, description, duration, TAtype, version,previous_TA, moduleID, sequence, weighting) = cursor.fetchone()
         args = {"id":id, "name":name,  "description":description, "duration":duration, "TAtype":TAtype, "version":version, "previous_TA":previous_TA, "moduleID":moduleID, "sequence":sequence, "weighting":weighting}
-        prog = TeachingActivityType(self, **args)
+        prog = TeachingActivity(self, **args)
         return prog
 
     def get_or_create_TeachingActivity(self, **kwargs):
-        #TODO
         '''
         Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
         
@@ -233,6 +228,339 @@ class CurriculumFactory():
             
         return mod
         
+    @lru_cache
+    def get_ProgrammeILO_by_id(self, id):
+        '''
+        retreives the given id number TeachingActivity from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for a TeachingActivity
+
+        Returns
+        -------
+        ProgrammeILO
+        
+CREATE or REPLACE Table ProgrammeILO (
+ID integer not null auto_increment primary key,
+ILOtext text not null,
+category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null
+);
+
+
+        '''
+        query = "SELECT ILOtext, category from ProgrammeILO where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (ILOtext, category ) = cursor.fetchone()
+        args = {"id":id, "ILOtext":ILOtext, "category":category}
+        prog = ProgrammeILO(self, **args)
+        return prog
+
+
+    def get_or_create_ProgrammeILO(self, **kwargs):
+        '''
+        Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        ProgrammeILO object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_ProgrammeILO_by_id(kwargs['id'])
+        else:
+            mod = ProgrammeILO(self, **kwargs)
+            mod = self.get_ProgrammeILO_by_id(mod.id)
+            
+        return mod
+        
+    @lru_cache
+    def get_ModuleILO_by_id(self, id):
+        '''
+        retreives the given id number TeachingActivity from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for a TeachingActivity
+
+        Returns
+        -------
+        ModuleILO
+        
+        CREATE or REPLACE Table ModuleILO (
+        ID integer not null auto_increment primary key,
+        ILOtext text not null,
+        category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
+        programmeILO integer not null,
+        foreign key (programmeILO) references ProgrammeILO (ID)
+        );
+
+
+
+        '''
+        query = "SELECT ILOtext, category, programmeILO, bloom from ModuleILO where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (ILOtext, category, programmeILO ) = cursor.fetchone()
+        args = {"id":id, "ILOtext":ILOtext, "category":category, "programmeILO":programmeILO}
+        prog = ModuleILO(self, **args)
+        return prog
+
+
+    def get_or_create_ModuleILO(self, **kwargs):
+        '''
+        Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        TeachingActivityType object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_ModuleILO_by_id(kwargs['id'])
+        else:
+            mod = ModuleILO(self, **kwargs)
+            mod = self.get_ModuleILO_by_id(mod.id)
+            
+        return mod
+        
+    @lru_cache
+    def get_ActivityILO_by_id(self, id):
+        '''
+        retreives the given id number TeachingActivity from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for a TeachingActivity
+
+        Returns
+        -------
+        ActivityILO
+       CREATE or REPLACE Table ActivityILO (
+       ID integer not null auto_increment primary key,
+       ILOtext text not null,
+       category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
+       moduleILO integer,
+       bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null,
+       Foreign Key (moduleILO) REFERENCES ModuleILO (ID)
+       );
+
+
+        '''
+        query = "SELECT ILOtext, category, moduleILO, bloom from ActivityILO where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (ILOtext, category, moduleILO, bloom ) = cursor.fetchone()
+        args = {"id":id, "ILOtext":ILOtext, "category":category, "moduleILO":moduleILO, "bloom":bloom}
+        prog = ActivityILO(self, **args)
+        return prog
+
+    def get_or_create_ActivityILO(self, **kwargs):
+        '''
+        Create a new ActivityILO object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        ActivityILO object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_ActivityILO_by_id(kwargs['id'])
+        else:
+            mod = ActivityILO(self, **kwargs)
+            mod = self.get_ActivityILO_by_id(mod.id)
+            
+        return mod
+        
+    @lru_cache
+    def get_AssessmentType_by_id(self, id):
+        '''
+        retreives the given id number AssessmentType from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for a TeachingActivity
+
+        Returns
+        -------
+        AssessmentType
+       
+CREATE or REPLACE TABLE AssessmentType (
+ID integer not null primary key auto_increment,
+name text not null,
+definition text not null
+);
+
+
+        '''
+        query = "SELECT name, definition from AssessmentType where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (name,definition ) = cursor.fetchone()
+        args = {"id":id, "name":name, "definition":definition}
+        prog = AssessmentType(self, **args)
+        return prog
+
+    def get_or_create_AssessmentType(self, **kwargs):
+        '''
+        Create a new ActivityILO object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        ActivityILO object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_AssessmentType_by_id(kwargs['id'])
+        else:
+            mod = AssessmentType(self, **kwargs)
+            mod = self.get_AssessmentType_by_id(mod.id)
+            
+        return mod
+    
+    @lru_cache
+    def get_Assessment_by_id(self, id):
+        '''
+        retreives the given id number Assessment from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for an Assessment
+
+        Returns
+        -------
+        Assessment
+
+CREATE or REPLACE TABLE Assessment (
+ID integer not null primary key auto_increment,
+name text not null,
+description text not null,
+atype integer not null,
+foreign key (type) references AssessmentType (ID)
+);
+
+
+        '''
+        query = "SELECT name, description, type from Assessment where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (name, description, atype) = cursor.fetchone()
+        args = {"id":id, "name":name, "description":description, "type":atype}
+        prog = Assessment(self, **args)
+        return prog
+
+    def get_or_create_Assessment(self, **kwargs):
+        '''
+        Create a new Assessment object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        Assessment object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_Assessment_by_id(kwargs['id'])
+        else:
+            mod = Assessment(self, **kwargs)
+            mod = self.get_Assessment_by_id(mod.id)
+            
+        return mod
+
+    @lru_cache
+    def get_AssessmentInstance_by_id(self, id):
+        '''
+        retreives the given id number AssessmentInstance from the database and caches the object.        
+
+        Parameters
+        ----------
+        id : integer
+            unique identifier for an AssessmentInstance
+
+        Returns
+        -------
+        AssessmentInstance
+        
+CREATE or REPLACE TABLE AssessmentInstance (
+ID integer not null primary key auto_increment,
+moduleID integer not null,
+weightpercent integer not null,
+weekstart integer not null,
+weekend integer not null,
+assessmentID integer not null,
+seq integer not null,
+foreign key (moduleID) references TModule (ID),
+foreign key (assessmentID) references Assessment (ID),
+duration text not null
+);
+
+
+        '''
+        query = "SELECT moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration from AssessmentInstance where ID = %s "
+        cursor = self.db.cursor()
+        cursor.execute(query, (id))
+        (moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration ) = cursor.fetchone()
+        args = {"id":id, "moduleID":moduleID,"weightpercent":weightpercent,"weekstart":weekstart,"weekend":weekend,"assessmentID":assessmentID,"seq":seq,"duration":duration }
+        prog = AssesmsentInstance(self, **args)
+        return prog
+
+    def get_or_create_AssessmentInstance(self, **kwargs):
+        '''
+        Create a new AAssessmentInstance object, retrieving from the database as necessary,or from the cache
+        
+
+        Parameters
+        ----------
+        **kwargs : either id or name and definition must be present. 
+
+        Returns
+        -------
+        AssessmentInstance object
+
+        '''
+        mod = None
+        if kwargs.get('id',None):
+            mod = self.get_AssessmentInstance_by_id(kwargs['id'])
+        else:
+            mod = AssessmentInstance(self, **kwargs)
+            mod = self.get_AssessmentInstance_by_id(mod.id)
+            
+        return mod
 
 
 class Programme():
@@ -513,11 +841,11 @@ class Programme():
 
         '''
         sqli = "INSERT INTO ProgrammeILOMAP (programmeID, piloID) VALUES (%s , %s)"
-        sqld = "DELETE FROM ProgrammeILOMAP where ID = %s"
+        sqld = "DELETE FROM ProgrammeILOMAP where programmeID = %s and piloID = %s"
         ilos= [x for x in self.ILO if x[0]==ilo.id]
         cursor = self.factory.db.cursor()
         if ilos and remove:
-            cursor.execute(sqld, (ilos[3]))
+            cursor.execute(sqld, (self.id, ilo.id))
         elif ilos or remove:
             pass
         else:
@@ -569,6 +897,7 @@ class Module():
         None.
 
         '''
+        self.ILO=[]
         sql = "SELECT i.ID, i.ILOtext, i.category from ModuleILO  i inner join ModuleILOMAP m on m.miloID = i.ID where m.moduleID = %s"
         cursor = self.factory.db.cursor()
         cursor.execute(sql, (self.id))
@@ -737,14 +1066,42 @@ class Module():
                 self.factory.get_Module_by_id(self.previous).archive()
             self.update(approvalEvent=self.approval,status=self.status)
 
+    def map_ilo(self, ilo, remove=False):
+        '''
+        Adds ILO to the Programme, if it is not already assosciated
+
+        Parameters
+        ----------
+        ilo : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        None.
+
+        '''
+        sqli = "INSERT INTO ModuleILOMAP (moduleID, miloID) VALUES (%s , %s)"
+        sqld = "DELETE FROM ModuleILOMAP where moduleID = %s and miloID = %s"
+        ilos= [x for x in self.ILO if x[0]==ilo.id]
+        cursor = self.factory.db.cursor()
+        if ilos and remove:
+            cursor.execute(sqld, (self.id, ilo.id))
+        elif ilos or remove:
+            pass
+        else:
+            cursor.execute(sqli,(self.id, ilo.id))
+        self.loadILO()
+
+
         
 class TeachingActivityType():
     
     def __init__(self, factory, **kwargs):
+        self.factory=factory
         self.name = kwargs.get("name")
         self.definition = kwargs.get("definition")
-        self.id = id
-        if id is None:
+        self.id = kwargs.get("id")
+        if self.id is None:
             self.create()
             
         
@@ -818,19 +1175,232 @@ class TeachingActivity ():
         None.
 
         '''
+        self.ILO=[]
         sql = "SELECT i.ID, i.ILOtext, i.category from ActivityILO  i inner join ActivityILOMAP m on m.ailoID = i.ID where m.activityID = %s"
         cursor = self.factory.db.cursor()
         cursor.execute(sql, (self.id))
         for ilo in cursor.fetchall():
             self.ILO.append(ilo)
-    def addILO (self, ilo):
-        
-    
+            
+    def map_ilo(self,  ilo, remove=False):
+        '''
+        Adds ILO to the Activity, if it is not already assosciated
+
+        Parameters
+        ----------
+        ilo : ActivityILO
+            DESCRIPTION.
+
+        Returns
+        -------
+        None.
+
+        '''
+        sqli = "INSERT INTO ActivityILOMAP (activityID, ailoID) VALUES (%s , %s)"
+        sqld = "DELETE FROM ActivityILOMAP where activityID = %s and ailoID = %s"
+        ilos= [x for x in self.ILO if x[0]==ilo.id]
+        cursor = self.factory.db.cursor()
+        if ilos and remove:
+            cursor.execute(sqld, (self.id, ilo.id))
+        elif ilos or remove:
+            pass
+        else:
+            cursor.execute(sqli,(self.id, ilo.id))
+        self.loadILO()
+
+
 class ActivityILO():
-    '''ILOtext text not null,
-    category int not null,
-    bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null
     '''
+    CREATE or REPLACE Table ActivityILO (
+    ID integer not null auto_increment primary key,
+    ILOtext text not null,
+    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
+    moduleILO integer,
+    bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null,
+    Foreign Key (moduleILO) REFERENCES ModuleILO (ID)
+    );
+    '''
+    bloomterms = ('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create')
+    bloommap ={
+        }
+    categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.ILOtext = kwargs.get("ILOtext")
+        self.category = kwargs.get("category")
+        self.bloom = kwargs.get('bloom')
+        self.moduleILO = kwargs.get('moduleILO')
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+            
         
+    def create(self):
+        '''
+        Creates a new database entry for the TeachingActivityType entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into ActivityILO (ILOtext,category,bloom,moduleILO) VALUES (%s,%s,%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.ILOtext,self.category,self.bloom,self.moduleILO))
+        self.id = cursor.lastrowid   
     
+    def getActivitiesForILO(self):
+        '''
+        Retrieve all Activities with this ILO
+
+        Returns
+        -------
+        List of TeachingActivity
+
+        '''
+        cursor = self.factory.db.cursor()
+        sql = "Select ActivityID from ActivityILOMAP where ailoID = %s"
+        cursor.execute(sql, (self.id))
+        activities=[]
+        for a in cursor.fetchall():
+            activities.append(self.factory.get_TeachingActivity_by_id(a[0]))
+        return activities
     
+class ModuleILO():
+    '''
+    CREATE or REPLACE Table ModuleILO (
+    ID integer not null auto_increment primary key,
+    ILOtext text not null,
+    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
+    programmeILO integer not null,
+    foreign key (programmeILO) references ProgrammeILO (ID)
+    );
+    '''
+    categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.ILOtext = kwargs.get("ILOtext")
+        self.category = kwargs.get("category")
+        self.programmeILO = kwargs.get('programmeILO')
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+            
+        
+    def create(self):
+        '''
+        Creates a new database entry for the TeachingActivityType entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into ModuleILO (ILOtext,category,programmeILO) VALUES (%s,%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.ILOtext,self.category,self.programmeILO))
+        self.id = cursor.lastrowid   
+    
+    def getModulesForILO(self):
+        '''
+        Retrieve all Modules with this ILO
+
+        Returns
+        -------
+        List of TModule
+
+        '''
+        cursor = self.factory.db.cursor()
+        sql = "Select ModuleID from ModuleILOMAP where miloID = %s"
+        cursor.execute(sql, (self.id))
+        activities=[]
+        for a in cursor.fetchall():
+            activities.append(self.factory.get_TModule_by_id(a[0]))
+        return activities
+        
+class ProgrammeILO():
+    '''
+    CREATE or REPLACE Table ProgrammeILO (
+    ID integer not null auto_increment primary key,
+    ILOtext text not null,
+    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null
+    );
+
+    '''
+    
+    categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
+    def __init__(self, factory, **kwargs):
+        self.factory = factory
+        self.ILOtext = kwargs.get("ILOtext")
+        self.category = kwargs.get("category")
+        self.id = kwargs.get("id")
+        if self.id is None:
+            self.create()
+            
+        
+    def create(self):
+        '''
+        Creates a new database entry for the TeachingActivityType entity
+
+        Returns
+        -------
+        None.
+
+        '''
+        insertsql = "Insert into ProgrammeILO (ILOtext,category) VALUES (%s,%s)"
+        cursor = self.factory.db.cursor()
+        cursor.excecute(insertsql, (self.ILOtext,self.category))
+        self.id = cursor.lastrowid   
+    
+    def getProgrammesForILO(self):
+        '''
+        Retrieve all Activities with this ILO
+
+        Returns
+        -------
+        List of TeachingActivity
+
+        '''
+        cursor = self.factory.db.cursor()
+        sql = "Select ProgrammeID from ProgrammeILOMAP where piloID = %s"
+        cursor.execute(sql, (self.id))
+        activities=[]
+        for a in cursor.fetchall():
+            activities.append(self.factory.get_Programme_by_id(a[0]))
+        return activities
+    
+class AssessmentType():
+    '''
+    CREATE or REPLACE TABLE AssessmentType (
+    ID integer not null primary key auto_increment,
+    name text not null,
+    definition text not null
+    );
+    '''
+class Assessment():
+    
+    '''
+    CREATE or REPLACE TABLE Assessment (
+    ID integer not null primary key auto_increment,
+    name text not null,
+    description text not null,
+    atype integer not null,
+    foreign key (atype) references AssessmentType (ID)
+    );
+    '''
+    
+class AssessmentInstance():
+    '''
+    CREATE or REPLACE TABLE AssessmentInstance (
+    ID integer not null primary key auto_increment,
+    moduleID integer not null,
+    weightpercent integer not null,
+    weekstart integer not null,
+    weekend integer not null,
+    assessmentID integer not null,
+    seq integer not null,
+    foreign key (moduleID) references TModule (ID),
+    foreign key (assessmentID) references Assessment (ID),
+    duration text not null
+    );
+    '''

@@ -198,7 +198,9 @@ foreign key (piloID) references ProgrammeILO (ID)
 CREATE or REPLACE Table ModuleILO (
 ID integer not null auto_increment primary key,
 ILOtext text not null,
-category int not null
+category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
+programmeILO integer not null,
+foreign key (programmeILO) references ProgrammeILO (ID)
 );
 
 CREATE or REPLACE Table ModuleILOMAP (
@@ -213,7 +215,7 @@ foreign key (miloID) references ModuleILO (ID)
 CREATE or REPLACE Table ActivityILO (
 ID integer not null auto_increment primary key,
 ILOtext text not null,
-category integer not null,
+category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
 moduleILO integer,
 bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null,
 Foreign Key (moduleILO) REFERENCES ModuleILO (ID)
@@ -238,9 +240,8 @@ CREATE or REPLACE TABLE Assessment (
 ID integer not null primary key auto_increment,
 name text not null,
 description text not null,
-type integer not null,
-foreign key (type) references AssessmentType (ID),
-file text
+atype integer not null,
+foreign key (atype) references AssessmentType (ID)
 );
 
 CREATE or REPLACE TABLE AssessmentInstance (
