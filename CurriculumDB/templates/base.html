@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+ 
+<head>
+{% block pageheader %}
+
+<title> {% block pagetitle %}Curriculum Database{% endblock %}</title>
+<!-- add in all the scripts and CSS here -->
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+ 
+<link rel="stylesheet" href="{{ url_for('static',filename='curriculum.css') }}">
+
+{% block cssincludes %}
+
+{% endblock %}
+    
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+    <script src="https://kit.fontawesome.com/83004d2327.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ url_for('static',filename='curriculum.js') }}?{{version}}"></script>
+    
+{% block jsincludes %}    
+{% endblock %}
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+{% endblock %}
+</head>
+<body>
+
+
+
+{% block  pagecontent %}
+{% endblock %}
+{% block pagefooter %}
+<div id="pagefooter">
+The Curriculum Database application and site is copyright Dr David Martin.  <p>Version {{version}} {{versiondate}}</p>
+</div>
+{% endblock %}
+<!-- Cookie consent code from https://cookieconsent.osano.com -->
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#252e39"
+    },
+    "button": {
+      "background": "#14a7d0"
+    }
+  },
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website requires the use of cookies to function. They are only used to allow the website to work. They do not track you or pass data to third parties. Our cookies are safe, gluten free, and have zero calories so can be consumed without risk.",
+    "dismiss": "Got it!"
+  }
+});
+</script>
+
+</body>
+</html>
+
+
