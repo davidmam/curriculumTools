@@ -154,8 +154,6 @@ TAtype integer not null,
 version text,
 previous_TA integer,
 moduleID integer not null,
-seq integer not null,
-weighting integer not null,
 foreign key (moduleID) references TModule (ID),
 foreign key (previous_TA) references TeachingActivity (ID),
 foreign key (TAtype) references TeachingActvityType (ID)

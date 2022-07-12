@@ -530,7 +530,7 @@ duration text not null
         cursor.execute(query, (id))
         (moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration ) = cursor.fetchone()
         args = {"id":id, "moduleID":moduleID,"weightpercent":weightpercent,"weekstart":weekstart,"weekend":weekend,"assessmentID":assessmentID,"seq":seq,"duration":duration }
-        prog = AssesmsentInstance(self, **args)
+        prog = AssessmentInstance(self, **args)
         return prog
 
     def get_or_create_AssessmentInstance(self, **kwargs):
@@ -556,6 +556,139 @@ duration text not null
             
         return mod
 
+    def get_all_programmes(self, filterfunc=None):
+        '''
+        Retreive all programmes
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of Programmes
+
+        '''
+        sql="SELECT ID from Programme"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_programme_by_id(p[0]))
+        return result
+    
+    def get_all_modules(self, filterfunc=None):
+        '''
+        Retreive all modules
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of TModules
+
+        '''
+        sql="SELECT ID from TModule"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_module_by_id(p[0]))
+        return result
+    
+    def get_all_activities(self, filterfunc=None):
+        '''
+        Retreive all Activities
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of Programmes
+
+        '''
+        sql="SELECT ID from TeachingActivity"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_TeachingActivityType_by_id(p[0]))
+        return result
+    
+    def get_all_programmeILOs(self, filterfunc=None):
+        '''
+        Retreive all programme ILOs
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of Programme ILOs
+
+        '''
+        sql="SELECT ID from ProgrammeILO"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_ProgrammeILO_by_id(p[0]))
+        return result
+    
+    def get_all_moduleILOs(self, filterfunc=None):
+        '''
+        Retreive all module ILOs
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of ModuleILOs
+
+        '''
+        sql="SELECT ID from ModuleILO"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_ModuleILO_by_id(p[0]))
+        return result
+    
+    def get_all_activityILOs(self, filterfunc=None):
+        '''
+        Retreive all Activity ILOs
+
+        Parameters
+        ----------
+        filterfunc : TYPE
+            DESCRIPTION.
+
+        Returns
+        -------
+        list of ActivityILOs
+
+        '''
+        sql="SELECT ID from ActivityILO"
+        result = []
+        cursor=self.db.cursor()
+        cursor.execute(sql,())
+        for p in cursor.fetchall():
+            result.append(self.get_programme_by_id(p[0]))
+        return result
+            
+    
 
 class Programme():
     
