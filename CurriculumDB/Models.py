@@ -7,13 +7,7 @@ Created on Thu Jun 16 20:34:24 2022
 
 from functools import lru_cache
 
-import mysql.connector
-# TODO move the next bit into the main app
-mydb = mysql.connector.connect(
-  host="localhost",
-  user="curriculum",
-  password="CurriculumDB"
-)
+
 
 class CurriculumFactory():
     
