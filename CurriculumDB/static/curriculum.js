@@ -1,6 +1,16 @@
 
 var getallprogrammes = function (callback){
-//TODO    
+    $.ajax({ url: "/ajax/programmes",
+            method: 'GET',}).done( function (respdata){
+            if('error' in respdata){
+                $('#messages').html(respdata['error']);
+                alert(respdata['user'] + respdata['error']);
+            }
+            $('#programmes_table').html('<tr><th>Programme Title</th><th>Versions</th></tr>')
+            // need to build a list of all programmes.
+            for prog in respdata['programmes']{
+                $('#programmes_table').append('<tr><td>'+prog['name'])
+            }
     };
 
 var  getallmodules = function (callback){

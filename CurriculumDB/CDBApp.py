@@ -61,6 +61,8 @@ def view_programme(programmeID):
         programme = factory.get_programme_by_id(programmeID)
         
         return render_template('programme.html', prog=programme)    
+    else:
+        return render_template('notfound.html')
     
 @app.route('/Module/<moduleID>')
 def view_module(moduleID):
@@ -81,7 +83,9 @@ def view_module(moduleID):
     if moduleID:
         module = factory.get_module_by_id(moduleID)
     
-    return render_template('module.html', mod=module)    
+        return render_template('module.html', mod=module)    
+    else:
+        return render_template('notfound.html')
 
 @app.route('/Activity/<activityID>')
 def view_activity(activityID):
@@ -101,9 +105,11 @@ def view_activity(activityID):
     factory = get_factory()
     if activityID:
         act = factory.get_TeachingActivity_by_id(activityID)
-    
-    return render_template('activity.html', act=act)    
-
+        
+        
+        return render_template('activity.html', act=act)    
+    else:
+        return render_template('notfound.html')
 
 @app.route('/ajax/programme/add', methods=['POST'])
 def add_programme():

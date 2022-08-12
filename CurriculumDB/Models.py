@@ -570,13 +570,25 @@ duration text not null
         list of Programmes
 
         '''
-        sql="SELECT ID from Programme"
-        result = []
+        sql="SELECT ID from Programme where Future_P is NULL"
+        result = {}
+        heads = []
         cursor=self.db.cursor()
         cursor.execute(sql,())
         for p in cursor.fetchall():
-            result.append(self.get_programme_by_id(p[0]))
-        return result
+            result[p[0]] = self.get_programme_by_id(p[0])
+            if result[p[0]].future is None:
+                heads.append(p[0])
+                
+        versions = {}
+        for p in heads:
+            versions[p.id]=[]
+            prev = p.previous
+            while prev:
+                versions[p.id].append(prev)
+                prev=result[prev].previous
+                
+        return {'heads': heads, 'versions': versions, 'programmes': result}
     
     def get_all_modules(self, filterfunc=None):
         '''
@@ -1107,7 +1119,29 @@ class Module():
         None.
 
         '''
-        #TODO
+        self.activities = []
+        sql = "Select ActivityID from ActivityModuleMAP where ModuleID = %s"
+        cursor = self.factory.db.cursor()
+        cursor.execute(sql, (self.id))
+        for con in cursor.fetchall():
+            self.activities.append(con)
+            
+    def get_activities (self):
+        '''
+        Returns a list of TeachingActivity objects which are delivered in this TModule 
+
+        Returns
+        -------
+        List of TeachingActivity
+
+        '''
+        actlist = []
+        for x in self.activities:
+            actlist.append(self.factory.get_TeachingActivity_by_id(x))
+        return actlist
+    
+        
+        
         
     def create(self, changemessage='first creation'):
         '''
@@ -1257,17 +1291,18 @@ class TeachingActivity ():
         self.type=kwargs.get("TAtype")
         self.version= kwargs.get("version")
         self.previous=kwargs.get("previous_TA")
-        self.module = kwargs.get("moduleID")
+        self.modules=[]
         self.sequence=kwargs.get("sequence")
         self.weighting = kwargs.get("weighting")
         if kwargs.get("id") is None:
             self.create()
         self.loadILO()
+        self.load_modules()
         
     def create(self):
         cursor = self.factory.db.cursor()
-        sql = "Insert into TeachingActivity (description, duration, TAtype, version,previous_TA, moduleID, sequence, weighting) VALUES (%s,%s,%s,%s,%s,%s,%s,%s)"
-        cursor.execute(sql, (self.name,self.description, self.duration, self.type, self.version, self.previous, self.module, self.sequence, self.weighting))
+        sql = "Insert into TeachingActivity (description, duration, TAtype, version,previous_TA,  sequence, weighting) VALUES (%s,%s,%s,%s,%s,%s,%s)"
+        cursor.execute(sql, (self.name,self.description, self.duration, self.type, self.version, self.previous,  self.sequence, self.weighting))
         self.id = cursor.lastrowid
         
     def update(self, **kwargs):
@@ -1334,6 +1369,58 @@ class TeachingActivity ():
         else:
             cursor.execute(sqli,(self.id, ilo.id))
         self.loadILO()
+        
+    def load_modules (self):
+        '''
+        Append assigned modules to the teaching activity.
+
+        Returns
+        -------
+        None.
+
+        '''
+        sql = " SELECT ModuleID from ActivityModuleMAP where Activity ID = %s"
+        self.modules = []
+        cursor = self.factory.db.cursor()
+        cursor.execute(sql, (self.id))
+        for mod in cursor.fetchall():
+            self.modules.append(mod)
+    def assign_to_module(self, module):
+        '''
+        Add an activity to a module
+
+        Parameters
+        ----------
+        module : A TModule object to attach the activity to.
+            DESCRIPTION.
+
+        Returns
+        -------
+        None.
+
+        '''
+        self.load_modules()
+        if module.id in self.modules:
+            return
+        sql = "Insert into ActivityModuleMAP (ModuleID, ActivityID) VALUES (%s,%s);"
+        cursor = self.factory.db.cursor()
+        cursor.execute(sql,(module.id, self.id))
+        self.modules.append(module.id)
+    
+    def get_modules(self):
+        '''
+        Returns a list of TModule objects with which the activity is associated.
+
+        Returns
+        -------
+        list of TModule
+
+        '''
+        modules = []
+        for x in self.modules:
+            modules.append(self.factory.get_module_by_id(x))
+        
+        return modules
 
 
 class ActivityILO():

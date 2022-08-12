@@ -1,1 +1,22 @@
 // curriculum.css
+div.scrollable {
+
+        width: 800px;
+        height: 150px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 20px;
+}
+div#programmelist {
+background-color: #fed9ff;
+       }
+div#modulelist {
+background-color: #fffed9;
+       }
+div#activitylist {
+background-color: #d9fffe;
+       }
+div#assessmentlist {
+background-color: #d9feff;
+       }

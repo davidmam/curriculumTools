@@ -153,10 +153,17 @@ duration integer not null,
 TAtype integer not null,
 version text,
 previous_TA integer,
-moduleID integer not null,
-foreign key (moduleID) references TModule (ID),
 foreign key (previous_TA) references TeachingActivity (ID),
 foreign key (TAtype) references TeachingActvityType (ID)
+);
+
+CREATE or REPLACE TABLE ActivityModuleMAP (
+ID INteger nto null primary key auto_increment,
+ActivityID integer not null,
+ModuleID integer not null,
+foreign key (ActivityID) references TeachingActivity (ID),
+foreign key (ModuleID) references TModule (ID),
+index (ActivityID, ModuleID) UNIQUE
 );
 
 CREATE or REPLACE Table TeachingActivityStaff (
