@@ -39,7 +39,7 @@ class CurriculumFactory():
         if kwargs.get('id',None):
             prog = self.get_programme_by_id(kwargs['id'])
         else:
-            prog = Programme(self, P_name = kwargs.get('P_name'), P_code= kwargs.get('P_code') )
+            prog = Programme(self, P_name = kwargs.get('P_name'), P_code= kwargs.get('P_code'), P_version = kwargs.get('P_version','UNK'), P_previous=kwargs.get('P_previous'))
             prog = self.get_programme_by_id(prog.id)
             
         return prog
@@ -757,7 +757,18 @@ class Programme():
         self.elements={}
         self.loadelements()
     
-    
+    def toDict(self):
+        return {
+            'status': ('DRAFT', 'CURRENT','ARCHIVED','WITHDRAWN')[self.status],
+            'id':self.id ,
+            'P_name':self.name ,
+            'P_code':self.code ,
+            'P_version':self.version,
+            'Previous_P': self.previous,
+            'Future_P': self.future, 
+            'change':self.change, 
+            'approval':self.approval 
+            }
     
     def loadelements(self):
         '''

@@ -8,7 +8,7 @@ Created on Mon Jul 11 14:05:28 2022
 @author: dmamartin
 """
 
-from flask import Flask, render_template,request
+from flask import Flask, flash, render_template, session, request, redirect, url_for, jsonify, send_from_directory
 import mysql.connector
 import json
 import Models
@@ -126,7 +126,7 @@ def add_programme():
     for f in fields:
         params[f]=request.form.get(f)
     prog = factory.get_or_create_programme(**params)
-    return json.dumps(prog.toDict()) # Need to add this method to each object #TODO
+    return jsonify({'programme':prog.toDict()}) # Need to add this method to each object #TODO
 
 @app.route('/ajax/module/add', methods=['POST'])
 def add_module():
@@ -281,6 +281,8 @@ def get_programmes():
     '''
     factory = get_factory()
     proglist = factory.get_all_programmes()
+    return jsonify({'programmes': [x.toDict() for x in proglist['programmes']], 'versions':proglist['versions'], 'heads':proglist['heads']})
+        
     
     
 @app.route('/ajax/modules')

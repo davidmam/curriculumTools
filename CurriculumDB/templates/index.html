@@ -10,7 +10,8 @@
 {% block pagecontent %}
 <div id="programmelist" class='scrollable'>
 <table id='programmes_table'>
-<tr><th>Programme Title</th><th>Versions</th></tr>
+<tr><th>Programme Code</th><th>Programme Title</th><th>Versions</th><th></th></tr>
+<tr><td><input name='newprogcode' id='newprogcode' type=text> </td><td><input name='newprogtitle' id='newprogtitle' type=text> </td><td><input name='newprogversion' id='newprogversion' type=text> </td><td><form id='newprog'><button type='submit' class='form-add-button' name='newprogsubmit' id='newprogsubmit'><i title='Add new programme' class='fas fa-plus'></i></button></form></td></tr>
 </table>
 </div>
 <div id="modulelist" class='scrollable'>
