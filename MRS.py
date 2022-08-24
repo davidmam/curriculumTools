@@ -5,6 +5,7 @@ Created on Thu Jun 16 10:01:05 2022
 @author: DMAMartin
 """
 import os
+import openpyxl
 
 
 def findMRS(path, mod):
@@ -16,7 +17,7 @@ def findMRS(path, mod):
     if len(files)==1:
         return os.path.join(path, mod, "Assessment",files[0])
     else:
-        print('multiple files found: ', files)
+        print(module,'multiple files found: ', files)
         
 def find_modules(path):  
     TA1 = os.path.join(path,"Level 1")
@@ -36,3 +37,22 @@ def find_modules(path):
                 mods.append(m)
         #mods = [m for m in mods if m in mrs]
     return mrs
+
+def extractStudents(file):
+    workbook=openpyxl.load_workbook(filename=file, data_only=True)
+    sheet = workbook['OVERALL Results']
+    row = 5
+    students={}
+    matric = sheet.cell(row=row, column=1).value
+    lastname = sheet.cell(row=row, column=2).value
+    firstname = sheet.cell(row=row, column=3).value
+    route = sheet.cell(row=row, column=4).value
+    while matric:
+        students[matric]={"firstname":firstname, "lastname":lastname, "route":route}
+        row +=1
+        matric = sheet.cell(row=row, column=1).value
+        lastname = sheet.cell(row=row, column=2).value
+        firstname = sheet.cell(row=row, column=3).value
+        route = sheet.cell(row=row, column=4).value
+    return students
+    
