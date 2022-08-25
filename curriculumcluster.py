@@ -43,14 +43,19 @@ for y in yearlist:
     allmods = MRS.find_modules(path)
     shortmods ={}
     for a in allmods:
-        shortmods[a.split()[0]]=allmods[a]
-    for m in modlist:
-        mp = shortmods.get(m, None)
-        if m is None:
+        modcode = a.split()[0]
+        shortmods[modcode]=allmods[a]
+        if a[2] in '34' and modcode not in modlist:
+            modlist.append(modcode)
+
+   
+        mp = shortmods.get(modcode, None)
+        
+        if mp is None:
             continue
-        if m not in shortmods:
+        if modcode not in shortmods:
             continue
-        student_list = MRS.extractStudents(shortmods[m])
+        student_list = MRS.extractStudents(mp)
         
         for s in student_list:
             if s not in students:
@@ -60,18 +65,30 @@ for y in yearlist:
                 students[s]['year']=y
             else:
                 students[s][m]=1
+    
+def calcroute(student):
+    routenum = 0
+    for m in modlist:
+        if m[2:4]!='41':
+            routenum = (routenum <<1) | student.get(m,0)
+    bitcount=routenum
+    modules=0
+    while bitcount:
+        modules += (bitcount &1)
+        bitcount = bitcount >>1
+    if bitcount !=12:
+        routenum = 0
+    return routenum
                 
 # should now have all students with a dictionary with all their level 3/4 modules and the year in which they graduated.
 studentroutes = {}
 for s in students:
     routenum =0
-    if len(students[s]) != 16:
+    if calcroute(students[s]) ==0:
         continue
+    students[s]['routeval']=calcroute(students[s])
     
-    for m in modlist:
-        if m[2:4]!='41':
-            routenum = (routenum <<1) | students[s].get(m,0)
-    students[s]['routeval'] = routenum
+    
 
 
 
@@ -95,7 +112,7 @@ def leafname(n):
 # can calculate a distance now for every student. 
 # hierarchical clustering.
 
-studentlist = [ x for x in list(students.keys()) if 'routeval' in students[x]]
+studentlist = [ x for x in list(students.keys()) if 'routeval' in students[x] and students[x]['routeval']>0]
 open('data.json','w').write(json.dumps({'modules':modlist,'students':students}))
 labels = [students[s]['route'] for s in studentlist]
 distarray =[]
