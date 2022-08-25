@@ -9,6 +9,8 @@ Script to map and compare all student routes.
 import os
 from scipy.cluster.hierarchy import linkage,dendrogram
 from matplotlib import pyplot as plt
+import matplotlib
+import json
 import MRS
 
 SLTpath = r'S:\Lifesci\LifeSciOff\SLT' # put path to SLT here
@@ -85,10 +87,16 @@ def distance(num1, num2, maximum=12):
         print(num1, bin(num1), num2, bin(num2), (num1 & num2), bin(num1 & num2))
     return distance/maximum
 
+def leafname(n):
+    if n < len(studentlist):
+        return students[studentlist[n]]['route']
+    return ''
+
 # can calculate a distance now for every student. 
 # hierarchical clustering.
 
 studentlist = [ x for x in list(students.keys()) if 'routeval' in students[x]]
+open('data.json','w').write(json.dumps({'modules':modlist,'students':students}))
 labels = [students[s]['route'] for s in studentlist]
 distarray =[]
 #1D dist 
@@ -101,7 +109,8 @@ clusters =  linkage(distarray)
 #plt.figure(figsize=(100,100), dpi=600)
 plt.clf()
 #plt.ioff()
-dendrogram(clusters, labels=labels)
+matplotlib.rcParams['lines.linewidth'] = 0.1
+dendrogram(clusters)
 plt.figure( figsize=(11,8), dpi=600)
 #plt.show()
 plt.savefig('dendro.pdf', bbox_inches='tight')
