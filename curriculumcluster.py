@@ -87,10 +87,6 @@ def distance(num1, num2, maximum=12):
         print(num1, bin(num1), num2, bin(num2), (num1 & num2), bin(num1 & num2))
     return distance/maximum
 
-def leafname(n):
-    if n < len(studentlist):
-        return students[studentlist[n]]['route']
-    return ''
 
 # can calculate a distance now for every student. 
 # hierarchical clustering.
@@ -100,18 +96,42 @@ open('data.json','w').write(json.dumps({'modules':modlist,'students':students}))
 labels = [students[s]['route'] for s in studentlist]
 distarray =[]
 #1D dist 
-for n in range(len(studentlist)-1):
-    for m in range(n+1, len(studentlist)):
-        distarray.append(distance(students[studentlist[n]]['routeval'],students[studentlist[m]]['routeval']))
+
+nodes = {}
+for s in studentlist:
+    nv = students[s]['routeval']
+    if nv not in nodes:
+        nodes[nv] = {}
+    nodes[nv][students[s]['route']] = nodes[nv].get(students[s]['route'],0)+1
+
+nodenumbers = list(nodes.keys())
+
+def leafname(n):
+    nodelabel = ''
+    if n < len(nodenumbers):
+        for k in nodes[nodenumbers[n]]:
+            nodelabel = " ".join([str(x) for x in [nodelabel,k,nodes[nodenumbers[n]][k]]])
+    
+    return nodelabel
+    
+    
+#for n in range(len(studentlist)-1):
+#    for m in range(n+1, len(studentlist)):
+#        distarray.append(distance(students[studentlist[n]]['routeval'],students[studentlist[m]]['routeval']))
+
+for n in range(len(nodenumbers)-1):
+    for m in range(n+1, len(nodenumbers)):
+        distarray.append(distance(nodenumbers[n], nodenumbers[m]))
+        
 
 # now have a distancearray
 clusters =  linkage(distarray)
 #plt.figure(figsize=(100,100), dpi=600)
-plt.clf()
+#plt.clf()
 #plt.ioff()
-matplotlib.rcParams['lines.linewidth'] = 0.1
-dendrogram(clusters)
-plt.figure( figsize=(11,8), dpi=600)
+matplotlib.rcParams['lines.linewidth'] = 0.5
+dendrogram(clusters, leaf_label_func=leafname)
+#plt.figure( figsize=(11,8), dpi=600)
 #plt.show()
 plt.savefig('dendro.pdf', bbox_inches='tight')
 
