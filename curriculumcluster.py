@@ -11,11 +11,11 @@ from scipy.cluster.hierarchy import linkage,dendrogram
 from matplotlib import pyplot as plt
 import MRS
 
-SLTpath = 's:' # put path to SLT here
+SLTpath = r'S:\Lifesci\LifeSciOff\SLT' # put path to SLT here
 
 # get module list for level 3 and 4 in 21/22
 
-modyear = '2223'
+modyear = '2122'
 
 path = os.path.join(SLTpath,modyear,"SLSLT Teaching Admin")
 allmods = MRS.find_modules(path)
@@ -34,17 +34,21 @@ for d in os.listdir(SLTpath):
         yearlist.append(d)
 
 for y in yearlist:
-    
+    if y <'18':
+        continue
+    print('Extracting data for ', y)
     path = os.path.join(SLTpath, y, "SLSLT Teaching Admin")
     allmods = MRS.find_modules(path)
+    shortmods ={}
     for a in allmods:
-        if a.count(' '):
-            allmods[a.split()[0]]=allmods[a]
+        shortmods[a.split()[0]]=allmods[a]
     for m in modlist:
-        mp = allmods.get(m, None)
+        mp = shortmods.get(m, None)
         if m is None:
             continue
-        student_list = MRS.extractStudents(allmods[m])
+        if m not in shortmods:
+            continue
+        student_list = MRS.extractStudents(shortmods[m])
         
         for s in student_list:
             if s not in students:
@@ -66,19 +70,26 @@ for s in students:
         if m[2:4]!='41':
             routenum = (routenum <<1) | students[s].get(m,0)
     students[s]['routeval'] = routenum
-    
+
+
+
 def distance(num1, num2, maximum=12):
     val = num1 & num2
     distance = maximum
     while val:
-        distance = distance - (val >>1)
+        distance = distance - (val & 1)
         val = val>>1
+    try:
+        assert distance>=0  
+    except:
+        print(num1, bin(num1), num2, bin(num2), (num1 & num2), bin(num1 & num2))
     return distance/maximum
 
 # can calculate a distance now for every student. 
 # hierarchical clustering.
 
-studentlist = list(students.keys())
+studentlist = [ x for x in list(students.keys()) if 'routeval' in students[x]]
+labels = [students[s]['route'] for s in studentlist]
 distarray =[]
 #1D dist 
 for n in range(len(studentlist)-1):
@@ -87,12 +98,13 @@ for n in range(len(studentlist)-1):
 
 # now have a distancearray
 clusters =  linkage(distarray)
+#plt.figure(figsize=(100,100), dpi=600)
 plt.clf()
-plt.ioff()
-dendrogram(clusters,no_label=True)
-
-plt.show()
-#plt.savefig('dendro.pdf')
+#plt.ioff()
+dendrogram(clusters, labels=labels)
+plt.figure( figsize=(11,8), dpi=600)
+#plt.show()
+plt.savefig('dendro.pdf', bbox_inches='tight')
 
 
 
