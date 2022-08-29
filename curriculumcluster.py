@@ -32,11 +32,11 @@ students = {}
 
 yearlist = []
 for d in os.listdir(SLTpath):
-    if d[0] in '12':
+    if d[0] in '12' and len(d) ==4:
         yearlist.append(d)
 
 for y in yearlist:
-    if y <'18' or y >'22':
+    if y <'14' or y >'22':
         continue
     print('Extracting data for ', y)
     path = os.path.join(SLTpath, y, "SLSLT Teaching Admin")
