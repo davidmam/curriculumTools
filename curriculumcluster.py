@@ -235,4 +235,120 @@ dendrogram(clusters, leaf_label_func=leafname)
 plt.savefig('dendro.pdf', bbox_inches='tight')
 
 
+#Analyse BS32007
 
+chemlist = []
+for s in students:
+    if 'BS32003' in students[s] and (('year' in students[s] and students[s]['year'] >'17') ) :
+        chemlist.append(s)
+chemstud ={}     
+for s in chemlist:
+    optmod =0
+    if 'BS12009' in students[s]:
+        optmod += 1
+    optmod <<1
+    if 'BS21008' in students[s]:
+        optmod += 1
+    chemstud[optmod] = chemstud.get(optmod, 0) +1
+
+BS12009 = 0
+BS32007 = 0
+for s in students:
+    if 'BS12009' in students[s]:
+        BS12009 +=1
+        if 'BS32007' in students[s]:
+            BS32007 +=1
+
+BS21008 = 0
+BS12009 =0
+lastyear =[]
+for p in [s for s in students if students[s].get('year')== None and 'BS32007' in students[s]]:
+    lastyear.append(p)
+    if 'BS21008' in students[p]:
+        BS21008 +=1
+    if 'BS12009' in students[p]:
+        BS12009 +=1
+        
+ty = '''190005425
+180009134
+190007502
+190004336
+190008401
+190011105
+190009741
+180010321
+2482731
+190016774
+190005462
+190006798
+190000099
+190007244
+190013371
+190004204
+190005385
+190010063
+2465271'''.split('\n')
+
+tys =[]
+for s in students:
+    if s[:9] in ty or ( s[0]=='2' and s[:7] in ty):
+        tys.append(s)
+
+tyg ={}
+for s in tys:
+    modscore = 0
+    if 'BS12009' in students[s]:
+        modscore +=1
+    if 'BS21008' in students[s]:
+        modscore +=2
+    tyg[modscore] = tyg.get(modscore,0)+1
+
+# check cancer biology module choices
+
+counts = {}
+for s in students:
+    if 'BS42007' in students[s]:
+        for m in students[s]:
+            if m.startswith('BS3') or m.startswith('BS4'):
+                counts[m] = counts.get(m,0)+1
+                
+
+countsboth = {}
+for s in students:
+    if 'BS42007' in students[s] and 'BS42027' in students[s] and students[s]['route']=='BIMS':
+        for m in students[s]:
+            if m.startswith('BS3') or m.startswith('BS4'):
+                countsboth[m] = countsboth.get(m,0)+1
+
+#Check for cardiovascular
+countsboth = {}
+for s in students:
+    if 'BS42019' in students[s] and 'BS42021' in students[s] and students[s]['route']=='BIMS':
+        for m in students[s]:
+            if m.startswith('BS3') or m.startswith('BS4'):
+                countsboth[m] = countsboth.get(m,0)+1
+
+# Check for metabolic disease
+countsboth = {}
+for s in students:
+    if 'BS42014' in students[s] and 'BS42028' in students[s] and students[s]['route']=='BIMS':
+        for m in students[s]:
+            if m.startswith('BS3') or m.startswith('BS4'):
+                countsboth[m] = countsboth.get(m,0)+1
+                
+routecounts={}
+for r in routecores:
+    routecounts[r] = {}
+    for s in students:
+        if routecores[r] == routecores[r] & students[s].get('routeval',0):
+            routecounts[r][students[s]['route']] = routecounts[r].get(students[s]['route'],0)+1
+
+hiddenroutes =[]
+hiddenroutes.append(routes[:])
+for r in routes:
+    hiddenroutes.append([r])
+    for c in routes:
+        hiddenroutes[-1].append(routecounts[r].get(c,0))
+        
+for a in hiddenroutes:
+    print('\t'.join([str(x) for x in a]))        
