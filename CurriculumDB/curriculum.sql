@@ -65,6 +65,14 @@ block text not null,
 description text
 );
 
+INSERT INTO CalendarBlock (ID,block, description) VALUES (1,'A','Semester 1 weeks 1-5');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (2,'B','Semester 1 weeks 7-11');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (3,'AB','Semester 1 weeks 1-11');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (4,'C','Semester 2 weeks 1-5');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (5,'CD','Semester 2 weeks 1-11');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (6,'D','Semester 2 weeks 7-11');
+INSERT INTO CalendarBlock (ID,block, description) VALUES (7,'Other','Outwith semester');
+
 CREATE or REPLACE Table TModule (
 ID integer primary key auto_increment,
 code text not null,
