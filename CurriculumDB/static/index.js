@@ -149,17 +149,11 @@ var loadmodules = function (data) {
      });
 
 };
-var loadactivities = function (data) {};
-var loadprogrammeILOs = function (data) {};
-var loadmoduleILOs = function (data) {};
-var loadactivityILOs = function (data) {};
 
 
 $(document).ready(function () {
 
 getallprogrammes(loadprogrammes);
 getallmodules(loadmodules);
-getallactivities(loadactivities);
-
 
 });

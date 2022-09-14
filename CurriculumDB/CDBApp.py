@@ -291,6 +291,10 @@ def get_modules():
     return all modules
 
     '''
+    factory = get_factory()
+    modlist = factory.get_all_modules()
+    return jsonify({'modules': [x.toDict() for x in modlist['modules']], 'versions':modlist['versions'], 'heads':modlist['heads']})
+   
 @app.route('/ajax/activities')
 def get_activities():
     '''

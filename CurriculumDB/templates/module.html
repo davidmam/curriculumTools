@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block pageheader %}
+{{super()}}
+
+
+{% endblock %}
+
+{% block pagecontent %}
+<h1>{{mod.code}} {{mod.name}}</h1>
+Version: {{mod.version}} <br>
+{% if mod.previous %} <a href="/Module/{{mod.previous}}">Previous version</a> <br>{% endif %}
+{% if mod.future %} <a href="/Module/{{mod.future}}">Next version</a> <br>{% endif %}
+Status {{mod.status}}
+
+<h2> Constraints</h2>
+<!-- add constraints -->
+
+
+<h2>Module Learning Outcomes</h2>
+
+<!-- List module learning outcomes with RAGH rating for activity delivery-->
+
+
+<h2>Activities</h2>
+<!-- List activities with RAG rating for mapping against module learning outcomes -->
+
+<!-- form to copy new activity from another module (or version) -->
+
+<!-- form to add new activity instance -->
+
+<h2>Assessments</h2>
+<!-- List module learning outcomes with RAGH rating for activity delivery -->
+
+<!-- form to copy new assessment from another module (or version) -->
+
+<!-- form to add new assessment instance -->
+
+
+{% endblock %}
