@@ -11,7 +11,7 @@ import redis
 import os
 from redisgraph import Node, Edge, Graph, Path
 
-r = redis.Redis(host='redis-19330.c226.eu-west-1-3.ec2.cloud.redislabs.com', port=19330, username='default', password='7Aix8wfEiCfJm8b5dOfrh5IPYcHicGFs')
+r = redis.Redis(host='redis-19330.c226.eu-west-1-3.ec2.cloud.redislabs.com', port=19330, username='default', password=open('redispassword.txt').read())
 
 redis_graph = Graph('curriculum', r)
 
