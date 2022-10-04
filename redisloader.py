@@ -22,7 +22,7 @@ headers = [ str(x.value).strip().replace(' ','_').replace('C/','') for x in shee
 nodedata = []    
 
 for row in range(4,90):
-    params = {}
+    params = {'Academic_Year':'2122'}
     for c in range(12):
         val = sheet.cell(row=row, column=c+1).value
         if val:
@@ -77,7 +77,7 @@ prognodes={}
 for d in routes:
     prognodes[d] = Node(label='Programme',properties={'name': routes[d][1], 'stream':routes[d][0], 'code':d})
     redis_graph.add_node(prognodes[d])
-redis_graph.commit()
+#redis_graph.commit()
 
 wb=openpyxl.open("Tabular programme data - AC 28092022.xlsx")
 
@@ -181,6 +181,22 @@ for p in  pilos:
         redis_graph.query("MATCH (pilo:PILO {pilo_id:$pid} ) MATCH (p:Programme {name:$prog}) MERGE (p) -[:HAS_OBJECTIVE]->(pilo)", {'pid':pilos[p]['pilo_id'], 'prog':pro})
      
 wb=openpyxl.open("QAA mapping biosciences.xlsx")
+sheet = wb['Sheet1']
+row = 2
+subject = sheet.cell(row=row, column=1).value
+while subject:
+    data = [str(x.value).strip() for x in sheet[row]]
+    params =  {'subject': data[0],
+        'section': data[1],
+        'subsection': data[2],
+        'descriptor': data[3],
+        'section_text': data[4],
+        'subsection_text': data[5],
+        'descriptor_text': data[6]       
+        }
+    redis_graph.query("MERGE (:QAA_benchmark {subject:$subject, section:$section, subsection:$subsection, descriptor:$descriptor,section_text:$section_text, subsection_text:$subsection_text, descriptor_text:$descriptor_text}) ",params)
+    row=row+1
+    subject = sheet.cell(row=row, column=1).value
 wb=openpyxl.open("QAA biomedical benchmarks.xlsx")
 sheet = wb['Sheet1']
 row = 2
@@ -206,7 +222,9 @@ mablist = [x for x in os.listdir(mabfolder) if x.startswith('BS')]
 wb=openpyxl.open(os.path.join(mabfolder,mablist[0]))
 sheet =wb['MAB']
 type(sheet[12][8].value)
-for x in mablist[1:]:
+
+asstypes={}
+for x in mablist:
     wb=openpyxl.open(os.path.join(mabfolder,x),data_only=True)
     sheet =wb['MAB']
     module = sheet[5][10].value
@@ -214,8 +232,14 @@ for x in mablist[1:]:
     row=12
     assessment =sheet[row][9].value
     while assessment:
-        if type(sheet[row][8].value)==type(1):
-            rowdata = [str(v.value) for v in sheet[row]]
+        rowdata = [str(v.value) for v in sheet[row]]
+        sequence = None
+        try:
+            sequence = int(rowdata[8])
+        except:
+            print('formative',rowdata, [v.value for v in sheet[row]])
+        
+        if sequence:
             params={'seq':rowdata[8],
                     'name':rowdata[9],
                     'ast':rowdata[10],
@@ -224,12 +248,56 @@ for x in mablist[1:]:
                     'credits':str(int(rowdata[12])*credit/100),
                     'module':module,
                     }
-            redis_graph.query("MATCH (b:Module {Module_code:$module}) MERGE (a:Assessment {sequence:$seq, name:$name, AST_code:$ast, Assessmnet_type:$type, weight_percent:$weight, credits:$credits,module:$module})  MERGE (b)-[:HAS_ASSESSMENT]->(a)", params)
+            asstypes[rowdata[11]]=asstypes.get(rowdata[11], 0)+1
+            redis_graph.query("MATCH (b:Module {Module_code:$module}) merge (a:Assessment {sequence:$seq, name:$name, AST_code:$ast, Assessment_type:$type, weight_percent:$weight, credits:$credits,module:$module})  MERGE (b)-[:HAS_ASSESSMENT]->(a)", params)
+        else:
+            params={'seq':rowdata[8],
+                    'name':rowdata[9],
+                    'ast':rowdata[10],
+                    'type':rowdata[11],
+                    'module':module,
+                    }
+            redis_graph.query("MATCH (b:Module {Module_code:$module}) merge (a:TeachingActivity {activity_type:'Formative Assessment', name:$name, AST_code:$ast, Assessment_type:$type,module:$module})  MERGE (b)-[:HAS_ACTIVITY]->(a)", params)
             #print("MERGE (a:Assessment {sequence:$seq, name:$name, AST_code:$ast, Assessmnet_type:$type, weight_percent:$weight, credits:$credits,module:$module}) MERGE (b) -[:HAS_ASSESSMENT]->(a)", params)
         row +=1
         assessment =sheet[row][9].value
+
+timetables=r"C:\Users\dmamartin\OneDrive - University of Dundee\2223 TIMETABLE PREPARATION\2122 Timetables"
         
+def find_all_timetables(path):
+    
+    routes=[]
+    for sem in os.listdir(path):
+        print(sem)
+        for level in os.listdir(os.path.join(path,sem)):
+            print(level)
+            for module in os.listdir(os.path.join(path,sem,level)):
+                print(module)
+                if module.startswith('BS') and module.endswith('2.xlsx'):
+                    routes.append(os.path.join(path,sem,level,module))
+    return routes
+
+ttlist = find_all_timetables(timetables)
+
+for t in ttlist[:1]:
+    module = t.split('\\')[-1].split()[0]
+    wb=openpyxl.open(t, read_only=True)
+    sheet =wb['AY 2122']
+    for row in list(sheet.rows)[3:]:
+        event=row[4].value.split(' /')[0]
+        atype = row[5].value
+        duration=row[8].value
+        params={
+                'name':event,
+                'type':atype,
+                'duration':duration,
+                'module':module,
+                }
+        if event:
+            print(event)
+            redis_graph.query("MATCH (b:Module {Module_code:$module}) merge (a:TeachingActivity {activity_type:$type, name:$name, duration:$duration,module:$module})  MERGE (b)-[:HAS_ACTIVITY]->(a)", params)
             
+             
 def make_unique():    
     unique = '''MATCH (p:Module)
     WITH p.id as id, collect(p) AS nodes 
