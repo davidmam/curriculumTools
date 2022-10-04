@@ -279,14 +279,14 @@ def find_all_timetables(path):
 
 ttlist = find_all_timetables(timetables)
 
-for t in ttlist[:1]:
+for t in ttlist:
     module = t.split('\\')[-1].split()[0]
-    wb=openpyxl.open(t, read_only=True)
-    sheet =wb['AY 2122']
+    wb=openpyxl.open(t)
+    sheet =wb.active
     for row in list(sheet.rows)[3:]:
         event=row[4].value.split(' /')[0]
         atype = row[5].value
-        duration=row[8].value
+        duration=str(row[8].value)
         params={
                 'name':event,
                 'type':atype,
@@ -294,7 +294,7 @@ for t in ttlist[:1]:
                 'module':module,
                 }
         if event:
-            print(event)
+            #print(event, "MATCH (b:Module {Module_code:$module}) merge (a:TeachingActivity {activity_type:$type, name:$name, duration:$duration,module:$module})  MERGE (b)-[:HAS_ACTIVITY]->(a)", params)
             redis_graph.query("MATCH (b:Module {Module_code:$module}) merge (a:TeachingActivity {activity_type:$type, name:$name, duration:$duration,module:$module})  MERGE (b)-[:HAS_ACTIVITY]->(a)", params)
             
              
