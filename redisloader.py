@@ -7,6 +7,9 @@ Load module information into the redis DB
 """
 
 import openpyxl
+from openpyxl.worksheet.datavalidation import DataValidation
+from openpyxl.utils import quote_sheetname
+from openpyxl.styles import PatternFill, Border, Side, Alignment, Protection, Font
 import redis
 import os
 from redisgraph import Node, Edge, Graph, Path
@@ -171,7 +174,7 @@ while prog:
     learning_type = sheet.cell(row=row, column=3).value
     if pilo not in pilos:
         pilocount+=1
-        pilos[pilo]={'pilo_id':milocount, 'programmes':[], 'type':learning_type}
+        pilos[pilo]={'pilo_id':pilocount, 'programmes':[], 'type':learning_type}
     pilos[pilo]['programmes'].append(prog)
     row = row+1
     prog = sheet.cell(row=row, column=1).value
@@ -284,11 +287,15 @@ for t in ttlist:
     wb=openpyxl.open(t)
     sheet =wb.active
     for row in list(sheet.rows)[3:]:
+        if not row[4].value:
+            print('No event name', [x.value for x in row])
+            break
         event=row[4].value.split(' /')[0]
         atype = row[5].value
+        week = row[2].value
         duration=str(row[8].value)
         params={
-                'name':event,
+                'name':F'{event} week {week}',
                 'type':atype,
                 'duration':duration,
                 'module':module,
@@ -306,3 +313,80 @@ def make_unique():
     DELETE node'''    
     
     redis_graph.query(unique)
+
+# Create mapping spreadsheets
+
+# get PILO from DB
+pilolist = []
+result = redis_graph.query('Match (p:PILO) return p.pilo_id, p.objective',{})
+for pilo in result.result_set:
+    pilolist.append(F'{pilo[0]:02d} - {pilo[1]}')
+
+#set some default fonts
+
+headerfont = font = Font(name='Calibri',
+                 size=14,
+                 bold=True,
+                 italic=False,
+                 vertAlign=None,
+                 underline='none',
+                 strike=False,
+                 color='FF000000')
+tableheaderfont = font = Font(name='Calibri',
+                 size=12,
+                 bold=True,
+                 italic=False,
+                 vertAlign=None,
+                 underline='none',
+                 strike=False,
+                 color='FF000000')
+
+setwrap = Alignment(horizontal='general',
+                     vertical='bottom',
+                     text_rotation=0,
+                     wrap_text=True,
+                     shrink_to_fit=True,
+                     indent=0)
+
+
+wb = openpyxl.Workbook()
+ws1=wb.active
+ws1.title = "ProgrammeLO"
+for p in sorted(pilolist):
+    ws1.append([p])
+    
+piloform= F"{quote_sheetname(ws1.title)}!$A$1:$A${len(pilolist)}"
+dv = DataValidation(type="list", formula1=piloform, allow_blank=True)
+dv.prompt = 'Select the most appropriate Programme Learning Objective'
+
+result = redis_graph.query('MATCH (m:Module) where m.Module_code is not null  return m.Module_code, m.Module_Name',{})
+for m in sorted(result.result_set)[1:]:
+    if not m[0]:
+        continue    
+    print(m[0],m[1])
+    if m[0] not in wb: 
+        wb.create_sheet(m[0])
+    ws = wb[m[0]]
+    ws.column_dimensions['A'].width = 50
+    ws.column_dimensions['B'].width = 120
+    
+    ws['A1']=m[0]
+    ws['A1'].font = headerfont
+    ws['A2']=m[1]
+    ws['A2'].font = headerfont
+    ws['A4']="Module Learning Objective"
+    ws['B4']="Programme Learning Objective"
+    ws['A4'].font=tableheaderfont
+    ws['B4'].font=tableheaderfont
+    row =5
+    ws.add_data_validation(dv)
+    mres = redis_graph.query('MATCH (m:Module {Module_code:$code} ) -[]-> (n:MILO) return n.milo_id, n.objective',{'code':m[0]})
+    for mip in mres.result_set:
+        ws[F'A{row}'] = F'{mip[0]} - {mip[1]}'
+        ws[F'A{row}'].alignment=setwrap
+        ws[F'B{row}'].alignment=setwrap
+        dv.add(ws[F'B{row}'])
+        row =row+1
+
+
+wb.save('LOmapping.xlsx')    
