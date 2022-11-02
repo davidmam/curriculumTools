@@ -503,3 +503,11 @@ for p in sorted(moduleLO):
         row =row+1
    
 wb.save('AssessmentLOmapping.xlsx') 
+
+wb = openpyxl.open('BPScurriculum.xlsx')
+ws =wb.active
+bps=0
+for r in ws:
+    bps = bps+1
+    redis_graph.query("MERGE (:BPSLO {bps_id:$bpsid, section:$section, objective:$objective})", {'bpsid':bps, 'section':r[0].value, 'objective':r[1].value})
+    print([str(x.value) for x in r])
