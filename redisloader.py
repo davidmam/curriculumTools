@@ -170,7 +170,7 @@ row = 2
 prog = sheet.cell(row=row, column=1).value
 while prog:
     
-    pilo = sheet.cell(row=row, column=2).value
+    pilo = sheet.cell(row=row, column=2).value.strip()
     learning_type = sheet.cell(row=row, column=3).value
     if pilo not in pilos:
         pilocount+=1
@@ -182,7 +182,11 @@ for p in  pilos:
     redis_graph.query("MERGE (pilo:PILO {pilo_id:$pid, objective:$objective, type:$type})", {'pid':pilos[p]['pilo_id'], 'objective':p, 'type':pilos[p]['type']})
     for pro in pilos[p]['programmes']:
         redis_graph.query("MATCH (pilo:PILO {pilo_id:$pid} ) MATCH (p:Programme {name:$prog}) MERGE (p) -[:HAS_OBJECTIVE]->(pilo)", {'pid':pilos[p]['pilo_id'], 'prog':pro})
-     
+        if pro == "Biological Sciences":
+            for x in ("BIOC", "BSBI","BSPS","MBIO","MOLG","MOLB","BCDD"):
+                xpro = routes[x][1]
+                redis_graph.query("MATCH (pilo:PILO {pilo_id:$pid} ) MATCH (p:Programme {name:$prog}) MERGE (p) -[:HAS_OBJECTIVE]->(pilo)", {'pid':pilos[p]['pilo_id'], 'prog':xpro})
+                
 wb=openpyxl.open("QAA mapping biosciences.xlsx")
 sheet = wb['Sheet1']
 row = 2
@@ -348,6 +352,26 @@ setwrap = Alignment(horizontal='general',
                      shrink_to_fit=True,
                      indent=0)
 
+box = Border(left=Side(border_style='thick',
+                          color='FF000000'),
+                 right=Side(border_style="thick",
+                            color='FF000000'),
+                 top=Side(border_style="thick",
+                          color='FF000000'),
+                 bottom=Side(border_style="thick",
+                             color='FF000000'),
+                 diagonal=Side(border_style=None,
+                               color='FF000000'),
+                 diagonal_direction=0,
+                 outline=Side(border_style=None,
+                              color='FF000000'),
+                 vertical=Side(border_style=None,
+                               color='FF000000'),
+                 horizontal=Side(border_style=None,
+                                color='FF000000')
+                )
+
+
 
 wb = openpyxl.Workbook()
 ws1=wb.active
@@ -390,3 +414,92 @@ for m in sorted(result.result_set)[1:]:
 
 
 wb.save('LOmapping.xlsx')    
+
+## import HAN data
+wb=openpyxl.open('Template BOKS BML-juni2017 (1) EN.xlsx', data_only=True)
+ws = wb['Template BOKS BML-juni2017 (1) ']
+
+row = 2
+data = [x.value for x in ws[row]]
+try:
+    while data[0]:
+        row = row+1
+        for d in range(8):
+            if data[d] is None:
+                data[d] =''
+        redis_graph.query('create (:BOKS {subject:$section, subset:$subset, code:$code, LOdescription:$LO, year_1:$y1, year_2:$y2, year_34:$y34, years_taught:$yt})',
+                          {'section':data[0],'subset':data[1],'code':data[2],'LO':data[3],'y1':data[4],'y2':data[5], 'y34':data[6],'yt':data[7]})
+        data = [x.value for x in ws[row]]
+except Exception as e:
+    print(row, data, e)
+
+# create module mapping to assessment spreadsheet
+
+module_assessments={}
+result= redis_graph.query("MATCH (m:Module) -[]-> (a:Assessment) return m.Module_code, a.sequence, a.name, a.Assessment_type, a.weight_percent")
+for d in result.result_set :
+    if d[0] not in module_assessments:
+        module_assessments[d[0]]=[]
+    module_assessments[d[0]].append(d)
+
+moduleLO = {}
+result= redis_graph.query("MATCH (m:Module) -[]-> (a:MILO) return m.Module_code, a.milo_id, a.objective")
+for d in result.result_set :
+    if d[0] not in moduleLO:
+        moduleLO[d[0]]=[]
+    moduleLO[d[0]].append(d)
+
+wb = openpyxl.Workbook()
+ws=wb.active
+ws.title = "Assessment to LO mapping"
+
+for p in sorted(moduleLO):
+    if p not in module_assessments:
+        continue
+    if p not in wb: 
+        wb.create_sheet(p)
+        
+    ws =  wb[p]
+    miloform = F"$A$3:$A$4"
+    ws['A3']='Assessed'
+    ws['A4']='Not Assessed'
+    ws.row_dimensions[3].hidden = True
+    ws.row_dimensions[4].hidden = True
+    dv = DataValidation(type="list", formula1=miloform, allow_blank=True)
+    dv.prompt = ''
+    ws.column_dimensions['A'].width = 120
+    
+    assess = sorted(module_assessments[p], key = lambda x: x[1])
+    for c in range(len(module_assessments[p])):
+        try:
+            ws.column_dimensions['BCDEFGHIJ'[c]].width = 30
+            ws[F'{"BCDEFGHI"[c]}5']='Seq 00'+str(assess[c][1])
+            ws[F'{"BCDEFGHI"[c]}6']=str(assess[c][2])
+            ws[F'{"BCDEFGHI"[c]}7']=str(assess[c][3])
+            ws[F'{"BCDEFGHI"[c]}8']=str(assess[c][4])+'%'
+        except Exception as e:
+            print(p,c, module_assessments[p], e)
+            break
+    ws['A1']=p
+    ws['A1'].font = headerfont
+    ws['A2']='Module assessment to ILO mapping'
+    ws['A5']="Seq"
+    ws['A6']="Name"
+    ws['A7']="Assessment type"
+    ws['A8']="Weight percent"
+    ws['A5'].font=tableheaderfont
+    ws['A6'].font=tableheaderfont
+    ws['A7'].font=tableheaderfont
+    ws['A8'].font=tableheaderfont
+    row =9
+    
+    ws.add_data_validation(dv)
+    for mip in moduleLO[p]:
+        ws[F'A{row}'] =F'{mip[1]} - {mip[2]}'
+        ws[F'A{row}'].alignment=setwrap
+        for c in range(len(module_assessments[p])):
+            dv.add(ws[F'{"BCDEFGHI"[c]}{row}'])
+            ws[F'{"BCDEFGHI"[c]}{row}'].border = box
+        row =row+1
+   
+wb.save('AssessmentLOmapping.xlsx') 
