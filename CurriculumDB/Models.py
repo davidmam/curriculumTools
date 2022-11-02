@@ -1023,6 +1023,7 @@ class Module():
         self.altlevel =params.get('altlevel')
         self.version = params.get('version','UNK')
         self.previous = params.get('previous_M', None)
+        self.future = params.get('future_M',None)
         self.credits = params.get('credits', 20)
         self.block = params.get('block', None)
         self.approval = params.get('approvalEvent', None)
