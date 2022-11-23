@@ -1,0 +1,3125 @@
+
+ 
+Advanced Higher Biology 
+ 
+Course code: C807 77 Course assessment code: X807 77 SCQF: level 7 (32 SCQF credit points) Valid from: session 2022–23  
+ 
+ 
+This document provides detailed information about the course and course assessment to ensure consistent and transparent assessment year on year. It describes the structure of the course and the course assessment in terms of the skills, knowledge and understanding that are assessed. 
+ 
+This document is for teachers and lecturers and contains all the mandatory information required to deliver the course. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The information in this document may be reproduced in support of SQA qualifications only on a non-commercial basis. If it is reproduced, SQA must be clearly acknowledged as the source. If it is to be reproduced for any other purpose, written permission must be obtained from permissions@sqa.org.uk. 
+ 
+This edition: August 2022 (version 4.1) 
+ 
+© Scottish Qualifications Authority 2014, 2019, 2020, 2022
+Contents 
+Course overview	1 
+Course rationale	2 
+Purpose and aims	2 
+Who is this course for?	3 
+Course content	4 
+Skills, knowledge and understanding	4 
+Skills for learning, skills for life and skills for work	30 
+Course assessment	31 
+Course assessment structure: question paper	31 
+Course assessment structure: project	33 
+Grading	38 
+Equality and inclusion	39 
+Further information	40 
+Appendix 1: course support notes	41 
+Introduction	41 
+Approaches to learning and teaching	41 
+Preparing for course assessment	125 
+Developing skills for learning, skills for life and skills for work	125 
+Appendix 2: question paper brief	128 
+
+ 
+ 
+
+Course overview 
+This course consists of 32 SCQF credit points, which includes time for preparation for course assessment. The notional length of time for candidates to complete the course is 160 hours.  
+ 
+The course assessment has two components. 
+ 
+Component Marks Scaled mark Duration Component 1: question paper 100 120 3 hours Component 2: project 30 40 see ‘Course assessment’ section  
+ 
+Recommended entry Progression Entry to this course is at the discretion of the centre.  
+ 
+Candidates should have achieved the Higher Biology or Higher Human Biology course or equivalent qualifications and/or experience prior to starting this course. 
+ ? a Higher National Diploma (HND) or degree in biology or a related area, such as medicine, dentistry, veterinary medicine, professions allied to medicine, horticulture, pharmacology, environmental science, or health 
+? a career in a biology-based discipline or a related area, such as health sector, agricultural science, or education, environmental services 
+? further study, employment and/or training  
+Conditions of award 
+The grade awarded is based on the total marks achieved across both course assessment components. 
+ 	 
+Course rationale 
+National Courses reflect Curriculum for Excellence values, purposes and principles. They offer flexibility, provide time for learning, focus on skills and applying learning, and provide scope for personalisation and choice.  
+ 
+Every course provides opportunities for candidates to develop breadth, challenge and application. The focus and balance of assessment is tailored to each subject area. 
+ 
+This course is based on the integrative ideas and unifying principles of modern biological science. It covers key aspects of life science at the molecular scale and extends to aspects of the biology of whole organisms that are among the major driving forces of evolution.  
+ 
+The course aims to develop a sound theoretical understanding and practical experience of experimental investigative work in biological science. It further develops candidates’ abilities to think analytically, creatively and independently, and to make reasoned evaluations. Candidates can develop their communication, collaborative working and leadership skills, and can apply critical thinking in new and unfamiliar contexts to solve problems. 
+ 
+Purpose and aims 
+The course develops a systems approach to the study of biological science. It allows candidates to integrate their learning, and to appreciate the global dimension of life on Earth and the importance of understanding biological issues in society. 
+ 
+The course encourages candidates to become scientifically literate citizens, who are able to make rational decisions based on scientific evidence and information. It gives them further experience in independent investigative work. Candidates improve their scientific literacy by designing and carrying out their own investigation, analysing and evaluating scientific publications and media reports, and producing scientific reports and communications. Opportunities to generate new ideas when planning and designing investigations and experiments also develops candidates’ creativity.  
+ 
+The course aims to: 
+ 
+? develop a critical understanding of the role of biology in scientific issues and relevant applications, including the impact these could make on the environment and society 
+? extend and apply knowledge, understanding and skills of biology  
+? develop and apply the skills to carry out complex practical scientific activities, including the use of risk assessments, technology, equipment and materials 
+? develop and apply scientific inquiry and investigative skills, including planning and experimental design 
+? develop and apply analytical thinking skills, including critical evaluation of experimental procedures in a biology context 
+? extend and apply problem-solving skills in a biology context 
+? further develop an understanding of scientific literacy using a wide range of resources in order to communicate complex ideas and issues and to make scientifically informed choices  
+? extend and apply skills of autonomous working in biology 	 
+Who is this course for? 
+The course is suitable for candidates who are secure in their attainment of Higher Biology, Higher Human Biology or an equivalent qualification. It is designed for candidates who can respond to a level of challenge, especially those considering further study or a career in biology and related disciplines. 
+ 
+The course emphasises practical and experiential learning opportunities, with a strong skillsbased approach to learning. It takes account of the needs of all candidates, and provides sufficient flexibility to enable candidates to achieve in different ways.  
+ 	 
+
+Course content 
+Cells and proteins 
+The key areas covered are: 
+ 
+? laboratory techniques for biologists 
+? proteins 
+? membrane proteins 
+? communication and signalling 
+? protein control of cell division 
+ 
+Organisms and evolution 
+The key areas covered are: 
+ 
+? field techniques for biologists 
+? evolution 
+? variation and sexual reproduction 
+? sex and behaviour 
+? parasitism 
+ 
+Investigative biology 
+The key areas covered are: 
+ 
+? scientific principles and process 
+? experimentation  
+? reporting and critical evaluation of biological research 
+ 
+Skills, knowledge and understanding 
+Skills, knowledge and understanding for the course 
+The following provides a broad overview of the subject skills, knowledge and understanding developed in the course: 
+ 
+? extending and applying knowledge of biology to new situations, interpreting and analysing information to solve complex problems 
+? planning and designing biological experiments/investigations, using reference materials and including risk assessments to test a hypothesis or to illustrate particular effects  
+? carrying out complex experiments in biology safely, recording systematic detailed observations and collecting data 
+? selecting information from a variety of sources and presenting detailed information, appropriately, in a variety of forms 
+? processing and analysing biological information/data (using calculations, significant figures and units, where appropriate) 
+? making reasoned predictions and generalisations from a range of evidence/information 
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? critically evaluating experimental procedures by identifying sources of error and suggesting and implementing improvements 
+? drawing on knowledge and understanding of biology to make accurate statements, describe complex information, provide detailed explanations and integrate knowledge 
+? communicating biological findings/information fully and effectively 
+? analysing and evaluating scientific publications and media reports 
+ 
+Skills, knowledge and understanding for the course assessment 
+The following provides details of skills, knowledge and understanding sampled in the course assessment. 
+ 
+The course support notes provide further detail on the depth of knowledge required for each key area of the course.  
+ 
+The key areas of the course, and the depth of knowledge required for each key area, can be assessed in the question paper. 
+=========
+Cells and proteins 1 Laboratory techniques for biologists (a) Health and safety 
+Substances, organisms, and equipment in a laboratory can present a hazard 
+ 
+Hazard, risk, and control of risk in the lab by risk assessment 
+ (b) Liquids and solutions 
+Method and uses of linear and log dilution 
+ 
+Production of a standard curve to determine an unknown 
+ 
+Use of buffers to control pH 
+ 
+Method and uses of a colorimeter to quantify concentration and turbidity 
+ (c) Separation techniques 
+Use of centrifuge to separate substances of differing density 
+ 
+Paper and thin layer chromatography can be used for separating different substances such as amino acids and sugars 
+ 
+Principle of affinity chromatography and its use in separating proteins 
+ 
+Cells and proteins Principle of gel electrophoresis and its use in separating proteins and nucleic acids 
+ 
+Native gels separate proteins by their shape, size and charge 
+ 
+SDS–PAGE separates proteins by size alone 
+ 
+Proteins can be separated from a mixture using their isoelectric points (IEPs)  
+ 
+If the solution is buffered to a specific pH, only the protein(s) that have an IEP of that pH will precipitate 
+ 
+Proteins can also be separated using their IEPs in electrophoresis 
+ (d) Detecting proteins using antibodies 
+Immunoassay techniques are used to detect and identify specific proteins 
+ 
+These techniques use stocks of antibodies with the same specificity, known as monoclonal antibodies 
+ 
+An antibody specific to the protein antigen is linked to a chemical ‘label’ 
+ 
+Western blotting is a technique, used after SDS–PAGE electrophoresis 
+ 
+The separated proteins from the gel are transferred (blotted) onto a solid medium 
+ 
+The proteins can be identified using specific antibodies that have reporter enzymes attached 
+ (e) Microscopy 
+Bright-field microscopy is commonly used to observe whole organisms, parts of organisms, thin sections of dissected tissue or individual cells 
+ 
+Fluorescence microscopy uses specific fluorescent labels to bind to and visualise certain molecules or structures within cells or tissues 
+ (f) Aseptic technique and cell culture 
+Aseptic technique eliminates unwanted microbial contaminants when culturing  micro-organisms or cells 
+ 
+A microbial culture can be started using an inoculum of microbial cells on an agar medium, or in a broth with suitable nutrients 
+ 
+Animal cells are grown in medium containing growth factors from serum 
+ 
+In culture, primary cell lines can divide a limited number of times, whereas tumour cells lines can perform unlimited divisions 
+ 
+Cells and proteins Plating out of a liquid microbial culture on solid media allows the number of colony-forming units to be counted and the density of cells in the culture estimated 
+ 
+Serial dilution is often needed to achieve a suitable colony count 
+ 
+Method and use of haemocytometer to estimate cell numbers in a liquid culture 
+ 
+Vital staining is required to identify and count viable cells 
+ 2 Proteins (a) The proteome 
+The proteome is the entire set of proteins expressed by a genome 
+ 
+The proteome is larger than the number of genes, particularly in eukaryotes, because more than one protein can be produced from a single gene as a result of alternative RNA splicing 
+ 
+Not all genes are expressed as proteins in a particular cell type 
+ 
+The set of proteins expressed by a given cell type can vary over time and under different conditions 
+ (b) The synthesis and transport of proteins 
+(i) Intracellular membranes 
+Eukaryotic cells have a system of internal membranes, which increases the total area of membrane 
+ 
+The endoplasmic reticulum (ER) forms a network of membrane tubules continuous with the nuclear membrane 
+ 
+The Golgi apparatus is a series of flattened membrane discs 
+ 
+Lysosomes are membrane-bound organelles containing a variety of hydrolases that digest proteins, lipids, nucleic acids and carbohydrates 
+ 
+Vesicles transport materials between membrane compartments 
+ 
+(ii) Synthesis of membrane components 
+Lipids and proteins are synthesised in the ER 
+ 
+Lipids are synthesised in the smooth endoplasmic reticulum (SER) and inserted into its membrane 
+ 
+The synthesis of all proteins begins in cytosolic ribosomes 
+ 
+The synthesis of cytosolic proteins is completed there, and these proteins remain in the cytosol 
+Cells and proteins Transmembrane proteins carry a signal sequence, which halts translation and directs the ribosome synthesising the protein to dock with the ER, forming RER 
+ 
+Translation continues after docking, and the protein is inserted into the membrane of the ER 
+ 
+(iii) Movement of proteins between membranes 
+Once the proteins are in the ER, they are transported by vesicles that bud off from the ER and fuse with the Golgi apparatus 
+ 
+As proteins move through the Golgi apparatus they undergo post-translational modification 
+ 
+The addition of carbohydrate groups is the major modification 
+ 
+Vesicles that leave the Golgi apparatus take proteins to the plasma membrane and lysosomes 
+ 
+Vesicles move along microtubules to other membranes and fuse with them within the cell 
+ 
+(iv) The secretory pathway 
+Secreted proteins are translated in ribosomes on the RER and enter its lumen 
+ 
+The proteins move through the Golgi apparatus and are then packaged into secretory vesicles 
+ 
+These vesicles move to and fuse with the plasma membrane, releasing the proteins out of the cell 
+ 
+Many secreted proteins are synthesised as inactive precursors and require proteolytic cleavage to produce active proteins 
+ (c) Protein structure, ligand binding and conformational change 
+(i) Amino acid sequence determines protein structure 
+Proteins are polymers of amino acid monomers 
+ 
+Amino acids are linked by peptide bonds to form polypeptides 
+ 
+Amino acids have the same basic structure, differing only in the R group present 
+ 
+Amino acids are classified according to their R groups: basic (positively charged); acidic (negatively charged); polar; hydrophobic 
+ 
+The wide range of functions carried out by proteins results from the diversity of R groups 
+ 
+The primary structure is the sequence in which the amino acids are synthesised into the polypeptide 
+ 
+Cells and proteins Hydrogen bonding along the backbone of the protein strand results in regions of secondary structure — alpha helices, parallel or anti-parallel beta-pleated sheets, or turns 
+ 
+The polypeptide folds into a tertiary structure 
+ 
+This conformation is stabilised by interactions between R groups: hydrophobic interactions; ionic bonds; London dispersion forces; hydrogen bonds; disulfide bridges 
+ 
+Quaternary structure exists in proteins with two or more connected polypeptide subunits 
+ 
+A prosthetic group is a non-protein unit tightly bound to a protein and necessary for its function 
+ 
+Interactions of the R groups can be influenced by temperature and pH 
+ 
+(ii) Ligand binding changes the conformation of a protein A ligand is a substance that can bind to a protein 
+ 
+R groups not involved in protein folding can allow binding to ligands 
+ 
+Binding sites will have complementary shape and chemistry to the ligand 
+ 
+As a ligand binds to a protein-binding site the conformation of the protein changes 
+ 
+This change in conformation causes a functional change in the protein 
+ 
+Allosteric interactions occur between spatially distinct sites 
+ 
+Many allosteric proteins consist of multiple subunits (have quaternary structure) 
+ 
+Allosteric proteins with multiple subunits show co-operativity in binding, in which changes in binding at one subunit alter the affinity of the remaining subunits 
+ 
+Allosteric enzymes contain a second type of site, called an allosteric site 
+ 
+Modulators regulate the activity of the enzyme when they bind to the allosteric site 
+ 
+Following binding of a modulator, the conformation of the enzyme changes and this alters the affinity of the active site for the substrate 
+ 
+The binding and release of oxygen in haemoglobin shows co-operativity 
+ 
+The influence and physiological importance of temperature and pH on the binding of oxygen 
+ 
+ 
+ 
+ 
+Cells and proteins (iii) Reversible binding of phosphate and the control of conformation 
+The addition or removal of phosphate can cause reversible conformational change in proteins 
+ 
+This is a common form of post-translational modification 
+ 
+Protein kinases catalyse the transfer of a phosphate group to other proteins 
+ 
+The terminal phosphate of ATP is transferred to specific R groups 
+ 
+Protein phosphatases catalyse the reverse reaction 
+ 
+Phosphorylation brings about conformational changes, which can affect a protein’s activity 
+ 
+The activity of many cellular proteins, such as enzymes and receptors, is regulated in this way 
+ 
+Some proteins are activated by phosphorylation while others are inhibited 
+ 3 Membrane proteins (a) Movement of molecules across membranes 
+Knowledge of the fluid mosaic model of cell membranes 
+ 
+Regions of hydrophobic R groups allow strong hydrophobic interactions that hold integral membrane proteins within the phospholipid bilayer 
+ 
+Some integral membrane proteins are transmembrane proteins 
+ 
+Peripheral membrane proteins have hydrophilic R groups on their surface and are bound to the surface of membranes, mainly by ionic and hydrogen bond interactions 
+ 
+Many peripheral membrane proteins interact with the surfaces of integral membrane proteins 
+ 
+The phospholipid bilayer is a barrier to ions and most uncharged polar molecules 
+ 
+Some small molecules, such as oxygen and carbon dioxide, pass through the bilayer by simple diffusion 
+ 
+Facilitated diffusion is the passive transport of substances across the membrane through specific transmembrane proteins 
+ 
+To perform specialised functions, different cell types have different channel and transporter proteins 
+ 
+Most channel proteins in animal and plant cells are highly selective 
+ 
+Cells and proteins Some channel proteins are gated and change conformation to allow or prevent diffusion 
+ 
+Ligand-gated channels are controlled by the binding of signal molecules, and  voltage-gated channels are controlled by changes in ion concentration 
+ 
+Transporter proteins bind to the specific substance to be transported and undergo a conformational change to transfer the solute across the membrane 
+ 
+Active transport uses pump proteins that transfer substances across the membrane against their concentration gradient 
+ 
+A source of metabolic energy is required for active transport 
+ 
+Some active transport proteins hydrolyse ATP directly to provide the energy for the conformational change required to move substances across the membrane 
+ (b) Ion transport pumps and generation of ion gradients 
+For a solute carrying a net charge, the concentration gradient and the electrical potential difference combine to form the electrochemical gradient that determines the transport of the solute 
+ 
+Ion pumps, such as the sodium-potassium pump, use energy from the hydrolysis of ATP to establish and maintain ion gradients 
+ 
+The sodium-potassium pump transports ions against a steep concentration gradient using energy directly from ATP hydrolysis 
+ 
+It actively transports sodium ions out of the cell and potassium ions into the cell 
+ 
+The pump has high affinity for sodium ions inside the cell; binding occurs; phosphorylation by ATP; conformation changes; affinity for sodium ions decreases; sodium ions released outside of the cell; potassium ions bind outside the cell; dephosphorylation; conformation changes; potassium ions taken into cell; affinity returns to start 
+ 
+The sodium-potassium pump is found in most animal cells, accounting for a high proportion of the basal metabolic rate in many organisms 
+ 
+In the small intestine, the sodium gradient created by the sodium-potassium pump drives the active transport of glucose 
+ 
+The glucose transporter responsible for this glucose symport transports sodium ions and glucose at the same time and in the same direction 
+ 
+ 
+ 
+ 
+Cells and proteins 4 Communication and signalling (a) Co-ordination 
+Multicellular organisms signal between cells using extracellular signalling molecules 
+ 
+Receptor molecules of target cells are proteins with a binding site for a specific signal molecule 
+ 
+Binding changes the conformation of the receptor, which initiates a response within the cell 
+ 
+Different cell types produce specific signals that can only be detected and responded to by cells with the specific receptor 
+ 
+In a multicellular organism, different cell types may show a tissue-specific response to the same signal 
+ (b) Hydrophobic signals and control of transcription 
+Hydrophobic signalling molecules can diffuse directly through the phospholipid bilayers of membranes, and so bind to intracellular receptors 
+ 
+The receptors for hydrophobic signalling molecules are transcription factors 
+ 
+The steroid hormones oestrogen and testosterone are examples of hydrophobic signalling molecules 
+ 
+Steroid hormones bind to specific receptors in the cytosol or the nucleus 
+ 
+The hormone-receptor complex moves to the nucleus where it binds to specific sites on DNA and affects gene expression 
+ (c) Hydrophilic signals and transduction 
+Hydrophilic signalling molecules bind to transmembrane receptors and do not enter the cytosol  
+ 
+Transmembrane receptors change conformation when the ligand binds to the extracellular face; the signal molecule does not enter the cell, but the signal is transduced across the plasma membrane 
+ 
+Transmembrane receptors act as signal transducers by converting the extracellular ligandbinding event into intracellular signals, which alters the behaviour of the cell 
+ 
+Transduced hydrophilic signals often involve G-proteins or cascades of phosphorylation by kinase enzymes 
+ 
+Phosphorylation cascades allow more than one intracellular signalling pathway to be activated 
+ 
+Cells and proteins Binding of the peptide hormone insulin to its receptor results in an intracellular signalling cascade that triggers recruitment of GLUT4 glucose transporter proteins to the cell membrane of fat and muscle cells 
+ 
+Diabetes mellitus can be caused by failure to produce insulin (type 1) or loss of receptor function (type 2) 
+ 
+Type 2 is generally associated with obesity 
+ 
+Exercise also triggers recruitment of GLUT4, so can improve uptake of glucose to fat and muscle cells in subjects with type 2 
+ (d) Nerve impulse transmission 
+(i) Generation of a nerve impulse 
+Resting membrane potential is a state where there is no net flow of ions across the membrane 
+ 
+The transmission of a nerve impulse requires changes in the membrane potential of the neuron’s plasma membrane 
+ 
+An action potential is a wave of electrical excitation along a neuron’s plasma membrane 
+ 
+Neurotransmitters initiate a response by binding to their receptors at a synapse 
+ 
+Depolarisation of the plasma membrane as a result of the entry of positive ions triggers the opening of voltage-gated sodium channels, and further depolarisation occurs 
+ 
+Inactivation of the sodium channels and the opening of potassium channels restores the resting membrane potential 
+ 
+Depolarisation of a patch of membrane causes neighbouring regions of membrane to depolarise and go through the same cycle, as adjacent voltage-gated sodium channels are opened 
+ 
+When the action potential reaches the end of the neuron it causes vesicles containing neurotransmitter to fuse with the membrane — this releases neurotransmitter, which stimulates a response in a connecting cell 
+ 
+Restoration of the resting membrane potential allows the inactive voltage-gated sodium channels to return to a conformation that allows them to open again in response to depolarisation of the membrane 
+ 
+Ion concentration gradients are re-established by the sodium-potassium pump, which actively transports excess ions in and out of the cell 
+ 
+ 
+ 
+ 
+Cells and proteins (ii) Initiation of a nerve impulse in response to an environmental stimulus: the vertebrate eye 
+The retina is the area within the eye that detects light and contains two types of photoreceptor cells: rods and cones  
+ 
+In animals the light-sensitive molecule retinal is combined with a membrane protein, opsin, to form the photoreceptors of the eye 
+ 
+In rod cells the retinal-opsin complex is called rhodopsin 
+ 
+Retinal absorbs a photon of light and rhodopsin changes conformation to photoexcited rhodopsin 
+ 
+A cascade of proteins amplifies the signal 
+ 
+Photoexcited rhodopsin activates a G-protein, called transducin, which activates the enzyme phosphodiesterase (PDE) 
+ 
+PDE catalyses the hydrolysis of a molecule called cyclic GMP (cGMP) 
+ 
+This results in the closure of ion channels in the membrane of the rod cells, which triggers nerve impulses in neurons in the retina 
+ 
+A very high degree of amplification results in rod cells being able to respond to low intensities of light 
+ 
+In cone cells, different forms of opsin combine with retinal to give different photoreceptor proteins, each with a maximal sensitivity to specific wavelengths: red, green, blue or UV 
+ 5 Protein control of cell division (a) The cytoskeleton and cell division 
+The cytoskeleton gives mechanical support and shape to cells 
+ 
+It consists of different protein structures including microtubules, which are found in all eukaryotic cells 
+ 
+Microtubules control the movement of membrane-bound organelles and chromosomes 
+ 
+Cell division requires remodelling of the cytoskeleton 
+ 
+Formation and breakdown of microtubules involves polymerisation and depolymerisation of tubulin 
+ 
+Microtubules form the spindle fibres that are active during cell division 
+ 
+ 
+ 
+ 
+Cells and proteins (b) The cell cycle 
+The cell cycle consists of interphase and mitotic (M) phase 
+ 
+Mitotic phase involves mitosis and cytokinesis 
+ 
+Mitosis consists of prophase, metaphase, anaphase and telophase 
+ (c) Control of the cell cycle 
+Progression through the cell cycle is controlled by checkpoints 
+ 
+Cyclin proteins that accumulate during cell growth are involved in regulating the cell cycle 
+ 
+At the G1 checkpoint, retinoblastoma protein (Rb) acts as a tumour suppressor by inhibiting the transcription of genes that code for proteins needed for DNA replication  
+ 
+Phosphorylation by G1 cyclin-CDK inhibits the retinoblastoma protein (Rb) 
+ 
+At the G2 checkpoint, the success of DNA replication and any damage to DNA is assessed 
+ 
+DNA damage triggers the activation of several proteins including p53 that can stimulate DNA repair, arrest the cell cycle or cause cell death 
+ 
+A metaphase checkpoint controls progression from metaphase to anaphase 
+ 
+An uncontrolled reduction in the rate of the cell cycle may result in degenerative disease 
+ 
+An uncontrolled increase in the rate of the cell cycle may result in tumour formation 
+ 
+A proto-oncogene is a normal gene, usually involved in the control of cell growth or division, which can mutate to form a tumour-promoting oncogene 
+ (d) Control of programmed cell death (apoptosis) 
+Apoptosis is triggered by cell death signals that can be external or internal 
+ 
+External death signal molecules bind to a surface receptor protein and trigger a protein cascade within the cytoplasm 
+ 
+An internal death signal resulting from DNA damage causes activation of p53 tumoursuppressor protein 
+ 
+Both types of death signal result in the activation of caspases (types of protease enzyme) that cause the destruction of the cell 
+ 
+Apoptosis is essential during development of an organism to remove cells no longer required as development progresses or during metamorphosis 
+ 
+Cells may initiate apoptosis in the absence of growth factors 
+  
+Organisms and evolution 1 Field techniques for biologists (a) Health and safety 
+Aspects of fieldwork can present a hazard 
+ 
+Hazard, risk, and control of risk by risk assessment 
+ (b) Sampling of wild organisms 
+Sampling should be carried out in a manner that minimises impact on wild species and habitats 
+ 
+Consideration must be given to rare and vulnerable species and habitats that are protected by legislation 
+ 
+The chosen technique, point count, transect or remote detection must be appropriate to the species being sampled 
+ 
+Quadrats, of suitable size and shape, or transects are used for plants and other sessile or slow-moving organisms 
+ 
+Capture techniques, such as traps and nets, are used for mobile species 
+ 
+Elusive species can be sampled directly using camera traps or an indirect method, such as scat sampling 
+ (c) Identification and taxonomy 
+Identification of an organism in a sample can be made using classification guides, biological keys, or analysis of DNA or protein 
+ 
+Organisms can be classified by both taxonomy and phylogenetics 
+ 
+Taxonomy involves the identification and naming of organisms and their classification into groups based on shared characteristics 
+ 
+Phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms 
+ 
+Phylogenetics is changing the traditional classification of many organisms 
+ 
+Familiarity with taxonomic groupings allows predictions and inferences to be made about the biology of an organism from better-known (model) organisms 
+ 
+Model organisms are those that are either easily studied or have been well studied 
+ 
+Information obtained from them can be applied to other species that are more difficult to study directly 
+ 
+Organisms and evolution (d) Monitoring populations 
+Presence, absence or abundance of indicator species can give information of environmental qualities, such as presence of a pollutant 
+ 
+Susceptible and favoured species can be used to monitor an ecosystem 
+ 
+Procedure for the mark and recapture technique as a method for estimating population 
+MC
+size using the formula N=  
+R
+ 
+Methods of marking animals such as: banding, tagging, surgical implantation, painting and hair clipping 
+ 
+The method of marking and subsequent observation must minimise the impact on the study species 
+ (e) Measuring and recording animal behaviour 
+Some of the measurements used to quantify animal behaviour are latency, frequency and duration 
+ 
+An ethogram of the behaviours shown by a species in a wild context allows the construction of time budgets 
+ 
+The importance of avoiding anthropomorphism when analysing behaviour 
+ 2 Evolution (a) Drift and selection 
+Evolution is the change over time in the proportion of individuals in a population differing in one or more inherited traits 
+ 
+During evolution, changes in allele frequency occur through the non-random processes of natural selection and sexual selection, and the random process of genetic drift 
+ 
+Natural selection acts on genetic variation in populations 
+ 
+Populations produce more offspring than the environment can support 
+ 
+Individuals with variations that are better suited to their environment tend to survive longer and produce more offspring, breeding to pass on those alleles that conferred an advantage to the next generation 
+ 
+Sexual selection is the non-random process involving the selection of alleles that increase the individual’s chances of mating and producing offspring 
+ 
+Sexual selection may lead to sexual dimorphism 
+ 
+Sexual selection can be due to male-male rivalry and female choice 
+Organisms and evolution Genetic drift occurs when chance events cause unpredictable fluctuations in allele frequencies from one generation to the next 
+ 
+Genetic drift is more important in small populations, as alleles are more likely to be lost from the gene pool  
+ 
+The importance of bottleneck and founder effects on genetic drift 
+ 
+A gene pool is altered by genetic drift because certain alleles may be under-represented or over-represented and allele frequencies change 
+ 
+Where selection pressures are strong, the rate of evolution can be rapid 
+ 
+The Hardy-Weinberg (HW) principle states that, in the absence of evolutionary influences, allele and genotype frequencies in a population will remain constant over the generations 
+ 
+The HW principle can be used to determine whether a change in allele frequency is occurring in a population over time 
+ 
+Changes suggest evolution is occurring 
+ (b) Fitness 
+Fitness is an indication of an individual’s ability to be successful at surviving and reproducing 
+ 
+It refers to the contribution made to the gene pool of the next generation by individual genotypes 
+ 
+Fitness can be defined in absolute or relative terms 
+ 
+Absolute fitness is the ratio between the frequency of individuals of a particular genotype after selection, to those before selection 
+ 
+Relative fitness is the ratio of the number of surviving offspring per individual of a particular genotype to the number of surviving offspring per individual of the most successful genotype 
+ (c) Co-evolution  
+Co-evolution is the process by which two or more species evolve in response to selection pressures imposed by each other 
+ 
+A change in the traits of one species acts as a selection pressure on the other species 
+ 
+Co-evolution is frequently seen in pairs of species that have symbiotic interactions 
+ 
+The impacts of these relationships can be positive (+), negative (-) or neutral (0) for the individuals involved 
+ 
+Organisms and evolution Mutualism, commensalism, and parasitism are types of symbiotic interactions 
+ 
+The Red Queen hypothesis states that, in a co-evolutionary relationship, change in the traits of one species can act as a selection pressure on the other species 
+ 
+This means that species in these relationships must adapt to avoid extinction 
+ 3 Variation and sexual reproduction  (a) Costs and benefits of sexual and asexual reproduction 
+Costs of sexual reproduction: males unable to produce offspring; only half of each parent’s genome passed onto offspring, disrupting successful parental genomes 
+ 
+Benefits outweigh costs due to an increase in genetic variation in the population 
+ 
+Genetic variation provides the raw material required for adaptation, giving sexually reproducing organisms a better chance of survival under changing selection pressures 
+ 
+The Red Queen hypothesis to explain the persistence of sexual reproduction 
+ 
+Co-evolutionary interactions between parasites and hosts may select for sexually reproducing hosts 
+ 
+If hosts reproduce sexually, the genetic variability in their offspring reduces the chances that all will be susceptible to infection by parasites 
+ 
+Asexual reproduction can be a successful reproductive strategy as whole genomes are passed on from parent to offspring 
+ 
+Maintaining the genome of the parent is an advantage particularly in very narrow, stable niches or when re-colonising disturbed habitats 
+ 
+Vegetative cloning in plants and parthenogenesis in lower plants and animals that lack fertilisation are examples of asexual reproduction in eukaryotes 
+ 
+Offspring can be reproduced more often and in larger numbers with asexual reproduction  
+ 
+Parthenogenesis is more common in cooler climates, which are disadvantageous to parasites, or regions of low parasite density or diversity 
+ 
+Asexually reproducing populations are not able to adapt easily to changes in their environment, but mutations can occur that provide some degree of variation and enable some natural selection and evolution to occur 
+ 
+Organisms that reproduce principally by asexual reproduction also often have mechanisms for horizontal gene transfer between individuals to increase variation, for example the plasmids of bacteria and yeasts 
+ 
+Organisms and evolution (b) Meiosis 
+Meiosis is the division of the nucleus that results in the formation of haploid gametes from a diploid gametocyte 
+ 
+In diploid cells, chromosomes typically appear as homologous pairs  
+ 
+Meiosis I  
+The chromosomes, which have replicated prior to meiosis I, each consist of two genetically identical chromatids attached at the centromere 
+ 
+The chromosomes condense and the homologous chromosomes pair up 
+ 
+Chiasmata form at points of contact between the non-sister chromatids of a homologous pair and sections of DNA are exchanged 
+ 
+This crossing over of DNA is random and produces genetically different recombinant chromosomes 
+ 
+Spindle fibres attach to the homologous pairs and line them up at the equator of the spindle 
+ 
+The orientation of the pairs of homologous chromosomes at the equator is random 
+ 
+The chromosomes of each homologous pair are separated and move towards opposite poles 
+ 
+Cytokinesis occurs and two daughter cells form 
+ 
+Meiosis II  
+Each of the two cells produced in meiosis I undergoes a further division during which the sister chromatids of each chromosome are separated 
+ (c) Sex determination 
+The sex of birds, mammals and some insects is determined by the presence of sex chromosomes 
+ 
+In most mammals the SRY gene on the Y chromosome determines development of male characteristics 
+ 
+Heterogametic (XY) males lack most of the corresponding homologous alleles on the shorter (Y) chromosome 
+ 
+This can result in sex-linked patterns of inheritance as seen with carrier females (XBXb) and affected males (XbY) 
+ 
+In homogametic females (XX) one of the two X chromosomes present in each cell is randomly inactivated at an early stage of development 
+ 
+Organisms and evolution X chromosome inactivation prevents a double dose of gene products, which could be harmful to cells 
+ 
+Carriers are less likely to be affected by any deleterious mutations on these X chromosomes 
+ 
+As the X chromosome inactivated in each cell is random, half of the cells in any tissue will have a working copy of the gene in question 
+ 
+Hermaphrodites are species that have functioning male and female reproductive organs in each individual 
+ 
+They produce both male and female gametes and usually have a partner with which to exchange gametes  
+ 
+The benefit to the individual organism is that if the chance of encountering a partner is an uncommon event, there is no requirement for that partner to be of the opposite sex  
+ 
+For other species, environmental rather than genetic factors determine sex and sex ratio 
+ 
+Sex can change within individuals of some species as a result of size, competition, or parasitic infection 
+ 
+In some species the sex ratio of offspring can be adjusted in response to resource availability 
+ 4 Sex and behaviour (a) Parental investment  
+Comparison of sperm and egg production in relation to number and energy store  
+ 
+Greater investment by females 
+ 
+Parental investment is costly but increases the probability of production and survival of young 
+ 
+Classification of r-selected (r-strategists) and K-selected (K-strategists) organisms based on level of parental investment in offspring and number of offspring produced 
+ 
+r-selection tends to occur in unstable environments where the species has not reached its reproductive capacity, whereas K-selection tends to occur in stable environments 
+ 
+Comparison of costs and benefits of external and internal fertilisation 
+ 
+ 
+ 
+ 
+ 
+Organisms and evolution (b) Reproductive behaviours and mating systems in animals 
+Mating systems are based on how many mates an individual has during one breeding season 
+ 
+These range from polygamy (polygyny and polyandry) to monogamy 
+ 
+Many animals have mate-selection courtship rituals 
+ 
+Successful courtship behaviour in birds and fish can be a result of species-specific sign stimuli and fixed action pattern responses 
+ 
+Sexual selection selects for characteristics that have little survival benefit for the individual, but increase their chances of mating 
+ 
+Many species exhibit sexual dimorphism as a product of sexual selection 
+ 
+Reversed sexual dimorphism occurs in some species 
+ 
+Female choice involves females assessing honest signals of the fitness of males 
+ 
+In lekking species, males gather to display at a lek, where female choice occurs 
+ 
+Success in male-male rivalry through conflict (real or ritualised), increases access to females for mating 
+ 5 Parasitism (a) (i) Niche  
+An ecological niche is a multi-dimensional summary of tolerances and requirements of a species 
+ 
+A species has a fundamental niche that it occupies in the absence of any interspecific competition 
+ 
+A realised niche is occupied in response to interspecific competition 
+ 
+As a result of interspecific competition, competitive exclusion can occur, where the niches of two species are so similar that one declines to local extinction 
+ 
+Where the realised niches are sufficiently different, potential competitors can co-exist by resource partitioning 
+ 
+(ii) The parasite niche 
+Parasitism is a symbiotic interaction between a parasite and its host (+/-) 
+ 
+A parasite gains benefit in terms of nutrients at the expense of its host 
+ 
+Organisms and evolution Unlike in a predator–prey relationship, the reproductive potential of the parasite is greater than that of the host 
+ 
+Most parasites have a narrow (specialised) niche as they are very host-specific 
+ 
+As the host provides so many of the parasite’s needs, many parasites are degenerate, lacking structures and organs found in other organisms 
+ 
+An ectoparasite lives on the surface of its host, whereas an endoparasite lives within the tissues of its host 
+ (b) Parasitic life cycles 
+Some parasites require only one host to complete their life cycle 
+ 
+Many parasites require more than one host to complete their life cycle 
+ 
+A vector plays an active role in the transmission of the parasite and may also be a host 
+ 
+The human disease malaria is caused by Plasmodium 
+ 
+Schistosomes cause the human disease schistosomiasis 
+ 
+Viruses are parasites that can only replicate inside a host cell 
+ 
+Viruses contain genetic material in the form of DNA or RNA, packaged in a protective protein coat 
+ 
+Some viruses are surrounded by a phospholipid membrane derived from host cell materials 
+ 
+The outer surface of a virus contains antigens that a host cell may or may not be able to detect as foreign 
+ 
+Viral life cycle stages: infection of host cell with genetic material, host cell enzymes replicate viral genome, transcription of viral genes and translation of viral proteins, assembly and release of new viral particles 
+ 
+RNA retroviruses use the enzyme reverse transcriptase to form DNA, which is then inserted into the genome of the host cell 
+ 
+Viral genes can then be expressed to form new viral particles 
+ (c) Transmission and virulence 
+Transmission is the spread of a parasite to a host 
+ 
+Virulence is the harm caused to a host species by a parasite 
+ 
+Ectoparasites are generally transmitted through direct contact  
+Organisms and evolution Endoparasites of the body tissues are often transmitted by vectors or by consumption of intermediate hosts 
+ 
+Factors that increase transmission rates: 
+ 
+? the overcrowding of hosts when they are at high density 
+? mechanisms, such as vectors and waterborne dispersal stages, that allow the parasite to spread even if infected hosts are incapacitated 
+ 
+Host behaviour is often exploited and modified by parasites to maximise transmission 
+ 
+The host behaviour becomes part of the extended phenotype of the parasite 
+ 
+Parasites often suppress the host immune system and modify host size and reproductive rate in ways that benefit the parasite growth, reproduction or transmission 
+ (d) Defence against parasitic attack 
+Immune response in mammals has both non-specific and specific aspects 
+ 
+Non-specific defences 
+Physical barriers, chemical secretions, inflammatory response, phagocytes, and natural killer cells destroying cells infected with viruses are examples of non-specific defences 
+ 
+Specific cellular defences 
+A range of white blood cells constantly circulates, monitoring the tissues 
+ 
+If tissues become damaged or invaded, cells release cytokines that increase blood flow resulting in non-specific and specific white blood cells accumulating at the site of infection or tissue damage  
+ 
+Mammals contain many different lymphocytes, each possessing a receptor on its surface, which can potentially recognise a parasite antigen 
+ 
+Binding of an antigen to a lymphocyte’s receptor selects that lymphocyte to then divide and produce a clonal population of this lymphocyte 
+ 
+Some selected lymphocytes will produce antibodies, others can induce apoptosis in parasite-infected cells 
+ 
+Antibodies possess regions where the amino acid sequence varies greatly between different antibodies 
+ 
+This variable region gives the antibody its specificity for binding antigen 
+ 
+When the antigen binds to this binding site the antigen-antibody complex formed can result in inactivation of the parasite, rendering it susceptible to a phagocyte, or can stimulate a response that results in cell lysis 
+ Organisms and evolution Memory lymphocyte cells are also formed 
+ (e) Immune evasion 
+Parasites have evolved ways of evading the immune system 
+ 
+Endoparasites mimic host antigens to evade detection and modify host immune response to reduce their chances of destruction 
+ 
+Antigenic variation in some parasites allows them to change between different antigens during the course of infection of a host 
+ 
+It may also allow re-infection of the same host with the new variant 
+ 
+Some viruses escape immune surveillance by integrating their genome into host genomes, existing in an inactive state known as latency 
+ 
+The virus becomes active again when favourable conditions arise 
+ (f) Challenges in treatment and control 
+Epidemiology is the study of the outbreak and spread of infectious disease 
+ 
+The herd immunity threshold is the density of resistant hosts in the population required to prevent an epidemic 
+ 
+Vaccines contain antigens that will elicit an immune response 
+ 
+The similarities between host and parasite metabolism makes it difficult to find drug compounds that only target the parasite 
+ 
+Antigenic variation has to be reflected in the design of vaccines 
+ 
+Some parasites are difficult to culture in the laboratory making it difficult to design vaccines 
+ 
+Challenges arise where parasites spread most rapidly as a result of overcrowding or tropical climates 
+ 
+These conditions make co-ordinated treatment and control programs difficult to achieve 
+ 
+Civil engineering projects to improve sanitation combined with co-ordinated vector control may often be the only practical control strategies 
+ 
+Improvements in parasite control reduce child mortality and result in population-wide improvements in child development and intelligence, as individuals have more resources for growth and development  
+
+Investigative biology 1 Scientific principles and process (a) Scientific method  
+Scientific cycle — observation; construction of a testable hypothesis; experimental design; gathering, recording, and analysis of data; evaluation of results and conclusions; the formation of a revised hypothesis where necessary 
+ 
+The null hypothesis proposes that there will be no statistically significant effect as a result of the experiment treatment 
+ 
+If there is evidence for an effect, unlikely due to chance, then the null hypothesis is rejected 
+ 
+Scientific ideas only become accepted once they have been checked independently 
+ (b) Scientific literature and communication  
+The importance of publication of methods, data, analysis, and conclusions in scientific reports so that others are able to repeat an experiment 
+ 
+The importance of peer review and critical evaluation by specialists with expertise in the relevant field 
+ 
+The use of review articles, which summarise current knowledge and recent findings in a particular field 
+ 
+Critical evaluation of science coverage in the wider media 
+ 
+Increasing the public understanding of science, and the issue of misrepresentation of science 
+ (c) Scientific ethics 
+Importance of integrity and honesty — unbiased presentation of results, citing and providing references, avoiding plagiarism 
+ 
+In animal studies, the concepts of replacement, reduction, and refinement are used to avoid, reduce or minimise the harm to animals 
+ 
+Informed consent, the right to withdraw, and confidentiality in human studies 
+ 
+The justification for scientific research and the assessment of any risks 
+ 
+The risk to and safety of subject species, individuals, investigators and the environment must be taken into account 
+ 
+Legislation, regulation, policy and funding can all influence scientific research 
+ 
+Investigative biology 2 Experimentation Validity, reliability, accuracy and precision 
+ (a) Pilot study 
+Integral to the development of an investigation, a pilot study is used to help plan procedures, assess validity and check techniques 
+ 
+This allows evaluation and modification of experimental design 
+ 
+The use of a pilot study can ensure an appropriate range of values for the independent variable 
+ 
+In addition, it allows the investigator to establish the number of repeat measurements required to give a representative value for each independent datum point 
+ (b) Experimental design 
+(i) Independent and dependent variables 
+Independent and dependent variables can be continuous or discrete 
+ 
+Experiments involve the manipulation of the independent variable by the investigator 
+ 
+The experimental treatment group is compared to a control group 
+ 
+The use and limitations of simple (one independent variable) and multifactorial (more than one independent variable) experimental designs 
+ 
+Investigators may use groups that already exist, so there is no truly independent variable 
+ 
+Observational studies are good at detecting correlation, but since they do not directly test a hypothesis, they are less useful for determining causation 
+ 
+(ii) Confounding variables 
+Due to the complexities of biological systems, other variables besides the independent variable may affect the dependent variable 
+ 
+These confounding variables must be held constant if possible, or at least monitored so that their effect on the results can be accounted for in the analysis 
+ 
+In cases where confounding variables cannot easily be controlled, a randomised block design could be used 
+ 
+(iii) Controls  
+Control results are used for comparison with the results of treatment groups 
+ 
+Negative and positive controls may be used 
+ 
+Use of placebos and the placebo effect 
+Investigative biology (iv) In vivo and in vitro studies 
+In vitro refers to the technique of performing a given procedure in a controlled environment outside of a living organism 
+ 
+In vivo refers to experimentation using a whole, living organism 
+ 
+Advantages and disadvantages of in vivo and in vitro studies 
+ (c) Sampling  
+Where it is impractical to measure every individual, a representative sample of the population is selected 
+ 
+The extent of the natural variation within a population determines the appropriate sample size 
+ 
+More variable populations require a larger sample size 
+ 
+A representative sample should share the same mean and the same degree of variation about the mean as the population as a whole 
+ 
+Random, systematic and stratified sampling 
+ (d) Reliability  
+Variation in experimental results may be due to the reliability of measurement methods and/or inherent variation in the specimens 
+ 
+The precision and accuracy of repeated measurements 
+ 
+The natural variation in the biological material being used can be determined by measuring a sample of individuals from the population 
+ 
+The mean of these repeated measurements will give an indication of the true value being measured  
+ 
+The range of values is a measure of the extent of variation in the results 
+ 
+If there is a narrow range then the variation is low 
+ 
+Independent replication should be carried out to produce independent data sets 
+ 
+These independent data sets should be compared to determine the reliability of the results 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Investigative biology (e) Presentation of data 
+Discrete and continuous variables give rise to qualitative, quantitative, or ranked data 
+ 
+The type of variable being investigated has consequences for any graphical display or statistical tests that may be used 
+ 
+Identification and calculation of mean, median and mode  
+ 
+Use of box plots to show variation within and between data sets 
+ 
+Interpret error bars on graphical data 
+ 
+Correlation exists if there is a relationship between two variables 
+ 
+Positive and negative correlations 
+ 
+Strong and weak correlations 
+ 3 Reporting and critical evaluation of biological research (a) Background information 
+Scientific reports should contain an explanatory title, an abstract including aims and findings, an introduction explaining the purpose and context of the study including the use of several sources, supporting statements, citations, and references 
+ (b) Reporting and evaluating experimental design 
+A method section should contain sufficient information to allow another investigator to repeat the work 
+ 
+Experimental design should address the intended aim and test the hypothesis 
+ 
+Treatment effects should be compared to controls 
+ 
+Any confounding variables should be taken into account or standardised across treatments 
+ 
+The validity of an experiment may be compromised when factors other than the independent variable influence the value of the dependent variable 
+ 
+The effect of selection bias and sample size on representative sampling 
+ (c) Data analysis  
+The appropriate use of graphs, mean, median, mode, standard deviation and range in interpreting data 
+ 
+Statistical tests are used to determine whether the differences between the means are likely or unlikely to have occurred by chance 
+ 
+A statistically significant result is one that is unlikely to be due to chance alone Investigative biology Error bars indicate the variability of data around a mean 
+ 
+If the treatment mean differs from the control mean sufficiently for their error bars not to overlap, this indicates that the difference may be significant 
+ (d) Evaluating results and conclusions  
+Conclusions should refer to the aim, the results and the hypothesis 
+ 
+The validity and reliability of the experimental design should be taken into account 
+ 
+Consideration should be given as to whether the results can be attributed to correlation or causation 
+ 
+Evaluation of conclusions should also refer to existing knowledge and the results of other investigations 
+ 
+======== 
+Skills, knowledge and understanding included in the course are appropriate to the SCQF level of the course. The SCQF level descriptors give further information on characteristics and expected performance at each SCQF level, and are available on the SCQF website. 
+ 
+Skills for learning, skills for life and skills for work 
+This course helps candidates to develop broad, generic skills. These skills are based on SQA’s Skills Framework: Skills for Learning, Skills for Life and Skills for Work and draw from the following main skills areas: 
+ 
+1  	Literacy 
+1.1 	Reading 
+1.2 	Writing 
+ 	 
+2 	Numeracy 
+2.1 	Number processes 
+2.2 	Money, time and measurement 
+2.3 	Information handling 
+ 	 
+5 	Thinking skills 
+5.3 	Applying 
+5.4 	Analysing and evaluating 
+5.5 	Creating 
+ 
+Teachers and/or lecturers must build these skills into the course at an appropriate level, where there are suitable opportunities. 
+ 	 
+Course assessment 
+Course assessment is based on the information in this course specification. 
+ 
+The course assessment meets the purposes and aims of the course by addressing: 
+ 
+? breadth — drawing on knowledge and skills from across the course 
+? challenge — requiring greater depth or extension of knowledge and/or skills 
+? application — requiring application of knowledge and/or skills in practical or theoretical contexts as appropriate  
+ 
+This enables candidates to apply:  
+ 
+? breadth and depth of skills, knowledge and understanding from across the course to answer questions in biology 
+? skills of scientific inquiry, using related knowledge, to carry out a meaningful and appropriately challenging project in biology and communicate findings 
+ 
+Course assessment structure: question paper 
+Question paper 100 marks 
+The question paper assesses breadth, challenge and application of skills, knowledge and understanding from across the course. It assesses the application or extension of knowledge and/or skills in unfamiliar situations, practical and theoretical contexts. It also assess scientific inquiry skills, analytical thinking skills, and problem-solving skills. 
+ 
+The question paper has 100 marks. This is scaled by SQA to represent 75% of the overall marks for the course assessment. 
+ 
+Marks are distributed proportionally across the course content. 
+ 
+The question paper has two sections.  
+ 
+Section 1 contains multiple-choice questions and has 20 marks. 
+ 
+Section 2 contains structured and extended-response questions and has 80 marks. 
+ 
+The majority of the marks are awarded for demonstrating and applying knowledge and understanding. The other marks are awarded for applying the skills of scientific inquiry, scientific analytical thinking and problem solving. 
+ 	 
+The question paper gives candidates an opportunity to demonstrate the following skills, knowledge and understanding:  
+ 
+? demonstrating knowledge and understanding of biology by making accurate statements, describing information, providing explanations and integrating knowledge  
+? applying biology knowledge to new situations, interpreting information and solving problems 
+? planning or designing experiments/investigations, including safety measures, to test given hypotheses or to illustrate particular effects 
+? selecting information from a variety of sources  
+? presenting information appropriately, in a variety of forms  
+? processing information/data (using calculations and units, where appropriate)  
+? making predictions and generalisations based on evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification  
+? identifying sources of error and suggesting improvements to experiments 
+ 
+Setting, conducting and marking the question paper 
+The question paper is set and marked by SQA, and conducted in centres under conditions specified for external examinations by SQA.  
+ 
+Candidates have 3 hours to complete the question paper. 
+ 
+Specimen question papers for Advanced Higher courses are published on SQA’s website. These illustrate the standard, structure and requirements of the question papers. The specimen papers also include marking instructions. 
+ 	 
+Course assessment structure: project 
+Project 	30 marks 
+The project has 30 marks. This is scaled by SQA to represent 25% of the overall marks for the course assessment. 
+ 
+The project allows candidates to carry out an in-depth investigation of a biology topic and produce a project report. Candidates are required to individually plan and carry out a biology investigation.  
+ 
+Candidates should keep a record of their work as this will form the basis of their project report. This record should include details of their research, experiments and recorded data.  
+ 
+The project assesses the application of skills of scientific inquiry and related biology knowledge and understanding. It gives candidates an opportunity to demonstrate the following skills, knowledge and understanding: 
+ 
+? extending and applying knowledge of biology to new situations, interpreting and analysing information to solve complex problems 
+? planning and designing biological experiments/investigations, using reference materials and including risk assessments, to test a hypothesis or to illustrate particular effects 
+? carrying out complex experiments in biology safely, recording systematic detailed observations and collecting data  
+? selecting information from a variety of sources and presenting detailed information appropriately in a variety of forms 
+? processing and analysing biological information/data (using calculations, significant figures and units, where appropriate) 
+? making reasoned predictions and generalisations from a range of evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? critically evaluating experimental procedures by identifying sources of error and suggesting and implementing improvements 
+? drawing on knowledge and understanding of biology to make accurate statements, describe complex information, provide detailed explanations and integrate knowledge 
+? communicating biological findings/information fully and effectively 
+? analysing and evaluating scientific publications and media reports 
+ 
+Project overview 
+Candidates carry out an in-depth investigation of a biology topic. Candidates choose their topic and individually investigate/research its underlying biology. Candidates must discuss potential topics with their teacher and/or lecturer to ensure that they do not waste time researching unsuitable topics. This is an open-ended task that may involve candidates carrying out a significant part of the work without close supervision. 
+ 
+Throughout the project candidates work autonomously, making independent and rational decisions based on evidence and interpretation of scientific information, which involves analysing and evaluating results. Through this, candidates further develop and enhance their scientific literacy skills. 
+ 
+The project offers challenge by requiring candidates to apply skills, knowledge and understanding in a context that is one or more of the following: 
+ 
+? unfamiliar 
+? familiar but investigated in greater depth ? integrating a number of familiar contexts 
+ 
+Candidates will produce a project report that has a logical structure.  
+ 
+Refer to the Advanced Higher Biology Coursework Assessment Task for detailed advice on the content of the project report. 
+ 
+Setting, conducting and marking the project  
+Setting 
+The project is set:  
+ 
+? by centres within SQA guidelines 
+ 
+Conducting 
+The project is conducted: 
+ 
+? under some supervision and control 
+? in time to meet a submission date set by SQA  
+? individually by the candidate  
+ 
+Marking 
+The project has 30 marks. 
+ 
+The majority of the marks are awarded for applying scientific inquiry skills. The other marks are awarded for applying related knowledge and understanding. 
+ 
+Candidates submit their project report as evidence. The table below gives the mark allocation for each assessment category of the project report. 
+ 	 
+
+Section Expected response Marks Abstract  1 mark  a brief abstract stating main aim(s) and overall findings/conclusion(s) 1 Introduction  5 marks clear statement of aim(s) together with relevant hypotheses  1 ? account of underlying biology relevant to aim(s) 
+? biological terms/ideas explained clearly and accurately 
+? biological terms/ideas at an appropriate depth  
+? biological importance justified 4 Procedures  
+9 marks 
+ appropriate to aim(s)  1 procedures described clearly in sufficient detail to allow the investigation to be repeated  2 appropriate controls identified 1 control of confounding variables described 1 sample size appropriate 1 independent replication described and separate data set(s) provided 1 justification of how the pilot study informed the final procedure(s) 1 shows complexity, creativity or accuracy  1 Results  
+6 marks 
+ data relevant to the aim(s) 1 raw data recorded and within limits of accuracy of measurement  1 results presented appropriately  1 overall results calculated and presented appropriately 1 presentation of tables and graphs correct and accurate 2 Discussion (conclusion(s) and evaluation) 
+7 marks 
+ conclusion(s) relevant to the aim(s) and supported by data in the report  1 conclusion(s) valid  1 evaluation of procedures with justification: 
+ 
+? means by which accurate measurements were achieved/sources of error in measurement and their impact on the results 
+? why the sample size was appropriate and how independent replication was achieved 
+? how controls contribute to the overall validity of the investigation 
+? how confounding variables were controlled or monitored and their impact on the validity of results 
+? solutions to problems and reasoning behind 
+? modifications to procedures in light of the pilot study 2 Section Expected response Marks results analysed and interpreted, and findings discussed critically and scientifically: 
+ 
+? analysis of results 
+? interpretation of results  
+? critical and scientific discussion of significance of finding(s) 3 Presentation 2 marks appropriate structure, with informative title, contents page and page numbers 1 references cited in the text and listed using Harvard or Vancouver referencing systems 1 Total 30  
+The project report is submitted to SQA for external marking. 
+ 
+All marking is quality assured by SQA.  
+ 
+Assessment conditions 
+Time 
+Candidates should start their project at an appropriate point in the course.  
+ 
+It is expected that candidates will spend a minimum of 15 hours on experimental research.  
+ 
+Supervision, control and authentication 
+The project is conducted under some supervision and control. This means that candidates may complete part of the work outwith the learning and teaching setting. 
+ 
+Teachers and lecturers must make sure candidates understand the requirements of the project from the outset.  
+ 
+Teachers and lecturers must ensure that the project is the work of the individual candidate, for example by: 
+ 
+? having regular progress meetings with candidates 
+? conducting spot-check interviews with candidates 
+? regularly reviewing candidates’ lab books 
+? completing checklists to record candidates’ progress 
+ 
+Teachers and lecturers must exercise their professional responsibility to ensure that the project report submitted by a candidate is the candidate’s own work. 
+ 
+Resources 
+There are no restrictions on the resources to which candidates may have access.  
+Reasonable assistance 
+The term ‘reasonable assistance’ is used to try to balance the need for support with the need to avoid giving too much assistance. For example, drawing out or teasing out points without leading candidates. Candidates sometimes get stuck at a particular part of a task. In such cases, a teacher or lecturer could assist by raising other questions that make the candidate think about the original problem, therefore giving them the opportunity to answer their own questions without supplying the actual answers.  
+ 
+Teachers and lecturers must be careful that the integrity of the assessment is not compromised. Teachers and lecturers must not provide model answers. 
+ 
+Evidence to be gathered 
+The following candidate evidence is required for this assessment: 
+ 
+? a project report 
+ 
+The project report is submitted to SQA, within a given timeframe, for marking.  
+ 
+The same project report cannot be submitted for more than one subject. 
+ 
+Volume 
+The project report should be between 3000 and 3600 words in length, excluding the title page, contents page, tables of data, graphs, diagrams, calculations, references, acknowledgements and any appendices.  
+ 
+Candidates must include their word count on the project report flyleaf.  
+ 
+If the word count exceeds the maximum by 10%, a penalty is applied. 
+ 	 
+Grading 
+Candidates’ overall grades are determined by their performance across the course assessment. The course assessment is graded A–D on the basis of the total mark for both course assessment components. 
+ 
+Grade description for C 
+For the award of grade C, candidates will typically have demonstrated successful performance in relation to the skills, knowledge and understanding for the course by: 
+ 
+? retaining knowledge and scientific skills over an extended period of time 
+? integrating knowledge and understanding and scientific skills acquired throughout the course 
+? applying knowledge and understanding and scientific skills in a variety of contexts  
+? applying knowledge and understanding and scientific skills to solve problems 
+? selecting, analysing and presenting relevant information collected through experimental, observational or research work  
+? reporting in a scientific manner that communicates the biology  
+ 
+Grade description for A 
+For the award of grade A, candidates will typically have demonstrated a consistently high level of performance in relation to the skills, knowledge and understanding for the course by: 
+ 
+? retaining an extensive range of knowledge and scientific skills over an extended period of time  
+? integrating an extensive range of knowledge and understanding and scientific skills acquired throughout the course 
+? applying knowledge and understanding and scientific skills in a variety of complex contexts  
+? integrating knowledge and understanding and scientific skills to solve problems in a variety of complex contexts 
+? showing proficiency in selecting, analysing and presenting relevant information, collected through experimental, observational or research work 
+? showing proficiency in reporting in a scientific manner that communicates the biology by analysing and interpreting information in a critical and scientific manner, and 
+demonstrating depth of knowledge and understanding 
+ 	 
+Equality and inclusion 
+This course is designed to be as fair and as accessible as possible with no unnecessary barriers to learning or assessment.  
+ 
+Guidance on assessment arrangements for disabled candidates and/or those with additional support needs is available on the assessment arrangements web page: 
+www.sqa.org.uk/assessmentarrangements. 
+ 	 
+
+Further information 
+? Advanced Higher Biology subject page 
+? Assessment arrangements web page  
+? Building the Curriculum 3–5 
+? Guide to Assessment  
+? Guidance on conditions of assessment for coursework 
+? SQA Skills Framework: Skills for Learning, Skills for Life and Skills for Work 
+? Coursework Authenticity: A Guide for Teachers and Lecturers 
+? Educational Research Reports 
+? SQA Guidelines on e-assessment for Schools 
+? SQA e-assessment web page  
+? SCQF website: framework, level descriptors and SCQF Handbook 
+ 	 
+
+Appendix 1: course support notes 
+Introduction 
+These support notes are not mandatory. They provide advice and guidance to teachers and lecturers on approaches to delivering the course. Please read these course support notes in conjunction with the course specification and the specimen question paper and coursework. 
+ 
+The key areas of the course, and the depth of knowledge required for each key area, can be assessed in the question paper. 
+ 
+Due to the interdisciplinary nature of the sciences, candidates may benefit from studying biology along with other science subjects and mathematics, as this may enhance their skills, knowledge and understanding. 
+ 
+Approaches to learning and teaching  
+Learning and teaching approaches should develop candidates’ knowledge and understanding, and skills for learning, life and work. They should be experiential, active, challenging, enjoyable, and include practical activities. Teachers and/or lecturers can use a variety of active learning approaches, including peer teaching and assessment, individual and group presentations, and game-based learning. 
+ 
+Advanced Higher courses encourage independent study. Some of the approaches to learning and teaching suggested for other levels (Higher, in particular) can apply at Advanced Higher level, if they have a strong emphasis on independent learning. 
+ 
+A significant amount of learning may be self-directed and require candidates to work on their own initiative. This can be very challenging for some candidates, who may feel isolated at times. Teachers and lecturers should have strategies for addressing this. These could include, for example, planning time for regular feedback sessions or discussions on a  one-to-one basis and on a group basis, led by the teacher or lecturer (where appropriate). 
+ 
+Although the mandatory knowledge and skills may be similar in Higher and Advanced Higher courses, there are differences in the: 
+ 
+? depth of underpinning knowledge and understanding  
+? complexity and sophistication of the applied skills  
+? ways that candidates will learn: they will take more responsibility for their learning at Advanced Higher and work more autonomously  
+ 
+Advanced Higher candidates are expected to contribute a significant portion of their own time in addition to programmed learning time. 
+ 
+Candidates can actively develop their skills, knowledge and understanding by investigating a range of applications and issues relevant to biology. Teachers and/or lecturers can adopt a holistic approach to encourage candidates to simultaneously develop their conceptual understanding and skills. 
+Teachers and lecturers should encourage candidates to use an enquiring, critical and problem-solving approach to their learning. Candidates should have the opportunity to practise and develop research and investigation skills and higher-order evaluation and analytical skills. 
+ 
+Learning and teaching should offer opportunities for candidates to work collaboratively. Practical activities and investigative work can offer opportunities for group work. Group work approaches can be helpful to simulate real-life situations, share tasks, and promote  team-working skills. However, candidates must also be encouraged to develop skills in working individually, as this will be required when carrying out the project. 
+ 
+Practical activities should, where possible, include the use of technology and equipment that reflects current scientific use in biology. Fieldwork provides an opportunity for practical work, using first-hand experience of an ecosystem to develop knowledge, understanding and problem solving skills. Appropriate risk assessment must be undertaken for all practical work. 
+ 
+Candidates should acquire scientific skills through a series of learning experiences, investigations and experimental work. Candidates should develop these skills throughout the course using a variety of practical activities and other learning experiences, as appropriate. Some activities and experiences lend themselves to developing particular skills. For example, some practical activities are particularly suitable for developing planning and designing skills, some for presenting and analysing data skills, and others for the skill of drawing conclusions. In selecting activities and experiences, teachers and lecturers should identify which skills each activity develops to ensure the progressive development of all skills and to support candidates’ learning. 
+ 
+Effective partnership working can enhance the learning experience. When possible, teachers and/or lecturers should arrange visits and invite guest speakers from, for example, industry and further and higher education, to bring the world of biology into the classroom. 
+ 
+Learning about Scotland and Scottish culture enriches the learning experience and helps candidates develop the skills for learning, life and work they need to prepare them for taking their place in a diverse, inclusive and participative Scotland and beyond. When there are opportunities to contextualise approaches to learning and teaching to Scottish contexts, teachers and/or lecturers should consider this. 
+ 
+Information and Communications Technology (ICT) can make a significant contribution to practical work in Advanced Higher Biology. Computer-interfacing equipment can detect and record small changes in variables, allowing experimental results to be recorded over long or short periods of time. Results can also be displayed in real time, helping to improve understanding. Data-logging equipment and video cameras can be set up to record data and make observations over periods of time (longer than a class lesson) that can then be downloaded and viewed for analysis. 
+ 
+Digital technology can be used to enhance teaching and learning. Interactive simulations, video simulations, games and apps can be used to offer a range of approaches to engage candidates.  
+ 
+Assessment is integral to learning and teaching. It should provide candidates with supportive feedback and help them to prepare for the course assessment. Teachers and/or lecturers should use self- and peer-assessment techniques wherever appropriate, and use assessment information to set learning targets and next steps. 
+ 
+The following table provides an outline of the depth of knowledge candidates require for each key area, along with suggested learning activities. The key areas are from the ‘Course content’ section of the course specification. The depth of knowledge required provides further detail of the key areas and an outline of the level of demand. The key areas of the course, and the depth of knowledge required for each key area, can be assessed in the question paper.  
+ 
+The suggested learning activities are not compulsory. The contexts for each key area are open to personalisation and choice, so teachers and/or lecturers can devise learning activities. 
+ 
+ 
+
+
+Cells and protein Key area Depth of knowledge required Suggested learning activities 1 Laboratory techniques for biologists 
+(a) Health and safety 
+Substances, organisms, and equipment in a laboratory can present a hazard 
+  
+ 
+Hazards in the lab include toxic or corrosive chemicals, heat or flammable substances, pathogenic organisms, and mechanical equipment. 
+  
+ 
+Become familiar with standard laboratory rules and with risk assessment. Hazard, risk, and control of risk in the lab by risk assessment Risk is the likelihood of harm arising from exposure to a hazard. 
+ 
+Risk assessment involves identifying control measures to minimise the risk. 
+ 
+Control measures include using appropriate handling techniques, protective clothing and equipment, and aseptic technique. 
+  (b) Liquids and solutions 
+Method and uses of linear and log dilution  
+Dilutions in a linear dilution series differ by an equal interval, for example 0·1, 0·2, 0·3 and so on. 
+ 
+Dilutions in a log dilution series differ by a constant proportion, for example 10-1, 10-2, 10-3 and so on. 
+ 
+  
+Become familiar with the use of measuring cylinders, pipettes, burettes, autopipettes, and syringes. 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Production of a standard curve to determine an unknown Plotting measured values for known concentrations to produce a line or curve allows the concentration of an unknown to be determined from the standard curve.  Use of buffers to control pH  
+Addition of acid or alkali has very small effects on the pH of a buffer, allowing the pH of a reaction mixture to be kept constant. 
+ Practise making solutions using buffers and measuring the pH with a meter or an indicator. Method and uses of a colorimeter to quantify concentration and turbidity Calibration with appropriate blank as a baseline; use of absorbance to determine concentration of a coloured solution using suitable wavelength filters; use of percentage transmission to determine turbidity, such as cells in suspension. 
+ Use a colorimeter or spectrophotometer to calibrate a known solution and determine an unknown using, for example, Bradford protein assay. (c) Separation techniques 
+Use of centrifuge to separate substances of differing density  
+More dense components settle in the pellet; less dense components remain in the supernatant.  
+ Paper and thin layer chromatography can be used for separating different substances such as amino acids and sugars  
+The speed that each solute travels along the chromatogram depends on its differing solubility in the solvent used. 
+ 
+Details of how to carry out these procedures are not required. 
+  
+Cells and protein Key area Depth of knowledge required Suggested learning activities Principle of affinity chromatography and its use in separating proteins A solid matrix or gel column is created with specific molecules bound to the matrix or gel. Soluble, target proteins in a mixture, with a high affinity for these molecules, become attached to them as the mixture passes down the column. Other non-target molecules with a weaker affinity are washed out.  Principle of gel electrophoresis and its use in separating proteins and nucleic acids  
+Charged macromolecules move through an electric field applied to a gel matrix. Use protein electrophoresis to identify different muscle proteins. Native gels separate proteins by their shape, size and charge  
+Native gels do not denature the molecule so that separation is by shape, size and charge.  SDS–PAGE separates proteins by size alone  
+SDS–PAGE gives all the molecules an equally negative charge and denatures them, separating proteins by size alone. 
+  Proteins can be separated from a mixture using their isoelectric points (IEPs) 
+ 
+If the solution is buffered to a specific pH, only the protein(s) that have an IEP of that pH will precipitate 
+ IEP is the pH at which a soluble protein has no net charge and will precipitate out of solution. Determine the isoelectric point of a soluble protein, such as casein. Proteins can also be separated using their 
+IEPs in electrophoresis 
+ Soluble proteins can be separated using an electric field and a pH gradient. A protein stops migrating through the gel at its IEP in  
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities the pH gradient because it has no net charge. 
+ 
+Further details of electrophoresis are not required. 
+ (d) Detecting proteins using antibodies 
+Immunoassay techniques are used to detect and identify specific proteins 
+ 
+These techniques use stocks of antibodies with the same specificity, known as monoclonal antibodies  
+ 
+Knowledge of monoclonal antibody production is not required.  
+ 
+Research the use of monoclonal antibodies in the diagnosis and detection of disease.  
+ An antibody specific to the protein antigen is linked to a chemical ‘label’ 
+Western blotting is a technique, used after 
+SDS–PAGE electrophoresis 
+The separated proteins from the gel are transferred (blotted) onto a solid medium The ‘label’ is often a reporter enzyme producing a colour change, but chemiluminescence, fluorescence and other reporters can be used. 
+ 
+In some cases the assay uses a specific antigen to detect the presence of antibodies. 
+ 
+ 
+  
+Use the ELISA technique to identify the presence of specific antigens. 
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities The proteins can be identified using specific antibodies that have reporter enzymes attached 
+ (e) Microscopy 
+Bright-field microscopy is commonly used to observe whole organisms, parts of organisms, thin sections of dissected tissue or individual cells 
+ 
+Fluorescence microscopy uses specific fluorescent labels to bind to and visualise certain molecules or structures within cells or tissues 
+  
+ 
+  
+Refresh skills in the use of microscopes and making slides. 
+ 
+Discuss the ethics of dissection in an educational context. 
+ 
+ (f) Aseptic technique and cell culture Aseptic technique eliminates unwanted microbial contaminants when culturing microorganisms or cells  
+Aseptic technique involves the sterilisation of equipment and culture media by heat or chemical means and subsequent exclusion of microbial contaminants. 
+  
+Investigate methods of sterilisation of containers, equipment, and materials. A microbial culture can be started using an inoculum of microbial cells on an agar medium, or in a broth with suitable nutrients Many culture media exist that promote the growth of specific types of cells and microbes. 
+ Culture bacterial, yeast, and algal cells using aseptic technique. 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Animal cells are grown in medium containing growth factors from serum 
+ 
+In culture, primary cell lines can divide a limited number of times, whereas tumour cells lines can perform unlimited divisions 
+ 
+Plating out of a liquid microbial culture on solid media allows the number of colonyforming units to be counted and the density of cells in the culture estimated 
+ 
+Serial dilution is often needed to achieve a suitable colony count 
+ Growth factors are proteins that promote cell growth and proliferation. Growth factors are essential for the culture of most animal cells. Investigate some of the different types of culture media and their uses. Method and use of haemocytometer to estimate cell numbers in a liquid culture 
+ 
+Vital staining is required to identify and count viable cells 
+  Use a haemocytometer to make an estimate of cell count. 2 Proteins 
+(a) The proteome 
+The proteome is the entire set of proteins 
+expressed by a genome 
+ 
+The proteome is larger than the number of genes, particularly in eukaryotes, because  
+ 
+ 
+  
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities more than one protein can be produced from a single gene as a result of alternative RNA splicing Not all genes are expressed as proteins in a particular cell type 
+ Genes that do not code for proteins are called non-coding RNA genes and include those that are transcribed to produce tRNA, rRNA, and RNA molecules that control the expression of other genes. 
+  The set of proteins expressed by a given cell type can vary over time and under different conditions Some factors affecting the set of proteins expressed by a given cell type are the metabolic activity of the cell, cellular stress, the response to signalling molecules, and diseased versus healthy cells.  (b) The synthesis and transport of proteins 
+(i) Intracellular membranes 
+Eukaryotic cells have a system of internal 
+membranes, which increases the total area of membrane 
+The endoplasmic reticulum (ER) forms a network of membrane tubules continuous with the nuclear membrane 
+ 
+The Golgi apparatus is a series of flattened membrane discs  
+ 
+Because of their size, eukaryotes have a relatively small surface area to volume ratio. The plasma membrane of eukaryotic cells is therefore too small an area to carry out all the vital functions carried out by membranes. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Lysosomes are membrane-bound organelles containing a variety of hydrolases that digest proteins, lipids, nucleic acids and 
+carbohydrates 
+ 
+Vesicles transport materials between 
+membrane compartments 
+ 
+(ii) Synthesis of membrane components 
+Lipids and proteins are synthesised in the ER  
+ 
+ 
+Rough ER (RER) has ribosomes on its cytosolic face while smooth ER (SER) lacks ribosomes. 
+  
+ 
+ 
+ Lipids are synthesised in the smooth endoplasmic reticulum (SER) and inserted into its membrane 
+ 
+The synthesis of all proteins begins in cytosolic ribosomes 
+ 
+The synthesis of cytosolic proteins is completed there, and these proteins remain in the cytosol 
+ 
+Transmembrane proteins carry a signal sequence, which halts translation and directs the ribosome synthesising the protein to dock with the ER, forming RER  
+ 
+ 
+A signal sequence is a short stretch of amino acids at one end of the polypeptide that determines the eventual location of a protein in a cell.  
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Translation continues after docking, and the protein is inserted into the membrane of the 
+ER 
+ 
+(iii) Movement of proteins between 
+membranes 
+Once the proteins are in the ER, they are transported by vesicles that bud off from the 
+ER and fuse with the Golgi apparatus 
+ 
+As proteins move through the Golgi apparatus they undergo post-translational modification 
+The addition of carbohydrate groups is the major modification 
+ 
+Vesicles that leave the Golgi apparatus take proteins to the plasma membrane and lysosomes 
+ 
+Vesicles move along microtubules to other membranes and fuse with them within the cell 
+ 
+  
+ 
+ 
+Molecules move through the Golgi discs in vesicles that bud off from one disc and fuse to the next one in the stack. Enzymes catalyse the addition of various sugars in multiple steps to form the carbohydrates. 
+ 
+ 
+ 
+  
+ 
+ 
+Research post-translational modification and activity in trypsinogen and trypsin. 
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities (iv) The secretory pathway 
+Secreted proteins are translated in ribosomes on the RER and enter its lumen  
+Peptide hormones and digestive enzymes are examples of secreted proteins. 
+  
+ The proteins move through the Golgi apparatus and are then packaged into 
+secretory vesicles 
+ 
+These vesicles move to and fuse with the 
+plasma membrane, releasing the proteins out of the cell 
+ 
+Many secreted proteins are synthesised as inactive precursors and require proteolytic cleavage to produce active proteins 
+  
+ 
+Proteolytic cleavage is another type of posttranslational modification. Digestive enzymes are one example of secreted proteins that require proteolytic cleavage to become active. 
+ 
+Specific names of digestive enzymes are not required. 
+  
+ 
+ 
+ (c) Protein structure, ligand binding and conformational change 
+(i) Amino acid sequence determines protein structure 
+Proteins are polymers of amino acid 
+monomers 
+  
+ 
+  
+Use amino acid chromatography to distinguish between different amino acids. 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Amino acids are linked by peptide bonds to form polypeptides Recognise the chemical structure of a peptide bond from a diagram. 
+  Amino acids have the same basic structure, differing only in the R group present R groups of amino acids vary in size, shape, charge, hydrogen bonding capacity and chemical reactivity. 
+  Amino acids are classified according to their 
+R groups: basic (positively charged); acidic 
+(negatively charged); polar; hydrophobic Classify amino acids according to the R group present. 
+ 
+Names and structures of individual amino acids are not required. 
+ Determine the isoelectric point of a protein and explain the result using understanding of protein structure. 
+ The wide range of functions carried out by proteins results from the diversity of R groups 
+  Carry out molecular modelling, for example computer-aided drug design. 
+ The primary structure is the sequence in which the amino acids are synthesised into the polypeptide 
+ 
+Hydrogen bonding along the backbone of the protein strand results in regions of secondary structure — alpha helices, parallel or antiparallel beta-pleated sheets, or turns 
+ 
+ 
+  
+ Carry out primary structure comparisons of enzymes from different evolutionary backgrounds, for example alcohol dehydrogenase from different organisms. 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities The polypeptide folds into a tertiary structure 
+ 
+This conformation is stabilised by interactions between R groups: hydrophobic interactions; ionic bonds; London dispersion forces; hydrogen bonds; disulfide bridges  
+ 
+ 
+ 
+Disulfide bridges are covalent bonds between R groups containing sulfur.  
+ Quaternary structure exists in proteins with two or more connected polypeptide subunits  
+Quaternary structure describes the spatial arrangement of the subunits.  A prosthetic group is a non-protein unit tightly bound to a protein and necessary for its function 
+  
+The ability of haemoglobin to bind oxygen is dependent upon the non-protein haem group. Analyse haemoglobin dissociation curves. Interactions of the R groups can be influenced by temperature and pH Increasing temperature disrupts the interactions that hold the protein in shape; the protein begins to unfold, eventually becoming denatured. The charges on acidic and basic R groups are affected by pH. As pH increases or decreases from the optimum, the normal ionic interactions between charged groups are lost, which gradually changes the conformation of the protein until it becomes denatured. 
+ 
+  
+Cells and protein Key area Depth of knowledge required Suggested learning activities (ii) Ligand binding changes the conformation of a protein 
+A ligand is a substance that can bind to a protein 
+ 
+R groups not involved in protein folding can allow binding to ligands 
+ 
+Binding sites will have complementary shape and chemistry to the ligand 
+ 
+As a ligand binds to a protein-binding site the conformation of the protein changes 
+ 
+This change in conformation causes a functional change in the protein 
+ 
+Allosteric interactions occur between spatially distinct sites 
+ 
+Many allosteric proteins consist of multiple subunits (have quaternary structure) 
+  
+ 
+ 
+ 
+ 
+ 
+The binding of a substrate molecule to one active site of an allosteric enzyme increases the affinity of the other active sites for binding of subsequent substrate molecules. This is of biological importance because the activity of allosteric enzymes can vary greatly with small changes in substrate concentration. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Allosteric proteins with multiple subunits show co-operativity in binding, in which changes in binding at one subunit alter the affinity of the remaining subunits 
+ 
+Allosteric enzymes contain a second type of site, called an allosteric site  
+  
+Investigate the action of aspartate transcarbamoylase as an example of an allosteric enzyme of biological importance. 
+ Modulators regulate the activity of the enzyme when they bind to the allosteric site 
+ 
+Following binding of a modulator, the conformation of the enzyme changes and this alters the affinity of the active site for the substrate  
+Positive modulators increase the enzyme’s affinity for the substrate, whereas negative modulators reduce the enzyme’s affinity.  
+  
+The binding and release of oxygen in haemoglobin shows co-operativity Changes in binding of oxygen at one subunit alter the affinity of the remaining subunits for oxygen. 
+  The influence and physiological importance of temperature and pH on the binding of oxygen A decrease in pH or an increase in 
+temperature lowers the affinity of haemoglobin for oxygen, so the binding of oxygen is reduced. Reduced pH and increased temperature in actively respiring tissue will reduce the binding of oxygen to haemoglobin promoting increased oxygen delivery to tissue.  
+Cells and protein Key area Depth of knowledge required Suggested learning activities  Effects of DPG are not required.  (iii) Reversible binding of phosphate and the control of conformation 
+The addition or removal of phosphate can cause reversible conformational change in proteins 
+ 
+This is a common form of post-translational modification 
+ 
+Protein kinases catalyse the transfer of a phosphate group to other proteins 
+ 
+The terminal phosphate of ATP is transferred to specific R groups 
+ 
+Protein phosphatases catalyse the reverse reaction 
+ 
+Phosphorylation brings about conformational changes, which can affect a protein’s activity 
+ 
+The activity of many cellular proteins, such as enzymes and receptors, is regulated in this way 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Research examples of proteins regulated by phosphorylation, such as glycogen phosphorylase. 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Some proteins are activated by 
+phosphorylation while others are inhibited 
+ Adding a phosphate group adds negative charges. Ionic interactions in the unphosphorylated protein can be disrupted and new ones created. 
+  3 Membrane proteins 
+(a) Movement of molecules across 
+membranes 
+Knowledge of the fluid mosaic model of cell membranes 
+  
+ 
+  
+ 
+Research the history of evidence-based models of membrane structure as an example of refinement of scientific ideas. Regions of hydrophobic R groups allow strong hydrophobic interactions that hold integral membrane proteins within the phospholipid bilayer 
+ 
+Some integral membrane proteins are transmembrane proteins 
+ 
+Peripheral membrane proteins have hydrophilic R groups on their surface and are bound to the surface of membranes, mainly by ionic and hydrogen bond interactions 
+ 
+Many peripheral membrane proteins interact with the surfaces of integral membrane proteins Integral membrane proteins interact extensively with the hydrophobic region of membrane phospholipids. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities The phospholipid bilayer is a barrier to ions and most uncharged polar molecules 
+ 
+Some small molecules, such as oxygen and carbon dioxide, pass through the bilayer by simple diffusion 
+ 
+Facilitated diffusion is the passive transport of substances across the membrane through specific transmembrane proteins 
+ 
+To perform specialised functions, different cell types have different channel and transporter proteins 
+ 
+Most channel proteins in animal and plant cells are highly selective 
+  
+ 
+ 
+ 
+Channels are multi-subunit proteins with the subunits arranged to form water-filled pores that extend across the membrane. 
+  
+ 
+ 
+ 
+ Some channel proteins are gated and change conformation to allow or prevent diffusion 
+ 
+Ligand-gated channels are controlled by the binding of signal molecules, and voltagegated channels are controlled by changes in ion concentration 
+  
+ Research CFTR mutation and cystic fibrosis. 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Transporter proteins bind to the specific substance to be transported and undergo a conformational change to transfer the solute across the membrane Transporters alternate between two conformations so that the binding site for a solute is sequentially exposed on one side of the bilayer, then the other. Research glucose transporters in mammalian cells.  
+Active transport uses pump proteins that transfer substances across the membrane against their concentration gradient 
+ Pumps that mediate active transport are transporter proteins coupled to an energy source.  A source of metabolic energy is required for active transport 
+ 
+Some active transport proteins hydrolyse ATP directly to provide the energy for the conformational change required to move substances across the membrane 
+  
+ATPases hydrolyse ATP.  
+ (b) Ion transport pumps and generation of ion gradients 
+For a solute carrying a net charge, the concentration gradient and the electrical potential difference combine to form the electrochemical gradient that determines the transport of the solute 
+ 
+Ion pumps, such as the sodium-potassium pump, use energy from the hydrolysis of ATP to establish and maintain ion gradients  
+A membrane potential (an electrical potential difference) is created when there is a difference in electrical charge on the two sides of the membrane. 
+ 
+  
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities The sodium-potassium pump transports ions against a steep concentration gradient using energy directly from ATP hydrolysis 
+ 
+It actively transports sodium ions out of the cell and potassium ions into the cell 
+ 
+The pump has high affinity for sodium ions 
+inside the cell; binding occurs; phosphorylation by ATP; conformation changes; affinity for sodium ions decreases; sodium ions released outside of the cell; potassium ions bind outside the cell; dephosphorylation; conformation changes; potassium ions taken into cell; affinity returns to start  
+ 
+For each ATP hydrolysed, three sodium ions are transported out of the cell and two potassium ions are transported into the cell. This establishes both concentration gradients and an electrical gradient.  
+ 
+  
+The sodium-potassium pump is found in most animal cells, accounting for a high proportion of the basal metabolic rate in many 
+organisms 
+ 
+In the small intestine, the sodium gradient created by the sodium-potassium pump drives the active transport of glucose  
+In intestinal epithelial cells the sodiumpotassium pump generates a sodium ion gradient across the plasma membrane.  
+  
+The glucose transporter responsible for this glucose symport transports sodium ions and Sodium ions enter the cell down their concentration gradient; the simultaneous  
+Cells and protein Key area Depth of knowledge required Suggested learning activities glucose at the same time and in the same direction 
+ transport of glucose pumps glucose into the cell against its concentration gradient. 
+ 
+Details of the apical and basal membranes are not required. 
+ 4 Communication and signalling 
+(a) Co-ordination 
+Multicellular organisms signal between cells using extracellular signalling molecules 
+  
+ 
+Steroid hormones, peptide hormones, and neurotransmitters are examples of extracellular signalling molecules. 
+  
+ 
+ Receptor molecules of target cells are proteins with a binding site for a specific signal molecule 
+ 
+Binding changes the conformation of the receptor, which initiates a response within the cell 
+ 
+Different cell types produce specific signals that can only be detected and responded to by cells with the specific receptor 
+ 
+In a multicellular organism, different cell types may show a tissue-specific response to the same signal  
+ 
+Signalling molecules may have different effects on different target cell types due to differences in the intracellular signalling molecules and pathways that are involved. 
+ 
+  
+ 
+Research examples of degenerative diseases. 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities (b) Hydrophobic signals and control of transcription 
+Hydrophobic signalling molecules can diffuse directly through the phospholipid bilayers of membranes, and so bind to intracellular receptors 
+ 
+The receptors for hydrophobic signalling molecules are transcription factors 
+  
+ 
+Transcription factors are proteins that when bound to DNA can either stimulate or inhibit initiation of transcription.  
+ 
+ The steroid hormones oestrogen and testosterone are examples of hydrophobic signalling molecules 
+ 
+Steroid hormones bind to specific receptors in the cytosol or the nucleus 
+ 
+The hormone-receptor complex moves to the nucleus where it binds to specific sites on 
+DNA and affects gene expression  
+ 
+ 
+The hormone-receptor complex binds to specific DNA sequences called hormone response elements (HREs). Binding at these sites influences the rate of transcription, with each steroid hormone affecting the gene expression of many different genes. 
+ 
+ 
+ 
+  
+ 
+Research sex hormone disorders. 
+Cells and protein Key area Depth of knowledge required Suggested learning activities (c) Hydrophilic signals and transduction Hydrophilic signalling molecules bind to transmembrane receptors and do not enter the cytosol  
+Peptide hormones and neurotransmitters are 
+examples of hydrophilic extracellular signalling molecules.  
+  
+Transmembrane receptors change conformation when the ligand binds to the extracellular face; the signal molecule does not enter the cell, but the signal is transduced 
+across the plasma membrane 
+ 
+Transmembrane receptors act as signal transducers by converting the extracellular ligand-binding event into intracellular signals, which alters the behaviour of the cell 
+ 
+Transduced hydrophilic signals often involve G-proteins or cascades of phosphorylation by kinase enzymes 
+  
+ 
+G-proteins relay signals from activated receptors (receptors that have bound a signalling molecule) to target proteins such as enzymes and ion channels. Details of Gproteins subunits are not required. 
+  
+ 
+ Phosphorylation cascades allow more than one intracellular signalling pathway to be activated 
+ Phosphorylation cascades involve a series of events with one kinase activating the next in the sequence and so on. Phosphorylation cascades can result in the phosphorylation of many proteins as a result of the original signalling event.  
+Cells and protein Key area Depth of knowledge required Suggested learning activities Binding of the peptide hormone insulin to its receptor results in an intracellular signalling cascade that triggers recruitment of GLUT4 glucose transporter proteins to the cell membrane of fat and muscle cells 
+ Binding of insulin to its receptor causes a conformational change that triggers phosphorylation of the receptor. This starts a phosphorylation cascade inside the cell, which eventually leads to GLUT4-containing 
+vesicles being transported to the cell membrane. Research data from glucose tolerance tests. Diabetes mellitus can be caused by failure to produce insulin (type 1) or loss of receptor function (type 2) 
+  
+ Research health effects associated with type 2 diabetes and the success rate of treatment programmes. Type 2 is generally associated with obesity 
+ 
+Exercise also triggers recruitment of GLUT4, so can improve uptake of glucose to fat and muscle cells in subjects with type 2 
+  Write a review of data from studies of health and wellbeing, considering the importance of publishing negative results. 
+ (d) Nerve impulse transmission 
+(i) Generation of a nerve impulse 
+Resting membrane potential is a state where 
+there is no net flow of ions across the membrane 
+ 
+The transmission of a nerve impulse requires changes in the membrane potential of the neuron’s plasma membrane 
+  
+ 
+ 
+  
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities An action potential is a wave of electrical excitation along a neuron’s plasma membrane 
+ 
+Neurotransmitters initiate a response by binding to their receptors at a synapse 
+  
+Neurotransmitter receptors are ligand-gated ion channels.  
+ Depolarisation of the plasma membrane as a result of the entry of positive ions triggers the opening of voltage-gated sodium channels, and further depolarisation occurs 
+ Depolarisation is a change in the membrane potential to a less negative value inside. Carry out Daphnia heart rate investigation. The action of chemical agonists can be assessed. This could provide an opportunity to focus on aspects of experimental design associated with pilot studies, measurement accuracy, sample size and replication. Inactivation of the sodium channels and the opening of potassium channels restores the resting membrane potential 
+ Binding of a neurotransmitter triggers the opening of ligand-gated ion channels at a synapse. Ion movement occurs and there is depolarisation of the plasma membrane. If sufficient ion movement occurs, and the membrane is depolarised beyond a threshold value, the opening of voltage-gated sodium channels is triggered and sodium ions enter the cell down their electrochemical gradient. This leads to a rapid and large change in the membrane potential. A short time after opening, the sodium channels become inactivated. Voltage-gated potassium channels then open to allow potassium ions to move out of the cell to restore the resting membrane potential.  
+Cells and protein Key area Depth of knowledge required Suggested learning activities Depolarisation of a patch of membrane causes neighbouring regions of membrane to depolarise and go through the same cycle, as adjacent voltage-gated sodium channels are opened 
+ 
+When the action potential reaches the end of the neuron it causes vesicles containing neurotransmitter to fuse with the membrane — this releases neurotransmitter, which stimulates a response in a connecting cell 
+ 
+Restoration of the resting membrane potential allows the inactive voltage-gated sodium channels to return to a conformation that allows them to open again in response to depolarisation of the membrane Ion concentration gradients are reestablished by the sodium-potassium pump, which actively transports excess ions in and out of the cell 
+  
+ 
+ 
+Following repolarisation the sodium and potassium ion concentration gradients are reduced. The sodium-potassium pump restores the sodium and potassium ions back to resting potential levels.  
+ 
+ 
+ (ii) Initiation of a nerve impulse in response to an environmental stimulus: the vertebrate eye  
+ Investigate vision experimentally. 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities The retina is the area within the eye that detects light and contains two types of photoreceptor cells: rods and cones 
+ Rods function in dim light but do not allow colour perception. Cones are responsible for colour vision and only function in bright light. Carry out a fish eye dissection. In animals the light-sensitive molecule retinal is combined with a membrane protein, opsin, to form the photoreceptors of the eye 
+ 
+In rod cells the retinal-opsin complex is called rhodopsin 
+ 
+Retinal absorbs a photon of light and rhodopsin changes conformation to photoexcited rhodopsin 
+ 
+A cascade of proteins amplifies the signal 
+ 
+Photoexcited rhodopsin activates a Gprotein, called transducin, which activates the 
+enzyme phosphodiesterase (PDE) 
+  
+ 
+ 
+ 
+A single photoexcited rhodopsin activates hundreds of molecules of G-protein. Each activated G-protein activates one molecule of PDE. 
+  
+ 
+ 
+ 
+ PDE catalyses the hydrolysis of a molecule called cyclic GMP (cGMP) 
+ Each active PDE molecule breaks down thousands of cGMP molecules per second. The reduction in cGMP concentration as a result of its hydrolysis affects the function of ion channels in the membrane of rod cells. 
+  
+Cells and protein Key area Depth of knowledge required Suggested learning activities This results in the closure of ion channels in the membrane of the rod cells, which triggers nerve impulses in neurons in the retina 
+ 
+A very high degree of amplification results in rod cells being able to respond to low intensities of light 
+ 
+In cone cells, different forms of opsin combine with retinal to give different photoreceptor proteins, each with a maximal sensitivity to specific wavelengths: red, 
+green, blue or UV 
+  
+ 
+  
+ 
+ 5 Protein control of cell division  
+(a) The cytoskeleton and cell division The cytoskeleton gives mechanical support and shape to cells 
+ 
+It consists of different protein structures including microtubules, which are found in all eukaryotic cells 
+  
+ 
+ 
+Microtubules are hollow cylinders composed of the protein tubulin. They radiate from the microtubule organising centre (MTOC) or centrosome. 
+ 
+Knowledge of other cytoskeleton proteins is not required. 
+  
+ 
+ 
+Research and consider the effects of colchicine and paclitaxel on the cytoskeleton. 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Microtubules control the movement of membrane-bound organelles and 
+chromosomes 
+ 
+Cell division requires remodelling of the cytoskeleton 
+ 
+Formation and breakdown of microtubules involves polymerisation and depolymerisation of tubulin 
+ 
+Microtubules form the spindle fibres that are active during cell division 
+  
+ 
+ 
+  
+ 
+ 
+ (b) The cell cycle 
+The cell cycle consists of interphase and mitotic (M) phase 
+  
+Interphase involves growth and DNA synthesis including G1, a growth phase; S phase, during which the DNA is replicated; and G2, a further growth phase.  
+Stain actively dividing plant meristem tissue and calculate a mitotic index. Mitotic phase involves mitosis and cytokinesis 
+  
+In mitosis the chromosomal material is separated by the spindle microtubules. This is followed by cytokinesis, in which the cytoplasm is separated into two daughter cells. 
+ 
+  
+Cells and protein Key area Depth of knowledge required Suggested learning activities Mitosis consists of prophase, metaphase, anaphase and telophase Prophase — DNA condenses into chromosomes each consisting of two sister chromatids. Nuclear membrane breaks down; spindle microtubules extend from the MTOC by polymerisation and attach to chromosomes via their kinetochores in the centromere region. 
+ 
+Metaphase — chromosomes are aligned at the metaphase plate (equator of the spindle). 
+ 
+Anaphase — as spindle microtubules shorten by depolymerisation, sister chromatids are separated, and the chromosomes are pulled to opposite poles. 
+ 
+Telophase — the chromosomes decondense and nuclear membranes are formed around them. 
+  (c) Control of the cell cycle 
+Progression through the cell cycle is controlled by checkpoints 
+  
+Checkpoints are mechanisms within the cell that assess the condition of the cell during the cell cycle and halt progression to the next phase until certain requirements are met. 
+  
+Use an online simulation of mitotic checkpoint control. 
+Cells and protein Key area Depth of knowledge required Suggested learning activities Cyclin proteins that accumulate during cell growth are involved in regulating the cell cycle 
+ Cyclins combine with and activate cyclindependent kinases (CDKs). Active cyclinCDK complexes phosphorylate proteins that regulate progression through the cycle. If sufficient phosphorylation is reached, progression occurs. 
+ Investigate cell cycle mutation in yeast Schizosaccharomyces pombe. At the G1 checkpoint, retinoblastoma protein 
+(Rb) acts as a tumour suppressor by inhibiting the transcription of genes that code for proteins needed for DNA replication 
+ 
+Phosphorylation by G1 cyclin-CDK inhibits the retinoblastoma protein (Rb) 
+ 
+At the G2 checkpoint, the success of DNA replication and any damage to DNA is assessed 
+ 
+DNA damage triggers the activation of several proteins including p53 that can stimulate DNA repair, arrest the cell cycle or cause cell death 
+ 
+ 
+  
+This allows transcription of the genes that code for proteins needed for DNA replication. 
+Cells progress from G1 to S phase. 
+ 
+ 
+  
+ 
+ 
+ 
+Cells and protein Key area Depth of knowledge required Suggested learning activities A metaphase checkpoint controls 
+progression from metaphase to anaphase 
+ At the metaphase checkpoint, progression is halted until the chromosomes are aligned correctly on the metaphase plate and attached to the spindle microtubules.  An uncontrolled reduction in the rate of the cell cycle may result in degenerative disease 
+  
+ Research the role of cell cycle regulators in degenerative diseases such as Alzheimer’s and Parkinson’s. 
+ An uncontrolled increase in the rate of the cell cycle may result in tumour formation 
+ 
+A proto-oncogene is a normal gene, usually involved in the control of cell growth or division, which can mutate to form a tumourpromoting oncogene 
+  Research the types of mutations associated with cancer, for example the influence of environmental factors and viruses, the conversion of proto-oncogenes into oncogenes, and mutations in  tumour-suppressing genes. 
+ (d) Control of programmed cell death 
+(apoptosis) 
+Apoptosis is triggered by cell death signals that can be external or internal 
+ 
+External death signal molecules bind to a surface receptor protein and trigger a protein cascade within the cytoplasm 
+  
+The production of death signal molecules from lymphocytes is an example of an external death signal. DNA damage is an example of an internal death signal. 
+ 
+  
+ 
+ Cells and protein Key area Depth of knowledge required Suggested learning activities An internal death signal resulting from DNA damage causes activation of p53 tumoursuppressor protein 
+ 
+Both types of death signal result in the activation of caspases (types of protease enzyme) that cause the destruction of the cell 
+ 
+Apoptosis is essential during development of an organism to remove cells no longer required as development progresses or during metamorphosis 
+  
+ 
+  
+ 
+Research and consider apoptosis in development of tetrapod limbs. 
+ Cells may initiate apoptosis in the absence of growth factors 
+  Research the challenges in overcoming apoptosis in maintaining animal cell culture lines. 
+  	 
+
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities 1 Field techniques for biologists 
+(a) Health and safety 
+Aspects of fieldwork can present a hazard  
+ 
+Hazards in fieldwork include adverse weather conditions, difficult terrain, problems associated with isolation, and contact with harmful organisms. 
+  
+ 
+Discuss standard rules for fieldwork safety. Hazard, risk, and control of risk by risk assessment Risk is the likelihood of harm arising from exposure to a hazard. 
+ 
+Risk assessment involves identifying control measures to minimise risk. 
+ 
+Control measures include appropriate equipment, clothing, footwear, and means of communication. 
+  (b) Sampling of wild organisms 
+Sampling should be carried out in a manner that minimises impact on wild species and habitats 
+  
+  
+Participate in fieldwork, using a variety of techniques. Consideration must be given to rare and vulnerable species and habitats that are protected by legislation 
+  Research protected species in Scotland. 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities The chosen technique, point count, transect or remote detection must be appropriate to the species being sampled 
+ 
+Quadrats, of suitable size and shape, or transects are used for plants and other sessile or slow-moving organisms 
+ 
+Capture techniques, such as traps and nets, are used for mobile species 
+ 
+Elusive species can be sampled directly using camera traps or an indirect method, such as scat sampling 
+ A point count involves the observer recording all individuals seen from a fixed point count location. This can be compared to other point count locations or with data from the same location gathered at other times. 
+ 
+ 
+ 
+  
+ 
+ 
+ (c) Identification and taxonomy 
+Identification of an organism in a sample can be made using classification guides, 
+biological keys, or analysis of DNA or protein 
+ 
+Organisms can be classified by both taxonomy and phylogenetics 
+  
+ 
+  
+In the context of fieldwork, sample organisms from a variety of habitats and attempt to classify and catalogue them using keys, guides, and other materials. 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Taxonomy involves the identification and naming of organisms and their classification into groups based on shared characteristics 
+ Classic taxonomy classification is based on morphology. Research the taxonomic groups. 
+ 
+Visit a botanic garden to learn more about the major divisions of plants.  
+ 
+Visit a zoological park to learn more about the animal phyla. Phylogenetics is the study of the evolutionary history and relationships among individuals or groups of organisms 
+ 
+Phylogenetics is changing the traditional classification of many organisms 
+ 
+ Phylogenetics uses heritable traits such as morphology, DNA sequences, and protein structure to make inferences about an organism’s evolutionary history and create a phylogeny (or phylogenetic tree) — a diagrammatic hypothesis of its relationships to other organisms. Genetic evidence can reveal relatedness obscured by divergent or convergent evolution. 
+  
+Read excerpts from Bryan Sykes’s book, The Seven Daughters of Eve.  
+[Sykes B. (2001), The Seven Daughters of 
+Eve, New York: W. W. Norton & Company] 
+ 
+Research the evolution of the pentadactyl limb. Familiarity with taxonomic groupings allows predictions and inferences to be made about the biology of an organism from better-known 
+(model) organisms 
+ 
+ 
+ 
+ 
+ Nematodes, arthropods and chordates are examples of taxonomic groups.  
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Model organisms are those that are either easily studied or have been well studied 
+ 
+Information obtained from them can be applied to other species that are more difficult to study directly 
+ Model organisms, such as the bacterium  E. coli; the flowering plant Arabidopsis thaliana; the nematode C. elegans; the arthropod Drosophila melanogaster (a fruit fly); mice, rats, and zebrafish, which are all chordates, have been very important in the advancement of modern biology. 
+ 
+  
+ (d) Monitoring populations 
+Presence, absence or abundance of indicator species can give information of 
+environmental qualities, such as presence of a pollutant  
+  
+Identify relevant indicator species to classify 
+a habitat, using the British National Vegetation Classification.  
+Susceptible and favoured species can be used to monitor an ecosystem 
+ Absence or reduced population indicates a species is susceptible to some factor in the environment. Abundance or increased population indicates it is favoured by the conditions. 
+ 
+ 
+  
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Procedure for the mark and recapture technique as a method for estimating population size using the formula 
+MC
+N=
+R 
+ 
+Methods of marking animals such as: banding, tagging, surgical implantation, painting and hair clipping 
+ 
+The method of marking and subsequent observation must minimise the impact on the study species 
+ A sample of the population is captured and marked (M) and released. After an interval of time, a second sample is captured (C). If some of the individuals in this second sample are recaptured (R), then the total population 
+MC
+N=
+R 
+ 
+This method assumes that all individuals have an equal chance of capture, that there is no immigration or emigration, and that individuals that are marked and released can mix fully and randomly with the total population. 
+ 
+ 
+ Carry out a mark and recapture experiment using a wild species. 
+ 
+Carry out a mark and recapture simulation in the laboratory. 
+ 
+ (e) Measuring and recording animal behaviour 
+Some of the measurements used to quantify animal behaviour are latency, frequency and duration  
+Latency is the time between the stimulus occurring and the response behaviour. 
+  
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities  Frequency is the number of times a behaviour occurs within the observation period. 
+ 
+Duration is the length of time each behaviour occurs during the observation period. 
+  An ethogram of the behaviours shown by a 
+species in a wild context allows the construction of time budgets 
+ An ethogram lists species-specific behaviours to be observed and recorded in the study. Recording the duration of each of the behaviours in the ethogram, together with the total time of observation, allows the proportion of time spent on each behaviour to be calculated in the time budget. 
+ Use an ethogram and time sampling to compare the behaviour of different individuals of a species. The importance of avoiding 
+anthropomorphism when analysing behaviour 
+ Anthropomorphism can lead to invalid conclusions.  2 Evolution 
+(a) Drift and selection 
+Evolution is the change over time in the proportion of individuals in a population differing in one or more inherited traits 
+ 
+During evolution, changes in allele frequency occur through the non-random processes of natural selection and sexual selection, and the random process of genetic drift  
+ 
+ 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Natural selection acts on genetic variation in populations 
+ Variation in traits arises as a result of mutation. Mutation is the original source of new sequences of DNA. These new sequences can be novel alleles. Most mutations are harmful or neutral, but in rare cases they may be beneficial to the fitness of an individual.  Populations produce more offspring than the environment can support 
+ 
+Individuals with variations that are better suited to their environment tend to survive longer and produce more offspring, breeding to pass on those alleles that conferred an advantage to the next generation 
+ 
+Sexual selection is the non-random process involving the selection of alleles that increase the individual’s chances of mating and producing offspring 
+ 
+Sexual selection may lead to sexual 
+dimorphism 
+ 
+ 
+  
+ 
+Selection results in the non-random increase in the frequency of advantageous alleles and the non-random decrease in the frequency of deleterious alleles. 
+ 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Sexual selection can be due to male-male rivalry and female choice 
+ Male-male rivalry: large size or weaponry increases access to females through conflict. Female choice involves females assessing the fitness of males.  Genetic drift occurs when chance events cause unpredictable fluctuations in allele frequencies from one generation to the next 
+ 
+Genetic drift is more important in small populations, as alleles are more likely to be lost from the gene pool 
+ 
+The importance of bottleneck and founder effects on genetic drift 
+ 
+A gene pool is altered by genetic drift because certain alleles may be underrepresented or over-represented and allele frequencies change 
+  
+ 
+ 
+Population bottlenecks occur when a population size is reduced for at least one generation. 
+ 
+Founder effects occur through the isolation of a few members of a population from a larger population. The gene pool of the new population is not representative of that in the original gene pool. 
+ 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Where selection pressures are strong, the rate of evolution can be rapid 
+ Selection pressures are the environmental factors that influence which individuals in a population pass on their alleles. 
+ 
+They can be biotic: competition, predation, disease, parasitism; or abiotic: changes in temperature, light, humidity, pH, salinity. Study cladograms of MRSA and primate evolution to compare the effect of generation time on rates of evolution. The Hardy-Weinberg (HW) principle states that, in the absence of evolutionary influences, allele and genotype frequencies in a population will remain constant over the generations  
+The conditions for maintaining the HW equilibrium are: no natural selection, random mating, no mutation, large population size and no gene flow (through migration, in or out).   
+The HW principle can be used to determine whether a change in allele frequency is occurring in a population over time 
+ 
+ 
+ 
+Changes suggest evolution is occurring 
+ Use the HW principle to calculate allele, genotype and phenotype frequencies in populations. 
+ 
+p2 +2pq q+ =2 1 
+ 
+p = frequency of dominant allele  q = frequency of recessive allele p2 = frequency of homozygous dominant genotype 
+2pq = frequency of heterozygous genotype q2 = frequency of homozygous recessive genotype 
+ Research the application of the HW principle in medical research. 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (b) Fitness 
+Fitness is an indication of an individual’s ability to be successful at surviving and reproducing 
+  
+Fitness is a measure of the tendency of some organisms to produce more surviving offspring than competing members of the same species. 
+  
+ It refers to the contribution made to the gene pool of the next generation by individual genotypes 
+ 
+Fitness can be defined in absolute or relative terms 
+ 
+Absolute fitness is the ratio between the frequency of individuals of a particular genotype after selection, to those before selection 
+  
+ 
+frequency of a particular genotype after selection
+  
+frequency of a particular genotype before selection
+ 
+If the absolute fitness is 1, then the frequency of that genotype is stable. A value greater than 1 conveys an increase in the genotype and a value less than 1 conveys a decrease.  
+ 
+ Relative fitness is the ratio of the number of surviving offspring per individual of a particular genotype to the number of surviving offspring per individual of the most successful genotype  
+number of surviving offspring per 
+individual of a particular genotype 
+ 
+number of surviving offspring per 
+individual of the most successful genotype  
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (c) Co-evolution 
+Co-evolution is the process by which two or more species evolve in response to selection pressures imposed by each other 
+ 
+A change in the traits of one species acts as a selection pressure on the other species 
+ 
+Co-evolution is frequently seen in pairs of species that have symbiotic interactions  
+ 
+ 
+Symbiosis: co-evolved intimate relationships between members of two different species.  
+ 
+ 
+Research examples of co-evolved symbiotic relationships.  
+The impacts of these relationships can be positive (+), negative (-) or neutral (0) for the individuals involved 
+ 
+Mutualism, commensalism, and parasitism are types of symbiotic interactions 
+  
+Mutualism: both organisms in the interaction are interdependent on each other for resources or other services. As both organisms gain from the relationship, the interaction is (+/+). 
+ 
+Commensalism: only one of the organisms benefits (+/0). 
+ 
+Parasitism: the parasite benefits in terms of energy or nutrients and the host is harmed as the result of the loss of these resources (+/-).  
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities The Red Queen hypothesis states that, in a co-evolutionary relationship, change in the traits of one species can act as a selection pressure on the other species 
+ 
+This means that species in these 
+relationships must adapt to avoid extinction 
+  
+ Read excerpts from Matt Ridley’s book, The Red Queen: Sex and the Evolution of Human Nature. 
+[Ridley M. (2003), The Red Queen: Sex and the Evolution of Human Nature, London: 
+Harper Perennial] 
+ 3 Variation and sexual reproduction (a) Costs and benefits of sexual and asexual reproduction 
+Costs of sexual reproduction: males unable to produce offspring; only half of each parent’s genome passed onto offspring, disrupting successful parental genomes 
+ 
+Benefits outweigh costs due to an increase in genetic variation in the population 
+ 
+  
+ 
+ 
+  
+ 
+Research how the evolutionary importance of sexual reproduction influences experimental design in the life sciences. The natural variation generated means that biologists have to take care when sampling a population and analysing data to make sure that they can distinguish this ‘noise’ from any experimental result or ‘signal’.  
+ 
+Investigate the paradox of the existence of males. 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Genetic variation provides the raw material required for adaptation, giving sexually reproducing organisms a better chance of survival under changing selection pressures 
+ 
+The Red Queen hypothesis to explain the persistence of sexual reproduction 
+ 
+Co-evolutionary interactions between parasites and hosts may select for sexually reproducing hosts 
+  
+ 
+Hosts better able to resist and tolerate parasitism have greater fitness. Parasites better able to feed, reproduce and find new hosts have greater fitness. 
+  
+ 
+ If hosts reproduce sexually, the genetic variability in their offspring reduces the chances that all will be susceptible to infection by parasites 
+ 
+Asexual reproduction can be a successful reproductive strategy as whole genomes are passed on from parent to offspring 
+ 
+Maintaining the genome of the parent is an advantage particularly in very narrow, stable niches or when re-colonising disturbed habitats 
+  
+In asexual reproduction, just one parent can produce daughter cells and establish a colony of virtually unlimited size over time. 
+  
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Vegetative cloning in plants and parthenogenesis in lower plants and animals that lack fertilisation are examples of asexual reproduction in eukaryotes Parthenogenesis is reproduction from a female gamete without fertilisation.   
+Offspring can be reproduced more often and in larger numbers with asexual reproduction 
+ 
+Parthenogenesis is more common in cooler climates, which are disadvantageous to parasites, or regions of low parasite density or diversity 
+  
+  
+Examine reproduction in a parthenogenic organism, such as the laboratory stick insect Carausius morosus (in which offspring are female), and compare with the Komodo dragon (in which offspring are male). Asexually reproducing populations are not able to adapt easily to changes in their environment, but mutations can occur that provide some degree of variation and enable some natural selection and evolution to occur 
+ 
+Organisms that reproduce principally by asexual reproduction also often have mechanisms for horizontal gene transfer between individuals to increase variation, for example the plasmids of bacteria and yeasts 
+  
+Prokaryotes can exchange genetic material horizontally, resulting in faster evolutionary change than in organisms that only use vertical transfer. 
+ 
+Mechanisms of horizontal gene transfer are not required. 
+  
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (b) Meiosis Names of stages are not required. Use microscopy to examine gamete formation or gametes in plants or invertebrates. 
+ Meiosis is the division of the nucleus that results in the formation of haploid gametes from a diploid gametocyte 
+ 
+In diploid cells, chromosomes typically 
+appear as homologous pairs 
+  
+Homologous chromosomes are chromosomes of the same size, same centromere position and with the same sequence of genes at the same loci. 
+  
+ Meiosis I 
+The chromosomes, which have replicated prior to meiosis I, each consist of two genetically identical chromatids attached at the centromere 
+ 
+The chromosomes condense and the homologous chromosomes pair up 
+ 
+Chiasmata form at points of contact between the non-sister chromatids of a homologous pair and sections of DNA are exchanged 
+  
+ 
+ 
+Linked genes are those on the same chromosome. Crossing over can result in new combinations of the alleles of these genes. 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities This crossing over of DNA is random and 
+produces genetically different recombinant 
+chromosomes 
+ 
+Spindle fibres attach to the homologous pairs and line them up at the equator of the spindle 
+ 
+The orientation of the pairs of homologous chromosomes at the equator is random 
+  
+ 
+Each pair of homologous chromosomes is positioned independently of the other pairs, irrespective of their maternal and paternal origin. This is known as independent assortment. 
+  
+ 
+Breed model organisms in the laboratory (for example Drosophila or rapid-cycling Brassica) to demonstrate independent assortment or, if possible, recombination. The chromosomes of each homologous pair are separated and move towards opposite poles 
+ 
+Cytokinesis occurs and two daughter cells form 
+ 
+Meiosis II 
+Each of the two cells produced in meiosis I undergoes a further division during which the sister chromatids of each chromosome are separated 
+ 
+  
+ 
+ 
+A total of four haploid cells are produced.  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (c) Sex determination  Examine data on sex determination in a variety of organisms. 
+ The sex of birds, mammals and some insects is determined by the presence of sex 
+chromosomes 
+  Use Drosophila to investigate sex-linked inheritance patterns. 
+ In most mammals the SRY gene on the Y chromosome determines development of male characteristics  Examine data on inheritance patterns of tortoiseshell cats.  
+Heterogametic (XY) males lack most of the corresponding homologous alleles on the shorter (Y) chromosome 
+  Research X-linked agammaglobulinemia and colour vision defect. This can result in sex-linked patterns of inheritance as seen with carrier females 
+(XBXb) and affected males (XbY) 
+ 
+In homogametic females (XX) one of the two X chromosomes present in each cell is randomly inactivated at an early stage of development 
+ 
+X chromosome inactivation prevents a double dose of gene products, which could be harmful to cells 
+  
+X chromosome inactivation is a process by which most of one X chromosome is inactivated. 
+  
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Carriers are less likely to be affected by any 
+deleterious mutations on these X 
+chromosomes 
+ 
+As the X chromosome inactivated in each cell is random, half of the cells in any tissue will have a working copy of the gene in question 
+ 
+Hermaphrodites are species that have functioning male and female reproductive organs in each individual 
+  
+ 
+  
+ 
+Compare the flowers of hermaphroditic and unisexual plants. 
+ They produce both male and female gametes 
+and usually have a partner with which to 
+exchange gametes 
+ 
+The benefit to the individual organism is that if the chance of encountering a partner is an uncommon event, there is no requirement for that partner to be of the opposite sex 
+ 
+For other species, environmental rather than genetic factors determine sex and sex ratio 
+ 
+Sex can change within individuals of some species as a result of size, competition, or parasitic infection  
+ 
+Environmental sex determination in reptiles is controlled by environmental temperature of egg incubation. 
+ 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities In some species the sex ratio of offspring can be adjusted in response to resource availability 
+   4 Sex and behaviour 
+(a) Parental investment 
+Comparison of sperm and egg production in relation to number and energy store 
+ 
+Greater investment by females 
+  
+ 
+ 
+Female investment in the egg structure in non-mammals or in the uterus and during gestation in mammals. 
+  
+ 
+ 
+ Parental investment is costly but increases the probability of production and survival of young 
+ 
+Classification of r-selected (r-strategists) and K-selected (K-strategists) organisms based on level of parental investment in offspring 
+and number of offspring produced 
+  
+Characteristics of r-selected species: smaller; have a shorter generation time; mature more rapidly; reproduce earlier in their lifetime, often only once; produce a larger number of smaller offspring, each of which receives only a smaller energy input; limited parental care; most offspring will not reach adulthood. 
+ 
+ 
+ 
+  
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities  Characteristics of K-selected species: larger and live longer; mature more slowly; can reproduce many times in their lifetime; produce relatively few, larger offspring; high level of parental care; many offspring have a high probability of surviving to adulthood. 
+  r-selection tends to occur in unstable environments where the species has not reached its reproductive capacity, whereas Kselection tends to occur in stable environments 
+ 
+Comparison of costs and benefits of external and internal fertilisation 
+  
+External fertilisation 
+? benefits: very large numbers of offspring can be produced 
+? costs: many gametes predated or not fertilised; no or limited parental care; few offspring survive 
+ 
+Internal fertilisation 
+? benefits: increased chance of successful fertilisation; fewer eggs needed; offspring can be retained internally for protection and/or development; higher offspring survival rate 
+? costs: a mate must be located, which requires energy expenditure; requires direct transfer of gametes from one partner to another  
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (b) Reproductive behaviours and mating systems in animals 
+Mating systems are based on how many mates an individual has during one breeding season 
+ 
+These range from polygamy (polygyny and polyandry) to monogamy 
+  
+ 
+Monogamy: the mating of a pair of animals to the exclusion of all others. 
+ 
+Polygamy: individuals of one sex have more than one mate. 
+ 
+Polygyny: one male mates exclusively with a group of females. 
+ 
+Polyandry: one female mates with a number of males in the same breeding season. 
+  
+ 
+ Many animals have mate-selection courtship rituals 
+ 
+Successful courtship behaviour in birds and fish can be a result of species-specific sign stimuli and fixed action pattern responses 
+ 
+  
+ Courtship in the field: create an ethogram observing the ritualised courtship displays of water birds, such as grebes or ducks. 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Sexual selection selects for characteristics that have little survival benefit for the individual, but increase their chances of mating  Courtship in the laboratory: observe stickleback or Drosophila courtship; investigate sexual selection in different Drosophila varieties.  
+Many species exhibit sexual dimorphism as a product of sexual selection 
+ Females are generally inconspicuous; males usually have more conspicuous markings, structures and behaviours. 
+  Reversed sexual dimorphism occurs in some species 
+ 
+Female choice involves females assessing honest signals of the fitness of males 
+  
+Honest signals can indicate favourable alleles that increase the chances of survival of offspring (fitness) or a low parasite burden suggesting a healthy individual.  
+Research honest signalling in lekking species. In lekking species, males gather to display at a lek, where female choice occurs 
+  
+Some bird species exhibit lekking behaviour. Dominant males occupy the centre of the lek, with subordinates and juveniles at the fringes as ‘satellite’ males. During the display, female choice occurs.  Success in male-male rivalry through conflict (real or ritualised), increases access to 
+females for mating 
+ 
+  
+Males will fight for dominance and access to females, often using elaborate ‘weapons’ such as antlers, tusks, horns.  
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities 5 Parasitism 
+(a) (i) Niche 
+An ecological niche is a multi-dimensional summary of tolerances and requirements of a species 
+ 
+A species has a fundamental niche that it occupies in the absence of any interspecific competition 
+ 
+A realised niche is occupied in response to interspecific competition 
+ 
+As a result of interspecific competition, competitive exclusion can occur, where the niches of two species are so similar that one declines to local extinction 
+ 
+Where the realised niches are sufficiently different, potential competitors can co-exist by resource partitioning 
+ 
+(ii) The parasite niche 
+Parasitism is a symbiotic interaction between a parasite and its host (+/-) 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research the niche of C. difficile and the use of faecal transplants. 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities A parasite gains benefit in terms of nutrients at the expense of its host 
+ 
+Unlike in a predator–prey relationship, the reproductive potential of the parasite is greater than that of the host 
+ 
+Most parasites have a narrow (specialised) niche as they are very host-specific 
+ 
+As the host provides so many of the parasite’s needs, many parasites are degenerate, lacking structures and organs found in other organisms 
+ 
+An ectoparasite lives on the surface of its host, whereas an endoparasite lives within the tissues of its host 
+  
+ 
+ 
+ 
+ Research the ecology, evolution, reproduction, and physiology of a selected human parasite. 
+ 
+ 
+ 
+ 
+ (b) Parasitic life cycles 
+Some parasites require only one host to complete their life cycle 
+ 
+Many parasites require more than one host to complete their life cycle 
+  
+ 
+The definitive host is the organism on or in which the parasite reaches sexual maturity. Intermediate hosts may also be required for the parasite to complete its life cycle.  
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities A vector plays an active role in the transmission of the parasite and may also be a host 
+ 
+The human disease malaria is caused by 
+Plasmodium 
+  
+An infected mosquito, acting as a vector, bites a human. Plasmodium enters the human bloodstream. Asexual reproduction occurs in the liver and then in the red blood cells. When the red blood cells burst gametocytes are released into the bloodstream. Another mosquito bites an infected human and the gametocytes enter the mosquito, maturing into male and female gametes, allowing sexual reproduction to now occur. The mosquito can then infect another human host.  
+ Schistosomes cause the human disease schistosomiasis 
+  
+Schistosomes reproduce sexually in the human intestine. The fertilised eggs pass out via faeces into water where they develop into larvae. The larvae then infect water snails, where asexual reproduction occurs. This produces another type of motile larvae, which escape the snail and penetrate the skin of a human, entering the bloodstream. 
+ 
+  
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Viruses are parasites that can only replicate inside a host cell 
+ 
+Viruses contain genetic material in the form of DNA or RNA, packaged in a protective protein coat 
+ 
+Some viruses are surrounded by a phospholipid membrane derived from host cell materials 
+ 
+The outer surface of a virus contains antigens that a host cell may or may not be able to detect as foreign 
+ 
+Viral life cycle stages: infection of host cell with genetic material, host cell enzymes replicate viral genome, transcription of viral genes and translation of viral proteins, assembly and release of new viral particles 
+ 
+RNA retroviruses use the enzyme reverse transcriptase to form DNA, which is then inserted into the genome of the host cell 
+ 
+Viral genes can then be expressed to form new viral particles 
+ Specific examples of viral life cycles are not required. 
+ 
+ 
+ 
+ 
+ 
+ Investigate the effects of a phage virus on bacterial growth. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (c) Transmission and virulence 
+Transmission is the spread of a parasite to a host 
+  
+  
+Investigate the spread of a plant pathogen in a variety of planting densities and humidities. 
+ Virulence is the harm caused to a host species by a parasite 
+ 
+Ectoparasites are generally transmitted through direct contact  
+ 
+Endoparasites of the body tissues are often transmitted by vectors or by consumption of intermediate hosts 
+ 
+Factors that increase transmission rates: 
+ 
+? the overcrowding of hosts when they are at high density 
+? mechanisms, such as vectors and waterborne dispersal stages, that allow the parasite to spread even if infected hosts are incapacitated 
+ 
+Host behaviour is often exploited and modified by parasites to maximise transmission 
+  
+ 
+ 
+ 
+Alteration of host foraging, movement, sexual behaviour, habitat choice or anti-predator behaviour.  
+ 
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities The host behaviour becomes part of the extended phenotype of the parasite 
+ 
+Parasites often suppress the host immune system and modify host size and reproductive rate in ways that benefit the parasite growth, reproduction or transmission 
+  
+  
+ (d) Defence against parasitic attack 
+Immune response in mammals has both nonspecific and specific aspects 
+ 
+Non-specific defences 
+Physical barriers, chemical secretions, inflammatory response, phagocytes, and natural killer cells destroying cells infected with viruses are examples of non-specific defences 
+  
+ 
+ 
+Epithelial tissue blocks the entry of parasites; hydrolytic enzymes in mucus, saliva and tears destroy bacterial cell walls; low pH environments of the secretions of stomach, vagina and sweat glands denatures cellular proteins of pathogens. 
+ 
+Injured cells release signalling molecules. This results in enhanced blood flow to the site, bringing antimicrobial proteins and phagocytes. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities  Killing of parasites using powerful enzymes contained in lysosomes, by engulfing them and storing them inside a vacuole in the process of phagocytosis. 
+ 
+Natural killer cells can identify and attach to cells infected with viruses, releasing chemicals that lead to cell death by inducing apoptosis. 
+  Specific cellular defences 
+A range of white blood cells constantly circulate, monitoring the tissues 
+ 
+If tissues become damaged or invaded, cells release cytokines that increase blood flow resulting in non-specific and specific white blood cells accumulating at the site of infection or tissue damage 
+ 
+Mammals contain many different lymphocytes, each possessing a receptor on its surface, which can potentially recognise a parasite antigen 
+ 
+ 
+  
+ 
+ 
+Specific lymphocyte names are not required.  
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities Binding of an antigen to a lymphocyte’s receptor selects that lymphocyte to then divide and produce a clonal population of this lymphocyte 
+ 
+Some selected lymphocytes will produce antibodies, others can induce apoptosis in parasite-infected cells 
+ 
+Antibodies possess regions where the amino acid sequence varies greatly between 
+different antibodies 
+ 
+This variable region gives the antibody its specificity for binding antigen 
+ 
+When the antigen binds to this binding site the antigen-antibody complex formed can result in inactivation of the parasite, rendering it susceptible to a phagocyte, or can 
+stimulate a response that results in cell lysis 
+ 
+Memory lymphocyte cells are also formed 
+  
+ 
+ 
+ 
+ 
+Initial antigen exposure produces memory lymphocyte cells specific for that antigen that can produce a secondary response when the same antigen enters the body in the future. When this occurs antibody production is  
+ 
+ 
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities enhanced in terms of speed of production, concentration in blood and duration. 
+ (e) Immune evasion 
+Parasites have evolved ways of evading the immune system 
+ 
+Endoparasites mimic host antigens to evade detection and modify host immune response to reduce their chances of destruction 
+ 
+Antigenic variation in some parasites allows them to change between different antigens during the course of infection of a host 
+ 
+It may also allow re-infection of the same host with the new variant 
+ 
+Some viruses escape immune surveillance by integrating their genome into host genomes, existing in an inactive state known as latency 
+ 
+The virus becomes active again when 
+favourable conditions arise 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Compare antigenic variation in trypanosomes with antigenic variation in the influenza virus. 
+ 
+ 
+ 
+Organisms and evolution Key area Depth of knowledge required Suggested learning activities (f) Challenges in treatment and control  Research how attempts to disrupt the lifecycle of Plasmodium in the control of malaria have resulted in the loss of apex predators due to bio-magnification of the organochloride insecticide, DDT. 
+ Epidemiology is the study of the outbreak and spread of infectious disease 
+ 
+The herd immunity threshold is the density of resistant hosts in the population required to 
+prevent an epidemic 
+ 
+Vaccines contain antigens that will elicit an 
+immune response 
+ 
+The similarities between host and parasite metabolism makes it difficult to find drug compounds that only target the parasite 
+ 
+Antigenic variation has to be reflected in the design of vaccines 
+ 
+Some parasites are difficult to culture in the laboratory making it difficult to design vaccines 
+  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Research the problems associated with the development of successful vaccines for HIV and malaria. Organisms and evolution Key area Depth of knowledge required Suggested learning activities Challenges arise where parasites spread most rapidly as a result of overcrowding or tropical climates 
+ Overcrowding can occur in refugee camps that result from war or natural disaster or rapidly growing cities in LEDCs. 
+ Research the decline of effectiveness of chemical treatments over time. These conditions make co-ordinated treatment and control programs difficult to achieve 
+ 
+Civil engineering projects to improve sanitation combined with co-ordinated vector control may often be the only practical control strategies 
+ 
+Improvements in parasite control reduce child mortality and result in population-wide improvements in child development and intelligence, as individuals have more resources for growth and development 
+  
+ 
+  
+ 
+Research parasitism and childhood. 
+ 
+Research the impact of parasitism on child mortality rates in different parts of the world. 
+ 
+Consider the benefits of intervention programmes in terms of childhood development and intelligence.  
+  
+ 	 
+
+Investigative biology Key area Depth of knowledge required Suggested learning activities 1 Scientific principles and process 
+(a) Scientific method 
+Scientific cycle — observation; construction of a testable hypothesis; experimental design; gathering, recording, and analysis of data; evaluation of results and conclusions; the formation of a revised hypothesis where necessary 
+  
+ 
+In science, refinement of ideas is the norm, and scientific knowledge can be thought of as the current best explanation, which may then be updated after evaluation of further experimental evidence.  
+ 
+Research Karl Popper’s concept of 
+falsifiability as the basis for scientific thinking. The null hypothesis proposes that there will be no statistically significant effect as a result of the experiment treatment 
+ Failure to find an effect (a negative result) is a valid finding, as long as an experiment is well designed. Conflicting data or conclusions can be resolved through careful evaluation or can lead to further experimentation. 
+ Research recent examples of scientific breakthroughs to identify any examples of unexpected results, conflicting data, or creative experimentation. If there is evidence for an effect, unlikely due to chance, then the null hypothesis is rejected 
+ 
+Scientific ideas only become accepted once they have been checked independently 
+  
+Effects must be reproducible; one-off results are treated with caution.  
+ (b) Scientific literature and communication The importance of publication of methods, data, analysis, and conclusions in scientific reports so that others are able to repeat an experiment 
+  
+Common methods of sharing original scientific findings include seminars, talks and posters at conferences, and publishing in academic journals.  
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities The importance of peer review and critical evaluation by specialists with expertise in the relevant field 
+ Most scientific publications use peer review. Specialists with expertise in the relevant field assess the scientific quality of a submitted manuscript and make recommendations regarding its suitability for publication. 
+ Compare the dispassionate approach taken in presenting scientific results with the passionate reality of scientific investigation, described in Frederick Grinnell’s book,  The Everyday Practice of Science: Where Intuition and Passion Meet Objectivity and Logic.  The use of review articles, which summarise current knowledge and recent findings in a particular field 
+ 
+Critical evaluation of science coverage in the wider media 
+ 
+Increasing the public understanding of science, and the issue of misrepresentation of science 
+  
+ 
+ [Grinnell F. (2008), The Everyday Practice of 
+Science: Where Intuition and Passion Meet 
+Objectivity and Logic, Oxford: Oxford University Press] 
+ 
+ 
+ (c) Scientific ethics 
+Importance of integrity and honesty — unbiased presentation of results, citing and providing references, avoiding plagiarism 
+  
+While judgements and interpretations of scientific evidence may be disputed, integrity and honesty are of key importance in science. The replication of experiments by others reduces the opportunity for dishonesty or the deliberate misuse of science. 
+  
+Discuss excerpts from Ben Goldacre’s book, 
+Bad Science  
+Goldacre B. (2008), Bad Science, London: 
+Fourth Estate  
+ 
+Use a standard system, such as Harvard or Vancouver, to make appropriate citations in a piece of scientific writing and to construct a 
+Investigative biology Key area Depth of knowledge required Suggested learning activities reference list that allows another investigator to locate your source material. 
+ In animal studies, the concepts of replacement, reduction, and refinement are used to avoid, reduce or minimise the harm to animals 
+ 
+Informed consent, the right to withdraw, and confidentiality in human studies 
+  
+  
+Discuss the implications of the British 
+Psychological Society’s ethical guidelines on school-based investigations on humans. 
+ The justification for scientific research and 
+the assessment of any risks 
+ The value or quality of science investigations must be justifiable in terms of the benefits of its outcome, including the pursuit of scientific knowledge. As a result of the risks involved, many areas of scientific research are highly regulated and licensed by governments. 
+  The risk to and safety of subject species, individuals, investigators and the environment must be taken into account 
+ 
+Legislation, regulation, policy and funding can all influence scientific research 
+ 
+ 
+  
+Legislation limits the potential for the misuse of studies and data.  
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities 2 Experimentation 
+Validity, reliability, accuracy and precision  
+Validity: variables controlled so that any measured effect is likely to be due to the independent variable. 
+ 
+Reliability: consistent values in repeats and independent replicates. 
+ 
+Accuracy: data, or means of data sets, are close to the true value. 
+ 
+Precision: measured values are close to each other. 
+  
+ (a) Pilot study 
+Integral to the development of an investigation, a pilot study is used to help plan procedures, assess validity and check techniques  
+  
+Follow a multi-step protocol, such as protein electrophoresis, mitotic index, or cell cycle mutation in yeast, to appreciate the need to practise difficult techniques.  
+This allows evaluation and modification of experimental design 
+ 
+The use of a pilot study can ensure an appropriate range of values for the independent variable 
+  
+  
+Use a pilot study to establish ranges for variables in an investigation, such as enzyme activity or Daphnia heart rate. 
+Investigative biology Key area Depth of knowledge required Suggested learning activities In addition, it allows the investigator to establish the number of repeat measurements required to give a representative value for each independent datum point 
+   (b) Experimental design 
+(i) Independent and dependent variables  
+An independent variable is the variable that is changed in a scientific experiment. 
+ 
+A dependent variable is the variable being measured in a scientific experiment. 
+  
+ Independent and dependent variables can be continuous or discrete 
+ 
+Experiments involve the manipulation of the independent variable by the investigator 
+ 
+The experimental treatment group is compared to a control group 
+ 
+The use and limitations of simple (one independent variable) and multifactorial (more than one independent variable) experimental designs 
+  
+ 
+ 
+The control of laboratory conditions allows simple experiments to be conducted more easily than in the field. However, a drawback of a simple experiment is that its findings may not be applicable to a wider setting. 
+  
+ 
+ 
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities  A multifactorial experiment involves a combination of more than one independent variable or combination of treatments. 
+  Investigators may use groups that already exist, so there is no truly independent variable 
+ 
+Observational studies are good at detecting correlation, but since they do not directly test a hypothesis, they are less useful for 
+determining causation 
+  
+In observational studies the independent variable is not directly controlled by the investigator, for ethical or logistical reasons. 
+  
+Carry out an observational study in which the investigator groups the independent variable, such as a study of the effect of gender in a human study. (ii) Confounding variables 
+Due to the complexities of biological systems, other variables besides the independent variable may affect the dependent variable 
+  
+  
+Design and carry out a simple laboratory true experiment, such as an enzyme experiment, where confounding variables are tightly controlled. 
+ These confounding variables must be held constant if possible, or at least monitored so that their effect on the results can be accounted for in the analysis 
+ 
+ 
+  Design and carry out a field observational study, such as an environmental transect, where the independent variable is not under direct control and where confounding variables cannot be tightly controlled. 
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities In cases where confounding variables cannot easily be controlled, a randomised block design could be used 
+ Randomised blocks of treatment and control groups can be distributed in such a way that the influence of any confounding variable is likely to be the same across the treatment and control groups. 
+  (iii) Controls 
+Control results are used for comparison with the results of treatment groups 
+ 
+Negative and positive controls may be used 
+  
+ 
+The negative control provides results in the absence of a treatment. A positive control is a treatment that is included to check that the system can detect a positive result when it occurs. 
+  
+ 
+Design an experiment with positive and negative controls, such as a laboratory investigation using an enzyme. 
+ Use of placebos and the placebo effect 
+ Placebos can be included as a treatment without the presence of the independent variable being investigated. 
+ 
+Placebo effect is a measurable change in the dependent variable as a result of a patient’s expectations, rather than changes in the independent variable. 
+ 
+ 
+ 
+  
+Investigative biology Key area Depth of knowledge required Suggested learning activities (iv) In vivo and in vitro studies 
+In vitro refers to the technique of performing a given procedure in a controlled environment outside of a living organism 
+ 
+In vivo refers to experimentation using a whole, living organism 
+ 
+Advantages and disadvantages of in vivo and in vitro studies 
+  
+Examples of in vitro experiments: cells growing in culture medium, proteins in solution, purified organelles. 
+ 
+  
+ 
+ 
+ (c) Sampling 
+Where it is impractical to measure every individual, a representative sample of the population is selected 
+ 
+The extent of the natural variation within a population determines the appropriate sample size 
+ 
+More variable populations require a larger sample size 
+ 
+A representative sample should share the same mean and the same degree of variation about the mean as the population as a whole 
+  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities Random, systematic and stratified sampling 
+ In random sampling, members of the population have an equal chance of being selected. In systematic sampling, members of a population are selected at regular intervals. In stratified sampling, the population is divided into categories that are then sampled proportionally. 
+ In ecological studies, use random numbers to select quadrats for sampling. 
+ 
+Establish sample size by determining a travelling mean or the cumulative total of species in quadrats. 
+ 
+Use line or belt transects to systematically sample an environment. 
+ 
+Use stratified sampling to sample habitats that are not uniform, using a standard formula to calculate the number of samples from each area. 
+ (d) Reliability 
+Variation in experimental results may be due to the reliability of measurement methods and/or inherent variation in the specimens 
+ 
+The precision and accuracy of repeated 
+measurements 
+  
+ 
+The reliability of measuring instruments or procedures can be determined by repeated measurements or readings of an individual datum point. The variation observed indicates the precision of the measurement instrument or procedure but not necessarily its accuracy. 
+  
+ 
+Determine the precision of a measuring procedure by repeated measurements, and the accuracy of a measuring procedure by calibration against a known standard. 
+Investigative biology Key area Depth of knowledge required Suggested learning activities The natural variation in the biological material being used can be determined by measuring a sample of individuals from the population 
+ 
+The mean of these repeated measurements will give an indication of the true value being measured 
+ 
+The range of values is a measure of the extent of variation in the results 
+ 
+If there is a narrow range then the variation is low 
+ 
+Independent replication should be carried out to produce independent data sets 
+ 
+These independent data sets should be compared to determine the reliability of the results 
+  
+ 
+ 
+ 
+Overall results can only be considered reliable if they can be achieved consistently. 
+ 
+  
+ 
+ 
+ 
+ 
+ (e) Presentation of data 
+Discrete and continuous variables give rise to qualitative, quantitative, or ranked data 
+  
+Qualitative data is subjective and descriptive. 
+ 
+Quantitative data can be measured objectively, usually with a numerical value. 
+  
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities  Ranked data refers to the data transformation in which numerical values are replaced by their rank when the data are sorted from lowest to highest.  The type of variable being investigated has consequences for any graphical display or statistical tests that may be used 
+ 
+Identification and calculation of mean, 
+median and mode 
+ 
+Use of box plots to show variation within and between data sets 
+  
+ 
+ 
+Median, lower quartile, upper quartile and inter-quartile range.  
+ 
+ Interpret error bars on graphical data 
+ 
+Correlation exists if there is a relationship 
+between two variables 
+  
+Correlation is an association and does not imply causation. Causation exists if the changes in the values of the independent variable are known to cause changes to the value of the dependent variable  
+ Positive and negative correlations 
+  
+A positive correlation exists when an increase in one variable is accompanied by an increase in the other variable. 
+  
+Investigative biology Key area Depth of knowledge required Suggested learning activities  A negative correlation exists when an increase in one variable is accompanied by a decrease in the other variable. 
+  Strong and weak correlations 
+ Strength of correlation is proportional to spread of values from line of best fit. 
+ 
+Correlation values are not required. 
+  3 Reporting and critical evaluation of 
+	 	biological research 
+(a) Background information 
+Scientific reports should contain an explanatory title, an abstract including aims and findings, an introduction explaining the purpose and context of the study including the use of several sources, supporting statements, citations, and references 
+  
+ 
+Background information should be clear, relevant and unambiguous. A title should provide a succinct explanation of the study. An abstract should outline the aims and findings of the study.  
+ 
+An aim must link the independent and dependent variables. 
+ 
+The introduction should provide any information required to support: choices of method, results, and discussion. An introduction should explain why the study has been carried out and place the study in the context of existing understanding. Key points should be summarised and supporting and  
+ 
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities contradictory information identified. Several sources should be selected to support statements, and citations and references should be in a standard form. Decisions regarding basic selection of study methods and organisms should be covered, as should the aims and hypotheses. 
+ (b) Reporting and evaluating experimental  	design 
+A method section should contain sufficient information to allow another investigator to repeat the work 
+ 
+Experimental design should address the intended aim and test the hypothesis 
+ 
+Treatment effects should be compared to controls 
+ 
+Any confounding variables should be taken into account or standardised across treatments 
+ 
+  
+ 
+The validity and reliability of the experimental design should be evaluated. An experimental design that does not address the intended aim or test the hypothesis is invalid. 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Investigative biology Key area Depth of knowledge required Suggested learning activities The validity of an experiment may be compromised when factors other than the independent variable influence the value of the dependent variable 
+ 
+The effect of selection bias and sample size on representative sampling  
+Selection bias is the selection of a sample in a non-random way, so that the sample is not representative of the whole population. Selection bias may have prevented a representative sample being selected.  
+ 
+Sample size may not be sufficient to decide without bias whether the change to the independent variable has caused an effect in the dependent variable. 
+  
+ (c) Data analysis 
+The appropriate use of graphs, mean, median, mode, standard deviation and range in interpreting data 
+  
+In results, data should be presented in a clear, logical manner suitable for analysis. Consideration should be given to the validity of outliers and anomalous results. 
+  
+ Statistical tests are used to determine whether the differences between the means are likely or unlikely to have occurred by chance 
+ Knowledge of specific statistical tests is not required. Explore error bars showing standard deviation, standard errors, or range. These could be used in project work, where appropriate. 
+Investigative biology Key area Depth of knowledge required Suggested learning activities A statistically significant result is one that is unlikely to be due to chance alone 
+ 
+Error bars indicate the variability of data 
+around a mean 
+ 
+If the treatment mean differs from the control mean sufficiently for their error bars not to overlap, this indicates that the difference may be significant 
+  
+ 
+  
+ 
+ (d) Evaluating results and conclusions Conclusions should refer to the aim, the results and the hypothesis 
+ 
+The validity and reliability of the experimental design should be taken into account 
+ 
+Consideration should be given as to whether the results can be attributed to correlation or causation 
+ 
+Evaluation of conclusions should also refer to existing knowledge and the results of other investigations 
+  
+ 
+ 
+ 
+Meaningful scientific discussion would include consideration of findings in the context of existing knowledge and the results of other investigations. Scientific writing should reveal an awareness of the contribution of scientific research to  
+ 
+ 
+ 
+ Investigative biology Key area Depth of knowledge required Suggested learning activities increasing scientific knowledge, and to the social, economic and industrial life of the community. 
+  
+ 
+
+Preparing for course assessment 
+Each course has additional time, which may be used at the discretion of teachers and/or lecturers, to enable candidates to prepare for course assessment. This time may be used at various points throughout the course for consolidation and support. It may also be used towards the end of the course for further integration, revision and preparation. 
+ 
+Throughout the course, teachers and/or lecturers should find opportunities: 
+ 
+? for identifying particular aspects of work that need reinforcement and support  
+? to practise skills of scientific inquiry and investigation to prepare for the project ? to practise question paper techniques  
+ 
+Developing skills for learning, skills for life and skills for work 
+Teachers and/or lecturers should identify opportunities throughout the course for candidates to develop skills for learning, skills for life and skills for work. 
+ 
+Candidates should be aware of the skills they are developing and teachers and/or lecturers can provide advice on opportunities to practise and improve them.  
+ 
+SQA does not formally assess skills for learning, skills for life and skills for work. 
+ 
+There may also be opportunities to develop additional skills depending on the approach centres use to deliver the course. This is for individual teachers and lecturers to manage. 
+ 
+The following skills for learning, skills for life and skills for work are significantly developed. 
+ 
+Literacy 
+Writing means the ability to create texts that communicate ideas, opinions and information, to meet a purpose and within a context. In this context, ‘texts’ are defined as word-based materials (sometimes with supporting images) that are written, printed, Braille or displayed on screen. These are technically accurate for the purpose, audience and context. 
+ 
+Reading means the ability to understand and interpret ideas, opinions and information presented in texts, for a purpose and within a context. It includes handling information to make reasoned and informed decisions. 
+ 
+1.1 	Reading  
+Candidates understand and interpret a variety of scientific texts. 
+ 
+1.2 	Writing 
+Candidates develop and use skills to effectively communicate key areas of biology, make informed decisions and describe, clearly, biological issues in various media forms. 
+Candidates have the opportunity to communicate applied knowledge and understanding throughout the course, with an emphasis on applications and environmental, ethical and social impacts. 
+ 
+There are opportunities to develop the literacy skills of listening and reading when gathering and processing information in biology. 
+ 
+Numeracy 
+Numeracy is the ability to use numbers in order to solve problems by counting, doing calculations, measuring, and understanding graphs and charts. It is also the ability to understand the results. Candidates have opportunities to extract, process and interpret information presented in numerous formats, including tabular and graphical. Practical work provides opportunities to develop time and measurement skills. 
+ 
+2.1 	Number processes 
+Number processes means solving problems arising in everyday life through carrying out calculations, when dealing with data and results from experiments/investigations and everyday class work, making informed decisions based on the results of these calculations, and understanding these results. 
+ 
+2.2 	Money, time and measurement 
+Candidates use their understanding of time and measurement to solve problems and handle data in a variety of biology contexts, including practical and investigative. 
+ 
+2.3 	Information handling 
+Information handling means being able to gather and interpret biological data in tables, charts and other graphical displays to draw sensible conclusions throughout the course. It involves interpreting the data and considering its reliability in making reasoned deductions and informed decisions. It also involves an awareness and understanding of the chance of events happening. 
+ 
+Thinking skills 
+This is the ability to develop the cognitive skills of remembering and identifying, understanding and applying. The course allows candidates to develop skills of applying, analysing and evaluating. Candidates can analyse and evaluate practical work and data by reviewing the process, identifying issues and forming valid conclusions. They can demonstrate understanding and application of key areas, and explain and interpret information and data. 
+ 
+5.3 	Applying 
+Applying is the ability to use existing information to solve biological problems in different contexts, and to plan, organise and complete a task, such as the project. 
+ 
+5.4 	Analysing and evaluating 
+This is the ability to solve problems in biology and make decisions that are based on available information. It may involve reviewing and evaluating relevant information and/or prior knowledge to provide an explanation and consider potential solutions. It may build on selecting and/or processing information, so is a higher-order skill. 
+ 
+5.5 	Creating 
+This is the ability to design something innovative, or to further develop an existing thing by adding new dimensions or approaches. In particular, candidates can demonstrate their creativity when planning and designing biology experiments or investigations. They have the opportunity to be innovative and to make, write, say or do something new. 
+ 
+Candidates also have opportunities to develop the skills of working with others and citizenship. 
+ 
+Working with others 
+Learning activities provide many opportunities, in all areas of the course, for candidates to work with others. In particular, practical activities and investigations offer opportunities for group work, which is an important aspect of biology. 
+ 
+Citizenship 
+Candidates develop citizenship skills when considering the applications of biology in our lives, as well as environmental and ethical implications. 
+ 	 
+Appendix 2: question paper brief 
+ Marks Component Knowledge and understanding Skills Total question paper 70+/-5 30+/-5 100  
+Knowledge and understanding/skills Range of marks ? demonstrating knowledge and understanding of biology by making statements, describing information, providing explanations and integrating knowledge min 25 ? applying knowledge and understanding of biology to new situations, interpreting information and solving problems 25 ± 5 ? planning or designing experiments/investigations, including safety measures, to test given hypothesis or to illustrate particular effects 25–35 ? selecting information from a variety of sources ? processing information/data (using calculations and units, where appropriate) ? making predictions and generalisations based on evidence/information ? drawing valid conclusions and giving explanations supported by evidence/justification ? identifying sources of error and suggesting improvements to experiments  
+A maximum of two extended-response questions, 12–15 marks in total: 
+ 
+? One of the extended-response questions will include a choice of topic: 8–10 marks. 
+? One of the extended-response questions will not include options: 4–5 marks. 
+ One extensive data-handling question: 7–10 marks One large experimental design question: 5–9 marks  Grade-A marks: approximately 25%  
+ 	 
+Administrative information 
+ 
+
+ 
+Published: 	August 2022 (version 4.1) 
+ 
+
+ 
+History of changes  
+ 
+Version Description of change  Date 2.0 Course support notes and question paper brief added as appendices. 
+ May 2019 3.0 Course specification amended for clarification and consistency, as follows. 
+ 
+Amendments made to course specification and column 1 of the course support notes: key area ‘organisms and evolution’  sub-section (b) fitness: ‘number’ changed to ‘frequency’. 
+ 
+Amendments made to course specification and column 1 of the course support notes: key area ‘organisms and evolution’  sub-section (c) sex determination: removed ‘or temperature’. 
+ 
+Column 1 of the course support notes: key area ‘cells and proteins’ sub-section: (f) aseptic technique and cell culture: sentence added: ‘In culture, primary cell lines can divide a limited number of times, whereas tumour cells lines can perform unlimited divisions’ to address an inconsistency, as the sentence appears in the course specification on page 6. 
+ June 2020 4.0 Course specification and course support notes amended for clarification as follows. 
+ 
+Wording amended in ‘Organisms and Evolution’ key area on pages 23 and 24, and page 102 (key area column) from: 
+‘Ectoparasites are generally transmitted through direct contact or by consumption of intermediate hosts 
+ 
+Endoparasites of the body tissue are often transmitted by vectors’  
+ 
+to: ‘Ectoparasites are generally transmitted through direct contact  
+ 
+Endoparasites of the body tissue are often transmitted by vectors or by consumption of intermediate hosts’ 
+ April 2022 Version Description of change  Date 4.1 Appendix 2: question paper brief: 
+ 
+? Applying knowledge range of marks updated to 25 ± 5. 
+? Bullet point on ‘presenting information appropriately, in a variety of forms’ removed as no longer required. 
+? ‘Additional information’ section updated to amend percentage of grade-A marks to ‘approximately 25%’. 
+ August 2022  
+Note: please check SQA’s website to ensure you are using the most up-to-date version of this document. 
+ 
+ 
+ 
+ 
+ 
+ 
+© Scottish Qualifications Authority 2014, 2019, 2020, 2022 
+
+
+
+
+
+
+Version 4.1 	1 
+
+Version 4.1 	1 
+
+Version 4.1 	1 
+
+Version 4.1 	44 
+
+Version 4.1 	44 
+
+Version 4.1 	44 
+
+Version 4.1 	125 
+
+Version 4.1 	125 
+
+Version 4.1 	125 
+
