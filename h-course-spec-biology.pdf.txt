@@ -1,0 +1,2174 @@
+
+ 
+Higher Biology 
+ 
+Course code: C807 76 Course assessment code: X807 76 SCQF: level 6 (24 SCQF credit points) Valid from: session 2022–23  
+ 
+ 
+This document provides detailed information about the course and course assessment to ensure consistent and transparent assessment year on year. It describes the structure of the course and the course assessment in terms of the skills, knowledge and understanding that are assessed. 
+ 
+This document is for teachers and lecturers and contains all the mandatory information you need to deliver the course. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The information in this publication may be reproduced in support of SQA qualifications only on a non-commercial basis. If it is reproduced, SQA must be clearly acknowledged as the source. If it is to be reproduced for any other purpose, written permission must be obtained from permissions@sqa.org.uk. 
+ 
+This edition: August 2022 (version 3.1) 
+ 
+© Scottish Qualifications Authority 2013, 2018, 2019, 2022
+Contents 
+Course overview	1 
+Course rationale	2 
+Purpose and aims	2 
+Who is this course for?	3 
+Course content	4 
+Skills, knowledge and understanding	5 
+Skills for learning, skills for life and skills for work	20 
+Course assessment	21 
+Course assessment structure: question papers	21 
+Course assessment structure: assignment	23 
+Grading	28 
+Equality and inclusion	29 
+Further information	30 
+Appendix 1: course support notes	31 
+Introduction	31 
+Developing skills, knowledge and understanding	31 
+Approaches to learning and teaching	31 
+Preparing for course assessment	77 
+Developing skills for learning, skills for life and skills for work	77 
+Appendix 2: question paper brief	80 
+
+ 
+ 
+ 
+ 
+ 
+
+Course overview 
+The course consists of 24 SCQF credit points which includes time for preparation for course assessment. The notional length of time for candidates to complete the course is 160 hours. 
+ 
+The course assessment has three components. 
+ 
+Component Marks Scaled mark Duration Question paper 1: multiple choice 25 not applicable 40 minutes Question paper 2 95 not applicable 2 hours and 20 minutes Assignment 
+ 20 30 8 hours of which a maximum of 2 hours is allowed for the report stage  
+  
+ 
+Recommended entry Progression Entry to this course is at the discretion of the centre.  
+ 
+Candidates should have achieved the National 5 Biology course or equivalent qualifications and/or experience prior to starting this course. 
+ ? Advanced Higher Biology 
+? other qualifications in biology or related areas 
+? further study, employment and/or training 
+ 
+  
+Conditions of award 
+The grade awarded is based on the total marks achieved across all course assessment components. 
+ 	 
+Course rationale 
+National Courses reflect Curriculum for Excellence values, purposes and principles. They offer flexibility, provide time for learning, focus on skills and applying learning, and provide scope for personalisation and choice.  
+ 
+Every course provides opportunities for candidates to develop breadth, challenge and application. The focus and balance of assessment is tailored to each subject area. 
+ 
+Biology, the study of living organisms, plays a crucial role in our everyday life, and is an increasingly important subject in the modern world. Biology affects everyone, and biologists work to find solutions to many of the world’s problems. Advances in technology have made biology more exciting and relevant than ever. 
+ 
+The Higher Biology course gives candidates the opportunity to understand and investigate the living world in an engaging and enjoyable way. It develops candidates’ abilities to think analytically, creatively and independently, and to make reasoned evaluations. The course provides opportunities for candidates to acquire and apply knowledge to evaluate biological issues, assess risk, make informed decisions and develop an ethical view of complex issues. Candidates are able to develop their communication, collaborative working and leadership skills, and are able to apply critical thinking in new and unfamiliar contexts to solve problems.  
+ 
+The course uses an experimental and investigative approach to develop knowledge and understanding of concepts in biology. 
+ 
+Due to the interdisciplinary nature of the sciences, candidates may benefit from studying biology along with other science subjects and mathematics, as this may enhance their skills, knowledge and understanding. 
+ 
+Purpose and aims 
+The course develops candidates’ interest and enthusiasm for biology in a range of stimulating, relevant and enjoyable contexts. It also allows flexibility and personalisation by offering a choice of contexts to study. The skills of scientific inquiry and investigation are developed throughout the course. This will enable candidates to become scientifically-literate citizens.  
+ 
+The course allows candidates to develop deeper understanding of the underlying themes of biology. The scale of topics ranges from molecular through to whole organism and beyond.  
+ 
+Candidates develop an understanding of DNA and how the structure of the genome leads to the basis of evolution and biodiversity. Genomics is studied as one of the major scientific advances in recent times. Metabolic pathways and their control are considered along with the conditions in which organisms survive and their means of coping with these. The interdependence and complex interactions between organisms is explored and sustainable food production, with the fundamental process of photosynthesis at its core, is investigated. 
+ 
+The development of skills enables candidates to adapt their learning to new situations, solve problems, make decisions based on evidence, and evaluate the impact of scientific developments on their health and wellbeing, society and the environment. By setting the acquisition of knowledge and skills in the context of Higher Biology, a stimulating, relevant and enjoyable curriculum prepares candidates for further education, training or employment, in areas associated with life sciences. 
+ 
+The course aims to:  
+ 
+? develop and apply knowledge and understanding of biology  
+? develop an understanding of biology’s role in scientific issues and relevant applications of biology, including the impact these could make in society and the environment 
+? develop scientific inquiry and investigative skills  
+? develop scientific analytical thinking skills, including scientific evaluation, in a biology context  
+? develop the skills to use technology, equipment and materials safely in practical scientific activities 
+? develop planning skills 
+? develop problem-solving skills in a biology context  
+? use and understand scientific literacy to communicate ideas and issues and to make scientifically informed choices  
+? develop the knowledge and skills for more advanced learning in biology  ? develop skills of independent working 
+ 
+Who is this course for? 
+The course is suitable for candidates who are secure in their attainment of National 5 Biology or an equivalent qualification. It may also be suitable for those wishing to study biology for the first time. 
+ 
+The course emphasises practical and experiential learning opportunities, with a strong skillsbased approach to learning. It takes account of the needs of all candidates, and provides sufficient flexibility to enable candidates to achieve in different ways. 
+ 
+ 	 
+Course content 
+The course content includes the following areas of biology: 
+ 
+DNA and the genome  
+The key areas covered are: 
+ 
+? structure of DNA 
+? replication of DNA 
+? gene expression 
+? cellular differentiation 
+? the structure of the genome 
+? mutations 
+? evolution 
+? genomic sequencing 
+ 
+Metabolism and survival  
+The key areas covered are:  
+ 
+? metabolic pathways 
+? cellular respiration 
+? metabolic rate 
+? metabolism in conformers and regulators 
+? metabolism and adverse conditions 
+? environmental control of metabolism 
+? genetic control of metabolism 
+ 
+Sustainability and interdependence  
+The key areas covered are: 
+ 
+? food supply, plant growth and productivity 
+? plant and animal breeding 
+? crop protection 
+? animal welfare 
+? symbiosis 
+? social behaviour 
+? components of biodiversity 
+? threats to biodiversity 
+ 
+Skills, knowledge and understanding 
+Skills, knowledge and understanding for the course 
+The following provides a broad overview of the subject skills, knowledge and understanding developed in the course: 
+ 
+? demonstrating knowledge and understanding of biology by making accurate statements, describing information, providing explanations and integrating knowledge 
+? applying biology knowledge to new situations, analysing information and solving problems 
+? planning and designing experiments/practical investigations to test given hypotheses or to illustrate particular effects 
+? carrying out experiments/practical investigations safely, recording detailed observations and collecting data 
+? selecting information from a variety of sources  
+? presenting information appropriately in a variety of forms 
+? processing information (using calculations and units, where appropriate) 
+? making predictions and generalisations from evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? evaluating experiments/practical investigations and suggesting improvements  ? communicating findings/information effectively 
+ 
+ 	 
+Skills, knowledge and understanding for the course assessment 
+The following table provides details of skills, knowledge and understanding sampled in the course assessment. 
+ 
+The course support notes provide further detail on the depth of knowledge required for each key area of the course. 
+ 
+The key areas of the course, the apparatus and techniques noted below, and the depth of knowledge required for each key area noted in the course support notes can be assessed in the question papers. 
+=====
+
+#DNA and the genome 1 The structure of DNA (a) Structure of DNA — nucleotides (deoxyribose sugar, phosphate and base), sugar– phosphate backbone, base pairing (adenine–thymine and guanine–cytosine) by hydrogen bonds and double stranded antiparallel structure, with deoxyribose and phosphate at 3’ and 5’ ends of each strand respectively, forming a double helix. (b) Organisation of DNA — prokaryotes have a single circular chromosome and smaller circular plasmids. 
+Eukaryotes all have linear chromosomes, in the nucleus, which are tightly coiled and packaged with associated proteins. They also contain circular chromosomes in their mitochondria and chloroplasts. Yeast is a special example of a eukaryote as it also has plasmids. 2 Replication of DNA (a) Replication of DNA by DNA polymerase and primers.  
+DNA polymerase adds DNA nucleotides, using complementary base pairing, to the deoxyribose (3’) end of the new DNA strand which is forming. 
+Fragments of DNA are joined together by ligase. (b) Polymerase chain reaction (PCR) amplifies DNA using complementary primers for specific target sequences.  
+Repeated cycles of heating and cooling amplify the target region of DNA.  
+Practical applications of PCR.  
+DNA and the genome 3 Gene expression (a) Gene expression involves the transcription and translation of DNA sequences. 
+Transcription and translation involves three types of RNA (mRNA, tRNA and rRNA). 
+Messenger RNA (mRNA) carries a copy of the DNA code from the nucleus to the ribosome.  
+Transfer RNA (tRNA) folds due to complementary base pairing. Each tRNA molecule carries its specific amino acid to the ribosome. Ribosomal RNA (rRNA) and proteins form the ribosome. (b) The role of RNA polymerase in transcription of DNA into primary mRNA transcripts. 
+RNA splicing forms a mature mRNA transcript. 
+The introns of the primary transcript are non-coding regions and are removed. 
+The exons are coding regions and are joined together to form the mature transcript. (c) tRNA is involved in the translation of mRNA into a polypeptide at a ribosome. 
+Translation begins at a start codon and ends at a stop codon. Anticodons bond to codons by complementary base pairing, translating the genetic code into a sequence of amino acids. Peptide bonds join the amino acids together. Each tRNA then leaves the ribosome as the polypeptide is formed. (d) Different proteins can be expressed from one gene, as a result of alternative RNA splicing. Different mature mRNA transcripts are produced from the same primary transcript depending on which exons are retained. (e) Amino acids are linked by peptide bonds to form polypeptides. Polypeptide chains fold to form the three-dimensional shape of a protein, held together by hydrogen bonds and other interactions between individual amino acids. Proteins have a large variety of shapes which determines their functions.  
+Phenotype is determined by the proteins produced as the result of gene expression.  
+ 	 
+
+DNA and the genome 4 Cellular differentiation (a) Cellular differentiation is the process by which a cell expresses certain genes to produce proteins characteristic for that type of cell. This allows a cell to carry out specialised functions.  
+Differentiation into specialised cells from meristems in plants; embryonic and tissue (adult) stem cells in animals. (b) Embryonic and tissue stem cells.  
+Cells in the very early embryo can differentiate into all the cell types that make up the organism and so are pluripotent. 
+Tissue stem cells are involved in the growth, repair and renewal of the cells found in that tissue. They are multipotent.  
+Therapeutic and research uses of stem cells. 
+Therapeutic uses involve the repair of damaged or diseased organs or tissues. 
+Research uses involve stem cells being used as model cells to study how diseases develop or being used for drug testing.  
+The ethical issues of using embryonic stem cells. 5 The structure of the genome  The genome of an organism is its entire hereditary information encoded in DNA. 
+A genome is made up of genes and other DNA sequences that do not code for proteins. 
+DNA sequences that code for protein are defined as genes. Other sequences regulate transcription and others are transcribed but never translated.  6 Mutations (a) Mutations are changes in the DNA that can result in no protein or an altered protein being synthesised. 
+(b) Single gene mutations involve the alteration of a DNA nucleotide sequence as a result of the substitution, insertion or deletion of nucleotides. 
+Nucleotide substitutions — missense, nonsense and splice-site mutations.  
+Nucleotide insertions or deletions result in frame-shift mutations. 
+(c) Chromosome structure mutations — duplication, deletion, inversion and translocation. 
+(d) Importance of mutations and gene duplication in evolution. 
+DNA and the genome 7 Evolution (a) Evolution — the changes in organisms over generations as a result of genomic variations. (b) Selection 
+Natural selection is the non-random increase in frequency of DNA sequences that increase survival and the non-random reduction in the frequency of deleterious sequences.  
+The changes in phenotype frequency as a result of stabilising, directional and disruptive selection. 
+Natural selection is more rapid in prokaryotes. Prokaryotes can exchange genetic material horizontally, resulting in faster evolutionary change than in organisms that only use vertical transfer. (c) Speciation 
+Speciation is the generation of new biological species by evolution as a result of isolation, mutation and selection.  
+The importance of isolation barriers in preventing gene flow between sub-populations during speciation. 
+Geographical barriers lead to allopatric speciation and behavioural or ecological barriers lead to sympatric speciation. 8 Genomic sequencing (a) In genomic sequencing the sequence of nucleotide bases can be determined for individual genes and entire genomes.  
+Comparison of genomes from different species. 
+Comparison of genomes reveals that many genes are highly conserved across different organisms. (b) Evidence from phylogenetics and molecular clocks to determine the main sequence of events in evolution. The sequence of events can be determined using sequence data and fossil evidence. 
+Comparison of sequences provides evidence of the three domains of life — bacteria, archaea and eukaryotes. (c) An individual’s genome can be analysed to predict the likelihood of developing certain diseases. 
+Pharmacogenetics and personalised medicine. 
+#Metabolism and survival 1 Metabolic pathways  (a) Metabolic pathways are integrated and controlled pathways of enzyme-catalysed reactions within a cell.  
+Metabolic pathways can have reversible steps, irreversible steps and alternative routes. 
+Reactions within metabolic pathways can be anabolic or catabolic. Anabolic reactions build up large molecules from small molecules and require energy. Catabolic reactions break down large molecules into smaller molecules and release energy. (b) Protein pores, pumps and enzymes are embedded in membranes. (c) Metabolic pathways are controlled by the presence or absence of particular enzymes and the regulation of the rate of reaction of key enzymes.  
+Induced fit and the role of the active site of an enzyme in affecting activation energy and the affinity of the substrate and products for the active site.  
+The effects of substrate and product concentration on the direction and rate of enzyme reactions. 
+Control of metabolic pathways through competitive, non-competitive and feedback inhibition of enzymes. 2 Cellular respiration (a) Metabolic pathways of cellular respiration.  
+Glycolysis is the breakdown of glucose to pyruvate in the cytoplasm.  
+ATP is required for the phosphorylation of glucose and intermediates during the energy investment phase of glycolysis. This leads to the generation of more ATP during the energy pay-off stage and results in a net gain of ATP.  
+In aerobic conditions, pyruvate is broken down to an acetyl group that combines with coenzyme A forming acetyl coenzyme A. 
+In the citric acid cycle the acetyl group from acetyl coenzyme A combines with oxaloacetate to form citrate. During a series of enzyme controlled steps, citrate is gradually converted back into oxaloacetate which results in the generation of ATP and release of carbon dioxide. 
+The citric acid cycle occurs in the matrix of the mitochondria. 
+Dehydrogenase enzymes remove hydrogen ions and electrons and pass them to the coenzyme NAD, forming NADH. This occurs in both glycolysis and the citric acid cycle. 
+The hydrogen ions and electrons from NADH are passed to the electron transport chain on the inner mitochondrial membrane. Metabolism and survival 2 Cellular respiration (b) ATP synthesis — electrons are passed along the electron transport chain releasing energy. 
+This energy allows hydrogen ions to be pumped across the inner mitochondrial membrane. The flow of these ions back through the membrane protein ATP synthase results in the production of ATP.  
+Finally, hydrogen ions and electrons combine with oxygen to form water. (c) Fermentation 
+In the absence of oxygen, fermentation takes place in the cytoplasm.  
+In animal cells, pyruvate is converted to lactate in a reversible reaction.  
+In plants and yeast, ethanol and CO2 are produced in an irreversible reaction.  
+Fermentation results in much less ATP being produced than in aerobic respiration. (d) The role of ATP in the transfer of energy. 3 Metabolic rate (a) Measurement of oxygen consumption, carbon dioxide and heat production to compare metabolic rates. (b) Organisms with high metabolic rates require more efficient delivery of oxygen to cells.  
+Comparative anatomy and physiology of heart chambers and circulatory systems in amphibians, reptiles, mammals and birds, and heart and circulation in fish.  
+ 	 
+Metabolism and survival 4 Metabolism in conformers and regulators (a) The ability of an organism to maintain its metabolic rate is affected by external abiotic factors. (b) Conformers’ internal environment is dependent upon external environment. Conformers use behavioural responses to maintain optimum metabolic rate. Conformers have low metabolic costs and a narrow range of ecological niches. (c) Regulators maintain their internal environment regardless of external environment.  
+Regulators use metabolism to control their internal environment, which increases the range of possible ecological niches.  
+This regulation requires energy to achieve homeostasis. This increases their metabolic costs. (d) Thermoregulation by negative feedback — the role of the hypothalamus, nerves and effectors.  
+The role of corrective responses to an increase in body temperature — sweating, vasodilation of blood vessels and decreased metabolic rate.  
+The corrective responses to a decrease in body temperature — shivering, vasoconstriction of blood vessels, hair erector muscles contracting and increased metabolic rate. (e) Importance of regulating temperature (thermoregulation) for optimal enzyme activity and high diffusion rates to maintain metabolism. 5 Metabolism and adverse conditions Many environments vary beyond the tolerable limits for normal metabolic activity for any particular organism. Some animals have adapted to survive these adverse conditions while others avoid them. 
+(a) Surviving adverse conditions by dormancy.  
+Dormancy is part of some organisms’ life cycle to allow survival during a period when the costs of continued normal metabolic activity would be too high. The metabolic rate can be reduced during dormancy to save energy.  
+Dormancy can be predictive or consequential.  
+Some mammals survive during winter/low temperatures by hibernating. Aestivation allows survival in periods of high temperature or drought. Daily torpor is a period of reduced activity in some animals with high metabolic rates.  
+ 	 
+Metabolism and survival 5 Metabolism and adverse conditions (b) Avoiding adverse conditions by migration.  
+Migration avoids metabolic adversity by expending energy to relocate to a more suitable environment.  
+Migratory behaviour can be innate and learned.  
+Specialised techniques are used to study long-distance migration. 6 Environmental control of metabolism Micro-organisms are archaea, bacteria and some species of eukaryotes. 
+(a) Variations in growth media and control of environmental factors.  
+When culturing micro-organisms, their growth media require raw materials for biosynthesis as well as an energy source.  
+Culture conditions: sterility; control of temperature, oxygen levels and pH. (b) Phases of growth and changes in culture conditions.  
+Phases — lag, log/exponential, stationary and death.  
+Growth curves of micro-organisms.  
+Viable and total cell count. 7 Genetic control of metabolism (a) Wild strains of micro-organisms can be improved by mutagenesis, or recombinant DNA technology. (b) Recombinant DNA technology involves the use of recombinant plasmids and artificial chromosomes as vectors.  
+The role of the enzymes restriction endonucleases and ligase in recombinant DNA technology.  
+Recombinant plasmids and artificial chromosomes contain restriction sites, regulatory sequences, an origin of replication and selectable markers.  
+As a safety mechanism, genes are often introduced that prevent the survival of the microorganism in an external environment.  
+Use of recombinant yeast cells to produce active forms of the protein which are inactive in bacteria.  	 
+#Sustainability and interdependence 1 Food supply, plant growth and productivity (a) Food supply 
+Food security and sustainable food production. Increase in human population and concern for food security leads to a demand for increased food production. Food production must be sustainable and not degrade the natural resources on which agriculture depends.  
+Agricultural production depends on factors that control photosynthesis and plant growth. The area to grow crops is limited. Increased food production will depend on factors that control plant growth — breeding of higher yielding cultivars, use of fertiliser, protecting crops from pests, diseases and competition.  
+Livestock produce less food per unit area than crop plants due to loss of energy between trophic levels. Livestock production is often possible in habitats unsuitable for growing crops. (b) Photosynthesis 
+Light energy is absorbed by photosynthetic pigments to generate ATP and for photolysis. 
+Absorption spectra of chlorophyll a and b and carotenoids compared to action spectra for photosynthesis. Carotenoids extend the range of wavelengths absorbed and pass the energy to chlorophyll for photosynthesis.  
+Absorbed light energy excites electrons in the pigment molecule. Transfer of these electrons through the electron transport chain releases energy to generate ATP by ATP synthase. Energy is also used for photolysis, in which water is split into oxygen, which is evolved, and hydrogen ions, which are transferred to the coenzyme NADP.  
+In the carbon fixation stage (Calvin cycle), the enzyme RuBisCO fixes carbon dioxide by attaching it to ribulose bisphosphate (RuBP). The 3-phosphoglycerate (3PG) produced is phosphorylated by ATP and combined with hydrogen ions from NADPH to form 
+glyceraldehyde-3-phosphate (G3P). G3P is used to regenerate RuBP and for the synthesis of glucose. Glucose may be used as a respiratory substrate, synthesised into starch or cellulose or passed to other biosynthetic pathways.  
+ 	 
+Sustainability and interdependence 2 Plant and animal breeding (a) Plant and animal breeding to improve characteristics to help support sustainable food production. (b) Plant field trials are carried out in a range of environments to compare the performance of different cultivars or treatments and to evaluate GM crops.  
+In designing field trials account has to be taken of: the selection of treatments, the number of replicates and the randomisation of treatments. (c) Inbreeding 
+In inbreeding, selected related plants or animals are bred for several generations until the population breeds true to the desired type due to the elimination of heterozygotes.  
+A result of inbreeding can be an increase in the frequency of individuals who are homozygous for recessive deleterious alleles. These individuals will do less well at surviving to reproduce. This results in inbreeding depression.  (d) Cross breeding and F1 hybrids. In animals, individuals from different breeds may produce a new crossbreed population with improved characteristics. The two parent breeds can be maintained to produce more crossbred animals showing the improved characteristic.  
+In plants, F1 hybrids, produced by the crossing of two different inbred lines, create a relatively uniform heterozygous crop. F1 hybrids often have increased vigour and yield. In inbreeding animals and plants, F1 hybrids are not usually bred together as the F2 produced shows too much variation. (e) Genetic technology 
+As a result of genome sequencing, organisms with desirable genes can be identified and then used in breeding programmes.  
+Breeding programmes can involve crop plants that have been genetically modified using recombinant DNA technology.  
+Sustainability and interdependence 3 Crop protection (a) Weeds compete with crop plants, while other pests and diseases damage crop plants, all of which reduce productivity.  
+Properties of annual weeds — rapid growth, short life cycle, high seed output and longterm seed viability.  
+Properties of perennial weeds with competitive adaptations — storage organs and vegetative reproduction.  
+Most of the pests of crop plants are invertebrate animals such as insects, nematode worms and molluscs. 
+Plant diseases can be caused by fungi, bacteria or viruses, which are often carried by invertebrates. (b) Control of weeds, other pests and diseases by cultural methods. (c) The advantages of pesticides which are either selective or systemic.  
+Problems with pesticides: toxicity to non-target species, persistence in the environment, bioaccumulation or biomagnification in food chains, producing resistant populations of pests. (d) Control of weeds, other pests and diseases by biological control and integrated pest management.  
+Risks with biological control. 4 Animal welfare The costs, benefits and ethics of providing different levels of animal welfare in livestock production.  
+Behavioural indicators of poor animal welfare are stereotypy, misdirected behaviour, failure in sexual or parental behaviour and altered levels of activity.  
+Sustainability and interdependence 5 Symbiosis Symbiosis — co-evolved intimate relationships between members of two different species. 
+(a) Parasitic relationships and transmission.  
+A parasite benefits in terms of energy or nutrients, whereas its host is harmed by the loss of these resources.  
+Parasites often have limited metabolism and cannot survive out of contact with a host.  
+Transmission of parasites to new hosts using direct contact, resistant stages and vectors.  
+Some parasitic life cycles involve intermediate (secondary) hosts to allow them to complete their life cycle. (b) Mutualism 
+Both mutualistic partner species benefit in an interdependent relationship. 6 Social behaviour (a) Many animals live in social groups and have behaviours that are adapted to group living such as social hierarchy, co-operative hunting and social defence. (b) Altruism and kin selection and its influence on survival.  
+An altruistic behaviour harms the donor individual but benefits the recipient.  
+Behaviour that appears to be altruistic can be common between a donor and a recipient if they are related (kin).  
+The donor will benefit in kin selection in terms of the increased chances of survival of shared genes in the recipient’s offspring or future offspring. (c) Social insects and the structure of their society in which only some individuals (queens and drones) contribute reproductively. Most members of the colony are sterile workers who co-operate with close relatives to raise relatives. (d) Primate behaviour 
+Primates have a long period of parental care to allow learning of complex social behaviour. 
+Complex social behaviours support the social hierarchy. This reduces conflict through ritualistic display and appeasement behaviour. Alliances form between individuals, which are often used to increase social status within the group.  
+ 	 
+Sustainability and interdependence 7 Components of biodiversity Components of biodiversity are genetic diversity, species diversity and ecosystem diversity.  
+Genetic diversity is the number and frequency of all the alleles within a population.  
+Species diversity comprises the number of different species in an ecosystem (the species richness) and the proportion of each species in the ecosystem (the relative abundance).  
+Ecosystem diversity refers to the number of distinct ecosystems within a defined area. 8 Threats to biodiversity (a) Exploitation and recovery of populations and the impact on their genetic diversity.  
+The bottleneck effect — small populations may lose the genetic variation necessary to enable evolutionary responses to environmental change. (b) Habitat loss, habitat fragments and their impact on species richness.  
+The clearing of habitats has led to habitat fragmentation. Degradation of the edges of habitat fragments results in increased competition between species as the fragment becomes smaller. This may result in a decrease in biodiversity.  
+To remedy widespread habitat fragmentation, isolated fragments can be linked with habitat corridors. (c) Introduced, naturalised and invasive species and their impact on native populations. 
+Introduced (non-native) species are those that humans have moved either intentionally or accidentally to new geographic locations.  
+Those that become established within wild communities are termed naturalised species. Invasive species are naturalised species that spread rapidly and eliminate native species therefore reducing species diversity. Invasive species may well be free of the predators, parasites, pathogens and competitors that limit their population in their native habitat. Invasive species may prey on native species, out-compete them for resources or hybridise with them. 
+====
+ 	 
+Apparatus and techniques 
+In addition to the key areas, candidates must have knowledge of the following pieces of apparatus and have opportunities to become familiar with the following techniques. 
+ 
+Apparatus  
+? beaker 
+? balance  
+? measuring cylinder 
+? dropper/pipette 
+? test tube/boiling tube 
+? thermometer 
+? funnel 
+? syringe 
+? timer/stopwatch 
+? Petri dish 
+? water bath 
+? spectroscope 
+? colorimeter 
+? simple fermenter 
+ Techniques  
+? using paper or thin layer chromatography to separate photosynthetic pigments 
+? using gel electrophoresis to separate macromolecules, for example DNA fragments 
+? using substrate concentration or inhibitor concentration to alter reaction rates 
+? using a respirometer 
+? measuring metabolic rate using oxygen, carbon dioxide and temperature probes  
+? using a spectroscope to compare visible light and filtered lights 
+ 
+The course support notes provide a list of suggested learning activities. Choosing from the activities suggested in the course support notes, or carrying out any other appropriate activities, allows candidates to become familiar with the apparatus and techniques listed above. Where it is not possible to carry out a particular technique other resources could be utilised. 
+  
+Skills, knowledge and understanding included in the course are appropriate to the SCQF level of the course. The SCQF level descriptors give further information on characteristics and expected performance at each SCQF level, and can be found on the SCQF website.  
+ 
+ 	 
+Skills for learning, skills for life and skills for work 
+This course helps candidates to develop broad, generic skills. These skills are based on SQA’s Skills Framework: Skills for Learning, Skills for Life and Skills for Work and draw from the following main skills areas: 
+ 
+1 Literacy 
+ 
+1.2 	Writing 
+ 
+2 	Numeracy 
+ 
+2.1 	Number processes 
+2.2 	Money, time and measurement 
+2.3 	Information handling 
+ 
+5 	Thinking skills 
+ 
+5.3 	Applying 
+5.4 	Analysing and evaluating 
+5.5 	Creating 
+ 
+Teachers and/or lecturers must build these skills into the course at an appropriate level, where there are suitable opportunities. 
+ 
+ 	 
+Course assessment 
+Course assessment is based on the information provided in this document. 
+ 
+The course assessment meets the key purposes and aims of the course by addressing: 
+ 
+? breadth — drawing on knowledge and skills from across the course 
+? challenge — requiring greater depth or extension of knowledge and/or skills 
+? application — requiring application of knowledge and/or skills in practical or theoretical contexts as appropriate  
+ 
+This enables candidates to apply:  
+ 
+? breadth and depth of skills, knowledge and understanding from across the course to answer questions in biology 
+? skills of scientific inquiry, using related knowledge, to carry out a meaningful and appropriately challenging task in biology and communicate findings 
+ 
+The course assessment has three components: two question papers and an assignment. The relationship between these three components is complementary, to ensure full coverage of the knowledge and skills of the course. 
+ 
+Course assessment structure: question papers 
+Question paper 1: multiple choice 	25 marks 
+Question paper 2 	95 marks 
+The question papers have a total mark allocation of 120 marks. This is 80% of the overall marks for the course assessment. 
+ 
+Marks are distributed proportionally across the course content. 
+ 
+The majority of marks are awarded for demonstrating and applying knowledge and understanding. The other marks are awarded for applying scientific inquiry, scientific analytical thinking, problem-solving skills and the impact of applications of biology on society and the environment. 
+ 
+The question papers assess breadth, challenge and application of skills, knowledge and understanding from across the course. They assess the application or extension of knowledge and/or skills in unfamiliar situations, practical and theoretical contexts. They also assess scientific inquiry skills, analytical thinking skills, and problem-solving skills.  
+ 
+ 	 
+The question papers give candidates an opportunity to demonstrate the following skills, knowledge and understanding: 
+ 
+? demonstrating knowledge and understanding of biology by making accurate statements, describing information, providing explanations and integrating knowledge 
+? applying biology knowledge to new situations, analysing information and solving problems 
+? planning or designing experiments/practical investigations to test given hypotheses or to illustrate particular effects 
+? selecting information from a variety of sources  
+? presenting information appropriately in a variety of forms 
+? processing information (using calculations and units, where appropriate) 
+? making predictions and generalisations based on evidence/information 
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? evaluating experiments/practical investigations and suggesting improvements  
+ 
+Question paper 1: multiple choice 
+Question paper 1 contains multiple-choice questions. 
+ 
+Question paper 2 
+Question paper 2 contains restricted-response and extended-response questions. 
+ 
+Setting, conducting and marking the question papers 
+The question papers are set and marked by SQA, and conducted in centres under conditions specified for external examinations by SQA. 
+ 
+Candidates have 40 minutes to complete question paper 1. 
+ 
+Candidates have 2 hours and 20 minutes to complete question paper 2. 
+ 
+Specimen question papers for Higher courses are published on SQA’s website. These illustrate the standard, structure and requirements of the question papers candidates sit. The specimen papers also include marking instructions. 
+ 	 
+Course assessment structure: assignment 
+Assignment 	20 marks 
+The assignment has a total mark allocation of 20 marks. This is scaled to 30 marks by SQA to represent 20% of the overall marks for the course assessment. 
+ 
+The assignment assesses the application of skills of scientific inquiry and related biology knowledge and understanding.  
+ 
+It allows assessment of skills that cannot be assessed by a question paper; for example, handling and processing data gathered through experimental work and research skills. 
+ 
+Assignment overview 
+The assignment gives candidates an opportunity to demonstrate the following skills, knowledge and understanding:  
+ 
+? applying knowledge of biology to new situations, interpreting information and solving problems  
+? planning, designing and safely carrying out experiments/practical investigations to test given hypotheses or to illustrate particular effects  
+? selecting information from a variety of sources  
+? presenting information appropriately in a variety of forms  
+? processing information (using calculations and units, where appropriate)  
+? making predictions and generalisations based on evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification  
+? evaluating experiments/practical investigations and suggesting improvements ? communicating findings/information effectively 
+ 
+The assignment offers challenge by requiring candidates to apply skills, knowledge and understanding in a context that is one or more of the following: 
+ 
+? unfamiliar 
+? familiar but investigated in greater depth ? integrating a number of familiar contexts 
+ 
+Candidates research and report on a topic that allows them to apply skills and knowledge in biology at a level appropriate to Higher.  
+ 
+The topic must be chosen with guidance from teachers and/or lecturers and must involve experimental work. 
+ 
+The assignment has two stages: 
+ 
+? research  
+? report  
+The research stage must involve experimental work which allows measurements to be made. Candidates must also gather data/information from the internet, books or journals.  
+ 
+Candidates must produce a report on their research. 
+ 
+Setting, conducting and marking the assignment  
+Setting  
+The assignment is: 
+ 
+? set by centres within SQA guidelines  
+? set at a time appropriate to the candidate’s needs  
+? set within teaching and learning and includes experimental work at a level appropriate to Higher 
+ 
+Conducting  
+The assignment is: 
+ 
+? an individually produced piece of work from each candidate  
+? started at an appropriate point in the course  
+? conducted under controlled conditions  
+ 
+ 	 
+
+Marking 
+The assignment has a total of 20 marks. The table gives details of the mark allocation for each section of the report. 
+ 
+Section Expected response Marks Aim An aim that describes clearly the purpose of the investigation. 1 Underlying biology An account of biology relevant to the aim of the investigation. 4 Data collection and handling A brief summary of the approach used to collect experimental data. 1 Sufficient raw data from the candidate’s experiment. 1 Data, including mean values, presented in a correctly produced table. 1 Data/information relevant to the experiment obtained from an internet/literature source. 1 A citation and reference for a source of internet/literature data or information. 1 Graphical presentation An appropriate format from the options of line graph or bar graph. 1 The axes of the graph have suitable scales. 1 The axes of the graph have suitable labels and units. 1 Data points are plotted accurately with a line or clear bar tops (as appropriate). 1 Analysis A correct comparison of the experimental data with data/information from the internet/literature source or a correctly completed calculation(s) based on the experimental data, linked to the aim. 1 Conclusion A valid conclusion that relates to the aim and is supported by all the data in the report. 1 Evaluation Evaluation of the investigation. 3 Structure A clear and concise report with an informative title. 1 TOTAL 20  
+The report is submitted to SQA for external marking. 
+ 
+All marking is quality assured by SQA. 
+ 
+ 	 
+Assessment conditions 
+Controlled assessment is designed to: 
+ 
+? ensure that all candidates spend approximately the same amount of time on their assignments  
+? prevent third parties from providing inappropriate levels of guidance and input  
+? mitigate concerns about plagiarism and improve the reliability and validity of SQA awards  
+? allow centres a reasonable degree of freedom and control  
+? allow candidates to produce an original piece of work  
+ 
+Detailed conditions for assessment are given in the assignment assessment task. 
+ 
+Time  
+It is recommended that no more than 8 hours is spent on the whole assignment. A maximum of 2 hours is allowed for the report stage. 
+ 
+Supervision, control and authentication  There are two levels of control. 
+ 
+Under a high degree of supervision and control Under some supervision and control ? the use of resources is tightly prescribed 
+? all candidates are within direct sight of the supervisor throughout the session(s) 
+? display materials which might provide assistance are removed or covered 
+? there is no access to e-mail, the internet or mobile phones 
+? candidates complete their work independently 
+? interaction with other candidates does not occur 
+? no assistance of any description is provided 
+ ? candidates do not need to be directly  	supervised at all times 
+? the use of resources, including the internet, is not tightly prescribed 
+? the work an individual candidate submits for assessment is their own 
+? teachers and/or lecturers can provide reasonable assistance 
+  
+The assignment has two stages. 
+ 
+Stage Level of control ? research conducted under some supervision and control ? report conducted under a high degree of supervision and control Resources 
+Please refer to the instructions for teachers and lecturers within the assignment assessment task. 
+ 
+It is not permitted at any stage to provide candidates with a template or model answers. 
+ 
+In the research stage: 
+ 
+? teachers and/or lecturers must ensure that a range of topics is available for candidates to choose from 
+? teachers and/or lecturers must minimise the number of candidates investigating the same topic within a class 
+? teachers and/or lecturers must agree the choice of topic with the candidate 
+? teachers and/or lecturers must provide advice on the suitability of the candidate’s aim 
+? teachers and/or lecturers can supply a basic list of instructions for the experimental procedure 
+? candidates must undertake research using websites, journals and/or books  
+ 
+Teachers and/or lecturers must not: 
+ 
+? provide an aim 
+? provide candidates with experimental data 
+? provide candidates with a blank or pre-populated table for experimental results ? provide candidates with feedback on their research 
+ 
+The only materials that can be used in the report stage are: 
+ 
+? the instructions for candidates, which must not have been altered 
+? the candidate’s raw experimental data, which may be tabulated, however must not have additional blank or pre-populated columns for mean and derived values 
+? data/information taken from the internet or literature 
+? a record of the source(s) of internet or literature data/information 
+? the experimental method, if appropriate 
+? extract(s) from internet/literature sources to support the underlying biology, which must not include sample calculations 
+ 
+Candidates must not have access to a previously prepared draft of a report or any part of a report. 
+ 
+In addition, candidates must not have access to the assignment marking instructions during the report stage. 
+ 
+Candidates must not have access to the internet during the report stage. 
+ 
+Teachers and/or lecturers must not provide any form of feedback to a candidate on their report. 
+ 
+Following completion of the report stage, candidates must not be given an opportunity to redraft their report. 
+ 
+Teachers and/or lecturers must not read the reports before they are submitted to SQA. 
+ 
+Reasonable assistance 
+The term ‘reasonable assistance’ is used to describe the balance between supporting candidates and giving them too much assistance. Candidates must undertake the assessment independently. However, reasonable assistance may be provided before the formal assessment process (research stage and report stage) takes place. If candidates have been entered for the correct level of qualification, they will not require more than a reasonable level of assistance to carry out the assignment. 
+ 
+Evidence to be gathered 
+The following candidate evidence is required for this assessment: 
+ 
+? a report 
+ 
+The report is submitted to SQA, within a given timeframe, for marking. 
+ 
+The same report cannot be submitted for more than one subject. 
+ 
+Volume 
+There is no word count.  
+ 
+Grading 
+Candidates’ overall grades are determined by their performance across the course assessment. The course assessment is graded A–D on the basis of the total mark for all course assessment components. 
+ 
+Grade description for C 
+For the award of grade C, candidates will typically have demonstrated successful performance in relation to the skills, knowledge and understanding for the course. 
+ 
+Grade description for A 
+For the award of grade A, candidates will typically have demonstrated a consistently high level of performance in relation to the skills, knowledge and understanding for the course. 
+ 
+ 	 
+Equality and inclusion 
+This course is designed to be as fair and as accessible as possible with no unnecessary barriers to learning or assessment.  
+ 
+For guidance on assessment arrangements for disabled candidates and/or those with additional support needs, please follow the link to the assessment arrangements web page: www.sqa.org.uk/assessmentarrangements. 
+ 
+ 	 
+
+Further information 
+The following reference documents provide useful information and background. 
+ 
+? Higher Biology subject page 
+? Assessment arrangements web page 
+? Building the Curriculum 3–5 
+? Guide to Assessment  
+? Guidance on conditions of assessment for coursework 
+? SQA Skills Framework: Skills for Learning, Skills for Life and Skills for Work 
+? Coursework Authenticity: A Guide for Teachers and Lecturers 
+? Educational Research Reports 
+? SQA Guidelines on e-assessment for Schools 
+? SQA e-assessment web page  
+ 
+The SCQF framework, level descriptors and handbook are available on the SCQF website. 
+ 
+ 	 
+
+Appendix 1: course support notes 
+Introduction 
+These support notes are not mandatory. They provide advice and guidance to teachers and/or lecturers on approaches to delivering the course. You should read these in conjunction with this course specification and the specimen question paper and coursework. 
+ 
+Note: the depth of knowledge required for each key area of the course can be assessed in the question papers. 
+ 
+Developing skills, knowledge and understanding 
+This section provides further advice and guidance about skills, knowledge and understanding that teachers and/or lecturers could include in the course. Teachers and/or lecturers have considerable flexibility to select contexts that will stimulate and challenge candidates, offering both breadth and depth.  
+ 
+The ‘Approaches to learning and teaching’ section provides suggested activities that teachers and/or lecturers can build into their delivery to develop these skills, knowledge and understanding. 
+ 
+Approaches to learning and teaching 
+Learning and teaching approaches should develop candidates’ knowledge and understanding, and skills for learning, life and work. Teachers and/or lecturers can base a related sequence of activities on a context appropriate to Higher Biology. Learning could be led by candidates. It should be experiential, active, challenging and enjoyable, and include appropriate practical activities. Teachers and/or lecturers can use a variety of active learning approaches, including peer teaching and assessment, individual and group presentations, role-playing and game-based learning, with candidate-generated questions. 
+ 
+Teachers and/or lecturers should allow opportunities for candidates to take responsibility for their learning. Learning and teaching should build on candidates’ prior knowledge, skills and experiences and allow candidates of different abilities to demonstrate achievement. 
+ 
+Candidates can actively develop their skills, knowledge and understanding by investigating a range of applications and issues relevant to biology. Teachers and/or lecturers can adopt a holistic approach to encourage candidates to simultaneously develop their conceptual understanding and skills.  
+ 
+Investigations and experiments are part of the scientific method of working and, where appropriate in Higher Biology, candidates should have the opportunity to select activities and/or carry out extended study.  
+ 
+All learning and teaching should offer opportunities for candidates to work collaboratively. 
+Practical activities and investigative work can offer opportunities for group work. Group work approaches can be helpful to simulate real-life situations, share tasks, and promote teamworking skills.  
+ 
+Practical activities must include the use of the apparatus listed and, where possible, the use of technology and equipment that reflects current scientific use in biology. Practical activities must also allow candidates to become familiar with the techniques listed. Appropriate risk assessment must be undertaken. 
+ 
+Effective partnership working can enhance the learning experience. Where possible, teachers and/or lecturers should arrange visits and invite guest speakers from, for example, industry, and further and higher education to bring the world of biology into the classroom. 
+ 
+Learning about Scotland and Scottish culture enriches the learning experience and helps candidates to develop the skills for learning, life and work they need to prepare them for taking their place in a diverse, inclusive and participative Scotland and beyond. Where there are opportunities to contextualise approaches to learning and teaching to Scottish contexts, teachers and/or lecturers should consider this. 
+ 
+Information and Communications Technology (ICT) can make a significant contribution to practical work in Higher Biology. Computer-interfacing equipment can detect and record small changes in variables, allowing experimental results to be recorded over long or short periods of time. Results can also be displayed in real time, helping to improve understanding. Data-logging equipment and video cameras can be set up to record data and make observations over periods of time (longer than a class lesson) that can then be downloaded and viewed for analysis. 
+ 
+Assessment is integral to learning and teaching. It should provide candidates with supportive feedback and help them to prepare for the course assessment. Teachers and/or lecturers should use self- and peer-assessment techniques wherever appropriate and use assessment information to set learning targets and next steps. 
+ 
+As part of learning, teaching and preparation for course assessment, candidates should carry out several investigations that meet the requirements of the assignment. This should help candidates develop the necessary skills and prepare them for the report stage of the assignment. 
+ 
+The following table provides an outline of the depth of knowledge candidates require for each key area, along with suggested learning activities. The key areas are from the ‘Course content’ section of this course specification. The depth of knowledge required provides further detail of the key areas and an outline of the level of demand. The key areas and the depth of knowledge required can be assessed in the question papers.  
+ 
+The suggested learning activities are not compulsory. The contexts for each key area are open to personalisation and choice, so teachers and/or lecturers may also devise learning activities. However, teachers and/or lecturers must give candidates the opportunity to experience the use of the apparatus and the techniques listed below as these can be assessed in the question papers. 
+ 
+
+Note: the key areas and the depth of knowledge required can be assessed in the question papers.  
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities 1 The structure of DNA 
+(a) Structure of DNA — nucleotides (deoxyribose sugar, phosphate and base), sugar–phosphate backbone, base pairing (adenine–thymine and guanine–cytosine) by hydrogen bonds and double stranded antiparallel structure, with deoxyribose and phosphate at 3’ and 5’ ends of each strand respectively, forming a double helix. 
+  
+ 
+ 
+The base sequence of DNA forms the genetic code. 
+  
+Examine research that led to an understanding of the structure of DNA. Studies could include Chargaff’s base ratios, X-ray crystallography of Wilkins and 
+Franklin, and Watson and Crick’s development of the double helix model. 
+ 
+ 
+Compare DNA extraction from peas and kiwi fruit (possible false positive result in latter as DNA is obscured by pectin). (b) Organisation of DNA — Prokaryotes have a single, circular chromosome and smaller circular plasmids.  
+ 
+Eukaryotes all have linear chromosomes, in the nucleus, which are tightly coiled and packaged with associated proteins. They also contain circular chromosomes in their mitochondria and chloroplasts. Yeast is a special example of a eukaryote as it also has plasmids.  
+ 
+ 
+ 
+ 
+ 
+The associated proteins are called histones. 
+ 
+ 
+ 
+ 
+  
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities 2 Replication of DNA 
+(a) Replication of DNA by DNA polymerase and primers.  
+ 
+ 
+ 
+ 
+ 
+ 
+DNA polymerase adds DNA nucleotides, using complementary base pairing, to the deoxyribose (3’) end of the new DNA strand which is forming. 
+ 
+ 
+ 
+Fragments of DNA are joined together by ligase.  
+Prior to cell division, DNA is replicated by a DNA polymerase. DNA polymerase needs primers to start replication. A primer is a short strand of nucleotides which binds to the 3’ end of the template DNA strand allowing polymerase to add DNA nucleotides. 
+ 
+DNA is unwound and hydrogen bonds between bases are broken to form two template strands. DNA polymerase can only add DNA nucleotides in one direction resulting in the leading strand being replicated continuously and the lagging strand replicated in fragments. 
+  
+Carry out digital or physical modelling of DNA replication.  
+ 
+ 
+ 
+Examine Meselson and Stahl’s experiments on DNA replication. 
+ 
+ 
+ 
+ 
+ 
+ (b) Polymerase chain reaction (PCR) amplifies DNA using complementary primers for specific target sequences. 
+ 
+ 
+Repeated cycles of heating and cooling amplify the target region of DNA. 
+ 
+ 
+ In PCR, primers are short strands of nucleotides which are complementary to specific target sequences at the two ends of the region of DNA to be amplified. 
+ 
+DNA is heated to between 92 and 98°C to separate the strands. It is then cooled to between 50 and 65°C to allow primers to bind to target sequences. It is then heated to between 70 and 80°C for heat-tolerant Carry out PCR using a thermal cycler or water baths.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities  
+ 
+ 
+Practical applications of PCR. 
+ 
+ DNA polymerase to replicate the region of DNA. 
+ 
+PCR can amplify DNA to help solve crimes, settle paternity suits, and diagnose genetic disorders. 
+  
+ 
+ 
+Use gel electrophoresis to analyse DNA samples (from kits) to determine criminality or paternity. 3 Gene expression 
+(a) Gene expression involves the transcription and translation of DNA sequences. 
+ 
+Transcription and translation involves three types of RNA (mRNA, tRNA and rRNA). 
+ 
+ 
+ 
+Messenger RNA (mRNA) carries a copy of the DNA code from the nucleus to the ribosome. 
+ 
+ 
+ 
+Transfer RNA (tRNA) folds due to complementary base pairing. Each tRNA molecule carries its specific amino acid to the ribosome. Ribosomal RNA (rRNA) and proteins form the ribosome.  
+Only a fraction of the genes in a cell are expressed. 
+ 
+ 
+RNA is single-stranded and is composed of nucleotides containing ribose sugar, phosphate and one of four bases: cytosine, guanine, adenine and uracil. 
+ 
+mRNA is transcribed from DNA in the nucleus and translated into proteins by ribosomes in the cytoplasm. Each triplet of bases on the mRNA molecule is called a codon and codes for a specific amino acid. 
+ 
+A tRNA molecule has an anticodon (an exposed triplet of bases) at one end and an attachment site for a specific amino acid at the other end.  
+  
+ 
+ 
+ 
+ 
+Carry out digital or physical modelling of transcription and translation. 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (b) The role of RNA polymerase in transcription of DNA into primary mRNA transcripts. 
+ 
+ 
+ 
+ 
+ 
+ 
+RNA splicing forms a mature mRNA transcript. 
+ 
+The introns of the primary transcript are non-coding regions and are removed.  
+ 
+The exons are coding regions and are joined together to form the mature transcript. 
+ RNA polymerase moves along DNA unwinding the double helix and breaking the hydrogen bonds between the bases. RNA polymerase synthesises a primary transcript of mRNA from RNA nucleotides by complementary base pairing.  
+ 
+Uracil in RNA is complementary to adenine. 
+ 
+ 
+ 
+ 
+ 
+ 
+The order of the exons is unchanged during splicing.  (c) tRNA is involved in the translation of mRNA into a polypeptide at a ribosome. Translation begins at a start codon and ends at a stop codon. Anticodons bond to codons by complementary base pairing, translating the genetic code into a sequence of amino acids. Peptide bonds join the amino acids together. Each tRNA then leaves the ribosome as the polypeptide is formed.   
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (d) Different proteins can be expressed from one gene, as a result of alternative RNA splicing. Different mature mRNA transcripts are produced from the same primary transcript depending on which exons are retained. 
+   (e) Amino acids are linked by peptide bonds to form polypeptides. Polypeptide chains fold to form the three-dimensional shape of a protein, held together by hydrogen bonds and other interactions between individual amino acids. Proteins have a large variety of shapes which determines their functions. 
+ 
+Phenotype is determined by the proteins produced as the result of gene expression. 
+  
+ 
+ 
+ 
+Details of other interactions and levels of protein structure are not required. 
+ 
+ 
+ 
+Environmental factors also influence phenotype. 
+ Use digital resources to examine the shape and structure of proteins. 
+ 
+Carry out experiments to separate and identify fish proteins by agarose gel electrophoresis.  
+ 
+Carry out experiments to separate and identify amino acids using paper chromatography.  
+ 4 Cellular differentiation 
+(a) Cellular differentiation is the process by which a cell expresses certain genes to produce proteins characteristic for that type 
+of cell. This allows a cell to carry out specialised functions. 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities Differentiation into specialised cells from meristems in plants; embryonic and tissue (adult) stem cells in animals. 
+ 
+ Meristems are regions of unspecialised cells in plants that can divide (self-renew) and/or differentiate.  
+ 
+Stem cells are unspecialised cells in animals that can divide (self-renew) and/or differentiate.  
+ 
+There is no requirement to learn examples of differentiated animal and plant cells. 
+ (b) Embryonic and tissue stem cells. 
+ 
+Cells in the very early embryo can differentiate into all the cell types that make up the organism and so are pluripotent. 
+ 
+Tissue stem cells are involved in the growth, repair and renewal of the cells found in that tissue. They are multipotent. 
+ 
+ 
+ 
+ 
+Therapeutic and research uses of stem cells. 
+  
+ 
+All the genes in embryonic stem cells can be switched on so these cells can differentiate into any type of cell. 
+ 
+Tissue stem cells are multipotent as they can differentiate into all of the types of cell found in a particular tissue type. For example, blood stem cells located in bone marrow can give rise to all types of blood cell.  
+The therapeutic uses of stem cells should be exemplified by how they are used in corneal repair and the regeneration of damaged skin.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+View digital resources on the origin of blood cells and their functions. 
+ 
+ 
+ 
+Study potential therapeutic uses of stem cells. 
+ 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities Therapeutic uses involve the repair of damaged or diseased organs or tissues.  
+ 
+ 
+Research uses involve stem cells being used as model cells to study how diseases develop or being used for drug testing. 
+ 
+The ethical issues of using embryonic stem cells. 
+ Stem cells from the embryo can selfrenew, under the right conditions, in the lab.  
+ 
+Stem cell research provides information on how cell processes such as cell growth, differentiation and gene regulation work. 
+ 
+Use of embryonic stem cells can offer effective treatments for disease and injury; however, it involves destruction of embryos. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Debate the ethics surrounding stem cell research and the sources of stem cells. 5 The structure of the genome  The genome of an organism is its entire hereditary information encoded in DNA.  
+ 
+A genome is made up of genes and other DNA sequences that do not code for proteins. 
+ 
+DNA sequences that code for protein are defined as genes. Other sequences regulate transcription and others are transcribed but never translated.  
+  
+ 
+ 
+ 
+Most of the eukaryotic genome consists of non-coding sequences. 
+ 
+ 
+Details of regulation of transcription (for example Jacob–Monod hypothesis) not required.  
+ 
+tRNA and rRNA are non-translated forms of RNA. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities 6 Mutations 
+(a) Mutations are changes in the DNA that can result in no protein or an altered protein being synthesised. 
+   
+Carry out experiments to investigate the effects of UV radiation on UV sensitive yeast. (b) Single gene mutations involve the alteration of a DNA nucleotide sequence as a result of the substitution, insertion or deletion of nucleotides.  
+ 
+Nucleotide substitutions — missense, nonsense and splice-site mutations.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nucleotide insertions or deletions result in frame-shift mutations. 
+  
+ 
+ 
+ 
+ 
+Missense mutations result in one amino acid being changed for another. This may result in a non-functional protein or have little effect on the protein. 
+ 
+Nonsense mutations result in a premature stop codon being produced which results in a shorter protein. 
+ 
+Splice-site mutations result in some introns being retained and/or some exons not being included in the mature transcript. 
+ 
+Frame-shift mutations cause all of the codons and all of the amino acids after the mutation to be changed. This has a major effect on the structure of the protein produced.  
+ 
+ 
+ 
+ 
+Study human conditions caused by single gene mutations. Examples could include sickle-cell disease (missense), PKU (missense), Duchenne muscular dystrophy (nonsense) and beta thalassemia (splicesite mutation). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Study human conditions caused by frameshift mutations. Examples could include Tay-Sachs disease (frame-shift insertion) and cystic fibrosis (frame-shift deletion). 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (c) Chromosome structure mutations — duplication, deletion, inversion and translocation. 
+ 
+ 
+ Duplication is where a section of a chromosome is added from its homologous partner. 
+ 
+Deletion is where a section of a chromosome is removed. 
+ 
+Inversion is where a section of chromosome is reversed. 
+ 
+Translocation is where a section of a chromosome is added to a chromosome, not its homologous partner.  
+ 
+The substantial changes in chromosome mutations often make them lethal. 
+ Study human conditions caused by chromosome structure mutations. For example: 
+ 
+? Cri-du-chat syndrome — caused by deletion of part of the short arm of chromosome 5. 
+? Haemophilia A — one cause is an inversion within the gene that produces a clotting factor (factor VIII). 
+? Chronic myeloid leukaemia — caused by a reciprocal translocation of sections of chromosome 22 and chromosome 9. 
+ (d) Importance of mutations and gene duplication in evolution. 
+ Duplication allows potential beneficial mutations to occur in a duplicated gene whilst the original gene can still be expressed to produce its protein.   7 Evolution 
+(a) Evolution — the changes in organisms over generations as a result of genomic variations. 
+ 
+ 
+   
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (b) Selection  
+ 
+Natural selection is the non-random increase in frequency of DNA sequences that increase survival and the non-random reduction in the frequency of deleterious sequences.  
+ 
+The changes in phenotype frequency as a 
+result of stabilising, directional and disruptive selection. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Natural selection is more rapid in prokaryotes. Prokaryotes can exchange genetic material horizontally, resulting in faster evolutionary change than in organisms that only use vertical transfer. 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+In stabilising selection, an average phenotype is selected for and extremes of the phenotype range are selected against.  
+ 
+In directional selection, one extreme of the phenotype range is selected for. 
+ 
+In disruptive selection, two or more phenotypes are selected for. 
+ 
+Horizontal gene transfer is where genes are transferred between individuals in the same generation. 
+ 
+Methods of horizontal transfer are not required. 
+ 
+Vertical gene transfer is where genes are transferred from parent to offspring as a result of sexual or asexual reproduction.  
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (c) Speciation 
+ 
+Speciation is the generation of new biological species by evolution as a result of isolation, mutation and selection. 
+ 
+The importance of isolation barriers in preventing gene flow between subpopulations during speciation. 
+ 
+Geographical barriers lead to allopatric speciation and behavioural or ecological barriers lead to sympatric speciation.  
+ 
+A species is a group of organisms capable of interbreeding and producing fertile offspring, and which does not normally breed with other groups. 
+ 
+ 
+ 
+ 
+  
+ 
+Research the London Underground mosquito.  
+ 8 Genomic sequencing 
+(a) In genomic sequencing the sequence of nucleotide bases can be determined for individual genes and entire genomes. 
+ 
+Comparison of genomes from different species. 
+ 
+ 
+Comparison of genomes reveals that many genes are highly conserved across different organisms. 
+  
+Computer programs can be used to identify base sequences by looking for sequences similar to known genes. 
+ 
+To compare sequence data, computer and statistical analyses (bioinformatics) are required. 
+ 
+Many genomes have been sequenced, particularly of disease-causing organisms, pest species and species that are important model organisms for research. 
+  
+Research how sequencing technologies use techniques such as fluorescent tagging 
+of nucleotides to identify the base sequence.  
+ 
+Study potential uses of bioinformatics.  
+ 
+ 
+ 
+DNA and the genome Key areas Depth of knowledge required Suggested learning activities (b) Evidence from phylogenetics and molecular clocks to determine the main sequence of events in evolution. The sequence of events can be determined using sequence data and fossil evidence.  
+ 
+ 
+ 
+Comparison of sequences provides evidence of the three domains of life — bacteria, archaea and eukaryotes. 
+ 
+ Phylogenetics is the study of evolutionary history and relationships.  
+ 
+Use of sequence data to study the evolutionary relatedness among groups of organisms. Sequence divergence is used to estimate time since lineages diverged.  
+ 
+Use of sequence data and fossil evidence to determine the main sequence of events in evolution of life: cells, last universal ancestor, prokaryotes, photosynthetic organisms, eukaryotes, multicellularity, animals, vertebrates, land plants. 
+ 
+Molecular clocks are used to show when species diverged during evolution. They assume a constant mutation rate and show differences in DNA sequences or amino acid sequences. Therefore, differences in sequence data between species indicate the time of divergence from a common ancestor. 
+ 
+ 
+ Study the evolution of bears and primates using Geneious software.  
+ 
+Compare number and proportion of shared genes between organisms such as C. elegans, Drosophila and humans.  
+ 
+ 
+Research the importance of the Fugu genome as an example of a very small vertebrate genome with a high rate of chromosome deletion.  
+ 
+ 
+ 
+Compare human and chimp genomes to show the rapid change in genes for immune system and regulation of neural development over last 6 million years.  DNA and the genome Key areas Depth of knowledge required Suggested learning activities (c) An individual’s genome can be analysed to predict the likelihood of developing certain diseases. 
+ 
+Pharmacogenetics and personalised medicine.  
+ 
+ 
+ 
+Pharmacogenetics is the use of genome information in the choice of drugs. 
+ 
+An individual’s personal genome sequence can be used to select the most effective drugs and dosage to treat their disease (personalised medicine). 
+   
+ 	 
+
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities 1 Metabolic pathways  
+(a) Metabolic pathways are integrated and controlled pathways of enzyme-catalysed reactions within a cell. 
+ 
+Metabolic pathways can have reversible steps, irreversible steps and alternative routes. 
+ 
+Reactions within metabolic pathways can be anabolic or catabolic. Anabolic reactions build up large molecules from small molecules and require energy. Catabolic reactions break down large molecules into smaller molecules and release energy. 
+   (b) Protein pores, pumps and enzymes are embedded in membranes. 
+ No requirement to know details of sodium potassium pump.  
+ (c) Metabolic pathways are controlled by the presence or absence of particular enzymes and the regulation of the rate of reaction of key enzymes. 
+ 
+Induced fit and the role of the active site of an enzyme in affecting activation energy  
+ 
+ 
+ 
+ 
+Induced fit occurs when the active site changes shape to better fit the substrate after the substrate binds. Carry out enzyme induction experiments such as the breakdown of ONPG by beta galactosidase in E. coli, with lactose acting as an inducer. 
+ 
+ 
+ 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities and the affinity of the substrate and products for the active site. 
+ 
+The effects of substrate and product concentration on the direction and rate of enzyme reactions. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Control of metabolic pathways through competitive, non-competitive and feedback inhibition of enzymes. 
+ 
+ 
+  
+ 
+ 
+The substrate molecule(s) have a high affinity for the active site and the subsequent products have a low affinity, allowing them to leave the active site. 
+ 
+Some metabolic reactions are reversible and the presence of a substrate or the removal of a product will drive a sequence of reactions in a particular direction. 
+ 
+Competitive inhibitors bind at the active site preventing the substrate from binding. Competitive inhibition can be reversed by increasing substrate concentration. 
+ 
+Non-competitive inhibitors bind away from the active site but change the shape of the active site preventing the substrate from binding. Non-competitive inhibition cannot be reversed by increasing substrate concentration. 
+ 
+Feedback inhibition occurs when the endproduct in the metabolic pathway reaches a critical concentration. The end-product  
+ 
+ 
+Carry out activation energy experiments, comparing heat, manganese dioxide and catalase action on hydrogen peroxide.  
+ 
+ 
+ 
+ 
+Carry out experiments on the effect of increasing substrate concentration on reactions. Examples could include using hydrogen peroxide and adding filter paper discs soaked in catalase. 
+ 
+Carry out experiments on the effect of inhibitors on reactions. Examples could include the inhibition of beta galactosidase by galactose and its reversal by increasing ONPG concentration.  
+ 
+ 
+ 
+ 
+Carry out experiments on end-product inhibition using phosphatase and phenolphthalein phosphate. 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities then inhibits an earlier enzyme, blocking the pathway, and so prevents further synthesis of the end-product. 
+ 2 Cellular respiration 
+(a) Metabolic pathways of cellular respiration. 
+ 
+Glycolysis is the breakdown of glucose to pyruvate in the cytoplasm.  
+ 
+ATP is required for the phosphorylation of glucose and intermediates during the energy investment phase of glycolysis. This leads to the generation of more ATP during the energy pay-off stage and results in a net gain of ATP.  
+ 
+In aerobic conditions, pyruvate is broken down to an acetyl group that combines with coenzyme A forming acetyl coenzyme A. 
+ 
+In the citric acid cycle the acetyl group from acetyl coenzyme A combines with oxaloacetate to form citrate. During a series of enzyme-controlled steps, citrate is gradually converted back into oxaloacetate  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Carry out experiments using different sugars as respiratory substrates for yeast.  
+ 
+ 
+ 
+ 
+Carry out experiments using glucose-1phosphate (a phosphorylated form of glucose). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research how Hans Krebs discovered the citric acid cycle.  
+ 
+ 
+ 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities which results in the generation of ATP and release of carbon dioxide. 
+ 
+The citric acid cycle occurs in the matrix of the mitochondria. 
+ 
+Dehydrogenase enzymes remove hydrogen ions and electrons and pass them to the coenzyme NAD, forming NADH. This occurs in both glycolysis and the citric acid cycle.  
+ 
+The hydrogen ions and electrons from NADH are passed to the electron transport chain on the inner mitochondrial membrane. 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+Carry out experiments on the inhibition of the citric acid cycle by malonic acid using DCPIP as an indicator of dehydrogenase activity.   
+Carry out experiments with yeast dehydrogenase using resazurin dye as an indicator. 
+ (b) ATP synthesis — electrons are passed 
+along the electron transport chain releasing energy. 
+ 
+This energy allows hydrogen ions to be pumped across the inner mitochondrial membrane. The flow of these ions back through the membrane protein ATP synthase results in the production of ATP. 
+ 
+Finally, hydrogen ions and electrons combine with oxygen to form water. The electron transport chain is a series of carrier proteins attached to the inner mitochondrial membrane.  
+  
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities (c) Fermentation 
+ 
+In the absence of oxygen, fermentation takes place in the cytoplasm. 
+ 
+In animal cells, pyruvate is converted to lactate in a reversible reaction. 
+ 
+In plants and yeast, ethanol and CO2 are produced in an irreversible reaction. 
+ 
+Fermentation results in much less ATP being produced than in aerobic respiration. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (d) The role of ATP in the transfer of energy. 
+ ATP is used to transfer energy to cellular processes which require energy. 
+ Carry out experiments on ATP-dependent reactions, such as luminescent reactions using luciferase. 
+ 3 Metabolic rate 
+(a) Measurement of oxygen consumption, carbon dioxide and heat production to compare metabolic rates. 
+  
+Metabolic rate can be measured using respirometers, oxygen probes, carbon dioxide probes and calorimeters.  
+Use simple respirometers to measure metabolic rate. 
+ 
+Carry out experiments to measure metabolic rate using oxygen, carbon dioxide and temperature probes. 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities (b) Organisms with high metabolic rates require more efficient delivery of oxygen to cells.  
+ 
+ 
+Comparative anatomy and physiology of heart chambers and circulatory systems in amphibians, reptiles, mammals and birds, and heart and circulation in fish. 
+ 
+ 
+ Birds and mammals have higher metabolic rates than reptiles and amphibians, which in turn have higher metabolic rates than fish. 
+ 
+Birds and mammals have a complete double circulatory system consisting of two atria and two ventricles. Amphibians and most reptiles have an incomplete double circulatory system consisting of two atria and one ventricle. Fish have a single circulatory system consisting of one atrium and one ventricle. 
+ 
+Complete double circulatory systems enable higher metabolic rates to be maintained. There is no mixing of oxygenated and deoxygenated blood and the oxygenated blood can be pumped out at a higher pressure. This enables more efficient oxygen delivery to cells. 
+  
+ 4 Metabolism in conformers and  	regulators 
+(a) The ability of an organism to maintain its metabolic rate is affected by external abiotic factors. 
+  
+ 
+Abiotic factors — temperature, salinity and pH.  
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities (b) Conformers’ internal environment is dependent upon external environment. Conformers use behavioural responses to maintain optimum metabolic rate. 
+Conformers have low metabolic costs and a narrow range of ecological niches. 
+  
+ 
+Behavioural responses by conformers allow them to tolerate variation in their external environment to maintain optimum metabolic rate. Research the response of a conformer to a change in an environmental factor. 
+ 
+Compare marine and estuarine invertebrates and their response to variation in salinity.  (c) Regulators maintain their internal environment regardless of external environment. 
+ 
+Regulators use metabolism to control their internal environment, which increases the range of possible ecological niches.  
+ 
+This regulation requires energy to achieve homeostasis. This increases their metabolic costs. 
+ 
+   (d) Thermoregulation by negative feedback — the role of the hypothalamus, nerves and effectors. 
+ 
+ 
+ 
+ 
+ The hypothalamus is the temperature monitoring centre. 
+ 
+Information is communicated by electrical impulses through nerves to the effectors, which bring about corrective responses to return temperature to normal. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities The role of corrective responses to an increase in body temperature — sweating, vasodilation of blood vessels and decreased metabolic rate. 
+ 
+ 
+ 
+ 
+ 
+ 
+The corrective responses to a decrease in body temperature — shivering, vasoconstriction of blood vessels, hair erector muscles contracting and increased metabolic rate. 
+ Sweating — body heat used to evaporate water in the sweat, cooling the skin. 
+ 
+Vasodilation — increased blood flow to the skin increases heat loss. 
+ 
+Decreased metabolic rate — less heat produced. 
+ 
+ 
+Shivering — muscle contraction generates heat. 
+ 
+Vasoconstriction — decreased blood flow to skin decreases heat loss. 
+ 
+Hair erector muscles contract — traps layer of insulating air. 
+ 
+Increased metabolic rate — more heat produced. 
+ Carry out experiments using thermistors or infra-red thermometers on skin temperature and its regulation in humans.  
+ 
+ 
+ 
+ 
+ 
+ (e) Importance of regulating temperature (thermoregulation) for optimal enzyme activity and high diffusion rates to maintain metabolism. 
+ 
+   
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities 5 Metabolism and adverse conditions Many environments vary beyond the tolerable limits for normal metabolic activity for any particular organism. Some animals have adapted to survive these adverse conditions while others avoid them. 
+ 
+(a) Surviving adverse conditions by dormancy.  
+ 
+Dormancy is part of some organisms’ life cycle to allow survival during a period when the costs of continued normal metabolic activity would be too high. The metabolic rate can be reduced during dormancy to save energy. 
+ 
+Dormancy can be predictive or consequential.  
+ 
+ 
+Some mammals survive during winter/low temperatures by hibernating. Aestivation allows survival in periods of high temperature or drought. Daily torpor is a period of reduced activity in some animals with high metabolic rates.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+During dormancy there is a decrease in metabolic rate, heart rate, breathing rate and body temperature. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Predictive dormancy occurs before the onset of adverse conditions. 
+Consequential dormancy occurs after the onset of adverse conditions. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research aspects of surviving adverse conditions.  
+ 
+ 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities (b) Avoiding adverse conditions by migration. 
+ 
+Migration avoids metabolic adversity by expending energy to relocate to a more suitable environment.  
+ 
+Migratory behaviour can be innate and learned. 
+ 
+Specialised techniques are used to study long-distance migration. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Examples of specialist techniques are satellite tracking and leg rings. Evaluate procedures and results of studies 
+investigating triggers for migration, navigation adaptations.  
+ 
+ 
+ 
+ 
+Research the genetic control of migratory behaviour in studies of populations of birds.  
+ 
+ 6 Environmental control of 
+	 	metabolism 
+Micro-organisms are archaea, bacteria and some species of eukaryotes. 
+ 
+ 
+ 
+  
+ 
+Micro-organisms use a wide variety of substrates for metabolism and produce a range of products from their metabolic pathways. 
+ 
+Micro-organisms are used because of their adaptability, ease of cultivation and speed of growth. 
+  
+ 
+ (a) Variations in growth media and control of environmental factors. 
+ Many micro-organisms produce all the complex molecules required for biosynthesis, for example amino acids, vitamins and fatty acids. Other micro- 
+ 
+ 
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities When culturing micro-organisms, their growth media require raw materials for biosynthesis as well as an energy source. 
+ 
+ 
+ 
+ 
+Culture conditions: sterility, control of temperature, oxygen levels and pH.  organisms require these to be supplied in the growth media. 
+ 
+An energy source is derived either from chemical substrates or from light in photosynthetic micro-organisms. 
+ 
+Sterile conditions in fermenters reduce competition with desired micro-organisms 
+for nutrients and reduce the risk of spoilage of the product. 
+ Carry out experiments to investigate the growth of microbes under different cultural and environmental conditions using standard laboratory equipment and simple fermenters. 
+ 
+ 
+ 
+ 
+ 
+ 
+ (b) Phases of growth and changes in culture conditions. 
+ 
+Phases — lag, log/exponential, stationary and death. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+The lag phase is where enzymes are induced to metabolise substrates. 
+ 
+The log/exponential phase contains the most rapid growth of micro-organisms due to plentiful nutrients.  
+ 
+The stationary phase occurs due to the nutrients in the culture media becoming depleted and the production of toxic metabolites. Secondary metabolites are also produced, such as antibiotics. In the wild these metabolites confer an  
+ 
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Growth curves of micro-organisms. 
+ 
+ 
+ 
+Viable and total cell count. ecological advantage by allowing the micro-organisms which produce them to outcompete other micro-organisms. 
+ 
+The death phase occurs due to the toxic accumulation of metabolites or the lack of nutrients in the culture. 
+ 
+Use of semi-logarithmic scales in producing or interpreting growth curves of micro-organisms. 
+ 
+Viable cell counts involve counting only the living micro-organisms whereas total cell counts involve counting viable and dead cells. Only viable cell counts show a death phase where cell numbers are decreasing. 
+ 7 Genetic control of metabolism 
+(a) Wild strains of micro-organisms can be improved by mutagenesis, or recombinant DNA technology.  
+  
+Exposure to UV light and other forms of radiation or mutagenic chemicals results in mutations, some of which may produce an improved strain of micro-organism. 
+ 
+  
+Metabolism and survival Key areas Depth of knowledge required Suggested learning activities (b) Recombinant DNA technology involves the use of recombinant plasmids and artificial chromosomes as vectors. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The role of the enzymes restriction endonucleases and ligase in recombinant DNA technology. 
+ 
+ 
+ 
+ 
+ 
+ 
+Recombinant plasmids and artificial chromosomes contain restriction sites, regulatory sequences, an origin of replication and selectable markers. 
+ 
+ 
+ 
+ A vector is a DNA molecule used to carry foreign genetic information into another cell and both plasmids and artificial chromosomes are used as vectors during recombinant DNA technology. 
+ 
+Artificial chromosomes are preferable to plasmids as vectors when larger fragments of foreign DNA are required to be inserted. 
+ 
+Restriction endonucleases cut open plasmids and specific genes out of chromosomes, leaving sticky ends. 
+ 
+Complementary sticky ends are produced when the same restriction endonuclease is used to cut open the plasmid and the gene from the chromosome. Ligase seals the gene into the plasmid.  
+ 
+Restriction sites contain target sequences of DNA where specific restriction endonucleases cut.  
+ 
+Regulatory sequences control gene expression and origin of replication allows  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Metabolism and survival Key areas Depth of knowledge required Suggested learning activities  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As a safety mechanism, genes are often introduced that prevent the survival of the micro-organism in an external environment. 
+ 
+Use of recombinant yeast cells to produce active forms of the protein which are inactive in bacteria. 
+ 
+ self-replication of the plasmid/artificial chromosome. 
+ 
+Selectable markers such as antibiotic resistance genes protect the microorganism from a selective agent 
+(antibiotic) that would normally kill it or prevent it growing. 
+ 
+Selectable marker genes present in the vector ensure that only micro-organisms that have taken up the vector grow in the presence of the selective agent (antibiotic). 
+ 
+ 
+ 
+ 
+ 
+ 
+Recombinant yeast cells may be used, as plant or animal recombinant DNA expressed in bacteria may result in polypeptides being incorrectly folded.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Research ethical considerations in the use of micro-organisms — hazards and control of risks. For example, recombinant DNA technology is used to produce human proteins to treat disease — these could mutate and become pathogens or escape into the wild environment. 
+  	 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities 1 Food supply, plant growth and  	productivity 
+(a) Food supply 
+Food security and sustainable food production. 
+ 
+Increase in human population and concern for food security leads to a demand for increased food production. Food production must be sustainable and not degrade the natural resources on which agriculture depends. 
+ 
+Agricultural production depends on factors that control photosynthesis and plant growth. The area to grow crops is limited. Increased food production will depend on factors that control plant growth — breeding of higher yielding cultivars, use of fertiliser, protecting crops from pests, diseases and competition. 
+ 
+Livestock produce less food per unit area than crop plants due to loss of energy between trophic levels. Livestock production is often possible in habitats unsuitable for growing crops.  
+ 
+Food security is the ability of human populations to access food of sufficient quality and quantity. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+All food production is dependent ultimately upon photosynthesis. Plant crop examples include cereals, potato, roots and legumes. Breeders seek to develop crops with higher nutritional values, resistance to pests and diseases, physical characteristics suited to rearing and harvesting as well as those that can thrive in particular environmental conditions. 
+  
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities (b) Photosynthesis 
+Light energy is absorbed by photosynthetic pigments to generate ATP and for photolysis.  
+ 
+Absorption spectra of chlorophyll a and b and carotenoids compared to action spectra for photosynthesis. Carotenoids extend the range of wavelengths absorbed and pass the energy to chlorophyll for photosynthesis. 
+ 
+Absorbed light energy excites electrons in the pigment molecule. Transfer of these electrons through the electron transport chain releases energy to generate ATP by ATP synthase. Energy is also used for photolysis, in which water is split into oxygen, which is evolved, and hydrogen ions, which are transferred to the coenzyme NADP.  
+ 
+In the carbon fixation stage (Calvin cycle), the enzyme RuBisCO fixes carbon dioxide by attaching it to ribulose bisphosphate (RuBP). The 3-phosphoglycerate (3PG) produced is phosphorylated by ATP and combined with hydrogen ions from  
+Light energy not absorbed is transmitted or reflected. 
+ 
+ 
+ 
+ 
+ 
+ 
+Each pigment absorbs a different range of wavelengths of light. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Examine the spectrum of visible light and artificial light sources with a simple spectroscope.  
+ 
+Examine light transmission through extracted chlorophyll with a simple spectroscope.  
+ 
+Carry out experiments to investigate the action spectra of photosynthesis in plants using coloured filters.  
+ 
+Carry out paper or thin layer chromatography of photosynthetic pigments.  
+ 
+Research photosynthetic pigments in other photoautotrophs.  
+ 
+Carry out the Hill reaction.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities NADPH to form glyceraldehyde-3phosphate (G3P). G3P is used to regenerate RuBP and for the synthesis of glucose. 
+ 
+Glucose may be used as a respiratory substrate, synthesised into starch or cellulose or passed to other biosynthetic pathways.  
+  
+ 
+ 
+ 
+These biosynthetic pathways can lead to the formation of a variety of metabolites such as DNA, protein and fat.  
+ 
+ 
+ 
+Carry out experiments on the synthesis of starch from glucose-1-phosphate by potato phosphorylase. 2 Plant and animal breeding 
+(a) Plant and animal breeding to improve characteristics to help support sustainable food production. 
+  
+Breeders develop crops and animals with higher food yields, higher nutritional values, pest and disease resistance and ability to thrive in particular environmental conditions. 
+  
+Research resistance of potato varieties to Phytophthora infestans.  
+ (b) Plant field trials are carried out in a range of environments to compare the performance of different cultivars or treatments and to evaluate GM crops. 
+ 
+In designing field trials account has to be taken of the selection of treatments, the number of replicates and the randomisation of treatments. 
+  
+ 
+ 
+ 
+ 
+The selection of treatments to ensure valid comparisons, the number of replicates to take account of the variability within the sample, and the randomisation of treatments to eliminate bias when measuring treatment effects. Evaluate crop trials to draw conclusions on crop suitability, commenting on validity and reliability of trial design and the treatment of variability in results.  
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities (c) Inbreeding 
+In inbreeding, selected related plants or animals are bred for several generations until the population breeds true to the desired type due to the elimination of heterozygotes.  
+ 
+A result of inbreeding can be an increase in the frequency of individuals who are homozygous for recessive deleterious alleles. These individuals will do less well at surviving to reproduce. This results in inbreeding depression.   
+Analysis of patterns of inheritance in inbreeding using monohybrid crosses. 
+  
+Analyse patterns of inheritance in inbreeding and outbreeding species (monohybrid cross, F1 and F2 from two true breeding parental lines).  
+ 
+Research the development of particular crop cultivars and livestock breeds.  
+ 
+Research self-pollinating plants — naturally inbreeding and less susceptible to inbreeding depression due to the elimination of deleterious alleles by natural selection.  
+ (d) Cross breeding and F1 hybrids 
+In animals, individuals from different breeds may produce a new crossbreed population with improved characteristics. The two parent breeds can be maintained to produce more crossbred animals showing the improved characteristic. 
+ 
+In plants, F1 hybrids, produced by the crossing of two different inbred lines, create a relatively uniform heterozygous crop. F1 hybrids often have increased vigour and yield.   
+New alleles can be introduced to plant and animal lines by crossing a cultivar or breed with an individual with a different, desired genotype. 
+ 
+ 
+ 
+ 
+ 
+Plants with increased vigour may have increased disease resistance or increased growth rate.  
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities  
+In inbreeding animals and plants, F1 hybrids are not usually bred together as the F2 produced shows too much variation. 
+ (e) Genetic technology 
+As a result of genome sequencing, organisms with desirable genes can be identified and then used in breeding programmes.  
+ 
+Breeding programmes can involve crop plants that have been genetically modified using recombinant DNA technology. 
+ 
+  
+Single genes for desirable characteristics can be inserted into the genomes of crop plants, creating genetically modified plants with improved characteristics.  
+ 
+Details of recombinant DNA technology techniques in improving crop plants are not required, for example the use of Agrobacterium. 
+ 
+Recombinant DNA technology in plant breeding includes insertion of Bt toxin gene into plants for pest resistance, glyphosate resistance gene inserted for herbicide tolerance. 
+  
+Research plant mutations in breeding programmes, for example, mutation breeding has brought about improvement to a number of crops in disease resistance, dwarf habit (for example in cereals), and chemical/nutritional composition (for example low erucic acid in rapeseed).  
+ 3 Crop protection 
+(a) Weeds compete with crop plants, while other pests and diseases damage 
+crop plants, all of which reduce productivity.   
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities  
+Properties of annual weeds — rapid growth, short life cycle, high seed output and long-term seed viability. 
+ 
+Properties of perennial weeds with competitive adaptations — storage organs and vegetative reproduction. 
+ 
+Most of the pests of crop plants are invertebrate animals such as insects, nematode worms and molluscs. 
+ 
+Plant diseases can be caused by fungi, bacteria or viruses, which are often carried by invertebrates. 
+ (b) Control of weeds, other pests and diseases by cultural methods. 
+ 
+ Ploughing, weeding and crop rotation. 
+ Research the incidence and viability of potato cyst nematode cysts in samples of soil continuously cropped with potatoes and in samples of soil cropped with potatoes as part of a rotation. 
+ (c) The advantages of pesticides which are either selective or systemic.  
+ 
+ 
+ Pesticides include herbicides to kill weeds, fungicides to control fungal diseases, insecticides to kill insect pests, molluscicides to kill mollusc pests and nematicides to kill nematode pests. Research the control of weeds, pests and/or diseases of agricultural crops by cultural and chemical means.  
+ 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Problems with pesticides: toxicity to  non-target species, persistence in the environment, bioaccumulation or biomagnification in food chains, producing resistant populations of pests. 
+  
+Selective herbicides have a greater effect on certain plant species (broad leaved weeds). 
+ 
+Systemic herbicide spreads through vascular system of plant and prevents regrowth. 
+ 
+Systemic insecticides, molluscicides and nematicides spread through the vascular system of plants and kill pests feeding on plants. 
+ 
+Applications of fungicide based on disease forecasts are more effective than treating diseased crops. 
+ 
+Bioaccumulation is a build-up of a chemical in an organism. Biomagnification is an increase in the concentration of a chemical moving between trophic levels. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ (d) Control of weeds, other pests and diseases by biological control and integrated pest management. 
+ 
+ In biological control the control agent is a natural predator, parasite or pathogen of the pest.  
+ Research methods of biological control, for example control of glasshouse whitefly with the parasitic wasp Encarsia, red spider mite with the predatory mite 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities  
+ 
+ 
+ 
+Risks with biological control.  Integrated pest management is a combination of chemical, biological and cultural control. 
+ 
+The control organism may become an invasive species, parasitise, prey on or be a pathogen of other species. 
+ Phytoseiulus and butterfly caterpillars with the bacterium Bacillus thuringiensis.  
+ 
+ 
+Compare the chemical and biological control of the red spider mite.  4 Animal welfare 
+The costs, benefits and ethics of providing different levels of animal welfare in livestock production. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Behavioural indicators of poor animal welfare are stereotypy, misdirected behaviour, failure in sexual or parental behaviour and altered levels of activity.  
+  
+Intensive farming is less ethical than free range farming due to poorer animal welfare. 
+ 
+Free range requires more land and is more labour intensive but can be sold at a higher price and animals have a better quality of life. 
+ 
+Intensive farming often creates conditions of poor animal welfare but is often more cost effective, generating higher profit as costs are low. 
+ 
+ 
+ 
+Very low (apathy) or very high (hysteria) levels of activity. 
+  
+Research the five freedoms for animal welfare.  
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities 5 Symbiosis 
+Symbiosis — co-evolved intimate relationships between members of two different species.  
+Types of symbiotic relationship — parasitism and mutualism. 
+ 
+Knowledge of commensalism is not required. 
+  (a) Parasitic relationships and 
+transmission 
+ 
+A parasite benefits in terms of energy or nutrients, whereas its host is harmed by the loss of these resources. 
+ 
+Parasites often have limited metabolism and cannot survive out of contact with a host. 
+ 
+Transmission of parasites to new hosts using direct contact, resistant stages and vectors. 
+ 
+Some parasitic life cycles involve intermediate (secondary) hosts to allow them to complete their life cycle. 
+ 
+ 
+  Observe microscope slides of parasites. 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities (b) Mutualism 
+ 
+Both mutualistic partner species benefit in an interdependent relationship. 
+   6 Social behaviour 
+(a) Many animals live in social groups and have behaviours that are adapted to group living such as social hierarchy, cooperative hunting and social defence.  
+Social hierarchy is a rank order within a group of animals consisting of a dominant and subordinate members. In a social hierarchy, dominant individuals carry out 
+ritualistic (threat) displays whilst subordinate animals carry out appeasement behaviour to reduce conflict. 
+ 
+Social hierarchies increase the chances of the dominant animal’s favourable genes being passed on to offspring. Animals often form alliances in social hierarchies to increase their social status within the group. 
+ 
+Co-operative hunting may benefit subordinate animals as well as dominant ones, as they may gain more food than by foraging alone. Less energy is used per individual. Co-operative hunting enables  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+View video clips of orca, wolves, lions and chimpanzees co-operatively hunting.  
+ 
+ 
+ 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities larger prey to be caught and increases the chance of success. 
+ 
+Social defence strategies increase the chance of survival as some individuals can watch for predators whilst others can forage for food. Groups adopt specialised formations when under attack protecting their young. 
+  
+ 
+ 
+View video clips of social defence in musk oxen, meerkats and starlings. (b) Altruism and kin selection and its influence on survival. 
+ 
+An altruistic behaviour harms the donor individual but benefits the recipient. 
+ 
+Behaviour that appears to be altruistic can be common between a donor and a recipient if they are related (kin).  
+ 
+The donor will benefit in kin selection in terms of the increased chances of survival of shared genes in the recipient’s offspring or future offspring. 
+ 
+ 
+ 
+  
+ 
+ 
+Reciprocal altruism, where the roles of donor and recipient later reverse, often occurs in social animals.  
+ 
+ 
+Research reciprocal altruism using the prisoner’s dilemma.  
+ 
+Analyse data on helper behaviour and relatedness.  
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities (c) Social insects and the structure of their society in which only some individuals (queens and drones) contribute reproductively. Most members of the colony are sterile workers who co-operate with close relatives to raise relatives. 
+ 
+ Social insects include bees, wasps, ants and termites. 
+ 
+Other examples of workers’ roles include defending the hive, collecting pollen and carrying out waggle dances to show the direction of food. 
+ 
+Sterile workers raise relatives to increase survival of shared genes. 
+ View video clips of the queen’s role and workers’ roles in termite and honey bee colonies. (d) Primate behaviour 
+Primates have a long period of parental care to allow learning of complex social behaviour. 
+ 
+Complex social behaviours support the social hierarchy. This reduces conflict through ritualistic display and appeasement behaviour. 
+ 
+Alliances form between individuals, which are often used to increase social status within the group. 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Grooming, facial expression, body posture and sexual presentation. 
+  
+ 
+ 
+ 
+ 
+View video clips of primate behaviour.  
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities 7 Components of biodiversity 
+Components of biodiversity are genetic diversity, species diversity and ecosystem diversity. 
+ 
+Genetic diversity is the number and frequency of all the alleles within a population. 
+ 
+ 
+Species diversity comprises the number of different species in an ecosystem (the species richness) and the proportion of each species in the ecosystem (the relative abundance). 
+ 
+Ecosystem diversity refers to the number of distinct ecosystems within a defined area. 
+  
+ 
+ 
+ 
+ 
+If one population of a species dies out then the species may have lost some of its genetic diversity, and this may limit its ability to adapt to changing conditions. 
+ 
+A community with a dominant species has a lower species diversity than one with the same species richness but no particularly dominant species. 
+ 
+  
+Research the importance of producing a central database of all known species and the difficulties involved in ensuring its accuracy. 
+ 
+Use fieldwork studies to compare biodiversity indices of different areas, for example: polluted versus unpolluted river, an ecosystem with invasive species versus an ecosystem with native species, a disturbed habitat versus an undisturbed habitat. 
+ 
+ 
+ 
+Analyse data on island biogeography. 
+ 8 Threats to biodiversity (a) Exploitation and recovery of populations and the impact on their genetic diversity. 
+ 
+ 
+  
+With overexploitation, populations can be reduced to a low level but may still recover. Some species have a naturally low genetic diversity in their population and yet remain viable. 
+  
+Analyse data on exploitation of whale or fish populations.  
+ 
+ 
+ 
+ 
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities The bottleneck effect — small populations may lose the genetic variation necessary to enable evolutionary responses to environmental change.  
+ In small populations, this loss of genetic diversity can be critical for many species, as inbreeding can result in poor reproductive rates.  Research impact of naturally low genetic diversity within cheetah populations.  (b) Habitat loss, habitat fragments and their impact on species richness. 
+ 
+The clearing of habitats has led to habitat fragmentation. Degradation of the edges of habitat fragments results in increased competition between species as the fragment becomes smaller. This may result in a decrease in biodiversity. 
+ 
+To remedy widespread habitat fragmentation, isolated fragments can be linked with habitat corridors.  
+  
+ 
+ 
+ 
+ 
+More isolated fragments and smaller fragments exhibit a lower species diversity. 
+ 
+ 
+The corridors allow movement of animals between fragments, increasing access to food and choice of mate. This may lead to recolonisation of small fragments after local extinctions. 
+  
+ 
+ 
+ 
+ 
+Research impact of habitat fragmentation and benefits of habitat corridors for tiger populations.  
+ 
+ 
+ 
+ 
+ 
+ 
+ (c) Introduced, naturalised and invasive species and their impact on native populations.  
+ 
+Introduced (non-native) species are those 
+that humans have moved either   
+Sustainability and interdependence Key areas Depth of knowledge required Suggested learning activities intentionally or accidentally to new geographic locations.  
+ 
+Those that become established within wild communities are termed naturalised species. 
+ 
+Invasive species are naturalised species that spread rapidly and eliminate native species, therefore reducing species diversity. Invasive species may well be free of the predators, parasites, pathogens and competitors that limit their population in their native habitat. Invasive species may prey on native species, outcompete them for resources or hybridise with them. 
+ 
+Apparatus and techniques 
+Candidates need to have knowledge of the following pieces of apparatus and have opportunities to become familiar with the techniques listed. 
+ 
+Note: the apparatus and techniques noted below can be assessed in the question papers. 
+ 
+Apparatus  
+? beaker 
+? balance  
+? measuring cylinder 
+? dropper/pipette 
+? test tube/boiling tube 
+? thermometer 
+? funnel 
+? syringe 
+? timer/stopwatch 
+? Petri dish 
+? water bath 
+? spectroscope 
+? colorimeter 
+? simple fermenter 
+ Techniques  
+? using paper or thin layer chromatography to separate photosynthetic pigments 
+? using gel electrophoresis to separate macromolecules, for example DNA fragments 
+? using substrate concentration or inhibitor concentration to alter reaction rates 
+? using a respirometer 
+? measuring metabolic rate using oxygen, carbon dioxide and temperature probes  
+? using a spectroscope to compare visible light and filtered lights 
+ 
+Choosing from the suggested learning activities, or carrying out any other appropriate activities, allows candidates to become familiar with the apparatus and techniques listed above. Where it is not possible to carry out a particular technique other resources could be utilised. 
+ 
+Candidates should be familiar the terms ‘control’, ‘validity’, ‘reliability’, ‘independent variable’, and ‘dependent variable’ and be able to comment on these in experimental  set-up questions. 
+ 
+Control: a control experiment is set up exactly the same but without the treatment being applied to show the effect is due to the treatment. 
+ Validity: all variables except the independent variable are controlled so it can be concluded that the effect is due to the independent variable. 
+ 
+Reliability: measurements are repeated at each level of the independent variable to reduce the effect of atypical results. 
+ 
+Independent variable: the variable that is changed in a scientific experiment. 
+ 
+Dependent variable: the variable that is measured to give results in a scientific experiment. 
+ 
+ 
+ 	 
+
+Preparing for course assessment 
+Each course has additional time which may be used at the discretion of teachers and/or lecturers to enable candidates to prepare for course assessment. This time may be used at various points throughout the course for consolidation and support. It may also be used towards the end of the course for further integration, revision and preparation. 
+ 
+Throughout the course, teachers and/or lecturers should find opportunities: 
+ 
+? for identifying particular aspects of work that need reinforcement and support  
+? to practise skills of scientific inquiry and investigation to prepare for the assignment  ? to practise question paper techniques  
+ 
+Developing skills for learning, skills for life and skills for work 
+Teachers and/or lecturers should identify opportunities throughout the course for candidates to develop skills for learning, skills for life and skills for work. 
+ 
+Candidates should be aware of the skills they are developing and teachers and/or lecturers can provide advice on opportunities to practise and improve them.  
+ 
+SQA does not formally assess skills for learning, skills for life and skills for work. 
+ 
+There may also be opportunities to develop additional skills depending on approaches being used to deliver the course in each centre. This is for individual teachers and lecturers to manage. 
+ 
+The following skills for learning, skills for life and skills for work are significantly developed: 
+ 
+Literacy 
+Writing means the ability to create texts which communicate ideas, opinions and information, to meet a purpose and within a context. In this context, ‘texts’ are defined as word-based materials (sometimes with supporting images) which are written, printed, Braille or displayed on screen. These will be technically accurate for the purpose, audience and context. 
+ 
+1.2 	Writing 
+Candidates develop the skills to effectively communicate key areas of biology, make informed decisions and describe, clearly, biological issues in various media forms. Candidates have the opportunity to communicate applied knowledge and understanding throughout the course, with an emphasis on applications and environmental/ethical/social impacts. 
+ 
+There are opportunities to develop the literacy skills of listening and reading when gathering and processing information in biology. 
+ 
+Numeracy 
+Numeracy is the ability to use numbers in order to solve problems by counting, doing calculations, measuring, and understanding graphs and charts. It is also the ability to understand the results. Candidates have opportunities to extract, process and interpret information presented in numerous formats, including tabular and graphical. Practical work provides opportunities to develop time and measurement skills. 
+ 
+2.1 	Number processes 
+Number processes means solving problems arising in everyday life through carrying out calculations, making informed decisions based on the results of these calculations and understanding these results. In biology contexts, candidates carry out calculations with data and results from experiments/investigations and everyday class work. 
+ 
+2.2 	Money, time and measurement 
+Candidates use their understanding of time and measurement to solve problems and handle data in a variety of biology contexts, including practical and investigative. 
+ 
+2.3 	Information handling 
+In this course, information handling means being able to interpret biological data in tables, charts and other graphical displays to draw sensible conclusions throughout the course. It involves interpreting the data and considering its reliability in making reasoned deductions and informed decisions. It also involves an awareness and understanding of the chance of events happening. 
+ 
+Thinking skills 
+This is the ability to develop the cognitive skills of remembering and identifying, understanding and applying. The course allows candidates to develop skills of applying, analysing and evaluating. Candidates can analyse and evaluate practical work and data by reviewing the process, identifying issues and forming valid conclusions. They can demonstrate understanding and application of key areas and explain and interpret information and data. 
+ 
+5.3 	Applying 
+Applying is the ability to use existing information to solve biological problems in different contexts, and to plan, organise and complete a task such as an investigation. 
+ 
+5.4 	Analysing and evaluating 
+This is the ability to solve problems in biology and make decisions that are based on available information. 
+ 
+It may involve reviewing and evaluating relevant information and/or prior knowledge to provide an explanation.  
+ 
+It may build on selecting and/or processing information, so is a higher skill. 
+ 
+5.5 	Creating 
+This is the ability to design something innovative or to further develop an existing thing by adding new dimensions or approaches. Candidates can demonstrate their creativity, in particular, when planning and designing biology experiments or investigations. They have the opportunity to be innovative and to make, write, say or do something new. 
+ 
+Candidates also have opportunities to develop the skills of working with others and citizenship. 
+ 
+Working with others 
+Learning activities provide many opportunities, in all areas of the course, for candidates to work with others. Practical activities and investigations, in particular, offer opportunities for group work, which is an important aspect of biology. 
+ 
+Citizenship 
+Candidates develop citizenship skills when considering the applications of biology on our lives, as well as environmental and ethical implications. 
+ 
+. 	 
+
+Appendix 2: question paper brief 
+ 
+ Marks Component Knowledge and understanding Skills Total question papers 85+/-5 35+/-5 120  
+Knowledge and understanding/skills Range of marks ? demonstrating knowledge and understanding of biology by making statements, describing information, providing explanations and integrating knowledge min 30 ? applying knowledge and understanding of biology to new situations, interpreting information and solving problems min 30 ? planning and designing experiments/investigations 30–40 ? selecting information from a variety of sources ? presenting information appropriately in a variety of forms ? processing information/data (using calculations and units, where appropriate) ? making predictions and generalisations based on evidence/information ? drawing valid conclusions and giving explanations supported by evidence/justification ? evaluating experiments/investigations and suggesting improvements  
+Two or three extended-response questions: 10–15 marks in total. At least one of the extended-response questions will include a choice of topic.  One large data-handling question: 5–9 marks.  One large experimental design question: 5–9 marks.  Grade-A marks: approximately 25%.  
+ 
+ 	 
+Administrative information 
+ 
+
+ 
+Published: 	August 2022 (version 3.1) 
+ 
+
+ 
+History of changes  
+ 
+Version Description of change  Date 2.0 Course support notes and question paper brief added as appendices. 
+ May 2018 3.0 ‘Sustainability and interdependence: food supply, plant growth and productivity’ key area in ‘Skills, knowledge and understanding for the course assessment’ section and Appendix 1: course support notes, ‘Approaches to learning and teaching’ section: reference to ions added. 
+ 
+‘Assessment conditions’ section: assignment assessment conditions for teachers, lecturers and candidates clarified. 
+ September 2019 3.1 Appendix 1: course support notes, ‘Apparatus and techniques’ section updated to include definitions of the terms, ‘control’, 
+‘validity’, ‘reliability’, ‘independent variable’, and ‘dependent variable’. 
+ 
+Appendix 2: question paper brief, ‘Additional information’ section updated to amend percentage of grade-A marks to ‘approximately 25%’. 
+ August 2022     
+ 
+Note: you are advised to check SQA’s website to ensure you are using the most up-to-date version of this document. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© Scottish Qualifications Authority 2013, 2018, 2019, 2022 
+ 
+
+
+
+
+
+
+Version 3.1 	1 
+
+Version 3.1 	1 
+
+Version 3.1 	1 
+
+Version 3.1 	33 
+
+Version 3.1 	33 
+
+Version 3.1 	33 
+
+Version 3.1 	75 
+
+Version 3.1 	75 
+
+Version 3.1 	75 
+

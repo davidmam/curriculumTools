@@ -143,7 +143,7 @@ The course support notes provide further detail on the depth of knowledge requir
  
 The key areas of the course, and the depth of knowledge required for each key area, can be assessed in the question paper. 
 =========
-Cells and proteins 1 Laboratory techniques for biologists (a) Health and safety 
+#Cells and proteins 1 Laboratory techniques for biologists (a) Health and safety 
 Substances, organisms, and equipment in a laboratory can present a hazard 
  
 Hazard, risk, and control of risk in the lab by risk assessment 
@@ -517,7 +517,7 @@ Apoptosis is essential during development of an organism to remove cells no long
  
 Cells may initiate apoptosis in the absence of growth factors 
   
-Organisms and evolution 1 Field techniques for biologists (a) Health and safety 
+#Organisms and evolution 1 Field techniques for biologists (a) Health and safety 
 Aspects of fieldwork can present a hazard 
  
 Hazard, risk, and control of risk by risk assessment 
@@ -861,7 +861,7 @@ Civil engineering projects to improve sanitation combined with co-ordinated vect
  
 Improvements in parasite control reduce child mortality and result in population-wide improvements in child development and intelligence, as individuals have more resources for growth and development  
 
-Investigative biology 1 Scientific principles and process (a) Scientific method  
+#Investigative biology 1 Scientific principles and process (a) Scientific method  
 Scientific cycle — observation; construction of a testable hypothesis; experimental design; gathering, recording, and analysis of data; evaluation of results and conclusions; the formation of a revised hypothesis where necessary 
  
 The null hypothesis proposes that there will be no statistically significant effect as a result of the experiment treatment 

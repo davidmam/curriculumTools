@@ -5,7 +5,7 @@ import openpyxl
 wb = openpyxl.Workbook()
 ws= wb.active 
 
-infile = 'ah-course-spec-biology.pdf.txt'
+infile = 'h-course-spec-biology.pdf.txt'
 
 part =''
 sectnum = 0
@@ -16,7 +16,8 @@ subsubsectnum =0
 subsubsect = ''
 lastline =''
 LO = ''
-ofh = open('ah-biology.tsv', 'w')
+currentrow=1
+ofh = open('h-biology.tsv', 'w')
 with open(infile) as fh:
     line=fh.readline()
     while not line.startswith('===='):
@@ -25,15 +26,15 @@ with open(infile) as fh:
     for line in fh:
         line=line.strip()
         if line.startswith('===='):
-            LO=lastline
             break
         if line.strip() == part:
             continue
         if not line:
             continue
-        if line[0] in '1234567890':
+        if line.startswith('#'):
+            part=line[1:]
+        elif line[0] in '1234567890' and line[1]==' ':
             num,sect = line.strip().split(maxsplit=1)
-            part = lastline
             sectnum = int(num)
             subsect=''
             subsectnum=''
@@ -45,15 +46,23 @@ with open(infile) as fh:
                 subsectnum = pnum[1:-1]
                 subsubsect=''
                 subsubsectnum=''
+                ws.append([part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,line[3:]])
+                currentrow +=1
+                print("\t".join([str(x) for x in [part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,line[3:]]]), file=ofh)
             else:
                 pnum,subsubsect = line.strip().split(maxsplit=1)
                 subsubsectnum = pnum[1:-1]
+        elif line.startswith('?'):
+            try:
+                ws.cell(row=currentrow-1, column=8).value= ws.cell(row=currentrow-1, column=8).value +"\n"+line
+            except Exception as e:
+                print([x.value for x in ws[currentrow]], currentrow, ws.cell(currentrow-1,8).value,ws.cell(currentrow,8).value,line)
+                break
         else:    
-            LO=lastline 
-            ws.append([part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,LO])
-            print("\t".join([str(x) for x in [part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,LO]]), file=ofh)
+            ws.append([part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,line])
+            currentrow +=1
+            print("\t".join([str(x) for x in [part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,line]]), file=ofh)
             if len(line) >3:
                 lastline=line.strip() 
-ws.append([part,sectnum,sect,subsectnum,subsect,subsubsectnum,subsubsect,LO])
 ofh.close()
-wb.save('ah-biology.xlsx')
+wb.save('h-biology.xlsx')

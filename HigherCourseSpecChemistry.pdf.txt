@@ -1,0 +1,2260 @@
+
+ 
+Higher Chemistry 
+ 
+Course code: C813 76  Course assessment code: X813 76 SCQF: level 6 (24 SCQF credit points) Valid from: session 2018–19  
+ 
+ 
+This document provides detailed information about the course and course assessment to ensure consistent and transparent assessment year on year. It describes the structure of the course and the course assessment in terms of the skills, knowledge and understanding that are assessed. 
+ 
+This document is for teachers and lecturers and contains all the mandatory information you need to deliver the course. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The information in this publication may be reproduced in support of SQA qualifications only on a non-commercial basis. If it is reproduced, SQA must be clearly acknowledged as the source. If it is to be reproduced for any other purpose, written permission must be obtained from permissions@sqa.org.uk. 
+ 
+This edition: September 2019 (version 3.0) 
+ 
+© Scottish Qualifications Authority 2013, 2018, 2019
+ 
+ 
+Contents 
+Course overview	1 
+Course rationale	2 
+Purpose and aims	2 
+Course content	4 
+Skills, knowledge and understanding	5 
+Skills for learning, skills for life and skills for work	26 
+Course assessment	27 
+Course assessment structure: question papers	27 
+Course assessment structure: assignment	29 
+Grading	34 
+Equality and inclusion	35 
+Further information	36 
+Appendix: course support notes	37 
+Introduction	37 
+Approaches to learning and teaching	37 
+Suggested activities	40 
+Preparing for course assessment	106 
+Developing skills for learning, skills for life and skills for work	106 
+
+ 
+ 
+ 
+ 
+ 
+
+Course overview 
+The course consists of 24 SCQF credit points which includes time for preparation for course assessment. The notional length of time for candidates to complete the course is 160 hours. 
+ 
+The course assessment has three components. 
+ 
+Component Marks Scaled mark Duration Question paper 1: multiple choice 25 not applicable 40 minutes Question paper 2 95 not applicable 2 hours and 20 minutes Assignment 20 30 8 hours, of which a maximum of 2 hours is allowed for the report stage  
+  
+ 
+Recommended entry Progression Entry to this course is at the discretion of the centre.  
+ 
+Candidates should have achieved the National 5 Chemistry course or equivalent qualifications and/or experience prior to starting this course. 
+ ? Advanced Higher Chemistry 
+? other qualifications in chemistry or related areas 
+? further study, employment and/or training 
+ 
+  
+Conditions of award 
+The grade awarded is based on the total marks achieved across all course assessment components. 
+ 
+ 	 
+Course rationale 
+National Courses reflect Curriculum for Excellence values, purposes and principles. They offer flexibility, provide time for learning, focus on skills and applying learning, and provide scope for personalisation and choice.  
+ 
+Every course provides opportunities for candidates to develop breadth, challenge and application. The focus and balance of assessment is tailored to each subject area. 
+ 
+This course allows candidates to acquire a deeper understanding of the central concepts of chemistry. Chemists play a vital role in the production of everyday commodities. Chemistry research and development are essential for the introduction of new products. The study of chemistry is of benefit not only to those intending to pursue a career in science, but also to those intending to work in areas such as the food, health or manufacturing industries. 
+ 
+Experimental and investigative approaches develop knowledge and understanding of chemical concepts, with knowledge of chemical apparatus and techniques being a key course component.  
+ 
+Due to the interdisciplinary nature of the sciences, candidates may benefit from studying chemistry along with other science subjects and mathematics, as this may enhance their skills, knowledge and understanding. 
+ 
+Purpose and aims 
+The course develops candidates’ curiosity, interest and enthusiasm for chemistry in a range of contexts. The skills of scientific inquiry and investigation are developed throughout the course.  
+ 
+Candidates develop an appreciation of the impact of chemistry on their everyday lives by applying their knowledge and understanding of chemical concepts in practical situations. The course provides opportunities for candidates to think analytically, creatively and independently, and to make reasoned evaluations. It allows flexibility and personalisation by offering candidates the choice of topic for their assignment. 
+ 
+Candidates gain an understanding of chemical bonding and intermolecular forces that allows them to predict the physical properties of materials. They apply a knowledge of functional groups and organic reaction types to solve problems in a range of diverse contexts.  
+ 
+Candidates also learn important chemical concepts used to take a chemical process from the researcher’s bench through to industrial production. The concept of the mole allows the quantities of reagents required to be calculated, and the quantity of products predicted. By studying energy, rates and equilibria, candidates can suggest how reaction conditions can be chosen to maximise the profitability of an industrial process. Candidates learn about industrial analytical chemistry techniques, such as volumetric analysis and chromatography. 
+ 
+Candidates develop a range of skills that are valued in the workplace, providing a secure foundation for the study of chemistry in further and higher education. The course also provides a knowledge base that is useful in the study of other sciences. 
+The course enables candidates to make their own decisions on issues within a modern society, where scientific knowledge and its applications and implications are constantly developing. 
+ 
+The course aims to:  
+ 
+? develop and apply knowledge and understanding of chemistry  
+? develop an understanding of chemistry’s role in scientific issues and relevant applications of chemistry, including the impact these could make in society and the environment 
+? develop scientific inquiry and investigative skills  
+? develop scientific analytical thinking skills, including scientific evaluation, in a chemistry context  
+? develop the use of technology, equipment and materials safely in practical scientific activities, including using risk assessment 
+? develop planning skills 
+? develop problem-solving skills in a chemistry context  
+? use and understand scientific literacy to communicate ideas and issues and to make scientifically informed choices  
+? develop the knowledge and skills for more advanced learning in chemistry  ? develop skills of independent working 
+ 
+Who is this course for? 
+The course is suitable for candidates who are secure in their attainment of National 5 Chemistry or an equivalent qualification. It may also be suitable for those wishing to study chemistry for the first time. 
+ 
+The course emphasises practical and experiential learning opportunities, with a strong skillsbased approach to learning. It takes account of the needs of all candidates, and provides sufficient flexibility to enable candidates to achieve in different ways. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	 
+Course content 
+The course content includes the following areas of chemistry: 
+ 
+Chemical changes and structure 
+The topics covered are: 
+ 
+? periodicity 
+? structure and bonding 
+? oxidising and reducing agents 
+ 
+Nature’s chemistry  
+The topics covered are: 
+ 
+? systematic carbon chemistry 
+? alcohols 
+? carboxylic acids 
+? esters 
+? fats and oils 
+? soaps 
+? detergents and emulsions 
+? proteins 
+? oxidation of food 
+? fragrances 
+? skin care 
+ 
+Chemistry in society 
+The topics covered are: 
+ 
+? getting the most from reactants 
+? controlling the rate 
+? chemical energy 
+? equilibria 
+? chemical analysis 
+ 
+Researching chemistry 
+The topics covered are: 
+ 
+? common chemical apparatus 
+? general practical techniques 
+? reporting experimental work 
+Skills, knowledge and understanding 
+Skills, knowledge and understanding for the course 
+The following provides a broad overview of the subject skills, knowledge and understanding developed in the course: 
+ 
+? demonstrating knowledge and understanding of chemistry by making accurate statements 
+? demonstrating knowledge and understanding of chemistry by describing information, providing explanations and integrating knowledge 
+? applying knowledge of chemistry to new situations, analysing information and solving problems 
+? planning, designing and safely carrying out experiments/practical investigations to test given hypotheses or to illustrate particular effects  
+? carrying out experiments/practical investigation safely, recording detailed observations and collecting data 
+? selecting information from a variety of sources 
+? presenting information appropriately in a variety of forms 
+? processing information (using calculations and units, where appropriate) 
+? making predictions and generalisations from evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? evaluating experiments/practical investigations and suggesting improvements ? communicating findings/information effectively 
+ 
+ 	 
+Skills, knowledge and understanding for the course assessment 
+The following provides details of skills, knowledge and understanding sampled in the course assessment:  
+==== 
+1 	Chemical changes and structure (a) Periodicity Elements are arranged in the periodic table in order of increasing atomic number.  
+ 
+The periodic table allows chemists to make accurate predictions of physical properties and chemical behaviour for any element, based on its position. Features of the table are: 
+ 
+? groups: vertical columns within the table contain elements with similar chemical properties resulting from a common number of electrons in the outer shell 
+? periods: rows of elements arranged with increasing atomic number, demonstrating an increasing number of outer electrons and a move from metallic to non-metallic characteristics 
+ 
+The first 20 elements in the periodic table are categorised according to bonding and structure: 
+ 
+? metallic (Li, Be, Na, Mg, Al, K, Ca)  
+? covalent molecular — H2, N2, O2, F2, Cl2, P4, S8 and fullerenes (eg C60)  
+? covalent network — B, C (diamond, graphite), Si 
+? monatomic (noble gases) 
+ 
+The covalent radius is a measure of the size of an atom. The trends in covalent radius across periods and down groups can be explained in terms of the number of occupied shells, and the nuclear charge. 
+ 
+The first ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms. The second and subsequent ionisation energies refer to the energies required to remove further moles of electrons. 
+ 
+The trends in ionisation energies across periods and down groups can be explained in terms of the atomic size, nuclear charge and the screening effect due to inner shell electrons.  
+ 
+Atoms of different elements have different attractions for bonding electrons. 
+Electronegativity is a measure of the attraction an atom involved in a bond has for the electrons of the bond. 
+ 
+The trends in electronegativity across periods and down groups can be rationalised in terms of covalent radius, nuclear charge and the screening effect due to inner shell electrons. 
+  
+
+	1 	Chemical changes and structure (b) Structure and bonding 	(i) 	Types of chemical bond  
+In a covalent bond, atoms share pairs of electrons. The covalent bond is a result of two positive nuclei being held together by their common attraction for the shared pair of electrons. 
+ 
+Polar covalent bonds are formed when the attraction of the atoms for the pair of bonding electrons is different. Delta positive (?+) and delta negative (?-) notation can be used to indicate the partial charges on atoms, which give rise to a dipole. 
+ 
+Ionic formulae can be written giving the simplest ratio of each type of ion in the substance. Ionic bonds are the electrostatic attraction between positive and negative ions. Ionic compounds form lattice structures of oppositely charged ions. 
+ 
+Pure covalent bonding and ionic bonding can be considered as opposite ends of a bonding continuum, with polar covalent bonding lying between these two extremes. The difference in electronegativities between bonded atoms gives an indication of the ionic character. The larger the difference, the more polar the bond will be. If the difference is large, then the movement of bonding electrons from the element of lower electronegativity to the element of higher electronegativity is complete, resulting in the formation of ions.  
+ 
+Compounds formed between metals and non-metals are often, but not always, ionic. Physical properties of a compound, such as its state at room temperature, melting point, boiling point, solubility, electrical conductivity, should be used to deduce the type of bonding and structure in the compound. 
+ 
+(ii) Intermolecular forces 
+All molecular elements and compounds and monatomic elements condense and freeze at sufficiently low temperatures. For this to occur, some attractive forces must exist between the molecules or discrete atoms.  
+ 
+Intermolecular forces acting between molecules are known as van der Waals forces. There are several different types of these, such as London dispersion forces and permanent dipole-permanent dipole interactions that include hydrogen bonding.  
+ 
+London dispersion forces are forces of attraction that can operate between all atoms and molecules. These forces are much weaker than all other types of bonding. They are formed as a result of electrostatic attraction between temporary dipoles and induced dipoles caused by movement of electrons in atoms and molecules. 
+ 
+The strength of London dispersion forces is related to the number of electrons within an atom or molecule. 
+ 
+A molecule is described as polar if it has a permanent dipole.  
+ 
+The spatial arrangement of polar covalent bonds can result in a molecule being polar.  
+ 1 	Chemical changes and structure Permanent dipole-permanent dipole interactions are additional electrostatic forces of attraction between polar molecules.  
+ 
+Permanent dipole-permanent dipole interactions are stronger than London dispersion forces for molecules with similar numbers of electrons.  
+ 
+Bonds consisting of a hydrogen atom bonded to an atom of a strongly electronegative element such as fluorine, oxygen or nitrogen are highly polar. Hydrogen bonds are electrostatic forces of attraction between molecules that contain these highly polar bonds. A hydrogen bond is stronger than other forms of permanent dipole-permanent dipole interaction but weaker than a covalent bond.  
+ 
+Melting points, boiling points, and viscosity can all be rationalised in terms of the nature and strength of the intermolecular forces that exist between molecules. By considering the polarity and number of electrons present in molecules, it is possible to make qualitative predictions of the strength of the intermolecular forces. 
+ 
+The melting and boiling points of polar substances are higher than the melting and boiling points of non-polar substances with similar numbers of electrons.  
+ 
+Boiling points, melting points, viscosity and solubility/miscibility in water are properties of substances that are affected by hydrogen bonding.  
+ 
+The anomalous boiling points of ammonia, water and hydrogen fluoride are a result of hydrogen bonding.  
+ 
+Hydrogen bonding between molecules in ice results in an expanded structure that causes the density of ice to be less than that of water at low temperatures.  
+ 
+Ionic compounds and polar molecular compounds tend to be soluble in polar solvents such as water, and insoluble in non-polar solvents. Non-polar molecular substances tend to be soluble in non-polar solvents and insoluble in polar solvents. 
+ 
+To predict the solubility of a compound, key features to be considered are the:  
+ 
+? presence in molecules of O-H or N-H bonds, which implies hydrogen bonding  
+? spatial arrangement of polar covalent bonds, which could result in a molecule possessing a permanent dipole 
+  	 
+
+	1 	Chemical changes and structure (c) Oxidising and reducing agents  Reduction is a gain of electrons by a reactant in any reaction.  
+ 
+Oxidation is a loss of electrons by a reactant in any reaction.  
+ 
+In a redox reaction, reduction and oxidation take place at the same time.  
+ 
+An oxidising agent is a substance that accepts electrons.  
+ 
+A reducing agent is a substance that donates electrons. 
+ 
+Oxidising and reducing agents can be identified in redox reactions. 
+ 
+Elements with low electronegativities tend to form ions by losing electrons and so act as reducing agents.  
+ 
+Elements with high electronegativities tend to form ions by gaining electrons and so act as oxidising agents. 
+ 
+In the periodic table, the strongest reducing agents are in group 1, and the strongest oxidising agents are in group 7. 
+ 
+Compounds, group ions and molecules can act as oxidising or reducing agents: 
+ 
+? hydrogen peroxide is a molecule that is an oxidising agent 
+? dichromate and permanganate ions are group ions that are strong oxidising agents in acidic solutions 
+? carbon monoxide is a gas that can be used as a reducing agent 
+ 
+Oxidising agents are widely used because of the effectiveness with which they can kill fungi and bacteria, and can inactivate viruses. The oxidation process is also an effective means of breaking down coloured compounds, making oxidising agents ideal for use as ‘bleach’ for clothes and hair. 
+ 
+The electrochemical series represents a series of reduction reactions.  
+ 
+The strongest oxidising agents are at the bottom of the left-hand column of the electrochemical series.   
+ 
+The strongest reducing agents are at the top of the right-hand column of the electrochemical series. 
+ 
+An ion-electron equation can be balanced by adding appropriate numbers of water molecules, hydrogen ions and electrons. 
+ 
+Ion-electron equations can be combined to produce redox equations.  
+  
+2 	Nature’s chemistry  (a) Systematic carbon chemistry Compounds containing only single carbon–carbon bonds are described as saturated.  
+ 
+Compounds containing at least one carbon–carbon double bond are described as unsaturated. Compounds containing carbon–carbon double bonds can take part in addition reactions. In an addition reaction, two molecules combine to form a single molecule.  
+ 
+It is possible to distinguish an unsaturated compound from a saturated compound using bromine solution. Unsaturated compounds quickly decolourise bromine solution.  
+ 
+The structure of any molecule can be drawn as a full or a shortened structural formula.  
+ 
+Isomers:  
+ 
+? are compounds with the same molecular formula but different structural formulae 
+? may belong to different homologous series 
+? usually have different physical properties 
+ 
+Given the name or a structural formula for a compound, an isomer can be drawn.  Isomers can be drawn for a given molecular formula. 
+ 
+The solubility, boiling point and volatility (ease of evaporation) of a compound can be predicted by considering: 
+ 
+? the presence of O-H or N-H bonds, which implies hydrogen bonding 
+? the spatial arrangement of polar covalent bonds which could result in a molecule possessing a permanent dipole 
+? molecular size which would affect London dispersion forces 
+? the polarities of solute and solvent. Polar or ionic compounds tend to be soluble in polar solvents, non-polar compounds tend to be soluble in non-polar solvents 
+ 
+Solubility, boiling point and volatility can be explained in terms of the type and strength of intermolecular forces present. 
+ (b) Alcohols An alcohol is a molecule containing a hydroxyl functional group, ?OH group.  
+ 
+Straight-chain and branched alcohols can be systematically named, indicating the position of the hydroxyl group from structural formulae containing no more than eight carbon atoms in their longest chain.  
+ 
+A molecular formula can be written or a structural formula drawn from the systematic name of a straight-chain or branched alcohol that contains no more than eight carbon atoms in its longest chain.  
+ 
+Alcohols can be classified as primary, secondary or tertiary. 
+ 
+	2 	Nature’s chemistry  Alcohols containing two hydroxyl groups are called diols, and those containing three hydroxyl groups are called triols. 
+ 
+Hydroxyl groups make alcohols polar and this gives rise to hydrogen bonding. Hydrogen bonding can be used to explain the properties of alcohols, including boiling points, melting points, viscosity and solubility/miscibility in water. 
+ (c) Carboxylic acids A carboxylic acid is a molecule containing the carboxyl functional group, ?COOH.  
+ 
+Straight-chain and branched carboxylic acids can be systematically named from structural formulae containing no more than eight carbons in the longest chain. 
+  
+A molecular formula can be written or a structural formula drawn from the systematic name of a straight-chain or branched-chain carboxylic acid that contains no more than eight carbon atoms in its longest chain.  
+  
+Carboxylic acids can react with bases: 
+ 
+a metal oxide + a carboxylic acid  	 	-->   a salt  + water a metal hydroxide + a carboxylic acid -->   a salt  + water  
+a metal carbonate + a carboxylic acid -->   a salt  + water + carbon dioxide 
+ 
+The name of the salt produced depends on the acid and base used.  
+ (d) Esters, fats and oils An ester is a molecule containing an ester link: ?COO?. 
+ 
+Esters can be named given the: 
+ 
+? names of their parent alcohol and carboxylic acid  
+? structural formulae of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straight-chain carboxylic acids containing no more than eight carbons 
+ 
+Molecular formulae can be written and structural formulae drawn for esters given the: 
+ 
+? systematic names of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straight-chain carboxylic acids containing no more than eight carbons 
+? structural formulae of their parent alcohol and carboxylic acid 
+ 
+Esters are used as flavourings and fragrances as many have pleasant, fruity smells. Esters are also used as solvents for non-polar compounds that do not dissolve in water. 
+ 
+	2 	Nature’s chemistry  Esters are formed by a condensation reaction between an alcohol and a carboxylic acid.  
+ 
+In a condensation reaction, two molecules are joined together with the elimination of a small molecule. 
+ 
+When an ester link is formed by the reaction between a hydroxyl group and a carboxyl group, the small molecule eliminated is water. 
+ 
+Esters can be hydrolysed to produce an alcohol and a carboxylic acid.  
+ 
+In a hydrolysis reaction, a molecule reacts with water to break down into smaller molecules. 
+ 
+The products of the hydrolysis of an ester can be named given the: 
+ 
+? name of the ester  
+? structural formula of an ester formed from a straight-chain or branched alcohol and a straight-chain or branched carboxylic acid, each containing no more than eight carbons in their longest chain 
+ 
+Molecular formulae can be written and structural formulae can be drawn for the products of the hydrolysis of an ester given the: 
+ 
+? systematic names of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straight-chain carboxylic acids containing no more than eight carbons 
+? structural formula of the ester 
+ 
+Edible fats and edible oils are esters formed from the condensation of glycerol (propane-
+1,2,3-triol) and three carboxylic acid molecules. The carboxylic acids are known as ‘fatty acids’ and can be saturated or unsaturated straight-chain carboxylic acids, usually with long chains of carbon atoms.  
+ 
+Edible oils have lower melting points than edible fats. 
+ 
+Double bonds in fatty acid chains prevent oil molecules from packing closely together, so the greater the number of double bonds present, the weaker the van der Waals forces of attraction. The greater the degree of unsaturation, the lower the melting point. 
+ 
+Unsaturated compounds quickly decolourise bromine solution.  
+ 
+The bromine molecules add across the carbon–carbon double bonds in an addition reaction. The greater the number of double bonds present in a substance, the more bromine solution can be decolourised.  
+ 
+	2 	Nature’s chemistry  Fats and oils are: 
+ 
+? a concentrated source of energy 
+? essential for the transport and storage of fat-soluble vitamins in the body 
+ (e) Soaps, detergents and emulsions Soaps are produced by the alkaline hydrolysis of edible fats and edible oils. Hydrolysis produces three fatty acid molecules and one glycerol molecule. The fatty acid molecules are neutralised by the alkali, forming water-soluble, ionic salts called soaps. 
+ 
+Soaps can be used to remove non-polar substances such as oil and grease. Soap ions have long non-polar tails, readily soluble in non-polar compounds (hydrophobic), and ionic heads that are water-soluble (hydrophilic). The hydrophobic tails dissolve in the oil or grease. The negatively-charged hydrophilic heads remain in the surrounding water. Agitation causes ball-like structures to form. The negatively-charged ball-like structures repel each other and the oil or grease is kept suspended in the water.  
+ 
+Hard water is a term used to describe water containing high levels of dissolved metal ions. When soap is used in hard water, scum, an insoluble precipitate, is formed.  
+ 
+Soapless detergents are substances with non-polar hydrophobic tails and ionic hydrophilic heads. These remove oil and grease in the same way as soap. Soapless detergents do not form scum with hard water. 
+ 
+An emulsifier can be used to prevent non-polar and polar liquids separating into layers.  
+ 
+An emulsion contains small droplets of one liquid dispersed in another liquid.  
+ 
+Emulsifiers for use in food can be made by reacting edible oils with glycerol. In the molecules formed, only one or two fatty acid groups are linked to each glycerol backbone. The hydroxyl groups present in the emulsifier are hydrophilic whilst the fatty acid chains are hydrophobic. The hydrophobic fatty acid chains dissolve in oil whilst the hydrophilic hydroxyl groups dissolve in water, forming a stable emulsion. 
+ 
+	2 	Nature’s chemistry  (f) Proteins Proteins are the major structural materials of animal tissue and are also involved in the maintenance and regulation of life processes. Enzymes are proteins which act as biological catalysts. 
+ 
+Amino acids, the building blocks from which proteins are formed, are relatively small molecules which all contain an amino group, —NH2, and a carboxyl group, —COOH. 
+ 
+Proteins are made of many amino acid molecules linked together by condensation reactions. In these reactions, the amino group of one amino acid and the carboxyl group of another amino acid join, with the elimination of water.  
+ 
+The link which forms between two amino acids is known as a peptide link, —CONH—, or also as an amide link. 
+ 
+Proteins which fulfil different roles in the body are formed by linking together differing sequences of amino acids.  
+ 
+The body cannot make all of the amino acids required for protein synthesis and certain amino acids, known as essential amino acids, must be acquired from the diet.  
+ 
+During digestion, enzyme hydrolysis of protein produces amino acids.  
+ 
+The structural formulae of amino acids obtained from the hydrolysis of a protein can be drawn given the structure of a section of the protein. 
+ 
+The structural formula of a section of protein can be drawn given the structural formulae of the amino acids from which it is formed. 
+ 
+Within proteins, the long-chain molecules form spirals, sheets, or other complex shapes. The chains are held in these forms by intermolecular bonding between the side chains of the constituent amino acids. When proteins are heated, these intermolecular bonds are broken, allowing the proteins to change shape (denature). The denaturing of proteins in foods causes the texture to change when it is cooked. 
+ (g) Oxidation of food For carbon compounds: 
+ 
+? oxidation is an increase in the oxygen to hydrogen ratio 
+? reduction is a decrease in the oxygen to hydrogen ratio 
+ 
+	2 	Nature’s chemistry  Hot copper(II) oxide or acidified dichromate(VI) solutions can be used to oxidise: 
+ 
+? primary alcohols to aldehydes and then to carboxylic acids ? secondary alcohols to ketones 
+ 
+During these reactions black copper(II) oxide forms a brown solid, and orange dichromate solution turns green. 
+ 
+Tertiary alcohols cannot be oxidised using these oxidising agents. 
+ 
+Aldehydes and ketones are molecules containing a carbonyl functional group. 
+Straight-chain and branched aldehydes and ketones can be systematically named from structural formulae containing no more than eight carbons in the longest chain. 
+ 
+Molecular formulae can be written and structural formulae drawn, from the systematic names of straight-chain and branched aldehydes and ketones, containing no more than eight carbons in the longest chain. 
+  
+Aldehydes, but not ketones, can be oxidised to carboxylic acids. Oxidising agents can be used to differentiate between an aldehyde and a ketone. With an aldehyde: 
+ 
+? blue Fehling’s solution forms a brick red precipitate 
+? clear, colourless Tollens’ reagent forms a silver mirror 
+? orange acidified dichromate solution turns green 
+ 
+Many flavour and aroma molecules are aldehydes. 
+ 
+Oxygen from the air causes the oxidation of food. The oxidation of edible oils gives food a rancid flavour.  
+ 
+Antioxidants: 
+ 
+? are molecules that prevent unwanted oxidation reactions occurring 
+? are substances that are easily oxidised, and oxidise in place of the compounds they have been added to protect  
+? can be identified as the substance being oxidised in a redox equation   
+ (h) Fragrances  Essential oils are concentrated extracts of the volatile, non-water soluble aroma compounds from plants. They are mixtures of many different compounds. They are widely used in perfumes, cosmetic products, cleaning products and as flavourings in foods. 
+ 
+Terpenes are key components in most essential oils. They are unsaturated compounds formed by joining together isoprene (2-methylbuta-1,3-diene) units. 
+ 2 	Nature’s chemistry  Terpenes can be oxidised within plants to produce some of the compounds responsible for the distinctive aromas of spices. 
+Given the structural formula for a terpene-based molecule: 
+ 
+? an isoprene unit can be identified within the molecule 
+? the number of isoprene units joined together within the molecule can be stated 
+ (i) 	Skin care Ultraviolet (UV) radiation is a high-energy form of light, present in sunlight. UV light can provide sufficient energy to break bonds within molecules. This causes sunburn and accelerates ageing of the skin. Sun-block products prevent UV light reaching the skin.  
+ 
+When UV light breaks bonds, free radicals are formed. Free radicals are atoms or molecules that are highly reactive due to the presence of unpaired electrons. 
+ 
+Free radical chain reactions include the following steps: initiation, propagation and termination.  
+ 
+Equations can be written for reactions involving free radicals. 
+ 
+An equation involving free radicals can be recognised as representing an initiation, propagation or termination step. 
+ 
+Free radical scavengers are molecules that react with free radicals to form stable molecules and prevent chain reactions from occurring. Free radical scavengers are added to many products including cosmetics, food products and plastics. 
+  
+ 
+ 	 
+
+	3 	Chemistry in society (a) Getting the most from reactants Industrial processes are designed to maximise profit and minimise the impact on the environment.  
+ 
+Factors influencing industrial process design include: 
+ 
+? availability, sustainability and cost of feedstock(s) 
+? opportunities for recycling 
+? energy requirements 
+? marketability of by-products 
+? product yield 
+ 
+Environmental considerations include: 
+ 
+? minimising waste 
+? avoiding the use or production of toxic substances 
+? designing products which will biodegrade if appropriate 
+ 
+Chemical equations, using formulae and state symbols, can be written and balanced to show the mole ratio(s) of reactants and products. 
+ 
+The mass of a mole of any substance, in grams (g), is equal to the gram formula mass and can be calculated using relative atomic masses.  
+ 
+Calculations can be performed using the relationship between the mass and the number of moles of a substance.  
+ 
+For solutions, the mass of solute (grams or g), the number of moles of solute (moles or mol), the volume of solution (litres or l), or the concentration of the solution (moles per litre or mol l-1), can be calculated from data provided.  
+ 
+The molar volume (litres mol-1) is the volume occupied by one mole of any gas at a certain temperature and pressure. The molar volume is the same for all gases at the same temperature and pressure. 
+  
+Calculations can be performed using the relationship between the volume of gas, molar volume and the number of moles of a substance.  
+ 
+	3 	Chemistry in society Calculations can be performed given a balanced equation using data including: 
+ 
+? gram formula masses (GFM)  
+? masses 
+? numbers of moles  
+? concentrations and/or volumes of solutions 
+? molar volumes 
+? volumes for gases 
+ 
+The efficiency with which reactants are converted into the desired product is measured in terms of the percentage yield and atom economy. 
+ 
+By considering a balanced equation, the limiting reactant and the reactant(s) in excess can be identified by calculation. 
+ 
+In order to ensure that a costly reactant is converted into product, an excess of the less expensive reactant(s) can be used. 
+ 
+The ‘theoretical yield’ is the quantity of desired product obtained, assuming full conversion of the limiting reagent, as calculated from the balanced equation.  
+ 
+The ‘actual yield’ is the quantity of the desired product formed under the prevailing reaction conditions. 
+ 
+For a particular set of reaction conditions, the percentage yield provides a measure of the degree to which the limiting reagent is converted into the desired product.  
+ 
+The percentage yield can be calculated using the equation: 
+ 
+Actual yield
+	% yield = 	?100 
+Theoretical yield
+ 
+Using a balanced equation, calculations involving percentage yield can be performed from data provided. 
+ 
+Given costs for the reactants, a percentage yield can be used to calculate the cost of reactant(s) required to produce a given mass of product. 
+ 3 	Chemistry in society The atom economy measures the proportion of the total mass of all starting materials converted into the desired product in the balanced equation.  
+ 
+The percentage atom economy can be calculated using the equation: 
+ 
+Mass of desired product
+% atom economy =	×100 
+Total mass of reactants
+  
+Reactions which have a high percentage yield may have a low atom economy value if large quantities of by-products are formed. 
+ (b) Controlling the rate (i) 	Collision theory  
+Reaction rates must be controlled in industrial processes. If the rate is too low then the process will not be economically viable; if it is too high there will be a risk of explosion.  
+ 
+Calculations can be performed using the relationship between reaction time and relative rate with appropriate units. 
+ 
+Collision theory can be used to explain the effects of the following on reaction rates: 
+ 
+? concentration  
+? pressure 
+? surface area (particle size) 
+? temperature 
+? collision geometry 
+ 
+(ii) Reaction pathways 
+A potential energy diagram can be used to show the energy pathway for a reaction. The enthalpy change is the energy difference between the products and the reactants. The enthalpy change has a negative value for exothermic reactions or a positive value for endothermic reactions. 
+ 
+The activation energy is the minimum energy required by colliding particles to form an activated complex and can be calculated from potential energy diagrams. The activated complex is an unstable arrangement of atoms formed at the maximum of the potential energy barrier, during a reaction.  
+ 
+A catalyst provides an alternative reaction pathway with a lower activation energy.  
+ 
+A potential energy diagram can be used to show the effect of a catalyst on activation energy.  
+  	 
+3 	Chemistry in society (iii) Kinetic energy distribution 
+Temperature is a measure of the average kinetic energy of the particles in a substance.  
+ 
+The activation energy is the minimum kinetic energy required by colliding particles before a reaction may occur. 
+ 
+Energy distribution diagrams can be used to explain the effect of changing temperature on the kinetic energy of particles and reaction rate.  
+ 
+The effects of temperature and of adding a catalyst can be explained in terms of a change in the number of particles with energy greater than the activation energy.  
+ (c) Chemical energy Enthalpy is a measure of the chemical energy in a substance. 
+A reaction or process that releases heat energy is described as exothermic. In industry, exothermic reactions may require heat to be removed to prevent the temperature rising. 
+ 
+A reaction or process that takes in heat energy is described as endothermic. In industry, endothermic reactions may incur costs in supplying heat energy in order to maintain the reaction rate.  
+ 
+The enthalpy change associated with a reaction can be calculated from the quantity of heat energy released. 
+ 
+The quantity of heat energy released can be determined experimentally and calculated using Eh=cm?T. 
+ 
+The quantities Eh, c, m or ?T can be calculated, in the correct units, given relevant data. 
+ 
+The enthalpy of combustion of a substance is the enthalpy change when one mole of the substance burns completely in oxygen. 
+ 
+Hess’s law states that the enthalpy change for a chemical reaction is independent of the route taken. The enthalpy change for a reaction can be calculated using Hess’s law, given appropriate data. 
+ 
+The molar bond enthalpy is the energy required to break one mole of bonds in a diatomic molecule. A mean molar bond enthalpy is the average energy required to break one mole of bonds, for a bond that occurs in a number of compounds. 
+ 
+Bond enthalpies can be used to estimate the enthalpy change occurring for a gas phase reaction, by calculating the energy required to break bonds in the reactants and the energy released when new bonds are formed in the products. 
+  	 
+3 	Chemistry in society (d) Equilibria In a closed system, reversible reactions attain a state of dynamic equilibrium when the rates of forward and reverse reactions are equal. 
+ 
+At equilibrium, the concentrations of reactants and products remain constant, but are rarely equal.  
+ 
+To maximise profits, chemists employ strategies to move the position of equilibrium in favour of the products. 
+ 
+For a given reversible reaction, the effect of altering temperature or pressure or of adding/removing reactants/products can be predicted.  
+ 
+The addition of a catalyst increases the rates of the forward and reverse reactions equally. The catalyst increases the rate at which equilibrium is achieved but does not affect the position of equilibrium.  
+ (e) Chemical analysis (i) 	Chromatography 
+Chromatography is a technique used to separate the components present within a mixture. Chromatography separates substances by making use of differences in their polarity or molecular size. 
+ 
+The details of any specific chromatographic method or experiment are not required. Depending on the type of chromatography used, the identity of a component can be indicated either by the distance it has travelled, or by the time it has taken to travel through the apparatus (retention time). 
+ 
+The results of a chromatography experiment can sometimes be presented graphically, showing an indication of the quantity of substance present on the y-axis and retention time of the x-axis. 
+  	 
+3 	Chemistry in society (ii) Volumetric analysis  
+Volumetric analysis involves using a solution of accurately known concentration in a quantitative reaction to determine the concentration of another substance. 
+ 
+Titration is used to determine, accurately, the volumes of solution required to reach the end-point of a chemical reaction. An indicator is normally used to show when the end-point is reached. Titre volumes within 0·2 cm3 are considered concordant.  
+ 
+Solutions of accurately known concentration are known as standard solutions.  
+ 
+Redox titrations are based on redox reactions. In titrations using acidified permanganate, an indicator is not required, as purple permanganate solution turns colourless when reduced. 
+ 
+Given a balanced equation for the reaction occurring in any titration, the:  
+ 
+? concentration of one reactant can be calculated given the concentration of the other reactant and the volumes of both solutions  
+? volume of one reactant can be calculated given the volume of the other reactant and the concentrations of both solutions  
+  	 
+
+4 	Researching chemistry  (a) Common chemical apparatus Candidates must be familiar with the use(s) of the following types of apparatus: 
+ 
+? conical flask  
+? beaker  
+? measuring cylinder  
+? delivery tube  
+? dropper  
+? test tubes/boiling tubes  
+? funnel  
+? filter paper 
+? evaporating basin  
+? pipette with safety filler  
+? burette  
+? volumetric flask 
+? distillation flask  
+? condenser ? thermometer  
+ 
+Labelled, sectional diagrams can be drawn for common chemical apparatus.  	 
+4 	Researching chemistry (b) General practical techniques Candidates must be familiar with the following techniques: 
+ 
+? simple filtration using filter paper and a funnel to separate the residue from the filtrate  ? use of a balance, including measuring mass by difference  ? methods for the collection of gases including: 
+— collection over water (for relatively insoluble gases, or where a dry sample of gas is not required) 
+— collection using a gas syringe (for soluble gases or where a dry sample of gas is required) 
+? safe methods for heating using Bunsen burners, water baths or heating mantles  ? determining enthalpy changes using Eh ? volumetric analysis: 
+— the volume markings on beakers provide only a rough indication of volume  
+— measuring cylinders generally provide sufficient accuracy for preparative work, but for analytical work, burettes, pipettes and volumetric flasks are more appropriate 
+— titration is used to accurately determine the volumes of solution required to reach the end-point of a chemical reaction  
+? preparation of a standard solution 
+? simple distillation using a flask, condenser and suitable heat source to separate a mixture of liquids with different boiling points   
+ 
+Given a description of an experimental procedure and/or experimental results, an improvement to the experimental method can be suggested and justified.  
+  
+4 	Researching chemistry (c) Reporting experimental work Candidates must be able to process experimental results by: 
+ 
+? tabulating data using appropriate headings and units of measurement  
+? representing data as a scatter graph with suitable scales and labels 
+? sketching a line of best fit (straight or curved) to represent the trend observed in the data 
+? calculating average (mean) values  
+? identifying and eliminating rogue points  
+? commenting on the reproducibility of results where measurements have been repeated 
+ 
+The uncertainty associated with a measurement can be indicated in the form:  measurement ± uncertainty. 
+ 
+Candidates are not expected to: 
+ 
+? be able to state uncertainty values associated with any type of apparatus  
+? calculate uncertainties  
+? conduct any form of quantitative error analysis 
+ ====
+ 
+Skills, knowledge and understanding included in the course are appropriate to the SCQF level of the course. The SCQF level descriptors give further information on characteristics and expected performance at each SCQF level, and can be found on the SCQF website. 
+ 
+ 
+ 
+ 	 
+Skills for learning, skills for life and skills for work 
+This course helps candidates to develop broad, generic skills. These skills are based on SQA’s Skills Framework: Skills for Learning, Skills for Life and Skills for Work and draw from the following main skills areas: 
+ 
+1 Literacy 
+ 
+1.2 	Writing 
+ 
+2 	Numeracy 
+ 
+2.1 	Number processes 
+2.2 	Money, time and measurement 
+2.3 	Information handling 
+ 
+5 	Thinking skills 
+ 
+5.3 	Applying 
+5.4 	Analysing and evaluating 
+5.5 	Creating 
+ 
+Teachers and/or lecturers must build these skills into the course at an appropriate level, where there are suitable opportunities. 
+ 
+ 
+ 
+ 	 
+Course assessment 
+Course assessment is based on the information provided in this document. 
+ 
+The course assessment meets the key purposes and aims of the course by addressing: 
+ 
+? breadth — drawing on knowledge and skills from across the course 
+? challenge — requiring greater depth or extension of knowledge and/or skills 
+? application — requiring application of knowledge and/or skills in practical or theoretical contexts as appropriate  
+ 
+This enables candidates to apply:  
+ 
+? breadth and depth of skills, knowledge and understanding from across the course to answer questions in chemistry 
+? skills of scientific inquiry, using related knowledge, to carry out a meaningful and appropriately challenging investigation in chemistry and communicate findings 
+ 
+The course assessment has three components: two question papers and an assignment. The relationship between these three components is complementary, to ensure full coverage of the knowledge and skills of the course. 
+Course assessment structure: question papers 
+Question paper 1: multiple choice 	25 marks 
+Question paper 2 	95 marks 
+The question papers have a total mark allocation of 120 marks. This is 80% of the overall marks for the course assessment. 
+ 
+The majority of marks are awarded for demonstrating and applying knowledge and understanding. The other marks are awarded for applying scientific inquiry and analytical thinking skills. 
+ 
+The question papers assess breadth, challenge and application of skills, knowledge and understanding from across the course. They assess scientific inquiry skills and analytical thinking skills. 
+ 
+The question papers give candidates an opportunity to demonstrate the following skills, knowledge and understanding: 
+ 
+? making accurate statements 
+? describing information, providing explanations and integrating knowledge  
+? applying knowledge of chemistry to new situations, analysing information and solving problems 
+? planning, designing and safely carrying out experiments/practical investigations to test given hypotheses or to illustrate particular effects  
+? selecting information from a variety of sources 
+? presenting information appropriately in a variety of forms 
+? processing information (using calculations and units, where appropriate) 
+? making predictions and generalisations from evidence/information  
+? drawing valid conclusions and giving explanations supported by evidence/justification ? evaluating experiments and suggesting improvements  
+ 
+A data booklet containing relevant data and formulae is provided. 
+ 
+Question paper 1: multiple choice 
+Question paper 1 contains multiple-choice questions. 
+ 
+Question paper 2 
+Question paper 2 contains restricted-response and extended-response questions. 
+ 
+Setting, conducting and marking the question papers 
+The question papers are set and marked by SQA, and conducted in centres under conditions specified for external examinations by SQA.  
+ 
+Candidates have 40 minutes to complete question paper 1.  
+ 
+Candidates have 2 hours and 20 minutes to complete question paper 2. 
+ 
+Specimen question papers for Higher courses are published on SQA’s website. These illustrate the standard, structure and requirements of the question papers candidates sit. The specimen papers also include marking instructions. 
+ 
+ 
+ 	 
+Course assessment structure: assignment 
+Assignment 	20 marks 
+The assignment has a total mark allocation of 20 marks. This is scaled to 30 marks by SQA to represent 20% of the overall marks for the course assessment.  
+ 
+The assignment assesses the application of skills of scientific inquiry and related chemistry knowledge and understanding.  
+ 
+It allows assessment of skills that cannot be assessed by a question paper, for example handling and processing data gathered through experimental and research skills. 
+ 
+Assignment overview 
+The assignment gives candidates an opportunity to demonstrate the following skills, knowledge and understanding: 
+ 
+? applying knowledge of chemistry to new situations, interpreting information and solving problems 
+? planning, designing and safely carrying out experiments/practical investigations to test given hypotheses or to illustrate particular effects  
+? selecting information from a variety of sources 
+? presenting information appropriately in a variety of forms 
+? processing the information (using calculations and units, where appropriate) 
+? making predictions and generalisations based on evidence/information 
+? drawing valid conclusions and giving explanations supported by evidence/justification 
+? evaluating experiments/practical investigations and suggesting improvements ? communicating findings/information effectively 
+ 
+The assignment offers challenge by requiring candidates to apply skills, knowledge and understanding in a context that is one or more of the following: 
+ 
+? unfamiliar 
+? familiar but investigated in greater depth 
+? integrating a number of familiar contexts  
+ 
+Candidates research and report on a topic that allows them to apply skills and knowledge in chemistry at a level appropriate to Higher. 
+ 
+The topic must be chosen with guidance from teachers and/or lecturers and must involve experimental work. 
+ 
+The assignment has two stages: 
+ 
+? research 
+? report 
+The research stage must involve experimental work which allows measurements to be made. Candidates must also gather data/information from the internet, books or journals.  
+ 
+Candidates must produce a report on their research. 
+ 
+Setting, conducting and marking the assignment  
+Setting  
+The assignment is: 
+  
+? set by centres within SQA guidelines  
+? set at a time appropriate to the candidate’s needs  
+? set within teaching and learning and includes experimental work at a level appropriate to Higher  
+ 
+Conducting  
+The assignment is:  
+ 
+? an individually produced piece of work from each candidate  
+? started at an appropriate point in the course  
+? conducted under controlled conditions  
+ 	 
+
+Marking  
+The assignment has a total of 20 marks. The table gives details of the mark allocation for each section of the report. 
+ 
+Section Expected response Marks Aim An aim that describes clearly the purpose of the investigation. 1 Underlying chemistry An account of chemistry relevant to the aim of the investigation. 3 Data collection and handling A brief summary of the approach used to collect experimental data. 1 Sufficient raw data from the candidate’s experiment. 1 Data presented in correctly produced table(s) and correct units shown for calculated values. 1 Values calculated correctly using a chemical relationship 1 Data relevant to the experiment obtained from an internet/literature source. 1 A citation and reference for a source of the internet/literature data. 1 Graphical presentation An appropriate format from the options of scatter graph, line graph or bar graph. 1 The axis/axes of the graph has/have suitable scale(s). 1 The axes of the graph have suitable labels and units. 1 Accurately plotted data points and, where appropriate, a line of best fit. 1 Analysis A valid comparison of the experimental data with data from the internet/literature source. 1 Conclusion A valid conclusion that relates to the aim and is supported by all the data in the report. 1 Evaluation Evaluation of the investigation 3 Structure A clear and concise report with an informative title. 1 TOTAL 20  
+ 
+The report is submitted to SQA for external marking.  
+ 
+All marking is quality assured by SQA. 
+ 
+ 	 
+Assessment conditions 
+Controlled assessment is designed to:  
+ 
+? ensure that all candidates spend approximately the same amount of time on their assignments  
+? prevent third parties from providing inappropriate levels of guidance and input  
+? mitigate concerns about plagiarism and improve the reliability and validity of SQA awards  
+? allow centres a reasonable degree of freedom and control  
+? allow candidates to produce an original piece of work  
+ 
+Detailed conditions for assessment are given in the assignment assessment task. 
+ 
+Time 
+It is recommended that no more than 8 hours is spent on the whole assignment. A maximum of 2 hours is allowed for the report stage. 
+ 
+Supervision, control and authentication There are two levels of control. 
+ 
+Under a high degree of supervision and control  Under some supervision and control   
+? the use of resources is tightly prescribed  
+? all candidates are within direct sight of the supervisor throughout the session(s)  
+? display materials which might provide assistance are removed or covered  
+? there is no access to e-mail, the internet or mobile phones  
+? candidates complete their work independently  
+? interaction with other candidates does not occur  
+? no assistance of any description is provided  
+  
+? candidates do not need to be directly supervised at all times  
+? the use of resources, including the internet, is not tightly prescribed  
+? the work an individual candidate submits for assessment is their own  
+? teachers and/or lecturers can provide reasonable assistance  
+  
+The assignment has two stages. 
+ 
+Stage  Level of control  ? research  
+ conducted under some supervision and control  ? report  
+ conducted under a high degree of supervision and control  Resources 
+Please refer to the instructions for teachers and lecturers within the assignment assessment task. 
+ 
+It is not permitted at any stage to provide candidates with a template or model answers. 
+  
+In the research stage:  
+ 
+? teachers and/or lecturers must ensure that a range of topics is available for candidates to choose from 
+? teachers and/or lecturers must minimise the number of candidates investigating the same topic within a class 
+? teachers and/or lecturers must agree the choice of topic with the candidate  
+? teachers and/or lecturers must provide advice on the suitability of the candidate’s aim  
+? teachers and/or lecturers can supply a basic list of instructions for the experimental procedure 
+? candidates must undertake research using websites, journals and/or books  
+ 
+Teachers and/or lecturers must not:  
+ 
+? provide an aim  
+? provide candidates with experimental data 
+? provide candidates with a blank or pre-populated table for experimental results 
+? provide candidates with feedback on their research 
+ 
+The only materials which can be used in the report stage are:  
+ 
+? the instructions for candidates, which must not have been altered 
+? the candidate’s raw experimental data which may be tabulated, however must not have additional blank or pre-populated columns for mean and derived values 
+? data/information taken from the internet or literature 
+? a record of the source(s) of internet or literature data/information 
+? the experimental method, if appropriate 
+? extract(s) from the internet/literature sources to support the underlying chemistry which must not include sample calculations 
+ 
+Candidates must not have access to a previously prepared draft of a report or any part of a report. 
+ 
+In addition, candidates must not have access to the assignment marking instructions during the report stage. 
+ 
+Candidates must not have access to the internet during the report stage. 
+Teachers and/or lecturers must not provide any form of feedback to a candidate on their report. 
+ 
+Following completion of the report stage candidates must not be given an opportunity to redraft their report.  
+ 
+Teachers and/or lecturers must not read the reports before they are submitted to SQA. 
+ 
+Reasonable assistance  
+The term ‘reasonable assistance’ is used to describe the balance between supporting candidates and giving them too much assistance. Candidates must undertake the assessment independently. However, reasonable assistance may be provided before the formal assessment process (research stage and report stage) takes place. If candidates have been entered for the correct level of qualification, they will not require more than a reasonable level of assistance to carry out the assignment. 
+ 
+Evidence to be gathered 
+The following candidate evidence is required for this assessment:  
+ 
+? a report  
+ 
+The report is submitted to SQA, within a given timeframe, for marking.  
+ 
+The same report cannot be submitted for more than one subject. 
+ 
+Volume 
+There is no word count.  
+ 
+Grading 
+Candidates’ overall grades are determined by their performance across the course assessment. The course assessment is graded A–D on the basis of the total mark for all course assessment components. 
+ 
+Grade description for C 
+For the award of grade C, candidates will typically have demonstrated successful performance in relation to the skills, knowledge and understanding for the course. 
+ 
+Grade description for A 
+For the award of grade A, candidates will typically have demonstrated a consistently high level of performance in relation to the skills, knowledge and understanding for the course. 
+Equality and inclusion 
+This course is designed to be as fair and as accessible as possible with no unnecessary barriers to learning or assessment.  
+ 
+For guidance on assessment arrangements for disabled candidates and/or those with additional support needs, please follow the link to the assessment arrangements web page: 
+www.sqa.org.uk/assessmentarrangements. 
+ 
+ 
+ 	 
+
+Further information 
+The following reference documents provide useful information and background. 
+ 
+? Higher Chemistry subject page 
+? Assessment arrangements web page  
+? Building the Curriculum 3–5 
+? Guide to Assessment  
+? Guidance on conditions of assessment for coursework 
+? SQA Skills Framework: Skills for Learning, Skills for Life and Skills for Work 
+? Coursework Authenticity: A Guide for Teachers and Lecturers 
+? Educational Research Reports 
+? SQA Guidelines on e-assessment for Schools 
+? SQA e-assessment web page  
+ 
+The SCQF framework, level descriptors and handbook are available on the SCQF website. 
+ 	 
+
+Appendix: course support notes 
+Introduction 
+These support notes are not mandatory. They provide advice and guidance to teachers and lecturers on approaches to delivering the course. You should read these in conjunction with this course specification and the specimen question paper and the assignment assessment task. 
+Approaches to learning and teaching  
+This section provides you with advice and guidance on learning and teaching.  
+ 
+You should use an appropriate variety of learning and teaching approaches to deliver both knowledge-based and skill-based objectives to candidates with different needs and prior attainment. This allows opportunities for candidates to work independently, collaboratively, co-operatively and as a whole class. Discussion and questioning are effective ways of developing candidates’ knowledge and understanding of chemical concepts. Teachers, lecturers and candidates should make full use of models to develop the understanding of concepts in chemistry and use information technology to support learning and to process data. 
+ 
+The mandatory content is described in four areas: chemical changes and structure; nature’s chemistry; chemistry in society; and researching chemistry. Centres are free to deliver the course content in whichever order best meets the needs of their candidates.  
+ 
+Chemical changes and structure develops knowledge and understanding of periodic trends and provides candidates opportunities to make reasoned evaluations by recognising underlying patterns and principles. Developing an understanding of the concept of electronegativity allows candidates to appreciate the different types of intermolecular force that determine a material’s physical properties and understand why elements act as oxidising or reducing agents.  
+ 
+Many centres are likely to choose to cover intermolecular forces from chemical changes and structure before attempting nature’s chemistry, so that candidates can appreciate how van der Waals forces relate to the solubility and volatility of organic molecules. Centres may also wish to cover the concepts described within the oxidising and reducing agents topic before exploring oxidation of food. 
+ 
+Nature’s chemistry develops knowledge and understanding of organic chemistry within the context of everyday products. Candidates develop an understanding of the relationship between the structure of organic compounds and their physical and chemical properties by exploring key functional groups and reaction types. Candidates should be exposed to a large variety of organic molecules both natural and synthetic. Teaching should focus on developing candidates’ knowledge and understanding that the functional groups present in these molecules are central to determining the reactions and properties of substances.  
+ 
+In the contexts of flavour molecules, edible oils, essential oils, and proteins, candidates will encounter relatively large molecules in which the carbon backbone may include cyclic and/or aromatic features. Candidates only need to consider effects related to the presence of the functional groups and are not expected to be able to name these more complex molecules or to be familiar with the chemistry of benzene. 
+ 
+Chemistry in society develops knowledge and understanding of the principles of physical chemistry that allow a chemical process to be taken to large-scale production. Candidates learn how to calculate the quantities of reagents and products, manipulate dynamic equilibria, understand how to control rates, and predict enthalpy changes. Analytical chemistry can be used to measure the purity of reagents and products. Candidates learn that chemists need to: think creatively when developing new processes and products; evaluate the environmental issues surrounding a chemical process; and make informed decisions about the most ethical means of production. 
+ 
+It is common for candidates studying at school to start the Higher course shortly before the summer vacation. Where this is the case, and schools would rather leave the study of periodicity and intermolecular forces until after the summer vacation, the reaction rates from chemistry in society may prove a suitable starting point. 
+ 
+Calculations based on the mole and balanced equations are central to chemistry. In teaching the concept of the mole, you may wish to help candidates to develop a deeper understanding by offering a definition given in terms of the quantity of a material that contains a certain number of entities (Avogadro’s number). However, within the question paper candidates will not be required to state a definition of the mole nor will any questions require the use of the Avogadro number in order to calculate numbers of atoms, ions, molecules or sub-atomic particles present in a given amount of a substance.  
+ 
+In the content tables that follow, mole-based calculations are grouped together within chemistry in society. It is advisable that candidates are given the opportunity to practise solving problems relating to the mole and balanced equations throughout the course. In this way, candidates are given the opportunity to consolidate earlier learning and may progressively develop a more in-depth and secure understanding of the mole by applying their knowledge in different contexts. 
+ 
+Researching chemistry outlines the knowledge of apparatus, techniques and reporting skills. It is strongly recommended that practical and investigative skills are progressively developed throughout the course. This allows practical techniques to be developed and practised within real-life contexts.  
+ 
+Teachers and/or lecturers should encourage candidates to see risk assessment as part of the planning process for any practical activity. They are not expected to produce full written risk assessments. Throughout the course, candidates should have the opportunity to assess risks and take informed decisions regarding the use of appropriate control measures. In the course assignment, candidates must identify safety measures taken to minimise risk during their experimental work. 
+ 
+Information and communications technology can make a significant contribution to the Chemistry course. As well as using computers as a learning tool, computer animations and simulations can help candidates understand reactions and other processes. Computerinterfacing equipment can detect changes in variables, allowing experimental results to be recorded and processed. Results can also be displayed in real time, helping to improve understanding.  
+ 
+Assessment should be integral to and improve learning and teaching. The approach should involve candidates and provide supportive feedback. Self- and peer-assessment techniques are encouraged, wherever appropriate. Assessment information should be used to set learning targets and next steps.  
+ 
+ 
+
+Suggested activities  
+ 
+Examples of possible learning and teaching activities can be found in the table below.  
+The content of the first column is identical to the ‘Skills, knowledge and understanding for the course assessment’ section in this course specification.  
+ 
+The second column offers suggestions for activities that could be used to enhance teaching and learning. All resources named were correct at the time of publication and may be subject to change. 
+
+1 	Chemical changes and structure 
+Mandatory knowledge Suggested activities (a) Periodicity  Elements are arranged in the periodic table in order of increasing atomic number.  
+ 
+The periodic table allows chemists to make accurate predictions of physical properties and chemical behaviour for any element, based on its position. Features of the table are: 
+ 
+? groups: vertical columns within the table contain elements with similar chemical properties resulting from a common number of electrons in the outer shell 
+? periods: rows of elements arranged with increasing atomic number, demonstrating an increasing number of outer electrons and a move from metallic to non-metallic characteristics 
+ The RSC’s online periodic table is fully interactive. Filters can be used to update the table in a way that highlights: ? metallic or non-metallic elements  
+? individual groups  
+? individual periods  
+? the state of the elements at any temperature 
+ 
+Clicking on the video tab gives access to a bank of videos providing profiles of all 118 elements. The RSC periodic table is also available as a free-of-charge app for both Android and iOS devices. 
+ 
+RSC LearnChemistry’s Interactive periodic table game allows candidates to test their knowledge of the periodic table by exploring trends and patterns in elements and their position in the table. 
+ 
+Revising the periodic table, from RSC LearnChemistry’s Chemical misconceptions II series, is a consolidation activity for candidates who have previously studied the periodic table, perhaps as part of the National 5 Chemistry course.  
+  
+ 	 
+ 
+1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities The first 20 elements in the periodic table are categorised according to bonding and structure: 
+ Elements infographics from RSC LearnChemistry is a collection of visually stimulating and informative infographics about the elements.   
+ 
+RSC LearnChemistry provides a number of activities illustrating the bonding and structure of elements. ? metallic (Li, Be, Na, Mg, Al, K, Ca)  
+  
+Metallic elements 
+It is likely that candidates will have encountered the family of alkali metals prior to starting this course. Alkali metals provides experimental details and a video demonstrating the physical properties of alkali metals.  
+ 
+The Royal Institution Christmas Lectures 2012: The alkali metals video offers dramatic footage showing what happens when you ignore the advice not to demonstrate the reaction of sodium with water with a piece of metal larger than a pea. 
+ 
+Candidates are also likely to be familiar with magnesium metal from previous courses, but if you are looking for an experiment using magnesium to stimulate interest, Exhibition Chemistry: Burning magnesium in dry ice (a video is available) is a resource providing full instructions on how to carry out a memorable demonstration. 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities ? covalent molecular — H2, N2, O2, F2, Cl2, P4, S8 and fullerenes (eg C60)  Covalent molecular elements 
+The molecular nature of the halogens can be demonstrated using the activity Liquefying chlorine gas that shows that chlorine gas is relatively easily liquefied (boiling point -35 °C) by cooling alone.  
+ 
+The molecular nature of sulfur can be explored in the Allotropes of sulfur activity. In this experiment sulfur is heated slowly from room temperature. This allows all the changes in colour and consistency, as it melts and then boils, to be observed. When heated to boiling point, and the liquid rapidly chilled in cold water, plastic sulfur is obtained. 
+ 
+The discovery of fullerenes is described in the teaching resource 
+Royal Institution Christmas Lectures 2012®: Allotropes of Carbon (video included). A 3D interactive model of buckminsterfullerene is available from RSC ChemSpider. 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities ? covalent network — B, C (diamond, graphite), Si 
+ Covalent network elements 
+In Making silicon and silanes from sand magnesium and sand are heated together to produce a sample of silicon in an exothermic reaction.  
+ 
+The Exhibition Chemistry: Red hot carbon resource from RSC LearnChemistry shows that graphite has an exceptionally high melting point, and is a good conductor of heat in an experiment that results in the dramatic destruction of a pencil (a video is also available). 
+ 
+The Royal Institution Christmas Lectures 2012®: Allotropes of Carbon video, available on RSC LearnChemistry, discusses the properties of diamond and graphite and, by burning samples of both in liquid oxygen, provides proof that they are both forms of carbon. ? monatomic (noble gases) 
+  
+Monatomic elements 
+The properties and uses of the noble gases are humorously described in Royal Institution Christmas Lectures® 2012: The noble gases video.   
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities The covalent radius is a measure of the size of an atom. The trends in covalent radius across periods and down groups can be explained in terms of the number of occupied shells, and the nuclear charge. 
+ Trends in the covalent radius can be shown using the RSC’s Interactive periodic table or with the RSC LearnChemistry Trends in the periodic table infographic.  
+ 
+Graphing the periodic table from the American Chemical Society allows candidates to explore patterns in the periodic table by plotting atomic radii. 
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 4 
+‘Trends in the periodic table’ offers a selection of easily editable short quizzes and activities that focus on trends in the periodic table. 
+ The first ionisation energy is the energy required to remove one mole of electrons from one mole of gaseous atoms. The second and subsequent ionisation energies refer to the energies required to remove further moles of electrons. 
+ 
+ Research has highlighted common misconceptions regarding the interactions between an atomic nucleus and electrons. RSC 
+LearnChemistry’s Chemical misconceptions II - Ionisation energy is a resource designed to dispel misconceptions associated with patterns in ionisation energy. 
+  
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities The trends in ionisation energies across periods and down groups can be explained in terms of the atomic size, nuclear charge and the screening effect due to inner shell electrons.  
+ 
+Atoms of different elements have different attractions for bonding electrons. Electronegativity is a measure of the attraction an atom involved in a bond has for the electrons of the bond. 
+ Trends in ionisation energies can be shown using the RSC’s Interactive periodic table or with the infographic ‘Trends in the periodic table’ from the Elements infographics resource. 
+ 
+Graphing the periodic table from the American Chemical Society allows candidates to explore patterns in the periodic table by plotting ionisation energies. 
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 4 
+‘Trends in the Periodic Table’ offers a selection of easily editable short quizzes and activities that focus on trends in the periodic table. 
+ 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities The trends in electronegativity across periods and down groups can be rationalised in terms of covalent radius, nuclear charge and the screening effect due to inner shell electrons. 
+ Trends in electronegativity can be shown using the RSC Interactive periodic table or with the infographic ‘Trends in the Periodic Table’ from the Elements infographics resource. 
+ 
+Graphing the periodic table, from the American Chemical Society allows candidates to explore patterns in the periodic table by plotting electronegativity values. 
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 4 
+‘Trends in the Periodic Table’ offers a selection of easily editable short quizzes and activities that focus on trends in the periodic table. 
+ 	(b) Structure and bonding 	 	(i) 	Types of chemical bond  
+In a covalent bond, atoms share pairs of electrons. The covalent bond is a result of two positive nuclei being held together by their common attraction for the shared pair of electrons. 
+ A great deal of educational research has been devoted to the teaching of bonding and the order in which different types of bonding should be introduced. Education in Chemistry magazine provides an article on Overcoming barriers in bonding in which the authors present the case for starting with covalent bonding followed by polar covalent and then ionic bonding. Polar covalent bonds are formed when the attraction of the atoms for the pair of bonding electrons is different. Delta positive (?+) and delta negative (?-) notation can be used to indicate the partial charges on atoms, which give rise to a dipole. 
+  
+Molecule Polarity, an interactive simulation from the PhET team at the University of Colorado, can be used to explore how differences in electronegativity can result in the formation of polar covalent bonds.  
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Ionic formulae can be written giving the simplest ratio of each type of ion in the substance. Ionic bonds are the electrostatic attraction between positive and negative ions. Ionic compounds form lattice structures of oppositely charged ions. 
+ 
+Pure covalent bonding and ionic bonding can be considered as opposite ends of a bonding continuum, with polar covalent bonding lying between these two extremes. The difference in electronegativities between bonded atoms gives an indication of the ionic character. The larger the difference, the more polar the bond will be. If the difference is large, then the movement of bonding electrons from the element of lower electronegativity to the element of higher electronegativity is complete, resulting in the formation of ions.   
+RSC Chemspider gives the properties of Tin(IV) iodide, which, although made from a metal and a non-metal, is a covalent molecular compound. It can be prepared relatively easily from tin and iodine crystals. Instructions can be found in Practical Work in CSYS: CSYS Chemistry (Curriculum support series / Scottish Consultative Council on the Curriculum) by Jim Smart, Andrew J. Watson, Arthur A. Sandison Published 1993 ISBN-10: 1-871707-74 pp. 85-86 
+ 
+Chemical bonding from RSC LearnChemistry presents the findings of some research on teaching approaches that may help candidates avoid acquiring some common misconceptions. Compounds formed between metals and non-metals are often, but not always, ionic. Physical properties of a compound, such as its state at room temperature, melting point, boiling point, solubility, electrical conductivity, should be used to deduce the type of bonding and structure in the compound. 
+ 
+ 
+ 
+ 
+ 
+  
+RSC LearnChemistry’s Starters for ten: chapters 1-11, chapter 3 Bonding provides editable revision sheets or consolidation exercises on the topic of bonding.  
+ 
+RSC LearnChemistry’s Which substances conduct electricity? 
+describes an experiment which helps distinguish between ionic and covalent compounds and verifies that covalent compounds never conduct even when liquefied. 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities (ii) Intermolecular forces 
+All molecular elements and compounds and monatomic elements condense and freeze at sufficiently low temperatures. For this to occur, some attractive forces must exist between the molecules or discrete atoms.   
+The States of Matter:Basics simulator from the PhET team at the University of Colorado can help show how argon and neon can be made to condense at very low temperatures. This provides a useful reminder of the key differences between solids, liquids and gases.  
+Intermolecular forces acting between molecules are known as van der Waals forces. There are several different types of these, such as London dispersion forces and permanent dipole-permanent dipole interactions that include hydrogen bonding.   
+RSC LearnChemistry’s Spot the Bonding,worksheet tackles common chemical misconceptions. The activity allows candidates to consolidate their knowledge of different types of intramolecular and intermolecular bonding.    
+London dispersion forces are forces of attraction that can operate between all atoms and molecules. These forces are much weaker than all other types of bonding. They are formed as a result of electrostatic attraction between temporary dipoles and induced dipoles caused by movement of electrons in atoms and molecules. 
+ 
+The strength of London dispersion forces is related to the number of electrons within an atom or molecule. Plotting the melting or boiling points for the noble gases or halogens can illustrate the relationship between the strength of London forces and the number of electrons.  
+ 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities A molecule is described as polar if it has a permanent dipole.  
+ 
+The spatial arrangement of polar covalent bonds can result in a molecule being polar. 
+ The Molecule Polarity simulator from the PhET team at the University of Colorado allows the electronegativity of atoms in a molecule to be changed to see the effect on polarity. It also demonstrates the effect of an electric field and bond angle on polarity. 
+ 
+The University of Minnesota offers an experimental investigation into the polarity of water and cyclohexane in Polar liquid displaced by a Charged Rod. 
+ 
+RSC LearnChemistry offers a creative problem-solving exercise investigating what happens when different charged plastics are held near Jets of liquids issuing from a burette. 
+ 
+RSC LearnChemistry’s Exhibition Chemistry: Microwaveable solvents offers an interesting demonstration (a video is also available) showing how the polarity of a solvent affects how efficiently a microwave oven can heat it.  
+ Permanent dipole-permanent dipole interactions are additional electrostatic forces of attraction between polar molecules.  
+ 
+Permanent dipole-permanent dipole interactions are stronger than London dispersion forces for molecules with similar numbers of electrons.  
+ The effect of the polarity of a molecule on the strength of intermolecular forces can be illustrated by comparing molecules with similar numbers of electrons but differing polarity, for example bromine and iodine monochloride.  
+Chemspider Br2, 70 electrons, non-polar, boiling point 59 ºC  
+Chemspider ICl, 70 electrons, polar, boiling point 97 ºC 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Bonds consisting of a hydrogen atom bonded to an atom of a strongly electronegative element such as fluorine, oxygen or nitrogen are highly polar. Hydrogen bonds are electrostatic forces of attraction between molecules that contain these highly polar bonds. A hydrogen bond is stronger than other forms of permanent dipole-permanent dipole interaction but weaker than a covalent bond.  RSC LearnChemistry’s Hydrogels - smart materials allows exploration of hydrogen bonding through some simple experiments using hydrogels, which are easily obtained from disposable nappies.  
+ 
+ 
+  
+Melting points, boiling points, and viscosity can all be rationalised in terms of the nature and strength of the intermolecular forces that exist between molecules. By considering the polarity and number of electrons present in molecules, it is possible to make qualitative predictions of the strength of the intermolecular forces. 
+ 
+The melting and boiling points of polar substances are higher than the melting and boiling points of non-polar substances with similar numbers of electrons.  
+ Chemical misconceptions II - Scaffolding explanations from RSC LearnChemistry offers a set of materials designed to develop confidence in using explanations in chemistry. The topics covered include charge, atomic structure, electronegativity, bond polarity, hydrogen bonding, melting temperature, boiling temperature and atomic size.  
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Boiling points, melting points, viscosity and solubility/miscibility in water are properties of substances that are affected by hydrogen bonding.  
+ 
+The anomalous boiling points of ammonia, water and hydrogen fluoride are a result of hydrogen bonding.  
+ RSC LearnChemistry offers a worksheet exploring the structural differences between solid and liquid water in Kitchen Chemistry: Structure of ice and water.  
+ 
+Hydrogen bonding is also responsible for the surface tension of water and can be demonstrated using classic experiments such as floating a needle on the surface of a glass of water, or adding coins to a wine glass full of water to demonstrate the level rising above the rim of the glass. 
+ 
+The Viscosity of various liquids can be compared in a simple RSC LearnChemistry experiment in which candidates measure the time taken for a bubble to rise through tubes of different liquids. 
+ 
+RSC LearnChemistry offers activities to develop metacognition. Candidates are asked to solve a problem related to mixing drinks, and reflect on the thinking styles that they used. In another activity candidates discuss four modelled thinking styles of fictional candidates. Knowledge of intermolecular forces, hydrogen bonding and the structure of ice are required.     
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Hydrogen bonding between molecules in ice results in an expanded structure that causes the density of ice to be less than that of water at low temperatures.  
+ 
+  
+ The density of ice is a simple RSC LearnChemistry demonstration in which ice cubes are floated on cooking oil. Candidates observe what happens to the liquid water produced as the ice melts and the density changes.  
+ 
+National Science Foundation’s Chemistry Now: The Chemistry of Ice video explains how the molecular structure of H2O changes as it reaches its freezing point, and turns from a liquid to a less dense, solid, crystal lattice. 
+ 
+RSC LearnChemistry offers a series of short videos, demonstrating the anomalous property of water, from the lecture 'Just add Water', Part 3 given by Dr Peter Wothers, from the University of Cambridge: 
+? clip 22, Structure of water and ice 
+? clip 23, Charges in water  
+? clip 27, Ice floats on water 
+? clip 28, Exploding ice bomb 
+ 
+What are hydrogen bonds and where are they found? is an RSC activity designed to develop an understanding of hydrogen bonding in a range of materials including slime.   
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Ionic compounds and polar molecular compounds tend to be soluble in polar solvents such as water, and insoluble in non-polar solvents. Non-polar molecular substances tend to be soluble in non-polar solvents and insoluble in polar solvents. 
+ 
+To predict the solubility of a compound, key features to be considered are the:  
+ 
+? presence in molecules of O-H or N-H bonds, which implies hydrogen bonding  
+? spatial arrangement of polar covalent bonds, which could result in a molecule possessing a permanent dipole 
+ Candidates could investigate the solubility of molecular compounds in different solvents. (The compounds used should include examples with O-H or N-H bonds, and shapes which would result in permanent dipoles.) 
+ 
+RSC LearnChemistry’s NBC Learn: Chemistry Now video, The Chemistry of Water, explains how water acts to dissolve ionic compounds. 
+ 
+The RSC LearnChemistry activity Reactions of halogens (as aqueous solutions) contains instructions for a demonstration or class experiment that allows the solubility of halogens in water and a hydrocarbon to be compared.  
+
+
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities 	(c) Oxidising and reducing agents  	 Reduction is a gain of electrons by a reactant in any reaction.  
+ 
+Oxidation is a loss of electrons by a reactant in any reaction.  
+ 
+In a redox reaction, reduction and oxidation take place at the same time.  
+ 
+An oxidising agent is a substance that accepts electrons.  
+ 
+A reducing agent is a substance that donates electrons. 
+ 
+Oxidising and reducing agents can be identified in redox reactions. 
+ RSC LearnChemistry’s, Starters for ten: chapters 1–11, chapter 9 ‘Redox’ offers a selection of easily edited short quizzes and activities on oxidation and reduction ion-electron equations and redox equations.   
+ 
+RSC LearnChemistry offers a variety of resources: 
+  
+The blue bottle experiment is a classic demonstration (a video is also available) in which an alkaline solution of glucose reduces methylene blue to a colourless form. Shaking the solution raises the concentration of oxygen in the mixture and this oxidises the methylene blue back to its blue form. 
+ 
+Beyond the blue bottle is an alternative demonstration using indigo carmine indicator to produce a range of colours other than blue (a video is also available). 
+ 
+A colourful oscillating reaction provides a visual illustration of a series of interconnected redox reactions. This repeating cycle of reactions oscillates between red and blue over a period of several minutes. 
+ 
+A visible reduction demonstration is a video which demonstrates the reduction of copper oxide, as a useful introduction to redox reactions. 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Elements with low electronegativities tend to form ions by losing electrons and so act as reducing agents.  
+ 
+Elements with high electronegativities tend to form ions by gaining electrons and so act as oxidising agents. 
+ 
+In the periodic table, the strongest reducing agents are in group 1, and the strongest oxidising agents are in group 7. 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Experiments comparing metals as reducing agents are available from RSC LearnChemistry:  
+ 
+Displacement reactions of metals  
+ 
+Displacement reactions between metals and their salts 
+ 
+Displacement reaction of silver nitrate and copper metal 
+ 
+Resources comparing non-metals as oxidising agents are available from RSC LearnChemistry:  
+ 
+Reactions of halogens (as aqueous solutions)  
+ 
+The halogens - displacement of bromide video  
+ 
+Displacement series for non-metals describes experiments which allow the ability of other non-metals to act as oxidising agents.  
+ 
+ 
+ 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Compounds, group ions and molecules can act as oxidising or reducing agents: 
+? hydrogen peroxide is a molecule that is an oxidising agent 
+  
+A demonstration of hydrogen peroxide’s ability to act as an oxidising agent is provided in Exhibition Chemistry: The oxidation of luminol from RSC LearnChemistry. ? dichromate and permanganate ions are group ions that are strong oxidising agents in acidic solutions 
+  
+A demonstration of permanganate acting as an oxidising agent is provided in a Spontaneous exothermic reaction, from RSC 
+LearnChemistry, in which a mixture of glycerol (propane-1,2,3-triol) and potassium permanganate react, burst into flames and give off clouds of steam. ? carbon monoxide is a gas that can be used as a reducing agent 
+  
+A demonstration of carbon monoxide reacting as a reducing agent is provided in reduction of metal oxides, from SSERC.  
+  
+Other molecules and group ions can act as reducing agents. 
+ 
+Finding the formulae of copper (II) oxide from RSC LearnChemistry demonstrates the ability of methane to act as a reducing agent. 
+ 
+The Screaming Jelly Baby from SSERC (and associated Screaming Jelly Baby — Risk Assessment) demonstrates the ability of chlorate ions to act as an oxidising agent.  
+ 
+ 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Oxidising agents are widely used because of the effectiveness with which they can kill fungi and bacteria, and can inactivate viruses. The oxidation process is also an effective means of breaking down coloured compounds, making oxidising agents ideal for use as 
+‘bleach’ for clothes and hair. 
+ Estimating the concentration of bleach is a simple class practical or demonstration which allows the hypochlorite ion concentration of different bleaches to be compared by measuring the volume of gas evolved. 
+ 
+The bleaching properties of chlorine gas, an oxidising agent, can be demonstrated by bubbling the gas through tomato juice. The red colour disappears quickly. A method for the production of chlorine is given in RSC LearnChemistry’s Generating, collecting and testing gases. 
+ 
+Another demonstration which works well uses a household bleach containing sodium hypochlorite. Four drops of yellow food colouring (E102) and four drops of blue food colouring (E124) are dissolved in 40 cm3 of water. A solution containing four drops of household bleach in 20 cm3 of water is added to the solution and the mixture stirred. The hypochlorite oxidises the colourings taking the solution through a number of colour changes. This experiment will work with both thick and thin bleaches. Thicker bleaches tend to give more gradual colour changes which are easier for candidates to observe.  
+ 
+Chemistry in your cupboard –Vanish is part of an RSC 
+LearnChemistry series which describes the chemistry that underlies nine well-known, household products. This example looks at the cleaning power of Vanish. 
+	1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities The electrochemical series represents a series of reduction reactions.  
+ 
+The strongest oxidising agents are at the bottom of the left-hand column of the electrochemical series.   
+ 
+The strongest reducing agents are at the top of the right-hand column of the electrochemical series. 
+ 
+An ion-electron equation can be balanced by adding appropriate numbers of water molecules, hydrogen ions and electrons. 
+  
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1–11, chapter 9 
+‘Redox’ offers a selection of easily edited short quizzes and activities including balancing redox equations.    
+ 
+
+1 	Chemical changes and structure (continued) 
+Mandatory knowledge  
+Suggested activities Ion-electron equations can be combined to produce redox equations.  
+ 
+ 
+ Redox titrations can be used to illustrate quantitatively the relevance of balanced redox equations.  
+ 
+RSC LearnChemistry offers many experimental instructions including: 
+In Search of Solutions: Which bleach is the best buy? 
+ 
+In search of more solutions: vintage titrations: tannin in wine 
+ 
+In search of more solutions: Vintage titrations: sulfur dioxide concentrations in wine 
+ 
+Assessment for Learning Chemistry: What fruit contains the most vitamin C? What conditions affect the amounts of vitamin C? 
+ 
+Level 4 of the Titration screen experiment is a simulation of a redox titration to determine the iron in dietary supplement tablets.   
+2 	Nature’s chemistry  
+Mandatory knowledge  
+Suggested activities (a) Systematic carbon chemistry 	 Compounds containing only single carbon–carbon bonds are described as saturated.  
+ 
+Compounds containing at least one carbon–carbon double bond are described as unsaturated. Compounds containing carbon– carbon double bonds can take part in addition reactions. In an addition reaction, two molecules combine to form a single molecule.  
+ 
+It is possible to distinguish an unsaturated compound from a saturated compound using bromine solution. Unsaturated compounds quickly decolourise bromine solution.  
+ 
+The structure of any molecule can be drawn as a full or a shortened structural formula.  
+ 
+Isomers:  
+ 
+? are compounds with the same molecular formula but different structural formulae 
+? may belong to different homologous series 
+? usually have different physical properties 
+ 
+Given the name or a structural formula for a compound, an isomer can be drawn.  
+Isomers can be drawn for a given molecular formula. 
+ RSC LearnChemistry provides instructions for Microscale testing for unsaturation using bromine.  
+  
+
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities The solubility, boiling point and volatility (ease of evaporation) of a compound can be predicted by considering: 
+ 
+? the presence of O-H or N-H bonds, which implies hydrogen bonding 
+? the spatial arrangement of polar covalent bonds which could result in a molecule possessing a permanent dipole 
+? molecular size which would affect London dispersion forces 
+? the polarities of solute and solvent. Polar or ionic compounds tend to be soluble in polar solvents, non-polar compounds tend to be soluble in non-polar solvents 
+ 
+Solubility, boiling point and volatility can be explained in terms of the type and strength of intermolecular forces present. 
+ A major issue in cooking is to retain molecules responsible for flavour in the food — overcooking can result in loss of these molecules. One destination for lost flavour molecules is in the cooking water. This will occur if the flavour molecules are watersoluble. RSC LearnChemistry’s Cooking asparagus investigates why it should be cooked in oil or butter but broccoli should be cooked in water. The accompanying worksheet ‘The chemistry of flavour’ contains a number of problem-solving exercises that allow candidates to predict the best cooking methods using the structural formulae of the molecules responsible for flavour in different foods. 
+ 	(b) Alcohols 	 An alcohol is a molecule containing a hydroxyl functional group, 
+?OH group.  
+   
+ 
+ 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Straight-chain and branched alcohols can be systematically named, 
+indicating the position of the hydroxyl group from structural formulae containing no more than eight carbon atoms in their longest chain.  
+ 
+A molecular formula can be written or a structural formula drawn from the systematic name of a straight-chain or branched alcohol that contains no more than eight carbon atoms in its longest chain.  
+ 
+Alcohols can be classified as primary, secondary or tertiary. 
+ 
+Alcohols containing two hydroxyl groups are called diols, and those containing three hydroxyl groups are called triols. 
+ 
+Hydroxyl groups make alcohols polar and this gives rise to hydrogen bonding. Hydrogen bonding can be used to explain the properties of alcohols, including boiling points, melting points, viscosity and solubility/miscibility in water. 
+  
+ 
+ 
+RSC LearnChemistry provides practical details for an experiment that compares the viscosity of different liquids which could be modified to include a greater range of alcohols. 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities 	(c) Carboxylic acids 	 A carboxylic acid is a molecule containing the carboxyl functional group, ?COOH.  
+ 
+Straight-chain and branched carboxylic acids can be systematically named from structural formulae containing no more than eight carbons in the longest chain. 
+  
+A molecular formula can be written or a structural formula drawn from the systematic name of a straight-chain or branched-chain carboxylic acid that contains no more than eight carbon atoms in its longest chain.  
+  
+Carboxylic acids can react with bases: 
+ 
+a metal oxide + a carboxylic acid  	 	-->   a salt  + water a metal hydroxide + a carboxylic acid -->   a salt  + water  
+a metal carbonate + a carboxylic acid -->   a salt  + water +  
+	 	 	 	      carbon dioxide 
+ 
+The name of the salt produced depends on the acid and base used.  
+  
+RSC LearnChemistry’s The acidic reactions of ethanoic acid allows some typical properties of ethanoic acid to be observed. 
+ 
+Candidates can use neutralisation reactions to prepare a number of products: 
+ 
+Copper(II) ethanoate is one of the various forms in which the micronutrient copper is supplied in a fertiliser. It is produced by reacting basic copper(II) carbonate with ethanoic acid. Details are given in RSC LearnChemistry’s Challenging Plants: Fertilisers - Practicals. 
+ 
+Calcium benzoate (E213), a preservative in foods, can be made from the reaction between benzoic acid and calcium carbonate. 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities 	(d) Esters, fats and oils 	 An ester is a molecule containing an ester link: ?COO?. 
+ RSC LearnChemistry provides a short Esters and perfumes film explaining what esters are and how they are made. Esters can be named given the: 
+ 
+? names of their parent alcohol and carboxylic acid  
+? structural formulae of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straightchain carboxylic acids containing no more than eight carbons 
+ 
+Molecular formulae can be written and structural formulae drawn for esters given the: 
+ 
+? systematic names of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straightchain carboxylic acids containing no more than eight carbons ? structural formulae of their parent alcohol and carboxylic acid 
+ 
+Esters are used as flavourings and fragrances as many have pleasant, fruity smells. Esters are also used as solvents for nonpolar compounds that do not dissolve in water. 
+  
+ 
+ 
+RSC LearnChemistry provides a series of games and worksheets based on a matching grid exercise. This game is based on Naming Esters. 
+ 
+ 
+ 
+ 
+ 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Esters are formed by a condensation reaction between an alcohol and a carboxylic acid.  
+ 
+In a condensation reaction, two molecules are joined together with the elimination of a small molecule. 
+ 
+When an ester link is formed by the reaction between a hydroxyl group and a carboxyl group, the small molecule eliminated is water. 
+  RSC LearnChemistry provides details of some simple experiments:  
+  
+Making esters from acids and alcohols provides details for the reactions between a range of alcohols and acids on a test-tube scale, to produce small quantities of a variety of esters quickly.  
+ 
+Practical skills video –organic liquid- heating under reflux demonstrates the use of reflux in the preparation of butyl ethanoate.   
+ 
+A microscale preparation of ethyl benzoate gives practical information on the preparation and identification of the ester. Esters can be hydrolysed to produce an alcohol and a carboxylic acid.  
+ 
+In a hydrolysis reaction, a molecule reacts with water to break down into smaller molecules. 
+ 
+The products of the hydrolysis of an ester can be named given the: 
+ 
+? name of the ester  
+? structural formula of an ester formed from a straight-chain or branched alcohol and a straight-chain or branched carboxylic acid, each containing no more than eight carbons in their longest chain 
+  
+An ester is added to distilled water. After 30 minutes, the pH of the mixture can be tested to demonstrate that an acid is forming. 
+ 
+ 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Molecular formulae can be written and structural formulae can be drawn for the products of the hydrolysis of an ester given the: 
+ 
+? systematic names of esters formed from primary, straight-chain alcohols containing no more than eight carbons and straightchain carboxylic acids containing no more than eight carbons ? structural formula of the ester 
+  Edible fats and edible oils are esters formed from the condensation of glycerol (propane-1,2,3-triol) and three carboxylic acid molecules. The carboxylic acids are known as ‘fatty acids’ and can be saturated or unsaturated straight-chain carboxylic acids, usually with long chains of carbon atoms.  
+  
+  
+ Edible oils have lower melting points than edible fats. 
+ 
+Double bonds in fatty acid chains prevent oil molecules from packing closely together, so the greater the number of double bonds present, the weaker the van der Waals forces of attraction. The greater the degree of unsaturation, the lower the melting point. 
+  
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Unsaturated compounds quickly decolourise bromine solution.  
+ 
+The bromine molecules add across the carbon–carbon double bonds in an addition reaction. The greater the number of double bonds present in a substance, the more bromine solution can be decolourised.  
+ RSC LearnChemistry offers two activities to measure the degree of unsaturation of fats and oils: 
+ 
+Assessment for Learning Chemistry: What is a Healthy fat? involves timing the reaction with iodine solution. 
+ 
+Unsaturation in fats and oils involves titrating samples with bromine water. 
+ Fats and oils are: 
+ 
+? a concentrated source of energy 
+? essential for the transport and storage of fat-soluble vitamins in the body 
+ Fat pan fire! from RSC LearnChemistry dramatically demonstrates that fats and oils are an extremely concentrated source of energy. This activity illustrates the conditions required to start combustion, and how to put out such a fire safely. 
+ 	(e) Soaps, detergents and emulsions 	 Soaps are produced by the alkaline hydrolysis of edible fats and edible oils. Hydrolysis produces three fatty acid molecules and one glycerol molecule. The fatty acid molecules are neutralised by the alkali, forming water-soluble ionic salts called soaps. 
+ RSC LearnChemistry provides experimental detail for a Soap from bacon demonstration in which raw bacon is used to show the effects of acid and alkali on animal tissue, and also the formation of soap from hydrolysed fat.   
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Soaps can be used to remove non-polar substances such as oil and grease. Soap ions have long non-polar tails, readily soluble in non-polar compounds (hydrophobic), and ionic heads that are water-soluble (hydrophilic). The hydrophobic tails dissolve in the oil or grease. The negatively-charged hydrophilic heads remain in the surrounding water. Agitation causes ball-like structures to form. The negatively-charged ball-like structures repel each other and the oil or grease is kept suspended in the water.  RSC LearnChemistry offers It's a Wash: The Chemistry of Soap, which is a short video that explains how soap and detergents affect the surface tension of water to break up greasy dirt. 
+ 
+  
+Hard water is a term used to describe water containing high levels of dissolved metal ions. When soap is used in hard water, scum, an insoluble precipitate, is formed.  RSC LearnChemistry provides experiments which investigate What ions cause hardness in water? and How can hardness in water be removed?   
+Soapless detergents are substances with non-polar hydrophobic tails and ionic hydrophilic heads. These remove oil and grease in the same way as soap. Soapless detergents do not form scum with hard water. 
+ RSC LearnChemistry provides an experimental procedure in 
+‘Making soaps and detergents’ for the reaction of castor oil with warm concentrated alkali to form a soap and the reaction of castor oil with concentrated sulfuric acid to form a soapless detergent.  
+ 
+RSC LearnChemistry suggests various short experiments in Detergents, soap and water tension that show the surface tension of water with different levels of hardness and how detergents lower the surface tension of water. 
+ 
+Chemistry in your cupboard - Finish is part of an RSC 
+LearnChemistry series which describes the chemistry that underlies nine well-known household products. This example looks at the cleaning power of Finish dishwasher tablets. 
+ 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities An emulsifier can be used to prevent non-polar and polar liquids separating into layers.  
+ 
+An emulsion contains small droplets of one liquid dispersed in another liquid.  
+ Should we worry about food additives & E numbers? is an RSC article explaining why the food additives known as E numbers, including emulsifiers, antioxidants and flavourings, are used and exploring some of the concerns that people have. 
+ 
+The code E471 is one of the most common ‘E numbers’ on food packaging and indicates that the food contains an emulsifying agent consisting of mono- and di-glycerides of fatty acids. Emulsifiers for use in food can be made by reacting edible oils with glycerol. In the molecules formed, only one or two fatty acid groups are linked to each glycerol backbone. The hydroxyl groups present in the emulsifier are hydrophilic whilst the fatty acid chains are hydrophobic. The hydrophobic fatty acid chains dissolve in oil whilst the hydrophilic hydroxyl groups dissolve in water, forming a stable emulsion.  
+In emulsifiers, from RSC LearnChemistry, candidates test a range of substances found in the kitchen to see which stabilise an oil and water emulsion. 
+ 	(f) Proteins 	 Proteins are the major structural materials of animal tissue and are also involved in the maintenance and regulation of life processes.  
+ 
+Enzymes are proteins which act as biological catalysts. 
+ 
+  
+Testing for enzymes is an experiment from the Nuffield Foundation in which hydrogen peroxide is used to detect the presence of enzymes in liver, potato and celery. The enzymes catalyse the decomposition of the hydrogen peroxide resulting in release of oxygen gas. 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Amino acids, the building blocks from which proteins are formed, are relatively small molecules which all contain an amino group,  
+—NH2, and a carboxyl group, —COOH. 
+ 
+Proteins are made of many amino acid molecules linked together by condensation reactions. In these reactions, the amino group of one amino acid and the carboxyl group of another amino acid join, with the elimination of water.  
+ 
+The link which forms between two amino acids is known as a peptide link, —CONH—, or also as an amide link. 
+ 
+Proteins which fulfil different roles in the body are formed by linking together differing sequences of amino acids.  
+  
+RSC LearnChemistry’s Hair challenges candidates to estimate the approximate rate of growth of human hair in ms-1 and to estimate the number of amino acid molecules which are incorporated in a growing hair. 
+ 
+ The body cannot make all of the amino acids required for protein synthesis and certain amino acids, known as essential amino acids, must be acquired from the diet.  
+ RSC LearnChemistry’s organic chemistry infographic offers a guide to the twenty common amino acids. Only eight amino acids are regarded as being essential for humans although a further two are required in childhood. 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities During digestion, enzyme hydrolysis of protein produces amino acids.  
+ 
+The structural formulae of amino acids obtained from the hydrolysis of a protein can be drawn given the structure of a section of the protein. 
+ 
+The structural formula of a section of protein can be drawn given the structural formulae of the amino acids from which it is formed. 
+ RSC LearnChemistry provides two activities investigating protein hydrolysis. 
+ 
+As sweet as? Detecting aspartame in a table-top sweetener gives details of an interesting practical in which aspartame (a methyl ester of a dipeptide) is hydrolysed to aspartic acid and phenylalanine and the products are identified by chromatography. 
+ 
+Chemistry in your cupboard: Veet explores the chemistry of hair and how hair can be removed by hydrolysing proteins. 
+ Within proteins, the long-chain molecules form spirals, sheets, or other complex shapes. The chains are held in these forms by intermolecular bonding between the side chains of the constituent amino acids. When proteins are heated, these intermolecular bonds are broken, allowing the proteins to change shape 
+(denature). The denaturing of proteins in foods causes the texture to change when it is cooked. 
+ RSC LearnChemistry offers a simple Chocolate and egg experiment, to show the effect of temperature on egg whites. In uncooked egg white, the protein molecules are globular. During cooking, the protein is denatured and the protein chains unwind and, as they can now form intermolecular bonds with neighbouring protein molecules, a network of interconnected proteins forms causing the egg white to solidify.   
+ 
+Heston Blumenthal introduces RSC LearnChemistry’s Cooking meat and explains why different temperatures are required for cooking meats with different levels of connective tissue.  
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities (g) Oxidation of food  For carbon compounds: 
+ 
+? oxidation is an increase in the oxygen to hydrogen ratio 
+? reduction is a decrease in the oxygen to hydrogen ratio 
+  
+
+
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Hot copper(II) oxide or acidified dichromate(VI) solutions can be used to oxidise: 
+ 
+? primary alcohols to aldehydes and then to carboxylic acids ? secondary alcohols to ketones 
+ 
+During these reactions black copper(II) oxide forms a brown solid, and orange dichromate solution turns green. 
+ 
+Tertiary alcohols cannot be oxidised using these oxidising agents. 
+ RSC LearnChemistry provides a range of activities on oxidation of alcohols. 
+ 
+In oxidation of ethanol the alcohol is oxidised to ethanal and, with further oxidation, to ethanoic acid.  
+ 
+The ‘breathalyser’ reaction is a quick demonstration of the reaction used in early forms of 'breathalysers'. 
+ 
+A microscale oxidation of cyclohexanol by potassium dichromate(VI) illustrates the reaction but makes no attempt to identify the product.  
+ 
+A microscale oxidation of alcohols allows the difference in the oxidation reactions of primary, secondary and tertiary alcohols to be observed by the addition of acidified dichromate(VI).  
+ 
+Alcohols (16-19) is a game and resource based on naming, classifying and identifying the products of oxidation.  
+ 
+Teaching functional groups: how to distinguish between isomeric alcohols is a professional learning resource for teachers and/or lecturers considering different approaches that can be taken to illustrate the differences in reactivity of isomeric alcohols. 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Aldehydes and ketones are molecules containing a carbonyl functional group . 
+Straight-chain and branched aldehydes and ketones can be systematically named from structural formulae containing no more than eight carbons in the longest chain. 
+ 
+Molecular formulae can be written and structural formulae drawn from the systematic names of straight-chain and branched aldehydes and ketones, containing no more than eight carbons in the longest chain. 
+  RSC LearnChemistry’s Advanced starters for ten: chapters 1–14 Chapter 4 ‘Carbonyl Chemistry’ offers a selection of easily editable resources covering the reactions and properties of compounds containing the carbonyl functional group. 
+ 
+ 
+ Aldehydes, but not ketones, can be oxidised to carboxylic acids. Oxidising agents can be used to differentiate between an aldehyde and a ketone. With an aldehyde: 
+ 
+? blue Fehling’s solution forms a brick red precipitate 
+? clear, colourless Tollens’ reagent forms a silver mirror 
+? orange acidified dichromate solution turns green 
+ RSC LearnChemistry provides instructions for a giant silver mirror experiment (a video is also available) in which a solution of ammoniacal silver nitrate is reduced by aldehydes to form a silver mirror on the inside of a large flask. 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Many flavour and aroma molecules are aldehydes. 
+ 
+ 
+ RSC LearnChemistry provides a series of videos relating to flavour. 
+Heston Blumenthal introduces What is flavour?, the link between Flavour, taste, aroma and another on flavour profiles which describes the chemistry behind flavours.  
+ 
+RSC LearnChemistry provides the Edible experiments: Cheesy chemistry (a video is available) which introduces the molecules responsible for the distinct flavours within different cheeses.  
+ 
+RSC LearnChemistry presents a collection of Aroma chemistry infographics about the chemistry of smells including ‘the aroma of frying bacon’ and ‘the aroma of fresh-cut grass’. Oxygen from the air causes the oxidation of food. The oxidation of edible oils gives food a rancid flavour.  
+  
+In crisp manufacture, potatoes are typically fried under an atmosphere of steam and packaged under nitrogen. 
+ 
+Investigating the oxidation of fats and oils from the University of York suggests some practical investigations. 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Antioxidants: 
+ 
+? are molecules that prevent unwanted oxidation reactions occurring 
+? are substances that are easily oxidised, and oxidise in place of the compounds they have been added to protect  
+? can be identified as the substance being oxidised in a redox equation   
+ RSC LearnChemistry provides a variety of activities on Vitamin C. 
+ 
+Which fruit contains the most vitamin C? What conditions affect the amounts of vitamin C?  
+ 
+Microscale Chemistry - Measuring the amount of vitamin C in fruit drinks 
+ 
+The 'Understanding Food Additives' website was produced through 
+collaboration between the Food Additives and Ingredients Association and the Chemical Industry Education Centre. It provides information about the uses and effects of food additives. It provides animations and a number of downloadable classroom activities. 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities 	(h) Fragrances  	 Essential oils are concentrated extracts of the volatile, non-watersoluble aroma compounds from plants. They are mixtures of many different compounds. They are widely used in perfumes, cosmetic products, cleaning products and as flavourings in foods. 
+ RSC LearnChemistry offers a variety of activities related to essential oils.  
+ 
+Chemistry stinks – class smelling activity introduces the concepts of chemistry and smell through a series of common chemicals with distinctive smells.  
+ 
+RSC LearnChemistry presents a collection of Aroma chemistry infographics about the chemistry of smells including ‘the aroma of fresh-cut grass’. 
+ 
+The steam distillation video demonstrates the extraction of essential oils using quick-fit apparatus. Alternatively, steam distillation can be carried out using a boiling tube, some glass wool and a bung fitted with an L-shaped delivery tube using instructions from Investigative chemistry: wash bag. 
+ Terpenes are key components in most essential oils. They are unsaturated compounds formed by joining together isoprene (2methylbuta-1,3-diene) units. 
+ Extracting limonene from oranges by steam distillation is an RSC LearnChemistry experiment demonstrating the extraction of plant oils such as limonene from citrus fruits.  
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities Terpenes can be oxidised within plants to produce some of the compounds responsible for the distinctive aromas of spices. 
+Given the structural formula for a terpene-based molecule: 
+ 
+? an isoprene unit can be identified within the molecule 
+? the number of isoprene units joined together within the molecule can be stated 
+ RSC LearnChemistry presents a collection of other infographics including ‘the major organic molecules in herbs and spices’ that can be used to spot common structural features.   
+ 
+Edible experiments: Earth’s perfume is a short video explaining which terpene is responsible for the earthy taste of beetroot.  
+ 
+ 
+	2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities 	(i) 	Skin care 	 Ultraviolet radiation (UV) is a high-energy form of light, present in sunlight. UV light can provide sufficient energy to break bonds within molecules. This causes sunburn and accelerates ageing of the skin. Sun-block products prevent UV light reaching the skin.  
+ 
+ RSC LearnChemistry’s Outreach: sunscreen and UV light is a simple demonstration of the action and importance of sunscreen. 
+ 
+Faces of Chemistry: sun lotion is an RSC LearnChemistry video in which chemists from a sun-care manufacturer explain the chemistry behind making sun lotions that help protect our skin from damaging ultraviolet radiation. 
+ 
+Sunscreens and cyanotypes from SSERC offers an experiment that demonstrates the absorption of UV light using different sun creams.  
+ 
+RSC LearnChemistry offers other infographics which provide information on ‘the science of sunscreen’ and ‘the chemistry of fake tans’.  
+ 
+UV photography reveals the effects of ‘photoageing’, or ageing of skin caused by sunlight. There are websites available that show this effect. 2 	Nature’s chemistry (continued) 
+Mandatory knowledge  
+Suggested activities When UV light breaks bonds, free radicals are formed. Free radicals are atoms or molecules that are highly reactive due to the presence of unpaired electrons. 
+ 
+Free radical chain reactions include the following steps: initiation, propagation and termination.  
+ 
+Equations can be written for reactions involving free radicals. 
+ 
+An equation involving free radicals can be recognised as representing an initiation, propagation or termination step. 
+ 
+Free radical scavengers are molecules that react with free radicals to form stable molecules and prevent chain reactions from occurring. Free radical scavengers are added to many products including cosmetics, food products and plastics. The reaction of ethyne with chlorine is an RSC LearnChemistry demonstration which shows the spontaneous reaction of ethyne and chlorine, including bursts of yellow flame and leaves a black sooty deposit of carbon.   
+ 
+RSC LearnChemistry offers Fire and Flame: Part 4, clip 44, 
+‘Hydrogen and chlorine bang’, a short video demonstrating a free radical chain reaction in which a photographic flash is used to initiate the reaction.  
+Instructions on how to carry out this reaction safely are given in SSERC bulletin 223.  
+ 
+ 
+  
+ 
+ 	 
+
+	3 	Chemistry in society 
+Mandatory knowledge  
+Suggested activities (a) Getting the most from reactants  Industrial processes are designed to maximise profit and minimise the impact on the environment.  
+ RSC LearnChemistry provides a Challenging Chemistry Overview, which raises awareness of the need to apply chemical skills, knowledge and understanding to tackle the global issues facing us.  
+ 
+The RSC ‘Alchemy’ resource provides details of a range of industrial processes. The ‘Making medicines’ video considers an industrial process from the initial idea through the stages of scaleup to production of a commercial product. 
+ Factors influencing industrial process design include: 
+ 
+? availability, sustainability and cost of feedstock(s) 
+? opportunities for recycling 
+? energy requirements 
+? marketability of by-products 
+? product yield RSC LearnChemistry introduces Stories from the bio-based industries, a collection of short films produced by EuropaBio (the European Association for Bioindustries) which describe several  bio-based innovations.  
+  
+Environmental considerations include: 
+ 
+? minimising waste 
+? avoiding the use or production of toxic substances 
+? designing products which will biodegrade if appropriate 
+ RSC LearnChemistry’s Inspirational chemistry: Sustainable development and green chemistry series introduces discussion materials based on environmental issues. Two such topics are ‘making oil from waste’ and ‘disposable cups and the environment’. 
+ 
+The Essential Chemical Industry On-line is a web-based reference library of the world’s principal industrial chemicals, their uses and their manufacture using current industrial processes and innovations.   
+  
+3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Chemical equations, using formulae and state symbols, can be written and balanced to show the mole ratio(s) of reactants and products. 
+ RSC LearnChemistry’s Eggsplosive Chemistry provides instructions and videos to carry out spectacular demonstrations to show that getting your reactants in the right proportions can be the difference between a bang and a fizzle.  
+ 
+The PhET team at the University of Colorado have created a simulation that lets candidates learn how to tell if a chemical equation is balanced. It also allows them to explore how to balance equations with an interactive game.  
+ 
+In a series of video clips from his Fire and Flame lecture, Dr Peter Wothers from the University of Cambridge demonstrates how to make the biggest bang in Fire and Flame: Part 3:   
+? clip 25 pure propane in air  
+? clip 26 best propane oxygen ratio  
+? clip 28 1:5 ratio of propane to oxygen  
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 1 ‘Quantitative Chemistry’ offers a selection of easily editable short quizzes and activities.  
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities The mass of a mole of any substance, in grams (g), is equal to the gram formula mass and can be calculated using relative atomic masses.  
+ 
+Calculations can be performed using the relationship between the mass and the number of moles of a substance.  
+For solutions, the mass of solute (grams or g), the number of moles of solute (moles or mol), the volume of solution (litres or l), or the concentration of the solution (moles per litre or mol l-1), can be calculated from data provided.  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+The Molarity Simulation from PhET is an ideal way to introduce the idea of the measurement of concentrations, allowing you to vary the volume of solvent and the amount of solute used to form solutions.  The molar volume (litres mol-1) is the volume occupied by one mole of any gas at a certain temperature and pressure. The molar volume is the same for all gases at the same temperature and pressure. 
+  
+Calculations can be performed using the relationship between the volume of gas, molar volume and the number of moles of a substance.  
+  
+RSC LearnChemistry provides a practical problem-solving exercise In search of more solutions: Gas volume. The challenge is to measure the molar volume of hydrogen produced from the reaction of magnesium with vinegar.  
+ 
+RSC LearnChemistry provides an experimental procedure and supporting video using the molar volume of gases in Determining relative molecular masses by weighing gases.  
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Calculations can be performed given a balanced equation using data including: 
+ 
+? gram formula masses (GFM)  
+? masses 
+? numbers of moles  
+? concentrations and/or volumes of solutions 
+? molar volumes 
+? volumes for gases 
+ 
+ The change in mass when magnesium burns, from RSC 
+LearnChemistry, provides a method to confirm the calculated mass of magnesium oxide formed when a known mass of magnesium burns. This resource extends the procedure into the calculation of an empirical formula. Higher candidates do not need to be able to calculate empirical formula. 
+ 
+Candidates often have difficulty seeing how to break down a problem into simple, single-step calculations. The Problem Solving Tutor from RSC LearnChemistry is an interactive resource that teaches candidates three useful strategies that can be applied when solving chemical calculations. The efficiency with which reactants are converted into the desired product is measured in terms of the percentage yield and atom economy. 
+ 
+By considering a balanced equation, the limiting reactant and the reactant(s) in excess can be identified by calculation. 
+ 
+In order to ensure that a costly reactant is converted into product, an excess of the less expensive reactant(s) can be used. 
+  
+ 
+ 
+The Reactants, Products and Leftovers simulator from PhET can be used to introduce or test understanding of limiting and excess reagents.  
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities The ‘theoretical yield’ is the quantity of desired product obtained, assuming full conversion of the limiting reagent, as calculated from the balanced equation.  
+ 
+The ‘actual yield’ is the quantity of the desired product formed under the prevailing reaction conditions. 
+ 
+For a particular set of reaction conditions, the percentage yield provides a measure of the degree to which the limiting reagent is converted into the desired product.  
+ 
+The percentage yield can be calculated using the equation: 
+ 
+Actual yield
+	% yield = 	?100 
+Theoretical yield
+Using a balanced equation, calculations involving percentage yield can be performed from data provided. 
+ 
+Given costs for the reactants, a percentage yield can be used to calculate the cost of reactant(s) required to produce a given mass of product. 
+ RSC LearnChemistry’s Challenging Plants: Fertilisers - Practicals offers methods for the synthesis of salts in order to calculate the percentage yield including preparation of: 
+ 
+? ammonium dihydrogenphosphate 
+? ammonium sulfate 
+? calcium nitrate 
+? copper citrate 
+? copper ethanoate 
+? diammonium hydrogenphosphate 
+? magnesium sulfate 
+? potassium dihydrogenphosphate 
+? zinc sulfate 
+ 
+ 
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities The atom economy measures the proportion of the total mass of all starting materials converted into the desired product in the balanced equation.  
+ 
+The percentage atom economy can be calculated using the equation: 
+ 
+Mass of desired product
+	% atom economy =	×100 
+Total mass of reactants
+  
+Reactions which have a high percentage yield may have a low atom economy value if large quantities of by-products are formed. 
+ RSC LearnChemistry’s Green Chemistry, atom economy and sustainable development offers information and question sheets to allow candidates to calculate various atom economies, and think about why a high atom economy is important for sustainable development. 
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 1 
+‘Quantitative Chemistry’ offers a selection of easily editable short quizzes and activities including a section on percentage yield and atom economy. 
+ 	(b) Controlling the rate 	 	(i) 	Collision theory  
+Reaction rates must be controlled in industrial processes. If the rate is too low then the process will not be economically viable, if it is too high there will be a risk of explosion.  
+  
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Calculations can be performed using the relationship between reaction time and relative rate with appropriate units.  RSC LearnChemistry offers a series of practical methods to investigate the relationship between reaction time and relative rate. 
+  
+The effect of concentration on reaction rate and The effect of temperature on reaction rate are both based on the reaction of sodium thiosulfate solution with hydrochloric acid to form a precipitate of sulfur.  
+ 
+The effect of concentration and temperature on reaction rate is another practical based on the reaction between potassium iodate and a starch solution. 
+ 
+Microscale versions of both Thiosulfate acid reactions are available from SSERC. 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Collision theory can be used to explain the effects of the following on reaction rates: 
+ 
+? concentration  
+? pressure 
+? surface area (particle size) 
+? temperature ? collision geometry 
+ A Reactions & Rates simulator from the PhET team at the University of Colorado allows experiments to be designed with different reactants, concentrations and temperatures.  
+ 
+RSC LearnChemistry offers a wide range of practical experiments to show the effect of changing reaction conditions. 
+  
+In the Rates and rhubarb experiment, rhubarb sticks containing oxalic acid are used to reduce and decolourise potassium manganate(VII) solution. The experiment can be used to show how the rate of reaction is affected by surface area or concentration.  
+ 
+The Burning milk powder activity shows how a pile of dried milk powder will not ignite even using a roaring Bunsen burner. However, if the powder is sprinkled onto a flame, a spectacular fireball is produced (a video is available). 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities  In August 2000 one of the world’s most advanced submarines, the Kursk, sank to the bottom of the sea with no survivors. It is believed that rusty ironwork acted as a catalyst for the decomposition of hydrogen peroxide. In RSC LearnChemistry’s What sank the Kursk?, instructions are provided for experiments to record reaction progress graphs using different transition metals as catalysts.  
+ 
+In the simpler Hydrogen peroxide decomposition using different catalysts activity, measuring cylinders are set up containing a washing-up liquid, a catalyst and some hydrogen peroxide. The rate at which foam forms depends on the effectiveness of the catalyst (a video of the experiment is also available). 
+ 
+Candidates can see the effect of a catalyst using experiments such as Catalysis of the reaction between zinc and sulfuric acid or in the demonstration experiment Catalysis of the reaction between sodium thiosulfate and hydrogen peroxide. 
+ 
+Involvement of catalysts in reactions experiment provides visible evidence that, although a catalyst does actively participate in a reaction, it is regenerated at the end. In this reaction, a pink cobalt catalyst solution is used which changes to dark green whilst the catalyst is active and is seen to change back to pink once the reaction is over. 
+ 
+ 
+ 
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities (ii) Reaction pathways 
+A potential energy diagram can be used to show the energy pathway for a reaction.  
+A Reactions & Rates simulator from the PhET team at the University of Colorado allows experiments to be designed with different reactants, concentrations and temperatures and illustrates a potential energy diagram for the reaction.  The enthalpy change is the energy difference between the products and the reactants. The enthalpy change has a negative value for exothermic reactions or a positive value for endothermic reactions. 
+ 
+The activation energy is the minimum energy required by colliding particles to form an activated complex and can be calculated from potential energy diagrams. The activated complex is an unstable arrangement of atoms formed at the maximum of the potential energy barrier, during a reaction.  
+  
+ 
+A visible activated complex from RSC LearnChemistry uses the reaction between hydrogen peroxide and Rochelle salts, catalysed by cobalt(II) chloride, to demonstrate the formation of an activated complex.  
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities A catalyst provides an alternative reaction pathway with a lower activation energy.  
+ 
+A potential energy diagram can be used to show the effect of a catalyst on activation energy.  
+ 
+(iii) Kinetic energy distribution 
+Temperature is a measure of the average kinetic energy of the particles in a substance.  
+ 
+The activation energy is the minimum kinetic energy required by colliding particles before a reaction may occur. 
+ 
+Energy distribution diagrams can be used to explain the effect of changing temperature on the kinetic energy of particles and reaction rate.  
+ 
+The effects of temperature and of adding a catalyst can be explained in terms of a change in the number of particles with energy greater than the activation energy.  
+ The Essential Chemical Industry – online, produced by the Centre for Industry Education Collaboration in the Department of Chemistry, University of York, provides examples of Catalysis in industry. 
+ 
+RSC LearnChemistry provides experimental procedures to find the best catalyst from a number of catalysts including the activities Hydrogen peroxide and Hydrogen peroxide decomposition using different catalysts.  
+ 
+Elephant’s Toothpaste from SSERC provides a fun demonstration of the action of a catalyst. 
+ 
+ 
+ 
+ 
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities 	(c) Chemical energy 	 Enthalpy is a measure of the chemical energy in a substance.  A reaction or process that releases heat energy is described as exothermic. In industry, exothermic reactions may require heat to be removed to prevent the temperature rising. 
+ 
+A reaction or process that takes in heat energy is described as endothermic. In industry, endothermic reactions may incur costs in supplying heat energy in order to maintain the reaction rate.  
+ RSC LearnChemistry provides some interesting demonstrations. 
+ 
+The Sodium ethanoate 'stalagmite' demonstrates a supersaturated 
+solution of sodium ethanoate crystallising rapidly forming a ‘stalagmite’ and releasing energy. 
+ 
+In the Cannon fire demonstration, potassium permanganate powder is sprinkled onto a burning mixture of hydrogen peroxide solution and ethanol. In the exothermic reaction which follows, a series of loud bangs are heard as the oxygen that is evolved increases the rate of burning. 
+ 
+In the Endothermic solid-solid reactions demonstration a dramatic temperature drop to about -20 °C is observed when solid hydrated barium hydroxide is mixed with solid ammonium chloride. 
+ 
+RSC LearnChemistry also offers some class experiments. 
+ 
+Investigate Chemistry: hand warmers provides instructions for a rechargeable hand warmer which can be set off to provide a steady supply of heat at a comfortable temperature. 
+ 
+Energy in or out - classifying reactions describes some simple exothermic and endothermic test-tube reactions.  
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities  In Exothermic or endothermic? the temperature changes in four reactions are measured, and the reactions classified as exothermic or endothermic. 
+ 
+In Exothermic metal-acid reactions, finely-divided metals are added to hydrochloric acid and the temperature changes measured.  
+The enthalpy change associated with a reaction can be calculated from the quantity of heat energy released. 
+ 
+The quantity of heat energy released can be determined experimentally and calculated using Eh=cm?T. 
+ 
+The quantities Eh, c, m or ?T can be calculated, in the correct units, given relevant data. 
+  
+RSC LearnChemistry’s Measuring enthalpy changes: Teaching tips for your classroom provides practical tips on how to improve your students’ understanding of the experiment to measure enthalpy changes for burning fuels.   
+ 
+RSC LearnChemistry provides a resource pack Gifted and Talented Chemistry — Energy, which gives experimental procedures for some exothermic and endothermic reactions and instructions for measuring heat energy released by fuels.  
+ The enthalpy of combustion of a substance is the enthalpy change when one mole of the substance burns completely in oxygen. 
+ RSC LearnChemistry offers several activities.  
+ 
+Heat energy from alcohols is an experiment comparing the amounts of heat energy released by burning various alcohols. 
+ 
+In the Heat of combustion of alcohols simulation you can investigate the factors that determine the heat released when alcohols are burned. Variables include: type of alcohol, mass of water and time of heating.  
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Hess’s law states that the enthalpy change for a chemical reaction is independent of the route taken. The enthalpy change for a reaction can be calculated using Hess’s law, given appropriate data. 
+ 
+The molar bond enthalpy is the energy required to break one mole of bonds in a diatomic molecule. A mean molar bond enthalpy is the average energy required to break one mole of bonds, for a bond that occurs in a number of compounds. 
+ 
+Bond enthalpies can be used to estimate the enthalpy change occurring for a gas phase reaction, by calculating the energy required to break bonds in the reactants and the energy released when new bonds are formed in the products. Solid potassium hydroxide can be converted into potassium chloride solution by two different routes. Route 1 is the direct route whereby potassium chloride solution is made by adding solid potassium hydroxide directly to hydrochloric acid. Route 2 is the indirect route and involves two steps. Solid potassium hydroxide is first dissolved in water and then the solution neutralised using hydrochloric acid. Hess’s law can be confirmed by comparing the total enthalpy change for single-step route 1 with two-step route 2. 
+ 
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities 	(d) Equilibria 	 In a closed system, reversible reactions attain a state of dynamic equilibrium when the rates of forward and reverse reactions are equal. 
+ 
+At equilibrium, the concentrations of reactants and products remain constant, but are rarely equal.  
+ RSC LearnChemistry offers several resources illustrating reversible reactions.     
+ 
+A reversible reaction of hydrated copper(II) sulfate 
+ 
+In Exhibition Chemistry: A spectacular reversible reaction, concentrated hydrochloric acid is added to a very dilute solution of copper sulfate, the pale blue solution slowly turns yellow-green on the formation of a copper chloride complex. When concentrated ammonia solution is added, smoke is produced, heat is generated and the yellow-green complex turns into a very dark blue copper ammonia complex.   
+ 
+The Gifted and Talented Chemistry — Equilibria pack can be used to develop candidates’ understanding, from basic concepts such as reversible and irreversible reactions, an understanding of physical and chemical changes, to dynamic equilibria and factors that affect equilibria.  
+ 
+RSC LearnChemistry’s Starters for ten: chapters 1-11, section 8 ‘Equilibria’ offers a selection of easily editable short quizzes and activities focused on trends in the periodic table. 
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities To maximise profits, chemists employ strategies to move the position of equilibrium in favour of the products. 
+ The RSC Alchemy resource contains video material and activities allowing candidates to research processes such as ammonia production (Haber process) and nitric acid production (Ostwald process).  
+ For a given reversible reaction, the effect of altering temperature or pressure or of adding/removing reactants/products can be predicted.  
+ RSC LearnChemistry offers a range of activities.  
+ 
+The equilibrium between two coloured cobalt species, Co(H2O)62+ and CoCl42? can be disturbed by changing the chloride ion concentration or by changing the temperature. The change in equilibrium position is noted by observing the change in the colour of the equilibrium mixture.  
+ 
+Le Chatelier's principle: the effect of concentration and temperature on an equilibrium can be investigated using an ICl/ICl3 mixture in a closed system.   
+ 
+Le Chatelier's principle: the equilibrium between nitrogen dioxide and dinitrogen tetroxide can be investigated by compressing or heating or cooling the mixture and observing the change in colour intensity.  
+ 
+Le Chatelier's principle: the effect of concentration on equilibrium can be demonstrated using solid bismuth(III) oxychloride and bismuth(III) chloride in solution. 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities  
+The addition of a catalyst increases the rates of the forward and reverse reactions equally. The catalyst increases the rate at which equilibrium is achieved but does not affect the position of equilibrium.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ An equilibrium involving copper(II) ions can be established by adding various reagents to a solution of copper(II) sulfate to influence the position of equilibrium.  
+ 
+Equilibria involving carbon dioxide in aqueous solution demonstrates the effect of pressure on a mixture of methyl red indicator and soda water. 
+ 
+The Assessment for Learning Chemistry: Equilibrium reactions resource provides an experiment and answers relating to changing the equilibrium position in an iron(III) chloride and potassium thiocyanate equilibrium mixture. 
+ 
+The Reversible Reactions simulator from the PhET team at the University of Colorado allows the effect of temperature and reactant concentration on the position of equilibrium to be investigated using an analogy of a chemical reaction. 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities 	(e) Chemical analysis 	 (i) Chromatography 
+Chromatography is a technique used to separate the components present within a mixture. Chromatography separates substances by making use of differences in their polarity or molecular size. 
+ 
+The details of any specific chromatographic method or experiment are not required. Depending on the type of chromatography used, the identity of a component can be indicated either by the distance it has travelled, or by the time it has taken to travel through the apparatus (retention time). 
+ 
+The results of a chromatography experiment can sometimes be presented graphically, showing an indication of the quantity of substance present on the y-axis and retention time of the x-axis. 
+ 
+(ii) Volumetric analysis  
+Volumetric analysis involves using a solution of accurately known concentration in a quantitative reaction to determine the concentration of another substance. 
+  
+RSC LearnChemistry offers a variety of resources relating to chromatography. 
+ 
+Modern chemical techniques: chromatography contains descriptions of techniques, instruments and applications.  
+ 
+The interactive lab primer — thin layer chromatography and the interactive lab primer — column chromatography provide videos, animations and apparatus guides.  
+ 
+Instructions for candidate experiments are given in 
+Chromatography of sweets and Chromatography of leaves and In search of more solutions: as sweet as? Detecting aspartame in a table-top sweetener. 
+ 
+Analytical Chemist at the National Gallery: Chromatography is a video that shows chromatography being used to help age works  of art.  
+ 
+ 
+	3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities Titration is used to determine, accurately, the volumes of solution required to reach the end-point of a chemical reaction. An indicator is normally used to show when the end-point is reached. Titre volumes within 0·2 cm3 are considered concordant.  
+ 
+Solutions of accurately known concentration are known as standard solutions.  
+ 
+Redox titrations are based on redox reactions. In titrations using acidified permanganate, an indicator is not required, as purple permanganate solution turns colourless when reduced. 
+ RSC LearnChemistry offer a number of titration activities.  
+ 
+The interactive lab primer — titration is a collection of videos, simulations and animations that show candidates how to use pipettes and burettes to carry out a titration.  
+ 
+Titrations quizzes: new users guide to our practical skills quizzes is a collection of videos to support preparation of a standard solution, titrations and calculations. 
+ 
+The Titration screen experiment is an interactive virtual lab resource. The fourth level is suitable as a resource to consolidate understanding of redox titrations. As this resource was created for worldwide use, concentration is expressed in mol dm-3. Before using this resource, it would be advisable to inform candidates that 
+1 dm3 is equivalent to 1 litre. 
+ 
+ 3 	Chemistry in society (continued) 
+Mandatory knowledge  
+Suggested activities  RSC LearnChemistry offers many experimental instructions including:  
+? In search of solutions: Which bleach is the best buy? 
+? In search of more solutions: Vintage titrations: tannin in wine 
+? In search of more solutions: Vintage titrations: sulfur dioxide concentrations in wine 
+? Finding out how much salt there is in seawater 
+? Microscale Chemistry - Measuring the amount of vitamin C in 
+fruit drinks 
+? Titrating sodium hydroxide with hydrochloric acid 
+? Assessment for Learning Chemistry: What fruit contains the most vitamin C? What conditions affect the amounts of vitamin C? 
+ 
+Resource Pack 1 - Chemical Analysis from SSERC provides instructions for measuring calcium in water, calcium in milk, iron in tea or breakfast cereal and chloride in seawater. Given a balanced equation for the reaction occurring in any titration, the:  
+ 
+? concentration of one reactant can be calculated given the concentration of the other reactant and the volumes of both solutions  
+? volume of one reactant can be calculated given the volume of the other reactant and the concentrations of both solutions  
+  
+RSC LearnChemistry provides a series of games and worksheets based on a matching grid exercise. These games are based on the Concentrations of solutions. As this resource was created for worldwide use, concentration is expressed in mol dm-3. Before using this resource, it would be advisable to inform candidates that 
+1 dm3 is equivalent to 1 litre. 
+  
+4 	Researching chemistry  
+Mandatory knowledge  
+Suggested activities (a) Common chemical apparatus 	 Candidates must be familiar with the use(s) of the following types of apparatus: 
+ 
+? conical flask  
+? beaker  
+? measuring cylinder  
+? delivery tube  
+? dropper  
+? test tubes/boiling tubes  
+? funnel  
+? filter paper 
+? evaporating basin  
+? pipette with safety filler  
+? burette  
+? volumetric flask 
+? distillation flask  
+? condenser ? thermometer  
+ 
+Labelled sectional diagrams can be drawn for common chemical apparatus. RSC LearnChemistry provides details of standard pieces of laboratory equipment in The interactive lab primer - lab apparatus. 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  	 
+
+	4 	Researching chemistry (continued) 
+Mandatory knowledge  
+Suggested activities 	(b) General practical techniques 	 Candidates must be familiar with the following techniques: 
+ 
+? simple filtration using filter paper and a funnel to separate the residue from the filtrate  
+  
+RSC LearnChemistry’s Purifying an impure solid involves the purification of alum. This experiment allows large crystals of alum to be formed. 
+ ? use of a balance, including measuring mass by difference  
+ The interactive lab primer — weighing compounds using a balance, available through RSC LearnChemistry, contains a video and an online simulation that allow candidates to become familiar with the correct use of chemical balances. 
+ ? methods for the collection of gases including: 
+— collection over water (for relatively insoluble gases, or where a dry sample of gas is not required) 
+— collection using a gas syringe (for soluble gases or where a dry sample of gas is required) 
+ RSC LearnChemistry’s Generating, collecting and testing gases demonstrates the collection of gases. 
+ ? safe methods for heating using Bunsen burners, water baths or heating mantles  The interactive lab primer — heating, from RSC LearnChemistry, provides animations showing key points in the correct operation of Bunsen burners and hotplates. 
+ 
+The safe heating of a solution can be practised using RSC 
+LearnChemistry’s Recovering water from copper(II) sulfate solution. A copper(II) sulfate solution is evaporated and the water condensed using simple apparatus. 
+ 4 	Researching chemistry (continued) 
+Mandatory knowledge  
+Suggested activities ? determining enthalpy changes using Eh RSC LearnChemistry’s Heat energy from alcohols is an experiment comparing the amounts of heat energy produced by burning various alcohols. ? volumetric analysis: 
+— the volume markings on beakers provide only a rough indication of volume  
+— measuring cylinders generally provide sufficient accuracy for preparative work, but for analytical work, burettes, pipettes and volumetric flasks are more appropriate 
+— titration is used to accurately determine the volumes of solution required to reach the end-point of a chemical reaction   
+RSC LearnChemistry provides The interactive lab primer — titration, which contains a video, simulations and an animation to show candidates how to use pipettes and burettes.  
+ 
+RSC LearnChemistry provides a series of games and worksheets based on a matching grid exercise. This game is based on Volumetric Apparatus. 
+ ? preparation of a standard solution RSC LearnChemistry provides The interactive lab primer - standard solution, which contains a video, mass and concentration calculators and an apparatus guide.  ? simple distillation using a flask, condenser and suitable heat source to separate a mixture of liquids with different boiling points    
+RSC LearnChemistry provides The interactive lab primer - distillation, which contains a video, an animation and an apparatus guide.  
+ Given a description of an experimental procedure and/or experimental results, an improvement to the experimental method can be suggested and justified.  
+RSC LearnChemistry’s Starters for ten: chapters 1–11, chapter 11 offers a selection of easily edited short quizzes and activities on ‘experimental skills’.  	 
+4 	Researching chemistry (continued) 
+Mandatory knowledge  
+Suggested activities (c) Reporting experimental work Candidates must be able to process experimental results by: 
+ 
+? tabulating data using appropriate headings and units of measurement  
+? representing data as a scatter graph with suitable scales and labels 
+? sketching a line of best fit (straight or curved) to represent the trend observed in the data 
+? calculating average (mean) values  
+? identifying and eliminating rogue points  
+? commenting on the reproducibility of results where measurements have been repeated 
+ 
+The uncertainty associated with a measurement can be indicated in the form:  measurement ± uncertainty. 
+ 
+Candidates are not expected to: 
+ 
+? be able to state uncertainty values associated with any type of apparatus  
+? calculate uncertainties  
+? conduct any form of quantitative error analysis  
+RSC LearnChemistry offers a number of activities related to experimental results. 
+ 
+The nature of science: measurement, accuracy and precision supports the teaching of reproducibility, identifying rogue points and uncertainties. 
+ 
+RSC LearnChemistry offers an infographic giving a rough guide to spotting bad science. 
+  
+
+Preparing for course assessment 
+Each course has additional time, which may be used at the discretion of teachers and/or lecturers, to enable candidates to prepare for course assessment. This time may be used at various points throughout the course for consolidation and support. It may also be used towards the end of the course, for further integration, revision and preparation.  
+ 
+Throughout the course, teachers and/or lecturers should find opportunities:  
+ 
+? for identifying particular aspects of work that need reinforcement and support 
+? to practise skills of scientific inquiry and investigation to prepare for the assignment  
+? to practise responding to multiple-choice, short-answer, extended-answer, and openended questions 
+? to improve exam technique 
+Developing skills for learning, skills for life and skills for work 
+Teachers and/or lecturers should identify opportunities throughout the course for candidates to develop skills for learning, skills for life and skills for work. 
+ 
+Candidates should be aware of the skills they are developing and teachers and/or lecturers can provide advice on opportunities to practise and improve them.  
+ 
+SQA does not formally assess skills for learning, skills for life and skills for work. 
+ 
+There may also be opportunities to develop additional skills depending on approaches being used to deliver the course in each centre. This is for individual teachers and/or lecturers to manage. 
+  
+The following skills for learning, skills for life and skills for work will be significantly developed. 
+ 
+Literacy 
+Writing means the ability to create texts which communicate ideas, opinions and information, to meet a purpose and within a context. In this context ‘texts’ are defined as word-based materials (sometimes with supporting images) which are written, printed, Braille or displayed on screen. These will be technically accurate for the purpose, audience and context.  
+ 
+1.2 Writing  
+Candidates develop the skills to effectively communicate key areas of chemistry, make informed decisions, and clearly describe chemical issues in various media forms. 
+ 
+Candidates have the opportunity to communicate applied knowledge and understanding throughout the course, with an emphasis on applications and environmental, ethical, and social impacts.  
+Version 3.0
+
+There are opportunities to develop the literacy skills of listening and reading when gathering and processing information in chemistry. 
+ 
+Numeracy 
+This is the ability to use numbers in order to solve problems by counting, doing calculations, measuring, and understanding graphs and charts. This is also the ability to understand the results.  
+ 
+Candidates extract, process and interpret information presented in numerous formats including tabular and graphical. Practical work provides opportunities to develop time and measurement skills. 
+ 
+2.1 Number processes 
+Number processes mean solving problems arising in everyday life. 
+ 
+Candidates develop numeracy skills by carrying out and understanding calculations when calculating quantities of reagents and products, excess percentage yield and atom economy.  
+ 
+Candidates deal with data and results from experiments/investigations and everyday class work, making informed decisions based on the results of these calculations and understanding these results. 
+ 
+2.2 Money, time and measurement  
+Candidates use their understanding of time and measurement in practical work during rates of reaction and chemical analysis.  
+ 
+2.3 Information handling 
+Candidates experience information handling opportunities when dealing with data in tables, charts and other graphical displays to draw conclusions with justifications throughout the course. It involves interpreting the data and considering its reliability in making reasoned deductions and informed decisions with justifications. 
+ 
+ 
+Thinking skills 
+This is the ability to develop the cognitive skills of remembering and identifying, understanding and applying. 
+ 
+The course allows candidates to develop skills of applying, analysing and evaluating. Candidates can analyse and evaluate practical work and data by reviewing the process, identifying issues and forming valid conclusions. They can demonstrate understanding and application of concepts and explain and interpret information and data. 
+ 	 
+ 
+5.3 Applying 
+Candidates plan experiments throughout the course and use existing information to solve problems in different contexts. 
+ 
+5.4 Analysing and evaluating 
+During practical work, candidates review and evaluate experimental procedure and identify improvements. Candidates use their judgement when drawing conclusions from experiments.  
+Analysis is the ability to solve problems in chemistry and make decisions that are based on available information.  
+It may involve reviewing and evaluating relevant information and/or prior knowledge to provide an explanation. 
+It may build on selecting and/or processing information, so is a higher skill. 
+ 
+5.5 Creating 
+This is the ability to design something innovative or to further develop an existing thing by adding new dimensions or approaches. Candidates can demonstrate creativity, in particular, when planning and designing experiments/investigations. They have the opportunity to be innovative in their approach, and to make, write, say or do something new. 
+ 
+ 
+Candidates also have opportunities to develop the skills of working with others, creating, and citizenship. 
+ 
+Working with others 
+Learning activities provide many opportunities in all areas of the course for candidates to work with others. Practical activities and investigations offer opportunities for group work, which is an important aspect of science and should be encouraged. 
+ 
+Citizenship  
+Candidates develop citizenship skills when considering the applications of chemistry on society and/or the environment.  
+ 
+ 
+ 	 
+Administrative information 
+ 
+
+ 
+Published: 	September 2019 (version 3.0) 
+ 
+
+ 
+History of changes  
+ 
+Version Description of change  Date 2.0 Course support notes added as appendix. September 2018 3.0 Assignment section, ‘Resources’ sub-section: 
+ 
+? information added that there must be a range of topics available for candidates to choose from and that 
+teachers/lecturers must minimise the numbers investigating the same topic within a class 
+? teachers/lecturers can supply a basic list of instructions for the experimental procedure 
+? information added to the bullet points about raw experimental data, internet/literature data and extracts 
+? list of items that candidates cannot have access to in the report stage replaced with ‘Candidates must not have access to a previously prepared draft of a report or any part of a report.’ September 2019        
+ 
+Note: you are advised to check SQA’s website to ensure you are using the most up-to-date version of this document. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+© Scottish Qualifications Authority 2013, 2018, 2019 
+ 
+ 
+ 
+
+
+
+
+
+
+Version 3.0 	1 
+
+Version 3.0 	1 
+
+Version 3.0 	1 
+
+Version 3.0 	 	40 
+
+Version 3.0 	 	40 
+
+Version 3.0 	 	40 
+
+	 	106 
+
+	 	106 
+
+	 	106 
+
+Version 3.0  	107 
+
+Version 3.0  	107 
+
+Version 3.0  	107 
+
