@@ -9,7 +9,14 @@ from functools import lru_cache
 
 # Neo4J database wrappers.
 
-#TODO
+
+
+class InsufficientParameterSpecException(Exception):
+    pass
+
+class NotFoundException(Exception):
+    pass
+
 
 class CurriculumFactory():
     
@@ -40,12 +47,19 @@ class CurriculumFactory():
         prog = None
         if kwargs.get('id',None):
             prog = self.get_programme_by_id(kwargs['id'])
+            return prog
+        if kwargs.get('P_code'):
+            result=self.db.run('MATCH (p:Programme {P_code: $name} ) return p.id', name=kwargs['P_code'])
+            if result:
+                prog = self.get_programme_by_id(result[0])
+                return prog
+        if kwargs.get('P_code') and kwargs.get('P_name'):
+            prog = Programme(self, **kwargs)
         else:
-            prog = Programme(self, P_name = kwargs.get('P_name'), P_code= kwargs.get('P_code'), P_version = kwargs.get('P_version','UNK'), P_previous=kwargs.get('P_previous'))
-            prog = self.get_programme_by_id(prog.id)
-            
+            raise InsufficientParameterSpecException('Not enough parameters specified for Programme')
         return prog
-        
+
+   
     @lru_cache
     def get_programme_by_id(self, id):
         '''
@@ -61,14 +75,13 @@ class CurriculumFactory():
         Programme
 
         '''
-        query = "SELECT P_name, P_code, P_version,Previous_P, Future_P, approvalEvent, status, change from Programme where ID = %s "
-        cursor = self.db.cursor()
-        cursor.execute(query, (id)) 
-        (P_name, P_code, P_version,Previous_P, Future_P, approvalEvent,status,change) = cursor.fetchone()
-        args = {"id":id, "P_name":P_name, "P_code":P_code, "P_version":P_version, "Previous_P":Previous_P, "Future_P":Future_P, "approvalEvent":approvalEvent, "status":status, "change": change}
-        prog = Programme(self, **args)
-        return prog
-    
+        result=self.db.run('MATCH (p:Programme {id: $id} ) return p', id=id)
+        if result:
+            prog = Programme(self, result.data()[0])
+            return prog
+        raise NotFoundException(f'Programme {id} Not found ')
+        
+#TODO        
     @lru_cache
     def get_module_by_id(self, id):
         '''
