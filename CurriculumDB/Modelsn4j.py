@@ -1135,8 +1135,8 @@ class Programme(Node):
         }
     optionalParams= {
         'startyear':'First academic year',
-        'endyear', 'Last academic year',
-        'school','School which manages the Programme'}
+        'endyear': 'Last academic year',
+        'school':'School which manages the Programme'}
     def __init__(self, factory,  **params ):
         '''
         Create a Programme instance.
@@ -1188,7 +1188,7 @@ class Programme(Node):
             if target.data()['code'] not in self.modules:
                 self.modules[target.data()['code']]=[]
             self.modules[target.data()['code']].append({'relation': {'type': relation.type, 'params':dict(relation)}, 
-                                                        'target':{ moduleID: target.element_id,'params':dict(target)}})
+                                                        'target':{ 'moduleID': target.element_id,'params':dict(target)}})
             
         
 
@@ -1202,13 +1202,12 @@ class Programme(Node):
         None.
 
         '''
-        self.ILO = []
+        self.ILO = {}
         cypher = "MATCH (p:Programme ) -[a]-(b:PILO) WHERE elementID(p) = $id RETURN a,b"
         records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
         for t in records:
             relation, target = t.items()[0:2]
-            
-            self.ILO.append({target.element_id:dict{target}})
+            self.ILO[target.element_id]= dict(target)
         
         
         
@@ -1315,73 +1314,93 @@ class Programme(Node):
     #     self.loadelements()
 
     def map_module(self, module, optional=0, year=None, remove=False):
-           '''
-           Add a module to the Programme, updating if exisitng  already appended.
+        '''
+        Add a module to the Programme, updating if exisitng  already appended.
 
-           Parameters
-           ----------
-           module : Module object
-               DESCRIPTION.
-           optional: Boolean
-           remove: Academic Year for last instance
-           Returns
-           -------
-           None.
+        Parameters
+        ----------
+        module : Module object
+            DESCRIPTION.
+        optional: Boolean
+        remove: Academic Year for last instance
+        Returns
+        -------
+        None.
 
-           '''
-           relations=('IS_CORE','IS_ELECTIVE')
-           relation= relations[int(bool(optional))]
-           cypher1 = 'MATCH (p:Programme) -[b:{relation}]-(m:Module) where elementID(p)=$pid and elementID(m)=$mid SET b.endyear=$year'
-           
-           if module.params['code'] in self.modules:
-               if remove:
-                   
-                   records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relation), 
-                                                              pid=self.element_id,year=year, 
-                                                              mid=module.element_id,
-                                                              database_='curriculum')
-                   for r in self.modules[module.params['code']]:
-                       if r['relation']['type']==relation:
-                           r['relation']['params']['endyear']=year
-               else:
-                   for r in self.modules[module.params['code']]:
-                       if r['relation']['type']!=relation:
-                           r['relation']['params']['endyear']=year
-                           records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relations[(int(bool(optional))+1)%2]), 
-                                                                      pid=self.element_id,year=year, 
-                                                                      mid=module.element_id,
-                                                                      database_='curriculum')
-            
-            if not remove:
-                if module.params['code'] not in self.modules:
-                    self.modules[module.params['code']]=[]
-                cypher2 =f'MERGE (p:Programme) <-[{relation} {{startyear:$year }}] - (m:Module) where elementID(p)=$pid and elementID(m)=$mid'
-                records,_,_ =self.factory.db.execute_query(cypher2, 
+        '''
+        relations=('IS_CORE','IS_ELECTIVE')
+        relation= relations[int(bool(optional))]
+        cypher1 = 'MATCH (p:Programme) -[b:{relation}]-(m:Module) where elementID(p)=$pid and elementID(m)=$mid SET b.endyear=$year'
+        
+        if module.params['code'] in self.modules:
+            if remove:
+                
+                records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relation), 
                                                            pid=self.element_id,year=year, 
                                                            mid=module.element_id,
                                                            database_='curriculum')
-            self.loadmodules()
-              
+                for r in self.modules[module.params['code']]:
+                    if r['relation']['type']==relation:
+                        r['relation']['params']['endyear']=year
+            else:
+                for r in self.modules[module.params['code']]:
+                    if r['relation']['type']!=relation:
+                        r['relation']['params']['endyear']=year
+                        records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relations[(int(bool(optional))+1)%2]), 
+                                                                   pid=self.element_id,year=year, 
+                                                                   mid=module.element_id,
+                                                                   database_='curriculum')
+         
+        if not remove:
+            if module.params['code'] not in self.modules:
+                 self.modules[module.params['code']]=[]
+            cypher2 =f'MERGE (p:Programme) <-[{relation} {{startyear:$year }}] - (m:Module) where elementID(p)=$pid and elementID(m)=$mid'
+            records,_,_ =self.factory.db.execute_query(cypher2, 
+                                                        pid=self.element_id,year=year, 
+                                                        mid=module.element_id,
+                                                        database_=self.factory.dbname)
+        self.loadmodules()
+           
                                            
                
            
            
-    def map_ilo(self, ilo, remove=False):
+    def map_ilo(self, ilo, year, remove=False):
         '''
-        Adds ILO to the Programme, if it is not already assosciated
+        Associates or updates a Programme ILO mapping to a Programme.
 
         Parameters
         ----------
-        ilo : TYPE
-            DESCRIPTION.
+        ilo : ProgrammeILO 
+            Programme ILO object
+        year : text describing the academic year
+            Must be either the start year, or for removing an ILO the last year for which it will be relevant.
+        remove : Boolean, optional
+            Flag to say whether the ILO should be dissociated from teh Programme. The default is False.
 
         Returns
         -------
         None.
 
         '''
-        #TODO
         
+        if not AcademicYear(year):
+            raise UnparseableYearException(f'Cannot parse year value {year}')
+        if ilo.element_id in self.ILO:
+            if remove:
+                self.ILO[ilo.element_id]['endyear']=year
+                cypher="MATCH (p: Programme) -[b]- (i:PILO) WHERE elementID(p) =$pid AND elementID(i) =$iid SET b.endyear=$year"
+                records,_,_ = self.factory.db.execute_query(cypher,pid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
+            return
+        if remove:
+            return
+        cypher = "MERGE (p:Programme) -[b:HAS_ILO {startyear:$year}]->(i:PILO) where elementID(p)=$pid AND elementID(i) = $iid RETURN b"
+        records,_,_ = self.factory.db.execute_query(cypher,pid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
+        if records:
+            relation=records[0].items()[0][1]
+            self.ILO[relation.element_id]=dict(relation)
+
+#TODO
     
 class Module():
     
