@@ -141,6 +141,41 @@ class Node():
             2024/5'''
         #TODO 
         return True
+    def getparam(self, prop, default=None):
+        '''
+        Returns a parameter value (default if not found)
+
+        Parameters
+        ----------
+        prop : property name
+            
+        default : TYPE, optional
+             The default is None.
+
+        Returns
+        -------
+        Property value
+            
+        '''
+        return self.params.get(prop,default)
+    
+    def setparam(self, key, value):
+        '''
+        Sets the parameter key to value. No type checking.
+
+        Parameters
+        ----------
+        key : legal value for a dictionary key
+            
+        value : Value to store.
+        
+        Returns
+        -------
+        None.
+
+        '''
+        self.params[key]=value
+        self.update()
     
     def getEdges(self,relation=None,**kwargs):
         '''retrieves edges connected to or from the Node.
@@ -224,6 +259,37 @@ class Node():
         for p in self.params:
             retp[p]=self.params[p]
         return retp
+    
+    def update(self, **kwargs):
+        '''
+        Update named parameters for a Node
+
+        Parameters
+        ----------
+        **kwargs : key,value parameter set
+            any key,value parameters. Existing values will be overwritten.
+            No type checking
+
+        Returns
+        -------
+        None.
+
+        '''
+        paramlist =[]
+        if not kwargs:
+            return
+        for k in kwargs:
+            if k !='id':
+                paramlist.append( f'a.{k}= ${k}')
+                self.params[k]=kwargs[k]
+        kwargs['id'] = self.element_id    
+        paramlist = "{"+paramlist+"}"
+        query= f"MERGE (a:{self.ntype}) WHERE elementID(a) = $id SET {', '.join(paramlist)}"
+        records,summary, keys = self.factory.db.execute_query(query,kwargs, database_=self.dbname)   
+        
+        
+        
+    
     
 class Edge():
     '''Represents an edge in a Neo4J database'''
@@ -367,576 +433,6 @@ class CurriculumFactory():
         elem = ElementClass(self, **kwargs)
         return elem
 
-        
-#     def get_or_create_programme(self, **kwargs):
-#         '''
-#         Create a new Programme object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either construct from elementID, retrieve by P_code or create new with P_name and P_code. 
-
-#         Returns
-#         -------
-#         Programme object
-
-#         '''
-#         prog = None
-#         if kwargs.get('elementID',None):
-#             prog = self.get_element_by_id(kwargs['elementID'])
-#             return prog
-#         if kwargs.get('P_code'):
-#             result=self.db.execute_query('MATCH (p:Programme {P_code: $name} ) return p', name=kwargs['P_code'])
-#             if result:
-#                 params=dict(result[0].items()[0][1])
-#                 params['elementID']=result[0].items()[0][1].element_id
-#                 prog = Programme(params)
-#                 return prog
-            
-#         for p in Programme.requiredParameters:
-#             if p not in kwargs:
-#                 raise InsufficientParameterSpecException(f'Not enough parameters specified for Programme: missing{p}')
-        
-#         params=kwargs
-#         params['elementID']
-#             prog = Programme(self, **kwargs)
-#         else:
-            
-#         return prog
-
-   
-#     @lru_cache
-#     def get_programme_by_id(self, elementid):
-#         '''
-#         retreives the given id number program from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a Programme
-
-#         Returns
-#         -------
-#         Programme
-
-#         '''
-#         result=self.db.run('MATCH (p:Programme {id: $id} ) return p', id=id)
-#         if result:
-#             prog = Programme(self, result.data()[0])
-#             return prog
-#         raise NotFoundException(f'Programme {id} Not found ')
-        
-       
-#     @lru_cache
-#     def get_module_by_id(self, id):
-#         '''
-#         retreives the given id number Module from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a Module
-
-#         Returns
-#         -------
-#         Module
-
-#         '''
-#         query = "SELECT name, code, TMlevel, altlevel, version, credits, block, change, Previous_M, Future_P, approvalEvent, status, sqcflevel from TModule where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (name, code, TMlevel, altlevel, version, credits, block, change, Previous_M, Future_M, approvalEvent,status, sqcflevel) = cursor.fetchone()
-#         args = {"id":id, "name":name, "code":code, "level":TMlevel, "altlevel":altlevel,  "version":version,"credits": credits, "block": block, 
-#                 "change": change, "Previous_M":Previous_M, "Future_M":Future_M, "approvalEvent":approvalEvent, "status":status, 'sqcflevel':sqcflevel}
-#         prog = Module(self, **args)
-#         return prog
-
-#     def get_or_create_Module(self, **kwargs):
-#         '''
-#         Create a new Module object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and code must be present. 
-
-#         Returns
-#         -------
-#         Module object
-
-#         '''
-#         mod = None
-#         if kwargs.get('elementID',None):
-#             mod = self.get_element_by_id(kwargs['elementID'])
-#             return mod
-#         if kwargs.get('M_code'):
-#             result=self.db.execute_query('MATCH (p:Module {M_code: $name} ) return p', name=kwargs['M_code'])
-#             if result:
-#                 params=dict(result[0].items()[0][1])
-#                 params['elementID']=result[0].items()[0][1].element_id
-#                 mod = Module(params)
-#                 return mod
-            
-#         for p in Programme.requiredParameters:
-#             if p not in kwargs:
-#                 raise InsufficientParameterSpecException(f'Not enough parameters specified for Programme: missing{p}')
-        
-#         params=kwargs
-#         params['elementID']
-#             prog = Programme(self, **kwargs)
-#         else:
-            
-#         return progmod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_module_by_id(kwargs['id'])
-#         else:
-#             mod = Module(self, name = kwargs.get('name'), code= kwargs.get('code'), version = kwargs.get('version',None),credits=kwargs.get("credits"), block=kwargs.get('block') )
-#             mod = self.get_module_by_id(mod.id)
-           
-#         return mod
-    
-#     @lru_cache
-#     def get_TeachingActivityType_by_id(self, id):
-#         '''
-#         retreives the given id number TeachingActivityType from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivityType
-
-#         Returns
-#         -------
-#         Module
-
-#         '''
-#         query = "SELECT name, definition from TeachingActivityType where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (name, definition) = cursor.fetchone()
-#         args = {"id":id, "name":name, "definition": definition}
-#         prog = TeachingActivityType(self, **args)
-#         return prog
-
-#     def get_or_create_TeachingActivityType(self, **kwargs):
-#         '''
-#         Create a new TeachingActivityType object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         TeachingActivityType object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_TeachingActivityType_by_id(kwargs['id'])
-#         else:
-#             mod = TeachingActivityType(self, **kwargs)
-#             mod = self.get_TeachingActivityType_by_id(mod.id)
-#         return mod
-        
-
-#     @lru_cache
-#     def get_TeachingActivity_by_id(self, id):
-#         '''
-#         retreives the given id number TeachingActivity from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivity
-
-#         Returns
-#         -------
-#         TeachingActivity
-        
-#         CREATE or REPLACE Table TeachingActivity (
-#         ID integer not null primary key auto_increment,
-#         name text not null,
-#         description text not null,
-#         duration integer not null,
-#         TAtype integer not null,
-#         version text,
-#         previous_TA integer,
-#         moduleID integer not null,
-#         sequence integer not null,
-#         foreign key (moduleID) references TModule (ID),
-#         foreign key (previous_TA) references TeachingActivity (ID),
-#         foreign key (TAtype) references TeachingActvityType (ID)
-#         );
-
-
-#         '''
-#         query = "SELECT name, description, duration, TAtype, version,previous_TA, moduleID, sequence from TeachingActivity where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (name, description, duration, TAtype, version,previous_TA, moduleID, sequence, weighting) = cursor.fetchone()
-#         args = {"id":id, "name":name,  "description":description, "duration":duration, "TAtype":TAtype, "version":version, "previous_TA":previous_TA, "moduleID":moduleID, "sequence":sequence, "weighting":weighting}
-#         prog = TeachingActivity(self, **args)
-#         return prog
-
-#     def get_or_create_TeachingActivity(self, **kwargs):
-#         '''
-#         Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         TeachingActivityType object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_TeachingActivity_by_id(kwargs['id'])
-#         else:
-#             mod = TeachingActivity(self, **kwargs)
-#             mod = self.get_TeachingActivity_by_id(mod.id)
-            
-#         return mod
-        
-#     @lru_cache
-#     def get_ProgrammeILO_by_id(self, id):
-#         '''
-#         retreives the given id number TeachingActivity from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivity
-
-#         Returns
-#         -------
-#         ProgrammeILO
-        
-# CREATE or REPLACE Table ProgrammeILO (
-# ID integer not null auto_increment primary key,
-# ILOtext text not null,
-# category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null
-# );
-
-
-#         '''
-#         query = "SELECT ILOtext, category from ProgrammeILO where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (ILOtext, category ) = cursor.fetchone()
-#         args = {"id":id, "ILOtext":ILOtext, "category":category}
-#         prog = ProgrammeILO(self, **args)
-#         return prog
-
-
-#     def get_or_create_ProgrammeILO(self, **kwargs):
-#         '''
-#         Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         ProgrammeILO object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_ProgrammeILO_by_id(kwargs['id'])
-#         else:
-#             mod = ProgrammeILO(self, **kwargs)
-#             mod = self.get_ProgrammeILO_by_id(mod.id)
-            
-#         return mod
-        
-#     @lru_cache
-#     def get_ModuleILO_by_id(self, id):
-#         '''
-#         retreives the given id number TeachingActivity from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivity
-
-#         Returns
-#         -------
-#         ModuleILO
-        
-#         CREATE or REPLACE Table ModuleILO (
-#         ID integer not null auto_increment primary key,
-#         ILOtext text not null,
-#         category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
-#         programmeILO integer not null,
-#         foreign key (programmeILO) references ProgrammeILO (ID)
-#         );
-
-
-
-#         '''
-#         query = "SELECT ILOtext, category, programmeILO, bloom from ModuleILO where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (ILOtext, category, programmeILO ) = cursor.fetchone()
-#         args = {"id":id, "ILOtext":ILOtext, "category":category, "programmeILO":programmeILO}
-#         prog = ModuleILO(self, **args)
-#         return prog
-
-
-#     def get_or_create_ModuleILO(self, **kwargs):
-#         '''
-#         Create a new TeachingActivity object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         TeachingActivityType object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_ModuleILO_by_id(kwargs['id'])
-#         else:
-#             mod = ModuleILO(self, **kwargs)
-#             mod = self.get_ModuleILO_by_id(mod.id)
-            
-#         return mod
-        
-#     @lru_cache
-#     def get_ActivityILO_by_id(self, id):
-#         '''
-#         retreives the given id number TeachingActivity from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivity
-
-#         Returns
-#         -------
-#         ActivityILO
-#        CREATE or REPLACE Table ActivityILO (
-#        ID integer not null auto_increment primary key,
-#        ILOtext text not null,
-#        category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
-#        moduleILO integer,
-#        bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null,
-#        Foreign Key (moduleILO) REFERENCES ModuleILO (ID)
-#        );
-
-
-#         '''
-#         query = "SELECT ILOtext, category, moduleILO, bloom from ActivityILO where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (ILOtext, category, moduleILO, bloom ) = cursor.fetchone()
-#         args = {"id":id, "ILOtext":ILOtext, "category":category, "moduleILO":moduleILO, "bloom":bloom}
-#         prog = ActivityILO(self, **args)
-#         return prog
-
-#     def get_or_create_ActivityILO(self, **kwargs):
-#         '''
-#         Create a new ActivityILO object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         ActivityILO object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_ActivityILO_by_id(kwargs['id'])
-#         else:
-#             mod = ActivityILO(self, **kwargs)
-#             mod = self.get_ActivityILO_by_id(mod.id)
-            
-#         return mod
-        
-#     @lru_cache
-#     def get_AssessmentType_by_id(self, id):
-#         '''
-#         retreives the given id number AssessmentType from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for a TeachingActivity
-
-#         Returns
-#         -------
-#         AssessmentType
-       
-# CREATE or REPLACE TABLE AssessmentType (
-# ID integer not null primary key auto_increment,
-# name text not null,
-# definition text not null
-# );
-
-
-#         '''
-#         query = "SELECT name, definition from AssessmentType where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (name,definition ) = cursor.fetchone()
-#         args = {"id":id, "name":name, "definition":definition}
-#         prog = AssessmentType(self, **args)
-#         return prog
-
-#     def get_or_create_AssessmentType(self, **kwargs):
-#         '''
-#         Create a new ActivityILO object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         ActivityILO object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_AssessmentType_by_id(kwargs['id'])
-#         else:
-#             mod = AssessmentType(self, **kwargs)
-#             mod = self.get_AssessmentType_by_id(mod.id)
-            
-#         return mod
-    
-#     @lru_cache
-#     def get_Assessment_by_id(self, id):
-#         '''
-#         retreives the given id number Assessment from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for an Assessment
-
-#         Returns
-#         -------
-#         Assessment
-
-# CREATE or REPLACE TABLE Assessment (
-# ID integer not null primary key auto_increment,
-# name text not null,
-# description text not null,
-# atype integer not null,
-# foreign key (type) references AssessmentType (ID)
-# );
-
-
-#         '''
-#         query = "SELECT name, description, type from Assessment where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (name, description, atype) = cursor.fetchone()
-#         args = {"id":id, "name":name, "description":description, "type":atype}
-#         prog = Assessment(self, **args)
-#         return prog
-
-#     def get_or_create_Assessment(self, **kwargs):
-#         '''
-#         Create a new Assessment object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         Assessment object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_Assessment_by_id(kwargs['id'])
-#         else:
-#             mod = Assessment(self, **kwargs)
-#             mod = self.get_Assessment_by_id(mod.id)
-            
-#         return mod
-
-#     @lru_cache
-#     def get_AssessmentInstance_by_id(self, id):
-#         '''
-#         retreives the given id number AssessmentInstance from the database and caches the object.        
-
-#         Parameters
-#         ----------
-#         id : integer
-#             unique identifier for an AssessmentInstance
-
-#         Returns
-#         -------
-#         AssessmentInstance
-        
-# CREATE or REPLACE TABLE AssessmentInstance (
-# ID integer not null primary key auto_increment,
-# moduleID integer not null,
-# weightpercent integer not null,
-# weekstart integer not null,
-# weekend integer not null,
-# assessmentID integer not null,
-# seq integer not null,
-# foreign key (moduleID) references TModule (ID),
-# foreign key (assessmentID) references Assessment (ID),
-# duration text not null
-# );
-
-
-#         '''
-#         query = "SELECT moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration from AssessmentInstance where ID = %s "
-#         cursor = self.db.cursor()
-#         cursor.execute(query, (id))
-#         (moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration ) = cursor.fetchone()
-#         args = {"id":id, "moduleID":moduleID,"weightpercent":weightpercent,"weekstart":weekstart,"weekend":weekend,"assessmentID":assessmentID,"seq":seq,"duration":duration }
-#         prog = AssessmentInstance(self, **args)
-#         return prog
-
-#     def get_or_create_AssessmentInstance(self, **kwargs):
-#         '''
-#         Create a new AAssessmentInstance object, retrieving from the database as necessary,or from the cache
-        
-
-#         Parameters
-#         ----------
-#         **kwargs : either id or name and definition must be present. 
-
-#         Returns
-#         -------
-#         AssessmentInstance object
-
-#         '''
-#         mod = None
-#         if kwargs.get('id',None):
-#             mod = self.get_AssessmentInstance_by_id(kwargs['id'])
-#         else:
-#             mod = AssessmentInstance(self, **kwargs)
-#             mod = self.get_AssessmentInstance_by_id(mod.id)
-            
-#         return mod
 
     def get_all_elements(self, ElementName, **params):
         '''
@@ -979,153 +475,7 @@ class CurriculumFactory():
             if nodeclass in globals():
                 elements.append( globals()[nodeclass](**params))
         return elements  
-        
-        
-    # def get_all_programmes(self, filterfunc=None):
-    #     '''
-    #     Retreive all programmes
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of Programmes
-
-    #     '''
-    #     sql="SELECT ID from Programme where Future_P is NULL"
-    #     result = {}
-    #     heads = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result[p[0]] = self.get_programme_by_id(p[0])
-    #         if result[p[0]].future is None:
-    #             heads.append(p[0])
-                
-    #     versions = {}
-    #     for p in heads:
-    #         versions[p.id]=[]
-    #         prev = p.previous
-    #         while prev:
-    #             versions[p.id].append(prev)
-    #             prev=result[prev].previous
-                
-    #     return {'heads': heads, 'versions': versions, 'programmes': result}
-    
-    # def get_all_modules(self, filterfunc=None):
-    #     '''
-    #     Retreive all modules
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of TModules
-
-    #     '''
-    #     sql="SELECT ID from TModule"
-    #     result = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result.append(self.get_module_by_id(p[0]))
-    #     return result
-    
-    # def get_all_activities(self, filterfunc=None):
-    #     '''
-    #     Retreive all Activities
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of Programmes
-
-    #     '''
-    #     sql="SELECT ID from TeachingActivity"
-    #     result = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result.append(self.get_TeachingActivityType_by_id(p[0]))
-    #     return result
-    
-    # def get_all_programmeILOs(self, filterfunc=None):
-    #     '''
-    #     Retreive all programme ILOs
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of Programme ILOs
-
-    #     '''
-    #     sql="SELECT ID from ProgrammeILO"
-    #     result = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result.append(self.get_ProgrammeILO_by_id(p[0]))
-    #     return result
-    
-    # def get_all_moduleILOs(self, filterfunc=None):
-    #     '''
-    #     Retreive all module ILOs
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of ModuleILOs
-
-    #     '''
-    #     sql="SELECT ID from ModuleILO"
-    #     result = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result.append(self.get_ModuleILO_by_id(p[0]))
-    #     return result
-    
-    # def get_all_activityILOs(self, filterfunc=None):
-    #     '''
-    #     Retreive all Activity ILOs
-
-    #     Parameters
-    #     ----------
-    #     filterfunc : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     list of ActivityILOs
-
-    #     '''
-    #     sql="SELECT ID from ActivityILO"
-    #     result = []
-    #     cursor=self.db.cursor()
-    #     cursor.execute(sql,())
-    #     for p in cursor.fetchall():
-    #         result.append(self.get_programme_by_id(p[0]))
-    #     return result
-            
-    
+           
 
 class Programme(Node):
     
@@ -1197,38 +547,14 @@ class Programme(Node):
 
         '''
         self.ILO = {}
-        cypher = "MATCH (p:Programme ) -[a]-(b:PILO) WHERE elementID(p) = $id RETURN a,b"
+        cypher = "MATCH (p:Programme ) -[a]-(b:ProgrammeILO) WHERE elementID(p) = $id RETURN a,b"
         records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
         for t in records:
             relation, target = t.items()[0:2]
-            self.ILO[target.element_id]= dict(target)
+            
+            self.ILO[target.element_id]= (dict(target), dict(relation))
         
-        
-        
-    
-        
-    # def update(self, **kwargs):
-    #     '''
-    #     Update a limited set of fields
-
-    #     Parameters
-    #     ----------
-    #     **kwargs : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     None.
-
-    #     '''
-    #     keylist = list (kwargs.keys())
-    #     sql = "UPDATE Programme SET {} WHERE ID = %s"
-        
-    #     values= [kwargs[k] for k in keylist]
-    #     values.append(self.id)
-    #     query = ",".join(["{} = %s ".format(k) for k in keylist])
-    #     cursor = self.factory.db.cursor()
-    #     cursor.excecute(sql.format(query), values)
+ 
         
     def withdraw(self, year):
         '''
@@ -1244,68 +570,6 @@ class Programme(Node):
             cypher = 'MATCH (p:Programme) where elementID(p)=$id SET p.endyear=$year'
             records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id,year=year, database_='curriculum')
         
-    # def archive(self):
-    #     '''
-    # Set a Programme to archived. Can only be done if there is a future version
-
-    #     Returns
-    #     -------
-    #     None.
-
-    #     '''
-    #     if self.future:
-    #         self.status = Programme.ARCHIVED
-    #         self.update(status="ARCHIVED")
- 
-    # def approve(self, approvalevent):
-    #     '''
-    #     Adds an approval event to a Programme
-
-    #     Parameters
-    #     ----------
-    #     approvalevent : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     None.
-
-    #     '''
-    #     if not self.approval:
-    #         self.approval = approvalevent.id
-    #         self.status = Programme.CURRENT
-    #         if self.previous:
-    #             #retrieve previous and set to archived.
-    #             self.factory.get_Programme_by_id(self.previous).archive()
-    #         self.update(approvalEvent=self.approval,status=self.status)
-            
-    # def add_element(self, element):
-    #     '''
-    #     Add an element to the Programme, updating if exisitng category already appended.
-
-    #     Parameters
-    #     ----------
-    #     element : TYPE
-    #         DESCRIPTION.
-
-    #     Returns
-    #     -------
-    #     None.
-
-    #     '''
-    #     sqli = "INSERT INTO ProgrammeElementMAP (ProgrammeID,ElementID) VALUES(%s,%s)"
-    #     sqlu = "UPDATE ProgrammeElementMAP SET ElementID = %s where ID=%s"
-    #     cursor = self.factory.db.cursor()
-    #     if element.ecode in self.elements:
-    #         if self.elements[element.ecode]['id'] != element.id:
-    #             if 'mapID' in self.elements[element.ecode]:
-    #                 cursor.execute(sqlu,(element.id, self.elements[element.ecode]['mapID'] ))
-    #             else : #replace generic with specific element
-    #                 cursor.execute(sqli, (self.id, element.id))
-                    
-    #     else:
-    #         cursor.execute(sqli, (self.id, element.id))
-    #     self.loadelements()
 
     def map_module(self, module, optional=0, year=None, remove=False):
         '''
@@ -1383,20 +647,20 @@ class Programme(Node):
         if ilo.element_id in self.ILO:
             if remove:
                 self.ILO[ilo.element_id]['endyear']=year
-                cypher="MATCH (p: Programme) -[b]- (i:PILO) WHERE elementID(p) =$pid AND elementID(i) =$iid SET b.endyear=$year"
+                cypher="MATCH (p: Programme) -[b]- (i:ProgrammeILO) WHERE elementID(p) =$pid AND elementID(i) =$iid SET b.endyear=$year"
                 records,_,_ = self.factory.db.execute_query(cypher,pid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
             return
         if remove:
             return
-        cypher = "MERGE (p:Programme) -[b:HAS_ILO {startyear:$year}]->(i:PILO) where elementID(p)=$pid AND elementID(i) = $iid RETURN b"
+        cypher = "MERGE (p:Programme) -[b:HAS_ILO {startyear:$year}]->(i:ProgrammeILO) where elementID(p)=$pid AND elementID(i) = $iid RETURN b"
         records,_,_ = self.factory.db.execute_query(cypher,pid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
         if records:
             relation=records[0].items()[0][1]
-            self.ILO[relation.element_id]=dict(relation)
+            self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
 
-#TODO
+
     
-class Module():
+class Module(Node):
     
     DRAFT = 0
     CURRENT = 1
@@ -1405,17 +669,19 @@ class Module():
     PREREQUISITE = 1
     COREQUISITE = 0
     ANTIREQUISITE = 2
-    ntype='Programme'
+    ntype='Module'
     requiredParams = {
         'code': 'Module code',
         'name': 'Module name',
         'credits': 'Credit weight',
-        'level': 'SCQF level'
+        'level': 'SCQF level',
+        'semester': '1, 2 or both'
         }
     optionalParams= {
+        'block': 'Teaching block: C or D',
         'startyear':'First academic year',
-        'endyear': 'Last academic year',
-        'school':'School which manages the Programme'}
+        'endyear': 'Last academic year'
+        }
     
     def __init__(self, factory,  **params ):
         '''
@@ -1436,7 +702,28 @@ class Module():
             self.loadConstraints()
             self.loadActivities()
             self.loadAssessments()
-#TODO
+            
+    def loadActivities(self):
+        '''
+        Loads module links from the database to the modules list. Does not create now entries in the database.
+
+        Returns
+        -------
+        None.
+
+        '''
+        self.Activities=[]
+        cypher = "MATCH (m:Module ) -[a]-(b:TeachingActivity) WHERE elementID(m) = $id RETURN a,b"
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        for t in records:
+            relation = t.items()[0][1]
+            target = t.items()[1][1]
+            self.Activities.append({'relation': {'type': relation.type, 'params':dict(relation)}, 
+                                                        'target':{ 'TeachingActivityID': target.element_id,'params':dict(target)}})
+            
+        
+        
+        
     def loadILO(self):
         '''
         Loads ILO links from the database. Does not create new links or ILOs.
@@ -1446,32 +733,13 @@ class Module():
         None.
 
         '''
-        self.ILO=[]
-        sql = "SELECT i.ID, i.ILOtext, i.category from ModuleILO  i inner join ModuleILOMAP m on m.miloID = i.ID where m.moduleID = %s"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for ilo in cursor.fetchall():
-            self.ILO.append(ilo)
+        self.ILO = {}
+        cypher = "MATCH (m:Module ) -[a]-(b:ModuleILO) WHERE elementID(m) = $id RETURN a,b"
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        for t in records:
+            relation, target = t.items()[0:2]
+            self.ILO[target.element_id]= (dict(target),dict(relation))
         
-    def loadelements(self):
-        '''
-        Loads elements from the database. Where a directly assigned element is available, it is linked. 
-        Where it is not available, the most recent element is added.
-
-        Returns
-        -------
-        None.
-
-        '''
-        sql1 = "SELECT e.ID, e.Ecode, e.Etext, m.ID as mapID from ModuleElement e inner join ModuleElementMAP m on e.ID = m.ElementID where m.ModuleID = %s "
-        sql2 = "SELECT max(ID) as latest, Ecode, Etext from ModuleElement GROUP BY Ecode"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql2)
-        for x in cursor.fetchall():
-            self.elements[x[1]] = {'id':x[0], 'text':x[2]}
-        cursor.execute(sql1, (self.id))
-        for x in cursor.fetchall():
-            self.elements[x[1]] = {'id':x[0], 'text':x[2], 'mapID':x[3]}
 
     def loadConstraints(self):
         '''
@@ -1483,17 +751,18 @@ class Module():
 
         ''' 
         self.requisites = {}
-        constrainttypes = ('co-requisite', 'pre-requisite', 'anti-requisite')
-        sql = "Select m.ID,m.code,m.name , c.constraintType, c.ID as conID from ModuleConstraint c inner join TModule m on m.ID = c.constraintModuleID  where c.moduleID = %s"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for con in cursor.fetchall():
-            (id, code, name, type)=con
-            if constrainttypes[con[3]] not in self.requisites:
-                self.requisites[ constrainttypes[con[3]]] =[]
-            self.requisites[ constrainttypes[con[3]]].append(con)
+        cypher = "MATCH (m:Module ) <-[a]- (b:Module) WHERE elementID(m) = $id RETURN a,b"
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        for t in records:
+            relation, target = t.items()[0:2]
+            relationdata = dict(relation)
+            relationdata['element_id']=relation.element_id
+            relationdata['type']=relation.type
+            targetdata = dict(target)
+            targetdata['element_id']=target.element_id
+            self.requisites.append({'constraint':relationdata, 'module': targetdata})
             
-    def setConstraints(self, constraint, module,  remove=False):
+    def setConstraint(self, constraint, module, year, remove=False):
         '''
         Constraint is an integer corresponding to the constraint type. 
         module is teh module acting as a constraint.
@@ -1509,189 +778,124 @@ class Module():
         None.
 
         '''
-        constrainttypes = ('co-requisite', 'pre-requisite', 'anti-requisite')
-        sqli = "Insert into ModuleConstraint (moduleID, constraintModuleID, constraintType) VALUES (%s, %s, %s)"
-        sqld = "Delete from ModuleConstraint WHERE moduleID = %s and constraintModuleID = %s"
-        cursor =  self.factory.db.cursor()
-        cursor.execute(sqld,(self.id, module.id))
-        if not remove:
-            cursor.execute(sqli, (self.id, module.id, constrainttypes[constraint]))
-        self.loadConstraints()
+        #TODO
             
         
         
-    def loadActivities(self):
+        
+    def map_ilo(self, ilo, year, remove=False):
         '''
-        Loads but does not create activities associated with the module.
-
+        Associates or updates a Module ILO mapping to a Module.
+    
+        Parameters
+        ----------
+        ilo : ModuleILO 
+            Module ILO object
+        year : text describing the academic year
+            Must be either the start year, or for removing an ILO the last year for which it will be relevant.
+        remove : Boolean, optional
+            Flag to say whether the ILO should be dissociated from the Module. The default is False.
+    
         Returns
         -------
         None.
-
-        '''
-        self.activities = []
-        sql = "Select ActivityID from ActivityModuleMAP where ModuleID = %s"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for con in cursor.fetchall():
-            self.activities.append(con)
-            
-    def get_activities (self):
-        '''
-        Returns a list of TeachingActivity objects which are delivered in this TModule 
-
-        Returns
-        -------
-        List of TeachingActivity
-
-        '''
-        actlist = []
-        for x in self.activities:
-            actlist.append(self.factory.get_TeachingActivity_by_id(x))
-        return actlist
     
-        
-        
-        
-    
-    def update(self, **kwargs):
         '''
-        Update a limited set of fields
+        
+        if not AcademicYear(year):
+            raise UnparseableYearException(f'Cannot parse year value {year}')
+        if ilo.element_id in self.ILO:
+            if remove:
+                self.ILO[ilo.element_id]['endyear']=year
+                cypher="MATCH (m: Module) -[b]- (i:ModuleILO) WHERE elementID(m) =$mid AND elementID(i) =$iid SET b.endyear=$year"
+                records,_,_ = self.factory.db.execute_query(cypher,mid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
+            return
+        if remove:
+            return
+        cypher = "MERGE (m:Module) -[b:HAS_ILO {startyear:$year}]->(i:ModuleILO) where elementID(m)=$mid AND elementID(i) = $iid RETURN b"
+        records,_,_ = self.factory.db.execute_query(cypher,mid=self.element_id, iid=ilo.element_id, year=year, database_=self.factory.dbname)
+        if records:
+            relation=records[0].items()[0][1]
+            self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
+    
+    def map_activity( self, activity, relationtype='HAS_ACTIVITY'):
+        '''
+        Adds an activity to a module
 
         Parameters
         ----------
-        **kwargs : TYPE
-            DESCRIPTION.
+        activity : TeachingActivity
 
         Returns
         -------
         None.
 
         '''
-        keylist = list (kwargs.keys())
-        sql = "UPDATE TModule SET {} WHERE ID = %s"
+        if activity.element_id not in [x['target']['TeachingActivityID'] for x in self.Activities]:
+            cypher = f"MERGE (m:Module ) -[a:{relationtype}]-(b:TeachingActivity) WHERE elementID(m) = $id AND elementID(b)=$tid RETURN a,b"
+            records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, tid=activity.element_id, database_='curriculum')
+            for t in records:
+                relation = t.items()[0][1]
+                target = t.items()[1][1]
+                self.Activities.append({'relation': {'type': relation.type, 'params':dict(relation)}, 
+                                                            'target':{ 'TeachingActivityID': target.element_id,'params':dict(target)}})
         
-        values= [kwargs[k] for k in keylist]
-        values.append(self.id)
-        query = ",".join(["{} = %s ".format(k) for k in keylist])
-        cursor = self.factory.db.cursor()
-        cursor.excecute(sql.format(query), values)
+
         
-    def withdraw(self, year):
-        '''
-        Set the Modulee to WITHDRAWN. Only possible if there are no future versions.
-        Requires academic year for the withdrawal as last year of operation.
-        Returns
-        -------
-        None.
-        TODO
-        '''
-        if not self.future:
-            self.status = Module.WITHDRAWN
-            self.update(status='WITHDRAWN')
+# class TeachingActivityType(Node): 
+    
+#     ntype='TeachingActivityType'
+#     requiredParams = {
+#         'code': 'Module code',
+#         'name': 'Module name',
+#         'credits': 'Credit weight',
+#         'level': 'SCQF level'
+#         }
+#     optionalParams= {
+#         'startyear':'First academic year',
+#         'endyear': 'Last academic year',
+#         'school':'School which manages the Programme'}
 
     
-
-    def map_ilo(self, ilo, remove=False):
-        '''
-        Adds ILO to the Programme, if it is not already assosciated
-
-        Parameters
-        ----------
-        ilo : TYPE
-            DESCRIPTION.
-
-        Returns
-        -------
-        None.
-
-        '''
-        sqli = "INSERT INTO ModuleILOMAP (moduleID, miloID) VALUES (%s , %s)"
-        sqld = "DELETE FROM ModuleILOMAP where moduleID = %s and miloID = %s"
-        ilos= [x for x in self.ILO if x[0]==ilo.id]
-        cursor = self.factory.db.cursor()
-        if ilos and remove:
-            cursor.execute(sqld, (self.id, ilo.id))
-        elif ilos or remove:
-            pass
-        else:
-            cursor.execute(sqli,(self.id, ilo.id))
-        self.loadILO()
-
-
-        
-class TeachingActivityType():
-    
-    def __init__(self, factory, **kwargs):
-        self.factory=factory
-        self.name = kwargs.get("name")
-        self.definition = kwargs.get("definition")
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
+#     def __init__(self, factory, **kwargs):
+#         self.factory=factory
+#         self.name = kwargs.get("name")
+#         self.definition = kwargs.get("definition")
+#         self.id = kwargs.get("id")
+#         if self.id is None:
+#             self.create()
             
         
-    def create(self):
-        '''
-        Creates a new database entry for the TeachingActivityType entity
+#     def create(self):
+#         '''
+#         Creates a new database entry for the TeachingActivityType entity
 
-        Returns
-        -------
-        None.
+#         Returns
+#         -------
+#         None.
 
-        '''
-        insertsql = "Insert into TeachingActivityType (name, definition) VALUES (%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.name, self.definition))
-        self.id = cursor.lastrowid
-    
-class TeachingActivity ():
+#         '''
+#         insertsql = "Insert into TeachingActivityType (name, definition) VALUES (%s,%s)"
+#         cursor = self.factory.db.cursor()
+#         cursor.excecute(insertsql, (self.name, self.definition))
+#         self.id = cursor.lastrowid
+
+
+
+class TeachingActivity (Node):
+    ntype='TeachingActivity'
+    requiredParams = {
+        'year': 'AcademicYear',
+        'type': 'Activity type'
+        }
+    optionalParams= {
+        'duration':'length of activity'
+        }
 
     def __init__(self, factory, **kwargs):
         #description, duration, TAtype, version,previous_TA, moduleID, sequence
-        self.factory = factory
-        self.name = kwargs.get("name")
-        self.description = kwargs.get("description")
-        self.duration = kwargs.get("duration")
-        self.type=kwargs.get("TAtype")
-        self.version= kwargs.get("version")
-        self.previous=kwargs.get("previous_TA")
-        self.modules=[]
-        self.sequence=kwargs.get("sequence")
-        self.weighting = kwargs.get("weighting")
-        if kwargs.get("id") is None:
-            self.create()
+        super().__init__(factory, **kwargs)
         self.loadILO()
-        self.load_modules()
-        
-    def create(self):
-        cursor = self.factory.db.cursor()
-        sql = "Insert into TeachingActivity (description, duration, TAtype, version,previous_TA,  sequence, weighting) VALUES (%s,%s,%s,%s,%s,%s,%s)"
-        cursor.execute(sql, (self.name,self.description, self.duration, self.type, self.version, self.previous,  self.sequence, self.weighting))
-        self.id = cursor.lastrowid
-        
-    def update(self, **kwargs):
-        '''
-        Update a limited set of fields
-
-        Parameters
-        ----------
-        **kwargs : TYPE
-            DESCRIPTION.
-
-        Returns
-        -------
-        None.
-
-        '''
-        keylist = list (kwargs.keys())
-        sql = "UPDATE TeachingActivity SET {} WHERE ID = %s"
-        
-        values= [kwargs[k] for k in keylist]
-        values.append(self.id)
-        query = ",".join(["{} = %s ".format(k) for k in keylist])
-        cursor = self.factory.db.cursor()
-        cursor.excecute(sql.format(query), values)
         
     def loadILO(self):
         '''
@@ -1702,54 +906,40 @@ class TeachingActivity ():
         None.
 
         '''
-        self.ILO=[]
-        sql = "SELECT i.ID, i.ILOtext, i.category from ActivityILO  i inner join ActivityILOMAP m on m.ailoID = i.ID where m.activityID = %s"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for ilo in cursor.fetchall():
-            self.ILO.append(ilo)
-            
-    def map_ilo(self,  ilo, remove=False):
+        self.ILO = {}
+        cypher = "MATCH (t:TeachingActivity ) -[a]-(b:ActivityILO) WHERE elementID(t) = $id RETURN a,b"
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        for t in records:
+            relation, target = t.items()[0:2]
+            self.ILO[target.element_id]= (dict(target),dict(relation))
+    def map_ilo(self, ilo):
         '''
-        Adds ILO to the Activity, if it is not already assosciated
-
+        Associates or updates a Module ILO mapping to a Module.
+    
         Parameters
         ----------
-        ilo : ActivityILO
-            DESCRIPTION.
-
+        ilo : ModuleILO 
+            Module ILO object
+        year : text describing the academic year
+            Must be either the start year, or for removing an ILO the last year for which it will be relevant.
+        remove : Boolean, optional
+            Flag to say whether the ILO should be dissociated from the Module. The default is False.
+    
         Returns
         -------
         None.
-
+    
         '''
-        sqli = "INSERT INTO ActivityILOMAP (activityID, ailoID) VALUES (%s , %s)"
-        sqld = "DELETE FROM ActivityILOMAP where activityID = %s and ailoID = %s"
-        ilos= [x for x in self.ILO if x[0]==ilo.id]
-        cursor = self.factory.db.cursor()
-        if ilos and remove:
-            cursor.execute(sqld, (self.id, ilo.id))
-        elif ilos or remove:
-            pass
-        else:
-            cursor.execute(sqli,(self.id, ilo.id))
-        self.loadILO()
         
-    def load_modules (self):
-        '''
-        Append assigned modules to the teaching activity.
+        if ilo.element_id in self.ILO:
+            return
+        cypher = "MERGE (t:TeachingActivity) -[b:HAS_ILO ]->(i:ActivityILO) where elementID(t)=$tid AND elementID(i) = $iid RETURN b"
+        records,_,_ = self.factory.db.execute_query(cypher,tid=self.element_id, iid=ilo.element_id, database_=self.factory.dbname)
+        if records:
+            relation=records[0].items()[0][1]
+            self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
+            
 
-        Returns
-        -------
-        None.
-
-        '''
-        sql = " SELECT ModuleID from ActivityModuleMAP where Activity ID = %s"
-        self.modules = []
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for mod in cursor.fetchall():
-            self.modules.append(mod)
     def assign_to_module(self, module):
         '''
         Add an activity to a module
@@ -1764,69 +954,33 @@ class TeachingActivity ():
         None.
 
         '''
-        self.load_modules()
-        if module.id in self.modules:
-            return
-        sql = "Insert into ActivityModuleMAP (ModuleID, ActivityID) VALUES (%s,%s);"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql,(module.id, self.id))
-        self.modules.append(module.id)
-    
-    def get_modules(self):
-        '''
-        Returns a list of TModule objects with which the activity is associated.
-
-        Returns
-        -------
-        list of TModule
-
-        '''
-        modules = []
-        for x in self.modules:
-            modules.append(self.factory.get_module_by_id(x))
+        module.map_activity(self)
+        self.module=module
         
-        return modules
+class ILO(Node):
+    ntype='ILO'
+    requiredParams = {
+        }
+    optionalParams= {
+        'SOLO': 'Solo level of the ILO'
+        }
+    def __init__(self, factory,**kwparams):
+        super().__init__(factory,**kwparams)
+    
+    
 
+class ActivityILO(ILO):
 
-class ActivityILO():
-    '''
-    CREATE or REPLACE Table ActivityILO (
-    ID integer not null auto_increment primary key,
-    ILOtext text not null,
-    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
-    moduleILO integer,
-    bloom ENUM('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create') Not null,
-    Foreign Key (moduleILO) REFERENCES ModuleILO (ID)
-    );
-    '''
     bloomterms = ('None','Remember',	'Understand',	'Apply',	'Analyze',	'Evaluate',	'Create')
     bloommap ={
         }
     categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
+
     def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.ILOtext = kwargs.get("ILOtext")
-        self.category = kwargs.get("category")
-        self.bloom = kwargs.get('bloom')
-        self.moduleILO = kwargs.get('moduleILO')
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
-            
+        super().__init__(factory, **kwargs)
+ 
+#TODO           
         
-    def create(self):
-        '''
-        Creates a new database entry for the TeachingActivityType entity
-
-        Returns
-        -------
-        None.
-
-        '''
-        insertsql = "Insert into ActivityILO (ILOtext,category,bloom,moduleILO) VALUES (%s,%s,%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.ILOtext,self.category,self.bloom,self.moduleILO))
-        self.id = cursor.lastrowid   
     
     def getActivitiesForILO(self):
         '''
