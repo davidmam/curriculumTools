@@ -187,7 +187,7 @@ class Node():
                     return False
         return True
     
-    def reload(self):
+    #def reload(self):
         '''
         Updates the object 
 
@@ -198,7 +198,7 @@ class Node():
         '''
         #TODO
     
-    def addEdge(self, target, direction, relation, **kwargs):
+    #def addEdge(self, target, direction, relation, **kwargs):
         '''
         Create a new edge if one doesn't exist between self and target. Add to the edge list'
         
@@ -219,7 +219,12 @@ class Node():
 
         '''
         #TODO
-        
+    def toDict(self):
+        retp ={'element_id': self.element_id}
+        for p in self.params:
+            retp[p]=self.params[p]
+        return retp
+    
 class Edge():
     '''Represents an edge in a Neo4J database'''
     requiredParameters={
@@ -1155,18 +1160,7 @@ class Programme(Node):
             self.loadmodules()
             self.loadILO()
         
-    def toDict(self):
-        return {
-            'status': ('DRAFT', 'CURRENT','ARCHIVED','WITHDRAWN')[self.status],
-            'id':self.id ,
-            'P_name':self.name ,
-            'P_code':self.code ,
-            'P_version':self.version,
-            'Previous_P': self.previous,
-            'Future_P': self.future, 
-            'change':self.change, 
-            'approval':self.approval 
-            }
+
     
     
     
@@ -1411,32 +1405,38 @@ class Module():
     PREREQUISITE = 1
     COREQUISITE = 0
     ANTIREQUISITE = 2
+    ntype='Programme'
+    requiredParams = {
+        'code': 'Module code',
+        'name': 'Module name',
+        'credits': 'Credit weight',
+        'level': 'SCQF level'
+        }
+    optionalParams= {
+        'startyear':'First academic year',
+        'endyear': 'Last academic year',
+        'school':'School which manages the Programme'}
     
-    def __init__(self, factory, **params):
-        self.factory = factory
-        self.id = params.get('ID',None)
-        self.code = params.get('code', 'UNK')
-        self.name = params.get('name', 'UNK')
-        self.level = params.get('TMlevel',0)
-        self.altlevel =params.get('altlevel')
-        self.version = params.get('version','UNK')
-        self.previous = params.get('previous_M', None)
-        self.future = params.get('future_M',None)
-        self.credits = params.get('credits', 20)
-        self.block = params.get('block', None)
-        self.approval = params.get('approvalEvent', None)
-        self.status = params.get('status', 0)
-        if self.id is None:
-            self.create()
-        self.ILO =[]
-        self.loadILOs()
-        self.elements={}
-        self.loadElements()
-        self.requisites = {}
-        self.loadConstraints()
-        self.activities=[]
-        self.loadActivities()
-     
+    def __init__(self, factory,  **params ):
+        '''
+        Create a Programme instance.
+
+        Parameters
+        ----------
+        factory - database connection and cache for Module
+        **params : 
+                    '''
+        super().__init__(factory,**params)
+        
+        self.ILO={}
+        self.Activities={}
+        self.Assessments = {}
+        if self.element_id:
+            self.loadILO()
+            self.loadConstraints()
+            self.loadActivities()
+            self.loadAssessments()
+#TODO
     def loadILO(self):
         '''
         Loads ILO links from the database. Does not create new links or ILOs.
@@ -1553,19 +1553,7 @@ class Module():
         
         
         
-    def create(self, changemessage='first creation'):
-        '''
-        Creates a new database entry for the Programme entity
-
-        Returns
-        -------
-        None.
-
-        '''
-        insertsql = "Insert into TModule (name, code, TMlevel, altlevel, version, previous_M, future_M, credits, block, change ) values (%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-        cursor = self.factory.db.excecute(insertsql, (self.name, self.code, self.level, self.altlevel, self.version,self.previous, self.credits, self.block, changemessage))
-        self.id = cursor.lastrowid
-        
+    
     def update(self, **kwargs):
         '''
         Update a limited set of fields
@@ -1589,53 +1577,20 @@ class Module():
         cursor = self.factory.db.cursor()
         cursor.excecute(sql.format(query), values)
         
-    def withdraw(self):
+    def withdraw(self, year):
         '''
         Set the Modulee to WITHDRAWN. Only possible if there are no future versions.
-        
+        Requires academic year for the withdrawal as last year of operation.
         Returns
         -------
         None.
-        
+        TODO
         '''
         if not self.future:
             self.status = Module.WITHDRAWN
             self.update(status='WITHDRAWN')
 
-    def archive(self):
-        '''
-    Set a Module to archived. Can only be done if there is a future version
-
-        Returns
-        -------
-        None.
-
-        '''
-        if self.future:
-            self.status = Module.ARCHIVED
-            self.update(status="ARCHIVED")
- 
-    def approve(self, approvalevent):
-        '''
-        Adds an approval event to a Module
-
-        Parameters
-        ----------
-        approvalevent : TYPE
-            DESCRIPTION.
-
-        Returns
-        -------
-        None.
-
-        '''
-        if not self.approval:
-            self.approval = approvalevent.id
-            self.status = Module.CURRENT
-            if self.previous:
-                #retrieve previous and set to archived.
-                self.factory.get_Module_by_id(self.previous).archive()
-            self.update(approvalEvent=self.approval,status=self.status)
+    
 
     def map_ilo(self, ilo, remove=False):
         '''
