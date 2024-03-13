@@ -475,8 +475,28 @@ class CurriculumFactory():
             if nodeclass in globals():
                 elements.append( globals()[nodeclass](**params))
         return elements  
-           
-
+    def getElementsForElement(self, element, target, max_steps=2,relation=None):
+         '''
+         Retreive all elements of type Target linked to element,optionally by relation (or all relations) 
+         at a maximum distance of max_steps (default 2)
+         
+         Parameters
+         ----------
+         element : TYPE
+             DESCRIPTION.
+         target : TYPE
+             DESCRIPTION.
+         max_steps: integer
+             Maximum link number to explore (default 2)
+         relation: text
+             Limit relations to those of type relation
+         Returns
+         -------
+         List of Node type objects.
+         '''
+         #TODO
+         
+         
 class Programme(Node):
     
     DRAFT = 0
@@ -957,6 +977,22 @@ class TeachingActivity (Node):
         module.map_activity(self)
         self.module=module
         
+class Assessment(TeachingActivity):
+    ntype='Assessment'
+    requiredParams = {
+        'year': 'AcademicYear',
+        'type': 'Activity type',
+        'weighting': 'percentage weighting',
+        'code': 'SEQ number'
+        }
+    optionalParams= {
+        }
+
+    def __init__(self, factory,**kwargs):
+        super().__init__(factory, **kwargs)
+        
+        
+        
 class ILO(Node):
     ntype='ILO'
     requiredParams = {
@@ -979,7 +1015,7 @@ class ActivityILO(ILO):
     def __init__(self, factory, **kwargs):
         super().__init__(factory, **kwargs)
  
-#TODO           
+#TODO   Is there anything more to do here?        
         
     
     def getActivitiesForILO(self):
@@ -991,12 +1027,7 @@ class ActivityILO(ILO):
         List of TeachingActivity
 
         '''
-        cursor = self.factory.db.cursor()
-        sql = "Select ActivityID from ActivityILOMAP where ailoID = %s"
-        cursor.execute(sql, (self.id))
-        activities=[]
-        for a in cursor.fetchall():
-            activities.append(self.factory.get_TeachingActivity_by_id(a[0]))
+        activities = self.factory.getElementsForElement(self,'TeachingActivity',max_steps=1)
         return activities
     
 class ModuleILO():
