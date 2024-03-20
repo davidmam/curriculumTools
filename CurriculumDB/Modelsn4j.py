@@ -91,17 +91,17 @@ class Node():
         }
     optionalParams= {}
     
-    def __init__(self, factory=None, dbname='curriculum', **kwparams):
+    def __init__(self, factory=None,  **kwparams):
         '''Initialiser. Checks required parameters are present'''
         super().__init__( **kwparams)
         if factory is None:
             raise Exception('Curriculum factory must be given as factory')
         self.factory = factory
-        self.dbname=dbname
-        self.ntype=self.__class__.__name__
+        self.ntype=self.__class__.__name__.split('.')[-1]
         self.paramChecks={'default': self._checkDefault}
         self.params={}
         self.edges=[]
+        self._get_labels()
         for par in self.requiredParams:
             if par not in kwparams:
                 raise InsufficientParameterSpecException(f'Missing parameter <{par}> of type <{self.requiredParams[par]}>')
@@ -126,8 +126,9 @@ class Node():
         for k in self.params:
             paramlist += f'"{k}": ${k}, '
         paramlist = "{"+paramlist+"}"
-        query= f"MERGE (a:{self.ntype} {paramlist}) RETURN a"
-        records,summary, keys = self.factory.db.execute_query(query, self.params, database_=self.dbname)   
+        nodelabels = ':'.join(self.labels)
+        query= f"MERGE (a:{nodelabels} {paramlist}) RETURN a"
+        records,summary, keys = self.factory.db.execute_query(query, self.params, database_=self.factory.dbname)   
         self.element_id = records[0].items()[0][1].element_id
             
     def _checkDefault(self, value):
@@ -198,7 +199,7 @@ class Node():
         f"MATCH (p: $node {id: $id }) -[e{rel} {filterstring}]-(q) RETURN e,q",
         filterparams,
         routing_=neo4j.RoutingControl.READ,  # or just "r"
-        database_=self.dbname)
+        database_=self.factory.dbname)
         for edge in records:
             relation = edge.items[0][1]
             target = edge.items[1][1]
@@ -222,38 +223,7 @@ class Node():
                     return False
         return True
     
-    #def reload(self):
-        '''
-        Updates the object 
-
-        Returns
-        -------
-        None.
-
-        '''
-        #TODO
     
-    #def addEdge(self, target, direction, relation, **kwargs):
-        '''
-        Create a new edge if one doesn't exist between self and target. Add to the edge list'
-        
-
-        Parameters
-        ----------
-        target : Node object or node object ID
-        direction : text
-            'forward', 'backward' or anything else is bidirectional
-        relation : Relationship type name
-            DESCRIPTION.
-        **kwargs : properties of the edge.
-            DESCRIPTION.
-
-        Returns
-        -------
-        None.
-
-        '''
-        #TODO
     def toDict(self):
         retp ={'element_id': self.element_id}
         for p in self.params:
@@ -285,9 +255,12 @@ class Node():
         kwargs['id'] = self.element_id    
         paramlist = "{"+paramlist+"}"
         query= f"MERGE (a:{self.ntype}) WHERE elementID(a) = $id SET {', '.join(paramlist)}"
-        records,summary, keys = self.factory.db.execute_query(query,kwargs, database_=self.dbname)   
+        records,summary, keys = self.factory.db.execute_query(query,kwargs, database_=self.factory.dbname)   
         
-        
+    def _get_labels(self):
+        self.labels = [x.split('.')[-1] for x in globals()[self.__class__.__name__].__mro__]
+        self.labels.remove('object')
+        self.labels.remove('Node')
         
     
     
@@ -382,7 +355,7 @@ class CurriculumFactory():
         erecords, _, _ = self.db.execute_query(
             "MATCH (a ) where elementId(a)=$id"
             "RETURN a", id=elementID,
-             database_="curriculum",
+             database_=self.dbname,
         )
         if not erecords :
             return
@@ -419,7 +392,7 @@ class CurriculumFactory():
             elem = self.get_element_by_id(kwargs['elementID'])
             return elem
         if kwargs.get('code'):
-            result=self.db.execute_query(f'MATCH (p:{ElementName} {{P_code: $name}} ) return p', name=kwargs['code'])
+            result=self.db.execute_query(f'MATCH (p:{ElementName} {{P_code: $name}} ) return p', name=kwargs['code'], database_=self.dbname)
             if result:
                 params=dict(result[0].items()[0][1])
                 params['elementID']=result[0].items()[0][1].element_id
@@ -463,7 +436,7 @@ class CurriculumFactory():
         erecords, _, _ = self.db.execute_query(
             f"MATCH (a :{ElementName} {paramtext})",
             params,
-             database_="curriculum",
+             database_=self.dbname,
         )
         if not erecords :
             return elements
@@ -473,29 +446,39 @@ class CurriculumFactory():
             params = dict(elem)
             params['elementID']=item.element_id
             if nodeclass in globals():
-                elements.append( globals()[nodeclass](**params))
+                elements.append( globals()[nodeclass](self, **params))
         return elements  
     def getElementsForElement(self, element, target, max_steps=2,relation=None):
-         '''
-         Retreive all elements of type Target linked to element,optionally by relation (or all relations) 
-         at a maximum distance of max_steps (default 2)
-         
-         Parameters
-         ----------
-         element : TYPE
-             DESCRIPTION.
-         target : TYPE
-             DESCRIPTION.
-         max_steps: integer
-             Maximum link number to explore (default 2)
-         relation: text
-             Limit relations to those of type relation
-         Returns
-         -------
-         List of Node type objects.
-         '''
-         #TODO
-         
+        '''
+        Retreive all elements of type Target linked to element,optionally by relation (or all relations) 
+        at a maximum distance of max_steps (default 2)
+        
+        Parameters
+        ----------
+        element : TYPE
+            DESCRIPTION.
+        target : TYPE
+            DESCRIPTION.
+        max_steps: integer
+            Maximum link number to explore (default 2)
+        relation: text
+            Limit relations to those of type relation
+        Returns
+        -------
+        List of Node type objects.
+        '''
+        if target not in globals():
+            return []
+        cypher = f"MATCH (e) --{{1,{max_steps}}} (thing:$target) where elementID(e)=$id RETURN DISTINCT thing"
+        result,_,_=self.db.execute_query(cypher, target=target, id=element.element_id,database_=self.dbname)
+        elems = []
+        if result:
+            for elem in result:
+                item = elem.items()[0][1]
+                params =dict(item)
+                params['elementID'] = item.element_id
+                elems.append(globals()[target](self, **params))
+        return elems
          
 class Programme(Node):
     
@@ -512,7 +495,7 @@ class Programme(Node):
         'startyear':'First academic year',
         'endyear': 'Last academic year',
         'school':'School which manages the Programme'}
-    def __init__(self, factory,  **params ):
+    def __init__(self, factory, **params ):
         '''
         Create a Programme instance.
 
@@ -545,7 +528,7 @@ class Programme(Node):
         '''
         self.modules={}
         cypher = "MATCH (p:Programme ) -[a]-(b:Module) WHERE elementID(p) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation = t.items()[0][1]
             target = t.items()[1][1]
@@ -568,7 +551,7 @@ class Programme(Node):
         '''
         self.ILO = {}
         cypher = "MATCH (p:Programme ) -[a]-(b:ProgrammeILO) WHERE elementID(p) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation, target = t.items()[0:2]
             
@@ -588,7 +571,7 @@ class Programme(Node):
         if AcademicYear(year) and AcademicYear(year) > AcademicYear(self.params['startyear']):
             self.params['endyear']=year
             cypher = 'MATCH (p:Programme) where elementID(p)=$id SET p.endyear=$year'
-            records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id,year=year, database_='curriculum')
+            records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id,year=year, database_=self.factory.dbname)
         
 
     def map_module(self, module, optional=0, year=None, remove=False):
@@ -616,7 +599,7 @@ class Programme(Node):
                 records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relation), 
                                                            pid=self.element_id,year=year, 
                                                            mid=module.element_id,
-                                                           database_='curriculum')
+                                                           database_=self.factory.dbname)
                 for r in self.modules[module.params['code']]:
                     if r['relation']['type']==relation:
                         r['relation']['params']['endyear']=year
@@ -627,7 +610,7 @@ class Programme(Node):
                         records,_,_ =self.factory.db.execute_query(cypher1.format(relation=relations[(int(bool(optional))+1)%2]), 
                                                                    pid=self.element_id,year=year, 
                                                                    mid=module.element_id,
-                                                                   database_='curriculum')
+                                                                   database_=self.factory.dbname)
          
         if not remove:
             if module.params['code'] not in self.modules:
@@ -734,7 +717,7 @@ class Module(Node):
         '''
         self.Activities=[]
         cypher = "MATCH (m:Module ) -[a]-(b:TeachingActivity) WHERE elementID(m) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation = t.items()[0][1]
             target = t.items()[1][1]
@@ -755,7 +738,7 @@ class Module(Node):
         '''
         self.ILO = {}
         cypher = "MATCH (m:Module ) -[a]-(b:ModuleILO) WHERE elementID(m) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation, target = t.items()[0:2]
             self.ILO[target.element_id]= (dict(target),dict(relation))
@@ -772,7 +755,7 @@ class Module(Node):
         ''' 
         self.requisites = {}
         cypher = "MATCH (m:Module ) <-[a]- (b:Module) WHERE elementID(m) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation, target = t.items()[0:2]
             relationdata = dict(relation)
@@ -853,7 +836,7 @@ class Module(Node):
         '''
         if activity.element_id not in [x['target']['TeachingActivityID'] for x in self.Activities]:
             cypher = f"MERGE (m:Module ) -[a:{relationtype}]-(b:TeachingActivity) WHERE elementID(m) = $id AND elementID(b)=$tid RETURN a,b"
-            records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, tid=activity.element_id, database_='curriculum')
+            records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, tid=activity.element_id, database_=self.factory.dbname)
             for t in records:
                 relation = t.items()[0][1]
                 target = t.items()[1][1]
@@ -928,7 +911,7 @@ class TeachingActivity (Node):
         '''
         self.ILO = {}
         cypher = "MATCH (t:TeachingActivity ) -[a]-(b:ActivityILO) WHERE elementID(t) = $id RETURN a,b"
-        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_='curriculum')
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation, target = t.items()[0:2]
             self.ILO[target.element_id]= (dict(target),dict(relation))
@@ -977,24 +960,16 @@ class TeachingActivity (Node):
         module.map_activity(self)
         self.module=module
         
-class Assessment(TeachingActivity):
-    ntype='Assessment'
-    requiredParams = {
-        'year': 'AcademicYear',
-        'type': 'Activity type',
-        'weighting': 'percentage weighting',
-        'code': 'SEQ number'
-        }
-    optionalParams= {
-        }
 
-    def __init__(self, factory,**kwargs):
-        super().__init__(factory, **kwargs)
         
         
         
 class ILO(Node):
     ntype='ILO'
+    ILO_KNOWLEDGE = 1
+    ILO_UNDERSTANDING=2
+    ILO_SKILL=3
+    ILO_ATTITUDE=4
     requiredParams = {
         }
     optionalParams= {
@@ -1014,9 +989,29 @@ class ActivityILO(ILO):
 
     def __init__(self, factory, **kwargs):
         super().__init__(factory, **kwargs)
- 
-#TODO   Is there anything more to do here?        
-        
+        self.milo=None
+        self._get_milo()
+      
+    def _get_milo(self):
+        '''
+        Retrieves and assigns any mapped MILO to this AILO. 
+        Raises an exception if more than one MILO is mapped in the DB
+
+        Returns
+        -------
+        relation object between AILO and AILO
+
+        '''
+       
+        cypher = "MATCH (a:ActivityILO) -[b:MAPS_TO] - (m:ModuleILO) WHERE elementID(a)=$id RETURN a,b,m"
+        records,_,_ = self.factory.db.execute_query(cypher,id=self.element_id, 
+                                                    database_=self.factory.dbname)
+        if records:
+            if len(records)>1:
+                raise Exception('Maps to multiple Module ILOs')
+            
+            target=records[0].items()[2][1]
+            self.milo = target    
     
     def getActivitiesForILO(self):
         '''
@@ -1029,109 +1024,134 @@ class ActivityILO(ILO):
         '''
         activities = self.factory.getElementsForElement(self,'TeachingActivity',max_steps=1)
         return activities
-    
-class ModuleILO():
-    '''
-    CREATE or REPLACE Table ModuleILO (
-    ID integer not null auto_increment primary key,
-    ILOtext text not null,
-    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null,
-    programmeILO integer not null,
-    foreign key (programmeILO) references ProgrammeILO (ID)
-    );
-    '''
-    categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
-    def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.ILOtext = kwargs.get("ILOtext")
-        self.category = kwargs.get("category")
-        self.programmeILO = kwargs.get('programmeILO')
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
-            
-        
-    def create(self):
+
+    def supports(self, milo=None):
         '''
-        Creates a new database entry for the TeachingActivityType entity
+        Maps (if milo given) and returns the moduleILO, if present,
+        to which this activity ILO maps
+        
+        
+        Parameters
+        ----------
+        milo : ModuleILO, optional
+            ModuleILO object which should be mapped to this activity ILO. 
+            The default is None.
+        
+        Returns
+        -------
+        ModuleILO if assigned, None if not assigned
+        
+        '''
+        if self.milo and milo:
+            if milo != self.milo:
+                #delete existing relation and replace.
+                cypherd = "MATCH (a:ActivityILO) -[b:MAPS_TO] - (m:ModuleILO) WHERE elementID(a)=$id DELETE b"
+                records,_,_ = self.factory.db.execute_query(cypherd,id=self.element_id, 
+                                                            database_=self.factory.dbname)
+            else:
+                return self.milo
+        if milo:
+            cyphera = "MERGE (a:ActivityILO) -[MAPS_TO]-> (m:ModuleILO) WHERE elementID(a)=$id AND elementID(m) =$mid"
+            records,_,_ = self.factory.db.execute_query(cyphera,
+                                                        id=self.element_id, mid=milo.element_id,
+                                                        database_=self.factory.dbname)
+            self.milo=milo
+        return self.milo
+
+    
+class ModuleILO(ILO):
+     
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory, **kwargs)
+        self.pilo=None
+        self._get_pilo()
+
+    def _get_pilo(self):
+        '''
+        Retrieves and assigns any mapped PILO to this MILO. 
+        Raises an exception if more than one PILO is mapped in the DB
 
         Returns
         -------
-        None.
+        relation object between MILO and PILO
 
         '''
-        insertsql = "Insert into ModuleILO (ILOtext,category,programmeILO) VALUES (%s,%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.ILOtext,self.category,self.programmeILO))
-        self.id = cursor.lastrowid   
-    
+        
+        cypher = "MATCH (m:ModuleILO) -[a:MAPS_TO] - (p:ProgrammeILO) WHERE elementID(m)=$id RETURN m,a,p"
+        records,_,_ = self.factory.db.execute_query(cypher,id=self.element_id, 
+                                                    database_=self.factory.dbname)
+        if records:
+            if len(records)>1:
+                raise Exception('Maps to multiple Programme ILOs')
+            
+            target=records[0].items()[2][1]
+            self.pilo = target
+
     def getModulesForILO(self):
         '''
-        Retrieve all Modules with this ILO
-
+        Retrieve all Activities with this ILO
+         
         Returns
         -------
-        List of TModule
-
+        List of Modules
+         
         '''
-        cursor = self.factory.db.cursor()
-        sql = "Select ModuleID from ModuleILOMAP where miloID = %s"
-        cursor.execute(sql, (self.id))
-        activities=[]
-        for a in cursor.fetchall():
-            activities.append(self.factory.get_TModule_by_id(a[0]))
-        return activities
-        
-class ProgrammeILO():
-    '''
-    CREATE or REPLACE Table ProgrammeILO (
-    ID integer not null auto_increment primary key,
-    ILOtext text not null,
-    category ENUM('Knowledge','Understanding', 'Skill', 'Attitude') not null
-    );
-
-    '''
-    
-    categories = ('Knowledge','Understanding', 'Skill', 'Attitude')
-    def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.ILOtext = kwargs.get("ILOtext")
-        self.category = kwargs.get("category")
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
+        modules = self.factory.getElementsForElement(self,'Module',max_steps=1)
+        return modules
             
-        
-    def create(self):
+    def supports(self, pilo=None):
         '''
-        Creates a new database entry for the TeachingActivityType entity
-
+        Maps (if pilo given) and returns the progammeILO, if present to which this module ILO maps
+        
+        
+        Parameters
+        ----------
+        pilo : ProgrammeILO, optional
+            ProgrammeILO object which should be mapped to this module ILO. 
+            The default is None.
+        
         Returns
         -------
-        None.
-
+        ProgrammeILO if assigned, None if not assigned
+        
         '''
-        insertsql = "Insert into ProgrammeILO (ILOtext,category) VALUES (%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.ILOtext,self.category))
-        self.id = cursor.lastrowid   
+        if self.pilo and pilo:
+            if pilo != self.pilo:
+                #delete existing relation and replace.
+                cypherd = "MATCH (m:ModuleILO) -[a:MAPS_TO] - (p:ProgrammeILO) WHERE elementID(m)=$id DELETE a"
+                records,_,_ = self.factory.db.execute_query(cypherd,id=self.element_id, 
+                                                            database_=self.factory.dbname)
+            else:
+                return self.pilo
+        if pilo:
+            cyphera = "MERGE (m:ModuleILO) -[MAPS_TO]-> (p:ProgrammeILO) WHERE elementID(m)=$id AND elementID(p) =$pid"
+            records,_,_ = self.factory.db.execute_query(cyphera,
+                                                        id=self.element_id, pid=pilo.element_id,
+                                                        database_=self.factory.dbname)
+            self.pilo=pilo
+        return self.pilo
+
     
+class ProgrammeILO(ILO):
+   
+     
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory, **kwargs)
+        self.pilo=None
+
     def getProgrammesForILO(self):
         '''
         Retrieve all Activities with this ILO
-
+         
         Returns
         -------
-        List of TeachingActivity
-
+        List of Modules
+         
         '''
-        cursor = self.factory.db.cursor()
-        sql = "Select ProgrammeID from ProgrammeILOMAP where piloID = %s"
-        cursor.execute(sql, (self.id))
-        activities=[]
-        for a in cursor.fetchall():
-            activities.append(self.factory.get_Programme_by_id(a[0]))
-        return activities
+        programmes = self.factory.getElementsForElement(self,'Programme',max_steps=1)
+        return programmes
+            
+     
     
 class AssessmentType():
     '''
@@ -1165,125 +1185,18 @@ class AssessmentType():
         cursor.excecute(insertsql, (self.name,self.definition))
         self.id = cursor.lastrowid   
 
-class Assessment():
-    
-    '''
-    CREATE or REPLACE TABLE Assessment (
-    ID integer not null primary key auto_increment,
-    name text not null,
-    description text not null,
-    atype integer not null,
-    foreign key (atype) references AssessmentType (ID)
-    );
-    '''
+class Assessment(TeachingActivity):
+    ntype='Assessment'
+    requiredParams = {
+        'year': 'AcademicYear',
+        'type': 'Activity type',
+        'weighting': 'percentage weighting',
+        'code': 'SEQ number'
+        }
+    optionalParams= {
+        }
 
-    def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.name = kwargs.get("name")
-        self.description = kwargs.get("description")
-        self.atype = kwargs.get('atype')
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
-        self.ILO =[]
-        self.loadILO()
+    def __init__(self, factory,**kwargs):
+        super().__init__(factory, **kwargs)
         
-    def create(self):
-        '''
-        Creates a new database entry for the Assessment entity
 
-        Returns
-        -------
-        None.
-
-        '''
-        insertsql = "Insert into Assessment (name, description, atype) VALUES (%s,%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.name,self.description, self.atype))
-        self.id = cursor.lastrowid   
-
-    def loadILO(self):
-        '''
-        Loads ILO links from the database. Does not create new links or ILOs.
-
-        Returns
-        -------
-        None.
-
-        '''
-        self.ILO=[]
-        sql = "SELECT i.ID, i.ILOtext, i.category from ActivityILO  i inner join AssessmentActivityILOMAP m on m.activityiloID = i.ID where m.assessmentID = %s"
-        cursor = self.factory.db.cursor()
-        cursor.execute(sql, (self.id))
-        for ilo in cursor.fetchall():
-            self.ILO.append(ilo)
-            
-    def map_ilo(self,  ilo, remove=False):
-        '''
-        Adds ILO to the Activity, if it is not already assosciated
-
-        Parameters
-        ----------
-        ilo : ActivityILO
-            DESCRIPTION.
-
-        Returns
-        -------
-        None.
-
-        '''
-        sqli = "INSERT INTO AssessmentActivityILOMAP (assessmentID, activityiloID) VALUES (%s , %s)"
-        sqld = "DELETE FROM ActivityILOMAP where assessmentID = %s and activityID = %s"
-        ilos= [x for x in self.ILO if x[0]==ilo.id]
-        cursor = self.factory.db.cursor()
-        if ilos and remove:
-            cursor.execute(sqld, (self.id, ilo.id))
-        elif ilos or remove:
-            pass
-        else:
-            cursor.execute(sqli,(self.id, ilo.id))
-        self.loadILO()
-    
-class AssessmentInstance():
-    '''
-    CREATE or REPLACE TABLE AssessmentInstance (
-    ID integer not null primary key auto_increment,
-    moduleID integer not null,
-    weightpercent integer not null,
-    weekstart integer not null,
-    weekend integer not null,
-    assessmentID integer not null,
-    seq integer not null,
-    foreign key (moduleID) references TModule (ID),
-    foreign key (assessmentID) references Assessment (ID),
-    duration text not null
-    );
-    '''
-    
-    def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.moduleIO = kwargs.get("moduleID")
-        self.weightpercent = kwargs.get("weightpercent")
-        self.weekstart = kwargs.get("weekstart")
-        self.weekend = kwargs.get("weekend")
-        self.assessmentID = kwargs.get("assessmentID")
-        self.seq = kwargs.get("seq")
-        self.duration = kwargs.get("duration")
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
-            
-        
-    def create(self):
-        '''
-        Creates a new database entry for the TeachingActivityType entity
-
-        Returns
-        -------
-        None.
-
-        '''
-        insertsql = "Insert into AssessmentInstance (moduleID,weightpercent,weekstart,weekend,assessmentID,seq,duration) VALUES (%s,%s,%s,%s,%s,%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.moduleID,self.weightpercent,self.weekstart,self.weekend,self.assessmentID,self.seq,self.duration))
-        self.id = cursor.lastrowid   
