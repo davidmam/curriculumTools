@@ -79,7 +79,6 @@ class AcademicYear():
     def __repr__(self):
         return str(self)
         
-
 class Node():
     '''Represents a Node in a Neo4j database. 
     Contains methods for accessing links, ensuring that on creation the 
@@ -443,20 +442,24 @@ class CurriculumFactory():
         if paramdetails:
             paramtext= f'{ {",".join(paramdetails)} }'
         erecords, _, _ = self.db.execute_query(
-            f"MATCH (a :{ElementName} {paramtext})",
+            f"MATCH (a :{ElementName} {paramtext}) RETURN a",
             params,
              database_=self.dbname,
         )
-        if not erecords :
-            return elements
-        for item in erecords:
-            elem=item.items()[0][1]
-            nodeclass = list(elem.labels())[0]
-            params = dict(elem)
-            params['elementID']=item.element_id
-            if nodeclass in globals():
-                elements.append( globals()[nodeclass](self, **params))
-        return elements  
+        try:
+            if not erecords :
+                return elements
+            for item in erecords:
+                elem=item.items()[0][1]
+                nodeclass = list(elem.labels)[0]
+                params = dict(elem)
+                params['elementID']=elem.element_id
+                if nodeclass in globals():
+                    elements.append( globals()[nodeclass](self, **params))
+            return elements  
+        except Exception as e:
+            print(e)
+            return erecords
     def getElementsForElement(self, element, target, max_steps=2,relation=None):
         '''
         Retreive all elements of type Target linked to element,optionally by relation (or all relations) 
@@ -540,11 +543,12 @@ class Programme(Node):
         records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
             relation = t.items()[0][1]
-            target = t.items()[1][1]
-            if target.data()['code'] not in self.modules:
-                self.modules[target.data()['code']]=[]
-            self.modules[target.data()['code']].append({'relation': {'type': relation.type, 'params':dict(relation)}, 
-                                                        'target':{ 'moduleID': target.element_id,'params':dict(target)}})
+            target = dict(t.items()[1][1])
+            target['element_id'] = t.items()[1][1].element_id
+            if target['code'] not in self.modules:
+                self.modules[target['code']]=[]
+            self.modules[target['code']].append({'relation': {'type': relation.type, 'params':dict(relation)}, 
+                                                        'target':{ 'moduleID': target['element_id'],'params':target}})
             
         
 
@@ -600,7 +604,7 @@ class Programme(Node):
         '''
         relations=('IS_CORE','IS_ELECTIVE')
         relation= relations[int(bool(optional))]
-        cypher1 = 'MATCH (p:Programme) -[b:{relation}]-(m:Module) where elementID(p)=$pid and elementID(m)=$mid SET b.endyear=$year'
+        cypher1 = 'MATCH (p:Programme) where elementID(p)=$pid \n MATCH (m:Module) where elementID(m)=$mid \n merge (p) <-[b:{relation}]-(m)  return p,b,m'
         
         if module.params['code'] in self.modules:
             if remove:
@@ -624,7 +628,7 @@ class Programme(Node):
         if not remove:
             if module.params['code'] not in self.modules:
                  self.modules[module.params['code']]=[]
-            cypher2 =f'MERGE (p:Programme) <-[{relation} {{startyear:$year }}] - (m:Module) where elementID(p)=$pid and elementID(m)=$mid'
+            cypher2 =f'MATCH (p:Programme) where elementID(p)=$pid MATCH (m:Module)  where elementID(m)=$mid MERGE (p)<-[:{relation} {{startyear:$year }}] - (m) return m,p'
             records,_,_ =self.factory.db.execute_query(cypher2, 
                                                         pid=self.element_id,year=year, 
                                                         mid=module.element_id,
@@ -669,7 +673,6 @@ class Programme(Node):
         if records:
             relation=records[0].items()[0][1]
             self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
-
 
     
 class Module(Node):
