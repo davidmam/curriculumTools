@@ -93,7 +93,6 @@ class Node():
     
     def __init__(self, factory=None,  **kwparams):
         '''Initialiser. Checks required parameters are present'''
-        super().__init__( **kwparams)
         if factory is None:
             raise Exception('Curriculum factory must be given as factory')
         self.factory = factory
@@ -103,15 +102,16 @@ class Node():
         self.edges=[]
         self._get_labels()
         for par in self.requiredParams:
-            if par not in kwparams:
+            if not kwparams.get(par):
+                print(par, kwparams)
                 raise InsufficientParameterSpecException(f'Missing parameter <{par}> of type <{self.requiredParams[par]}>')
-            if not self.paramChecks.get(par,'default')(kwparams[par]):
+            if not self.paramChecks.get(par,self._checkDefault)(kwparams[par]):
                 raise BadParameterException(f'Parameter <{par}> should be of type <{self.requiredParams[par]}>')
             self.params[par]=kwparams[par]
-        for par in self.requiredParams:
+        for par in self.optionalParams:
             if par not in kwparams:
                 continue
-            if not self.paramChecks.get(par,'default')(kwparams[par]):
+            if not self.paramChecks.get(par,self._checkDefault)(kwparams[par]):
                 raise BadParameterException(f'Parameter <{par}> should be of type <{self.requiredParams[par]}>')
             self.params[par]=kwparams[par]
         if 'elementID' not in kwparams:
@@ -119,12 +119,17 @@ class Node():
         else:
             self.element_id=kwparams['elementID']
             self.edges =self.getEdges()
-            
+    def __str__(self):
+        '''Returns a string represntation of the node'''
+        params = ", ".join([f'{k}: {self.params[k]}' for k in self.requiredParams])
+        return f'{self.ntype}: [{params}] ID: {self.element_id}'
+    
+    def __repr__(self):
+        return self.__str__()
+                            
     def _create_node(self):
         '''Internal method that creates a new instance of the node, if it does not exist'''
-        paramlist =''
-        for k in self.params:
-            paramlist += f'"{k}": ${k}, '
+        paramlist = ", ".join([f'{k}: ${k}' for k in self.params])
         paramlist = "{"+paramlist+"}"
         nodelabels = ':'.join(self.labels)
         query= f"MERGE (a:{nodelabels} {paramlist}) RETURN a"
@@ -192,11 +197,11 @@ class Node():
         rel=''
         if relation:
             rel=f":{relation}"
-        filterparams['id'] = self.id
+        filterparams['id'] = self.element_id
         if filterstring:
             filterstring = "{"+filterstring+"}"
         records, summary, keys = self.factory.db.execute_query(
-        f"MATCH (p: $node {id: $id }) -[e{rel} {filterstring}]-(q) RETURN e,q",
+        f"MATCH (p: {self.ntype} {{id: $id }}) -[e{rel} {filterstring}]-(q) RETURN e,q",
         filterparams,
         routing_=neo4j.RoutingControl.READ,  # or just "r"
         database_=self.factory.dbname)
@@ -258,7 +263,7 @@ class Node():
         records,summary, keys = self.factory.db.execute_query(query,kwargs, database_=self.factory.dbname)   
         
     def _get_labels(self):
-        self.labels = [x.split('.')[-1] for x in globals()[self.__class__.__name__].__mro__]
+        self.labels = [x.__name__ for x in globals()[self.__class__.__name__].__mro__]
         self.labels.remove('object')
         self.labels.remove('Node')
         
@@ -392,14 +397,18 @@ class CurriculumFactory():
             elem = self.get_element_by_id(kwargs['elementID'])
             return elem
         if kwargs.get('code'):
-            result=self.db.execute_query(f'MATCH (p:{ElementName} {{P_code: $name}} ) return p', name=kwargs['code'], database_=self.dbname)
-            if result:
-                params=dict(result[0].items()[0][1])
-                params['elementID']=result[0].items()[0][1].element_id
-                elem = ElementClass(params)
-                return elem
-            
-        for p in ElementClass.requiredParameters:
+            try:
+                result,_,_=self.db.execute_query(f'MATCH (p:{ElementName} {{code: $name}} ) return p', name=kwargs['code'], database_=self.dbname)
+                if result:
+                    params=dict(result[0].items()[0][1])
+                    params['elementID']=result[0]['p'].element_id
+                    elem = ElementClass(self, **params)
+                    return elem
+            except Exception as e:
+                e.add_note(str(params))
+                raise e
+                
+        for p in ElementClass.requiredParams:
             if p not in kwargs:
                 raise InsufficientParameterSpecException(f'Not enough parameters specified for {ElementName}: missing{p}')
         
@@ -677,7 +686,8 @@ class Module(Node):
         'code': 'Module code',
         'name': 'Module name',
         'credits': 'Credit weight',
-        'level': 'SCQF level',
+        'scqflevel': 'SCQF level',
+        'shelevel': 'SHE level',
         'semester': '1, 2 or both'
         }
     optionalParams= {
@@ -764,7 +774,12 @@ class Module(Node):
             targetdata = dict(target)
             targetdata['element_id']=target.element_id
             self.requisites.append({'constraint':relationdata, 'module': targetdata})
-            
+    def loadAssessments(self):
+        '''Retrieve any linked assessments from the database
+        # TODO
+        '''
+        #TODO
+        
     def setConstraint(self, constraint, module, year, remove=False):
         '''
         Constraint is an integer corresponding to the constraint type. 
@@ -1199,4 +1214,6 @@ class Assessment(TeachingActivity):
     def __init__(self, factory,**kwargs):
         super().__init__(factory, **kwargs)
         
+
+   
 
