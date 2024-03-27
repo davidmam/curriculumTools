@@ -42,7 +42,9 @@ class AcademicYear():
         patterns = [r'^(\d{2})$',
                     r'^(\d{2})(\d{2})$',
                     r'^(\d{2})/\d{2}$',
-                    r'^\d{2}(\d{2})/\d{1,2}$']
+                    r'^\d{2}(\d{2})/\d{1,2}$',
+                    r'^\d{2}(\d{2})-d{1,2}$'
+                    ]
         
         if hasattr(year,'yearvalue'):
             self.yearvalue=year.yearvalue
@@ -467,10 +469,10 @@ class CurriculumFactory():
         
         Parameters
         ----------
-        element : TYPE
-            DESCRIPTION.
-        target : TYPE
-            DESCRIPTION.
+        element : Node object
+            An element of type Node
+        target : string
+            Name of the objec ttype to retrieve
         max_steps: integer
             Maximum link number to explore (default 2)
         relation: text
@@ -1217,6 +1219,96 @@ class Assessment(TeachingActivity):
     def __init__(self, factory,**kwargs):
         super().__init__(factory, **kwargs)
         
+class Benchmark(Node):
+    '''holder for a benchmark statement or PRSB requirement'''
+    
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory, **kwargs)
+        self.ILO={}
+        for kw in kwargs:
+            self.params[kw]=kwargs[kw]
+        self.load_ilos()
+            
+    def load_ilos(self):
+        '''populate self.ilos with saved ILOs fromthe database'''
+        self.ILO = {}
+        cypher = "MATCH (b:ILO ) -[a]->(t:Benchmark) WHERE elementID(t) = $id RETURN a,b"
+        records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
+        for t in records:
+            relation, target = t.items()[0:2]
+            self.ILO[target.element_id]= (dict(target),dict(relation))
+            
+    def map_ilo(self, ilo):
+        '''
+        Maps the given ILO to this benchmark statement
 
-   
+        Parameters
+        ----------
+        ilo : Object of type ILO. Can be ProgrammeILO, ModuleILO or ActivityILO
+                    
+        year : text describing the academic year
+            Must be either the start year, or for removing an ILO the last year for which it will be relevant.
+        remove : Boolean, optional
+            Flag to say whether the ILO should be dissociated from the Module. The default is False.
+
+        Returns
+        -------
+        None.
+
+        ''''''
+        Associates or updates a Module ILO mapping to a Module.
+    
+        Parameters
+        ----------
+        ilo : ModuleILO 
+            Module ILO object
+        
+        Returns
+        -------
+        None.
+    
+        '''
+        
+        if ilo.element_id in self.ILO:
+            return
+        cypher = "MERGE (t:ILO) -[b:MAPS_OUTCOME ]->(i:Benchmark) where elementID(t)=$tid AND elementID(i) = $iid RETURN b"
+        records,_,_ = self.factory.db.execute_query(cypher,tid=self.element_id, iid=ilo.element_id, database_=self.factory.dbname)
+        if records:
+            relation=records[0].items()[0][1]
+            self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
+    def get_ilo_for_Benchmark(self):
+        '''retrieves a list of all ilos mapped to this benchmark statement'''
+        return self.factory.getElementsForElement( self,'ILO', max_steps=1)
+        
+class QAABenchmark(Benchmark):
+    
+
+    requiredParams={'subject': 'text name of subject area',
+                        'section':'Section number',
+                        'subsection':'Subsection number',
+                        'descriptor':'Descriptor number',
+                        'section_text':'Text section name',
+                        'subsection_text':'text subsection name',
+                        'descriptor_text': 'descriptor text'
+                        }      
+    optionalParams={'version':'Version identifier'}
+
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory,**kwargs)
+        
+        
+class RSBCriterion(Benchmark):
+    '''RSB criterion for mapping'''
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
