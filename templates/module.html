@@ -5,7 +5,16 @@
 <body>
 <h2>Overview for {{module.params['code']}} {{module.params['name']}}</h2>
 
-
+<h3>Programmes</h3>
+<table>
+<tr><th>Core/Elective</th><th>Code</th><th>Programme</th></tr>
+{% for p in progs['core']%}
+<tr><td>Core</td><td>{{dict(p['target'])['code']}}</td><td>{{dict(p['target'])['name']}}</td></tr>
+{% endfor %}
+{% for p in progs['elective']%}
+<tr><td>Elective</td><td>{{dict(p['target'])['code']}}</td><td>{{dict(p['target'])['name']}}</td></tr>
+{% endfor %}
+</table>
 <h3>Intended Learning Outcomes</h3>
 <table>
 <tr><th>ILO</th><th>Validity</th></tr>

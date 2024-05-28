@@ -202,13 +202,14 @@ class Node():
         if filterstring:
             filterstring = "{"+filterstring+"}"
         records, summary, keys = self.factory.db.execute_query(
-        f"MATCH (p: {self.ntype} {{id: $id }}) -[e{rel} {filterstring}]-(q) RETURN e,q",
+            
+        f"MATCH (p: {self.ntype} ) where elementId(p)=$id Match (p)-[e{rel} {filterstring}]-(q) RETURN e,q",
         filterparams,
         routing_=neo4j.RoutingControl.READ,  # or just "r"
         database_=self.factory.dbname)
         for edge in records:
-            relation = edge.items[0][1]
-            target = edge.items[1][1]
+            relation = edge.items()[0][1]
+            target = edge.items()[1][1]
             edges.append({'source': self,'edge': relation, 'target': target})
         return edges
     def isCurrent(self, year):

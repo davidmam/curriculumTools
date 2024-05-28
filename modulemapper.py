@@ -53,6 +53,8 @@ def module(modcode):
         # Do the updates
         pass
     #get the necessary data lists
+    progs ={'core':module.getEdges(relation='IS_CORE'),
+            'elective': module.getEdges(relation='IS_ELECTIVE')}
     ilos={}
     for i in module.ILO:
         ilos[i] ={}
@@ -60,7 +62,7 @@ def module(modcode):
         ilos[i].update(module.ILO[i][1])
         ilos[i]['endyear']=ilos[i].get('endyear','')
     
-    return render_template('module.html', module=module, ilos=ilos)
+    return render_template('module.html', module=module, ilos=ilos,progs=progs)
 
 @app.route("/programme/<prog>", methods=['GET', 'POST'])
 
