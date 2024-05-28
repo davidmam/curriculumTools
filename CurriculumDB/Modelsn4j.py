@@ -483,7 +483,7 @@ class CurriculumFactory():
         '''
         if target not in globals():
             return []
-        cypher = f"MATCH (e) --{{1,{max_steps}}} (thing:$target) where elementID(e)=$id RETURN DISTINCT thing"
+        cypher = f"MATCH (e) where elementId(e)=$id Match (e) --{{1,{max_steps}}} (thing:{target})  RETURN DISTINCT thing"
         result,_,_=self.db.execute_query(cypher, target=target, id=element.element_id,database_=self.dbname)
         elems = []
         if result:
@@ -568,8 +568,8 @@ class Programme(Node):
         cypher = "MATCH (p:Programme ) -[a]-(b:ProgrammeILO) WHERE elementID(p) = $id RETURN a,b"
         records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
-            relation, target = t.items()[0:2]
-            
+            relation= t.items()[0][1]
+            target = t.items()[1][1]
             self.ILO[target.element_id]= (dict(target), dict(relation))
         
  
@@ -755,7 +755,8 @@ class Module(Node):
         cypher = "MATCH (m:Module ) -[a]-(b:ModuleILO) WHERE elementID(m) = $id RETURN a,b"
         records,_,_ =self.factory.db.execute_query(cypher, id=self.element_id, database_=self.factory.dbname)
         for t in records:
-            relation, target = t.items()[0:2]
+            relation= t.items()[0][1]
+            target = t.items()[1][1]
             self.ILO[target.element_id]= (dict(target),dict(relation))
         
 
