@@ -1,0 +1,38 @@
+<!doctype html>
+<header>
+<title>{{programme.params['code']}} {{programme.params['name']}}</title>
+</header>
+<body>
+<h2>Overview for {{programme.params['code']}} {{programme.params['name']}}</h2>
+
+<h3>Schedule of modules</h3>
+<table>
+<tr><th>Core/Elective</th><th>Code</th><th>Name</th><th>Credits</th><th>Validity</th></tr>
+
+{% for l in modules %}
+<tr><td colspan=5><b>Level {{l}}</b></td></tr>
+{% for s in modules[l] %}
+<tr><td colspan=5>Semester {{s}}</td></tr>
+{% for c in modules[l][s] %}
+
+{% set req = "Core" %}
+{% if c=="IS_ELECTIVE"%}{% set req = 'Elective'%}{% endif %}
+{% for m in modules[l][s][c] %}
+{% for x in modules[l][s][c][m] %}
+<tr><td>{{req}}</td><td>{{m}}</td><td>{{x['name']}}</td><td>{{x['credits']}}</td><td>{{x['sy']}} - {{x['ey']}}</td>
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+{% endfor %}
+</table>
+
+<h3>Intended Learning Outcomes</h3>
+<table>
+<tr><th>ILO</th><th>Validity</th></tr>
+{% for i in ilos %}
+<tr><td>{{ilos[i]['outcome']}}</td><td>{{ilos[i]['startyear']}} - {{ilos[i]['endyear']}}</td></tr>
+{% endfor %}
+</table>
+
+</body>

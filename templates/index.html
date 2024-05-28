@@ -1,0 +1,21 @@
+<!doctype html>
+<header>
+<title>Welcome to the module mapper</title>
+</header>
+<body>
+<h2><a href='#programmes'>Programmes</a></h2>
+
+<h2><a href='#modules'>Modules</a></h2>
+<table id=programmes>
+<tr><th>Programme Code</th><th>Programme Name</th></tr>
+{% for p in programmes %}
+<tr><td>{{p.params['code']}}</td><td>{{p.params['name']}}</td></tr>
+{% endfor %}
+</table>
+
+<table id=modules>
+<tr><th>Module code</th><th>Module name</th><th>Level</th><th>Semester</th><th>Credits</th></tr>
+{% for m in modules %}
+<tr><td>{{m.params['code']}}</td><td>{{m.params['name']}}</td><td>{{m.params['shelevel']}}</td><td>{{m.params['semester']}}</td><td>{{m.params['credits']}}</td></tr>
+{% endfor %}
+</body>

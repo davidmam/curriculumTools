@@ -1,0 +1,17 @@
+<!doctype html>
+<header>
+<title>{{module.params['code']}} {{module.params['name']}}</title>
+</header>
+<body>
+<h2>Overview for {{module.params['code']}} {{module.params['name']}}</h2>
+
+
+<h3>Intended Learning Outcomes</h3>
+<table>
+<tr><th>ILO</th><th>Validity</th></tr>
+{% for i in ilos %}
+<tr><td>{{ilos[i]['outcome']}}</td><td>{{ilos[i]['startyear']}} - {{ilos[i]['endyear']}}</td></tr>
+{% endfor %}
+</table>
+
+</body>
