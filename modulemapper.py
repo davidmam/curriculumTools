@@ -158,9 +158,13 @@ def moduleilo(iloid):
         if crit not in maps:
             maps[crit]=[]
         maps[crit].append(q['target'])
-        
+    rsb = factory.get_all_elements('RSBCriterion')   
+    qaa=factory.get_all_elements('QAABenchmark')   
+    pilo=factory.get_all_elements('ProgrammeILO')
+    nibs=factory.get_all_elements('NIBLSEcompetency')
     
-    return render_template('moduleilo.html', milo=milo, edges=edges, mods=mods, maps=maps)
+    
+    return render_template('moduleilo.html', milo=milo, rsbs=rsb,qaas=qaa,pilos=pilo, nibs=nibs, mods=mods, maps=maps)
 
 @app.route('/ajax/moduleilo', methods=['POST'])
 def ajax_module_ilo():
