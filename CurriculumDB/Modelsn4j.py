@@ -360,17 +360,17 @@ class CurriculumFactory():
 
         '''
         erecords, _, _ = self.db.execute_query(
-            "MATCH (a ) where elementId(a)=$id"
+            "MATCH (a ) where elementId(a)=$id "
             "RETURN a", id=elementID,
              database_=self.dbname,
         )
         if not erecords :
             return
-        nodeclass = list(erecords[0].items()[0][1].labels())[0]
+        nodeclass = list(erecords[0].items()[0][1].labels)[0]
         params = dict(erecords[0].items()[0][1])
         params['elementID']=elementID
         if nodeclass in globals():
-            return globals()[nodeclass](**params)
+            return globals()[nodeclass](self, **params)
         
       
     def get_or_create_Element(self, ElementName,**kwargs):
@@ -992,7 +992,7 @@ class ILO(Node):
     ILO_UNDERSTANDING=2
     ILO_SKILL=3
     ILO_ATTITUDE=4
-    requiredParams = {
+    requiredParams = { 'outcome': 'Text description of outcome'
         }
     optionalParams= {
         'SOLO': 'Solo level of the ILO'
@@ -1301,6 +1301,29 @@ class QAABenchmark(Benchmark):
         
 class RSBCriterion(Benchmark):
     '''RSB criterion for mapping'''
+    requiredParams={'criterion': 'text name of subject area', 
+                    'section': 'Section number', 
+                    'subsection': 'Subsection number', 
+                    'section_text': 'Text section name', 
+                    'subsection_text': 'text subsection name', 
+                    'criterion_text': 'descriptor text'} 
+    optionalParams={'notes': 'Additional notes', 
+                    'version': 'Version identifier'}
+
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory,**kwargs)
+    
+    
+    
+class NIBLSEcompetency(Benchmark):
+    '''NIBLSE Competency'''
+    requiredParams ={'competency': 'Competency identifier text',
+                     'descriptor': 'Descriptor text',
+                     'examples': 'Examples text',
+                     'explanation': 'Explanatory text'}
+    
+    def __init__(self, factory, **kwargs):
+        super().__init__(factory,**kwargs)
     
     
     

@@ -61,8 +61,11 @@ def module(modcode):
         ilos[i].update(module.ILO[i][0])
         ilos[i].update(module.ILO[i][1])
         ilos[i]['endyear']=ilos[i].get('endyear','')
+        ilos[i]['id']=i.replace(':','_')
+    milos=sorted(ilos.values(), key=lambda x:x.get('rank', x['id']))
+
     
-    return render_template('module.html', module=module, ilos=ilos,progs=progs)
+    return render_template('module.html', module=module, ilos=milos,progs=progs)
 
 @app.route("/programme/<prog>", methods=['GET', 'POST'])
 
@@ -114,8 +117,58 @@ def programme(prog):
         ilos[i].update(programme.ILO[i][0])
         ilos[i].update(programme.ILO[i][1])
         ilos[i]['endyear']=ilos[i].get('endyear','')
+        
     
     return render_template('programme.html', modules=levels, ilos=ilos, programme=programme)
 
+@app.route('/moduleilo/<iloid>', methods=['GET', 'POST'])     
+def moduleilo(iloid):
+    '''
+    Show/map ModuleILO
+
+    Parameters
+    ----------
+    iloid : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+
+    '''
+    
+    try:
+        milo=factory.get_element_by_ID(iloid.replace('_',':'))
+    except:
+        return render_template('not_found.html')
+    if request.method=='POST':
+        # Do the updates
+        pass
+    edges=milo.getEdges()
+    edgesbytype = {}
+    for e in edges:
+        et = e['edge'].type
+        if et not in edgesbytype:
+            edgesbytype[et]=[]
+        edgesbytype[et].append(e)
+    mods = [(dict(m['target'])['code'], dict(m['target'])['name']) for m in edgesbytype['HAS_ILO']]  
+    maps={}
+    for q in edgesbytype.get('MAPS_TO',[]):
+        crit=list(q['target'].labels)[-1]
+        if crit not in maps:
+            maps[crit]=[]
+        maps[crit].append(q['target'])
         
     
+    return render_template('moduleilo.html', milo=milo, edges=edges, mods=mods, maps=maps)
+
+@app.route('/ajax/moduleilo', methods=['POST'])
+def ajax_module_ilo():
+   '''
+    Ordering/change/delete of module ILO
+
+    Returns
+    -------
+    None.
+
+    '''    

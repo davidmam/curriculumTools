@@ -19,7 +19,7 @@
 {% if c=="IS_ELECTIVE"%}{% set req = 'Elective'%}{% endif %}
 {% for m in modules[l][s][c] %}
 {% for x in modules[l][s][c][m] %}
-<tr><td>{{req}}</td><td>{{m}}</td><td>{{x['name']}}</td><td>{{x['credits']}}</td><td>{{x['sy']}} - {{x['ey']}}</td>
+<tr><td>{{req}}</td><td><a href='/module/{{m}}'>{{m}}</a></td><td>{{x['name']}}</td><td>{{x['credits']}}</td><td>{{x['sy']}} - {{x['ey']}}</td>
 {% endfor %}
 {% endfor %}
 {% endfor %}
