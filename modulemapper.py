@@ -86,8 +86,8 @@ def programme(prog):
    
     try:
         programme=factory.get_or_create_Element('Programme', code=prog)
-    except:
-        return render_template('not_found.html')
+    except Exception as e:
+        return render_template('not_found.html',exception=e)
     if request.method=='POST':
         # Do the updates
         pass
@@ -111,15 +111,16 @@ def programme(prog):
             if code not in levels[level][semester][core]:
                 levels[level][semester][core][code]=[]
             levels[level][semester][core][code].append({"name":name, "credits":credits, "sy":startyear, "ey":endyear})
+        
     ilos={}     
     for i in programme.ILO:
         ilos[i] ={}
         ilos[i].update(programme.ILO[i][0])
         ilos[i].update(programme.ILO[i][1])
         ilos[i]['endyear']=ilos[i].get('endyear','')
-        
-    
-    return render_template('programme.html', modules=levels, ilos=ilos, programme=programme)
+        ilos[i]['id']=i.replace(':','_')
+    pilos=sorted(ilos.values(), key=lambda x:x.get('rank', x['id']))
+    return render_template('programme.html', modules=levels, ilos=pilos, programme=programme)
 
 @app.route('/moduleilo/<iloid>', methods=['GET', 'POST'])     
 def moduleilo(iloid):
@@ -154,10 +155,10 @@ def moduleilo(iloid):
     mods = [(dict(m['target'])['code'], dict(m['target'])['name']) for m in edgesbytype['HAS_ILO']]  
     maps={}
     for q in edgesbytype.get('MAPS_TO',[]):
-        crit=list(q['target'].labels)[-1]
+        crit=q['target'].element_id
         if crit not in maps:
-            maps[crit]=[]
-        maps[crit].append(q['target'])
+            maps[crit]=[] 
+        maps[crit].append((q['target'], q['edge']))
     rsb = factory.get_all_elements('RSBCriterion')   
     qaa=factory.get_all_elements('QAABenchmark')   
     pilo=factory.get_all_elements('ProgrammeILO')
@@ -165,6 +166,50 @@ def moduleilo(iloid):
     
     
     return render_template('moduleilo.html', milo=milo, rsbs=rsb,qaas=qaa,pilos=pilo, nibs=nibs, mods=mods, maps=maps)
+
+@app.route('/programmeilo/<iloid>', methods=['GET', 'POST'])     
+def programmeilo(iloid):
+    '''
+    Show/map ModuleILO
+
+    Parameters
+    ----------
+    iloid : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+
+    '''
+    
+    try:
+        pilo=factory.get_element_by_ID(iloid.replace('_',':'))
+    except:
+        return render_template('not_found.html')
+    if request.method=='POST':
+        # Do the updates
+        pass
+    edges=pilo.getEdges()
+    edgesbytype = {}
+    for e in edges:
+        et = e['edge'].type
+        if et not in edgesbytype:
+            edgesbytype[et]=[]
+        edgesbytype[et].append(e)
+    progs = [(dict(m['target'])['code'], dict(m['target'])['name']) for m in edgesbytype['HAS_ILO'] if 'code' in dict(m['target'])]  
+    maps={}
+    for q in edgesbytype.get('MAPS_TO',[]):
+        crit=q['target'].element_id
+        if crit not in maps:
+            maps[crit]=[] 
+        maps[crit].append((q['target'], q['edge']))
+    rsb = factory.get_all_elements('RSBCriterion')   
+    qaa=factory.get_all_elements('QAABenchmark')   
+    nibs=factory.get_all_elements('NIBLSEcompetency')
+    
+    
+    return render_template('programmeilo.html', pilo=pilo, rsbs=rsb,qaas=qaa, nibs=nibs, progs=progs, maps=maps)
 
 @app.route('/ajax/moduleilo', methods=['POST'])
 def ajax_module_ilo():

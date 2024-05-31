@@ -1,0 +1,94 @@
+<!doctype html>
+<header>
+<title>Programme Learning Outcome</title>
+</header>
+<body>
+<h2 id=Top>Outcome {{pilo.element_id}}</h2>
+
+    {{pilo.params['outcome']}}
+
+<h3>Programmes</h3>
+<table>
+<tr><th>Code</th><th>Name</th></tr>
+{%for prog in progs%}
+<tr><td><a href='/programme/{{prog[0]}}'>{{prog[0]}}</a></td><td>{{prog[1]}}</td></tr>
+{% endfor %}
+</table>
+<h3>Mappings</h3>
+<ul>
+<li><a href='#RSB'>RSB criteria</a></li>
+<li><a href='#QAA'>QAA Benchmarks</a></li>
+<li><a href='#NIBLSE'>NIBLSE Competencies</a></li> 
+
+<h4 id=RSB>RSB Criteria<h4>
+<a href='#Top'>Top</a>
+<form id=RSBselect>
+<table>
+<tr><th>Mapped</th><th>Criterion</th></tr>
+{% for r in rsbs%}
+{% set checked =''%}
+{% if r.element_id in maps%} {% set checked='CHECKED' %}{% endif %}
+
+<tr><td><input type=checkbox id='{{r.element_id}}' {{checked}} /></td><td title='{{r.params['notes']}}' >
+<div>{{r.params['criterion']}} {{r.params['section']}} {{r.params['subsection']}} </div>
+<div>{{r.params['criterion_text']}} {{r.params['section_text']}} {{r.params['subsection_text']}}</div>
+</td></tr>
+{% endfor %}
+</table>
+
+
+Add a button here to add to the mappings
+</form>
+<!--
+Add list of programme ILOs to work with
+-->
+<h4 id=QAA>QAA Benchmarks<h4>
+<a href='#Top'>Top</a>
+<form id=QAAselect>
+<table>
+<tr><th>Mapped</th><th>Subject</th><th>Section</th><th>Descriptor</th></tr>
+{% for q in qaas %}
+{% set checked =''%}
+{% if q.element_id in maps%} {% set checked='CHECKED' %}{% endif %}
+
+<tr><td><input type=checkbox id='{{q.element_id}}' {{checked}} /></td>
+    <td >{{q.params['subject']}}</td>
+    <td >{{q.params['section']}} {{q.params['subsection']}}</td>
+    <td >{{q.params['section_text']}} {{q.params['subsection_text']}}<p/>
+    {{q.params['descriptor_text']}}
+    </td>
+</tr>
+{% endfor %}
+</table>
+
+
+Add a button here to add to the mappings
+</form>
+
+
+<h4 id=NIBLSE >NIBLSE competencies<h4>
+<a href='#Top'>Top</a>
+<form id=NIBselect>
+<table>
+<tr><th>Mapped</th><th>Competency</th><th>Descriptor</th></tr>
+{% for n in nibs%}
+{% set checked =''%}
+{% if n.element_id in maps%} {% set checked='CHECKED' %}{% endif %}
+
+<tr><td><input type=checkbox id='{{n.element_id}}' {{checked}} /></td>
+<td >{{n.params['competency']}}</td>
+<td title='{{n.params['explanation']}} 
+
+Examples:
+{{n.params['examples']}}'>{{n.params['descriptor']}}</td>
+</tr>
+{% endfor %}
+</table>
+
+
+Add a button here to add to the mappings
+</form>
+<!--
+<!--
+Add list of programme ILOs to work with
+--></body>

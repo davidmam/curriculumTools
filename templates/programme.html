@@ -26,12 +26,33 @@
 {% endfor %}
 {% endfor %}
 </table>
+<h4>Constraints</h4>
+{% if programme.optionGroups|length ==0 %}
+There are no module choice constraints
+{% else %}
+The following constraints apply:
+<ul>
+{% for og in programme.optionGroups %}
+<li>
+{% if programme.optionGroups[og].minChoices >0 %}
+Students MUST take at least {{programme.optionGroups[og].minChoices}} 
+{% if programme.optionGroups[og].maxChoices < programme.optionGroups[og].modules|length %}
+and may take no more than {{programme.optionGroups[og].maxChoices}}
+{% endif %}
+{% else %}
+Students MAY take up to {{programme.optionGroups[og].maxChoices}} 
+{% endif %}
+of the following modules: 
+{% for mod in programme.optionGroups[og].modules %}{{dict(programme.optionGroups[og].modules[mod]['target'])['code']}} 
 
+{%endfor%}</li>{% endfor %} 
+</ul>
+{% endif %}
 <h3>Intended Learning Outcomes</h3>
 <table>
 <tr><th>ILO</th><th>Validity</th></tr>
 {% for i in ilos %}
-<tr><td>{{ilos[i]['outcome']}}</td><td>{{ilos[i]['startyear']}} - {{ilos[i]['endyear']}}</td></tr>
+<tr><td><a href='/programmeilo/{{ i['id']|e }}'>{{i['outcome']}}</a></td><td>{{i['startyear']}} - {{i['endyear']}}</td></tr>
 {% endfor %}
 </table>
 

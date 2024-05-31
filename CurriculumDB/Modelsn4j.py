@@ -269,7 +269,25 @@ class Node():
         self.labels.remove('object')
         self.labels.remove('Node')
         
-    
+    def delete(self):
+        '''Removes the relationships to this node and this node from the database.
+        This is a dangerous method from which there is no recovery.
+        
+        '''
+        
+        edges=self.getEdges()
+        
+        cypherde = 'Match ()-[e]-() where elementId(e)=$eid delete e'
+        cypherdn = 'Match (n) where elementId(n)=$nid delete n'
+        for e in edges:
+            self.factory.db.execute_query(cypherde,
+                                        eid=e['edge'].element_id,
+                                        database_=self.factory.dbname)   
+        self.factory.db.execute_query(cypherdn,
+                                        nid=self.element_id,
+                                        database_=self.factory.dbname) 
+        
+            
     
 class Edge():
     '''Represents an edge in a Neo4J database'''
@@ -330,7 +348,14 @@ class Edge():
         None.
 
         '''
-        
+def getNodeClass(labellist):
+    classes={}
+    for l in labellist:
+        if l in globals():
+            classes[l] =globals()[l].__mro__
+    if classes:
+        return max(classes, key = lambda x: len(classes[x]))
+       
 class CurriculumFactory():
     
     def __init__(self, db, dbname='curriculum'):
@@ -366,7 +391,7 @@ class CurriculumFactory():
         )
         if not erecords :
             return
-        nodeclass = list(erecords[0].items()[0][1].labels)[0]
+        nodeclass = getNodeClass(list(erecords[0].items()[0][1].labels))
         params = dict(erecords[0].items()[0][1])
         params['elementID']=elementID
         if nodeclass in globals():
@@ -454,7 +479,7 @@ class CurriculumFactory():
                 return elements
             for item in erecords:
                 elem=item.items()[0][1]
-                nodeclass = list(elem.labels)[0]
+                nodeclass = getNodeClass(list(elem.labels))
                 params = dict(elem)
                 params['elementID']=elem.element_id
                 if nodeclass in globals():
@@ -523,11 +548,12 @@ class Programme(Node):
         super().__init__(factory,**params)
         
         self.modules = {}
+        self.optionGroups ={}
         self.ILO = []
         if self.element_id:
             self.loadmodules()
             self.loadILO()
-        
+            self.loadOptionGroups()
 
     
     
@@ -677,7 +703,49 @@ class Programme(Node):
             relation=records[0].items()[0][1]
             self.ILO[ilo.element_id]=(dict(ilo),dict(relation))
 
-    
+    def loadOptionGroups(self):
+        '''
+        Loads the assigned option groups for this programme into the self.optionGroups attribute
+
+        Returns
+        -------
+        None.
+
+        '''
+        cypher = 'Match (o:ModuleOptionGroup {programme: $pid}) return elementId(o)'
+        erecords, _, _ = self.factory.db.execute_query(cypher, pid=self.element_id,
+                                                  database_=self.factory.dbname
+                                             )
+        for e in erecords:
+            ogid = e.values()[0]
+            self.optionGroups[ogid]=self.factory.get_element_by_ID(ogid)
+
+    def addOptionGroup(self, modulelist, **kwparams):
+        '''
+        Adds a group of modules that should be considered together in the programme.
+
+        Parameters
+        ----------
+        modulelist : List of module codes
+        **kwparams : Additional parameters that will be passed to the ModuleOptionGroup method.
+            See ModuleOptionGroup.requiredParams and ModuleOptionGroup.optionalParams
+
+        Returns
+        -------
+        None.
+
+        '''
+        realmods = [m for m in modulelist if m in self.modules]
+        if len(realmods)<=1:
+            raise Exception('Not enough modules to choose from. Need at least 2 from the programme')
+        og = self.factory.get_or_create_Element('ModuleOptionGroup', programme=self, **kwparams )
+        
+        for m in realmods:
+            og.addModule(m)
+        self.optionGroups[og.element_id]=og
+        
+        
+        
 class Module(Node):
     
     DRAFT = 0
@@ -1175,37 +1243,37 @@ class ProgrammeILO(ILO):
             
      
     
-class AssessmentType():
-    '''
-    CREATE or REPLACE TABLE AssessmentType (
-    ID integer not null primary key auto_increment,
-    name text not null,
-    definition text not null
-    );
-    '''
+# class AssessmentType():
+#     '''
+#     CREATE or REPLACE TABLE AssessmentType (
+#     ID integer not null primary key auto_increment,
+#     name text not null,
+#     definition text not null
+#     );
+#     '''
 
-    def __init__(self, factory, **kwargs):
-        self.factory = factory
-        self.name = kwargs.get("name")
-        self.definition = kwargs.get("definition")
-        self.id = kwargs.get("id")
-        if self.id is None:
-            self.create()
+#     def __init__(self, factory, **kwargs):
+#         self.factory = factory
+#         self.name = kwargs.get("name")
+#         self.definition = kwargs.get("definition")
+#         self.id = kwargs.get("id")
+#         if self.id is None:
+#             self.create()
             
         
-    def create(self):
-        '''
-        Creates a new database entry for the AssessmentType entity
+#     def create(self):
+#         '''
+#         Creates a new database entry for the AssessmentType entity
 
-        Returns
-        -------
-        None.
+#         Returns
+#         -------
+#         None.
 
-        '''
-        insertsql = "Insert into AssessmentType (name, definition) VALUES (%s,%s)"
-        cursor = self.factory.db.cursor()
-        cursor.excecute(insertsql, (self.name,self.definition))
-        self.id = cursor.lastrowid   
+#         '''
+#         insertsql = "Insert into AssessmentType (name, definition) VALUES (%s,%s)"
+#         cursor = self.factory.db.cursor()
+#         cursor.excecute(insertsql, (self.name,self.definition))
+#         self.id = cursor.lastrowid   
 
 class Assessment(TeachingActivity):
     ntype='Assessment'
@@ -1220,7 +1288,81 @@ class Assessment(TeachingActivity):
 
     def __init__(self, factory,**kwargs):
         super().__init__(factory, **kwargs)
+
+class ModuleOptionGroup(Node):
+    ntype='ModuleOptionGroup'
+    requiredParams ={
+        'programme': 'Programme in which this Option Group occurs',
+        'maxChoices': 'Integer number of maximum modules to choose from the set (default 1)',
+        'minChoices': 'Minimum number of modules to chose from the set (Integer) (default 1)',
+        'is_core': 'Boolean, states whether this module group must be taken as part of the core programme (default: False)'}
+    optionalParams ={
+        'level': 'Level at which this option group is available',
+        'semester': 'Semester in which this option group is available'}
+    
+    def __init__(self, factory, **kwargs):
+        if 'maxChoices' not in kwargs:
+            kwargs['maxChoices']=1
+        if 'minChoices' not in kwargs:
+            kwargs['minChoices']=1            
+        if 'is_core' not in kwargs:
+            kwargs['is_core']=False 
+        if 'programme' in kwargs:
+            if type(kwargs['programme']) is Programme:
+                kwargs['programme'] = kwargs['programme'].element_id
+        super().__init__(factory, **kwargs)
+        self.modules={}
+        self.modules={}
+        self.loadModules()
         
+    def addModule(self, mod):
+        '''
+        Add a module to the option group. The module must be related to the 
+        programme. This will set a value in the relationship of
+        'optiongroup' with the id of this option group.
+
+        Parameters
+        ----------
+        mod : Module
+        Module to be part of the option group.
+        Returns
+        -------
+        None.
+
+        '''
+        if mod.element_id in self.modules:
+            return
+        cypher = 'Match (m:Module) where elementId(m)=$mid '
+        'Match (o:ModuleOptionGroup) where elementId(o)=$oid '
+        "MERGE (m)-[r:IS_OPTION]-(o) return m,r,o"
+        records,_,_ = self.factory.db.execute_query(cypher,
+                                                    mid=mod.element_id, oid=self.element_id,
+                                                    database_=self.factory.dbname)
+        if records:
+            mapping = records[0].items[1][1]
+            self.modules[mod.element_id]=mapping
+        
+        
+    
+    def loadModules(self):
+        '''
+        Retrieve all modules that are part of this option group.
+
+        Returns
+        -------
+        None.
+
+        '''
+        cypher =     "Match (m:Module)-[r:IS_OPTION]-(o:ModuleOptionGroup) where elementId(o)=$oid return m,r,o"
+        records,_,_ = self.factory.db.execute_query(cypher,
+                                                     oid=self.element_id,
+                                                    database_=self.factory.dbname)
+        if records:
+            for item in records:
+                mapping = item.items[1][1]
+                moduleid = item.items[0][1].element_id
+                self.modules[moduleid]=mapping
+    
 class Benchmark(Node):
     '''holder for a benchmark statement or PRSB requirement'''
     
