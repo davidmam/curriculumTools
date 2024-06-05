@@ -220,4 +220,15 @@ def ajax_module_ilo():
     -------
     None.
 
-    '''    
+    '''   
+@app.route('/ajax/benchmarkilo', methods=['POST'])
+def ajax_ilo_benchmark():
+    '''
+    Map or change mapping for an ilo set against a benchmark.
+
+    Post parameters are Benchmark type, benchmark IDs for mapping, ILO id.
+    Returns
+    -------
+    None.
+
+    '''

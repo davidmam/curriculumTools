@@ -3,10 +3,29 @@
 <title>Programme Learning Outcome</title>
 </header>
 <body>
+<style>
+th,td {border: 1px solid #AAA;}
+.sticky-div {
+            background-color: #88CCFF;
+            position: sticky;
+            top: 0px;
+            padding: 10px 0px;
+        }
+
+        .start {
+            height: 100px;
+        }
+
+        .end {
+            height: 5000px;
+        }
+</style>
+<div id='header' class='sticky-div' >
 <h2 id=Top>Outcome {{pilo.element_id}}</h2>
 
     {{pilo.params['outcome']}}
-
+</div>   
+<div id='ilometa' style=style="overflow-y:scroll; height=800px;">
 <h3>Programmes</h3>
 <table>
 <tr><th>Code</th><th>Name</th></tr>
@@ -23,30 +42,35 @@
 <h4 id=RSB>RSB Criteria<h4>
 <a href='#Top'>Top</a>
 <form id=RSBselect>
-<table>
-<tr><th>Mapped</th><th>Criterion</th></tr>
+<div id="rsb_div" style="overflow-y:scroll; height:400px;">
+
+<table style='border: 1px solid #AAA;'>
+<tr><th>Mapped</th><th>Criterion</th><th style='width: 25%'>Section</th><th>Descriptor</th></tr>
 {% for r in rsbs%}
 {% set checked =''%}
 {% if r.element_id in maps%} {% set checked='CHECKED' %}{% endif %}
 
-<tr><td><input type=checkbox id='{{r.element_id}}' {{checked}} /></td><td title='{{r.params['notes']}}' >
-<div>{{r.params['criterion']}} {{r.params['section']}} {{r.params['subsection']}} </div>
-<div>{{r.params['criterion_text']}} {{r.params['section_text']}} {{r.params['subsection_text']}}</div>
+<tr><td style='border: 1px solid #AAA;'><input type=checkbox id='{{r.element_id}}' {{checked}} /></td><td  style='border: 1px solid #AAA;'>
+{{r.params['criterion']}} {{r.params['section']}} {{r.params['subsection']}} </td><td style='border: 1px solid #AAA;'>
+{{r.params['criterion_text']}}</td><td  title='{{r.params['notes']}}' style='border: 1px solid #AAA;'> {{r.params['section_text']}} <p/> 
+{%for t in r.params['subsection_text'].split("\n") %} {{t}}</p> {%endfor%}
 </td></tr>
 {% endfor %}
 </table>
+</div>
+<button id='rsb_button' name='rsb_button'>Update RSB Mapping</button>
 
-
-Add a button here to add to the mappings
 </form>
 <!--
 Add list of programme ILOs to work with
 -->
 <h4 id=QAA>QAA Benchmarks<h4>
 <a href='#Top'>Top</a>
+
 <form id=QAAselect>
+<div id="qaa_div" style="overflow-y:scroll; height:400px;">
 <table>
-<tr><th>Mapped</th><th>Subject</th><th>Section</th><th>Descriptor</th></tr>
+<tr><th>Mapped</th><th>Subject</th><th>Section</th><th></th><th>Descriptor</th></tr>
 {% for q in qaas %}
 {% set checked =''%}
 {% if q.element_id in maps%} {% set checked='CHECKED' %}{% endif %}
@@ -54,21 +78,24 @@ Add list of programme ILOs to work with
 <tr><td><input type=checkbox id='{{q.element_id}}' {{checked}} /></td>
     <td >{{q.params['subject']}}</td>
     <td >{{q.params['section']}} {{q.params['subsection']}}</td>
-    <td >{{q.params['section_text']}} {{q.params['subsection_text']}}<p/>
+    <td >{{q.params['section_text']}}</td><td> {{q.params['subsection_text']}}<p/>
     {{q.params['descriptor_text']}}
     </td>
 </tr>
 {% endfor %}
 </table>
 
+</div>
 
-Add a button here to add to the mappings
+<button id='qaa_button' name='qaa_button'>Update QAA Mapping</button>
+
 </form>
 
 
 <h4 id=NIBLSE >NIBLSE competencies<h4>
 <a href='#Top'>Top</a>
 <form id=NIBselect>
+<div id="niblse_div" style="overflow-y:scroll; height:250px;">
 <table>
 <tr><th>Mapped</th><th>Competency</th><th>Descriptor</th></tr>
 {% for n in nibs%}
@@ -84,11 +111,14 @@ Examples:
 </tr>
 {% endfor %}
 </table>
+</div>
 
+<button id='nibs_button' name='nibs_button'>Update NIBLSE Mapping</button>
 
-Add a button here to add to the mappings
 </form>
 <!--
 <!--
 Add list of programme ILOs to work with
---></body>
+-->
+</div>
+</body>

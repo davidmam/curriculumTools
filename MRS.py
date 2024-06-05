@@ -19,6 +19,26 @@ def findMRS(path, mod):
     else:
         print(module,'multiple files found: ', files)
         
+def findMRS2023(path, mod):
+    module = mod.split()[0]
+    try:
+        files = [m for m in os.listdir(os.path.join(path, mod)) if m.startswith(module) and len(m)==25]
+    except:
+        return None
+    if len(files)==1:
+        return os.path.join(path, mod,files[0])
+    else:
+        print(module,'multiple files found: ', files)
+
+def find_modules2023(path):  
+    
+    mods = [f for f in os.listdir(path) if f[:2]=='BS']
+    print('found ', mods)
+    mrs = dict([(mod, findMRS2023(path, mod)) for mod in mods if findMRS2023(path,mod)])
+    
+        #mods = [m for m in mods if m in mrs]
+    return mrs
+        
 def find_modules(path):  
     TA1 = os.path.join(path,"Level 1")
     TA2 = os.path.join(path,"Level 2")
@@ -37,6 +57,7 @@ def find_modules(path):
                 mods.append(m)
         #mods = [m for m in mods if m in mrs]
     return mrs
+
 
 def extractStudents(file):
     workbook=openpyxl.load_workbook(filename=file, data_only=True)

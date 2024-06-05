@@ -9,50 +9,64 @@ from tkinter import Tk
 from tkinter.filedialog import askdirectory
 import os
 import openpyxl
-from MRS import find_modules
+from MRS import find_modules2023
 
 def main():
     root = Tk()
     
     TAdir = askdirectory(title="TA folder")
     root.destroy()
-    mrs = find_modules(TAdir)
+    mrs = find_modules2023(TAdir)
     mods = list(mrs.keys())
    
     basemod =''
     for m in mods:
-        if m[:7]=="BS21001":
+        if m[:7]=="BS31003":
             basemod = m
             break
     studentgrades=extractStudents(mrs[basemod]) # should get students from BS11001
     for mod in mods:
-        if mod in mrs:
+        if mod in mrs and mod[2] in '3':
+            print(f'extracting grades from {mod}')
             grades = extractgrades(mrs[mod])
             for s in grades:
                 if s in studentgrades:
                     studentgrades[s][mod]=grades[s]
     scores={}
-    
-    
+    corescores={}
+    credits={}
+    #coremoduleset =['BS21001','BS21002','BS21012', 'BS22001', 'BS22002', 'BS22003']
+    coremoduleset =['BS31003','BS31004','BS31005', 'BS31006', 'BS32011', 'BS32012']
     for s in studentgrades:
         scores[s]=0
+        corescores[s]=0
         credittotal=0
+        corecredittotal=0
         for m in studentgrades[s]:
             if m[:2]=='BS':
                 credit=20
-                if m.split()[0] in ['BS21001', 'BS21002', 'BS22001', 'BS22002']:
+                if m.split()[0] in ['BS21001', 'BS21002']:
                     credit=10
+                if m[2] in '34':
+                    credit=15
                 try:
                     scores[s] += credit*studentgrades[s][m]
+                    if m in coremoduleset:
+                        corescores[s] += credit*studentgrades[s][m]
+                        corecredittotal += credit
                 except:
                     print('could not multiply {} by {}'.format(studentgrades[s][m], credit))
                     scores[s] +=0
                 credittotal+=credit
+                 
         scores[s]=scores[s]/credittotal
-    ofh=open("L2 mean scores.txt ", "w")
+        credits[s]=credittotal
+        if corescores[s]:
+            corescores[s] =corescores[s]/corecredittotal
+    ofh=open("L3 Bio mean scores.txt ", "w")
     for s in studentgrades:
         g = studentgrades[s]
-        print(s, g['firstname'], g['lastname'], g['route'], scores[s], sep="\t", file=ofh)
+        print(s, g['firstname'], g['lastname'], g['route'], scores[s], corescores[s], credits[s], sep="\t", file=ofh)
     ofh.close()
     
 def extractgrades(file):

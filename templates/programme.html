@@ -6,6 +6,7 @@
 <h2>Overview for {{programme.params['code']}} {{programme.params['name']}}</h2>
 
 <h3>Schedule of modules</h3>
+<form id='constraints_form' name='constraints_form'>
 <table>
 <tr><th>Core/Elective</th><th>Code</th><th>Name</th><th>Credits</th><th>Validity</th></tr>
 
@@ -14,18 +15,30 @@
 {% for s in modules[l] %}
 <tr><td colspan=5>Semester {{s}}</td></tr>
 {% for c in modules[l][s] %}
-
 {% set req = "Core" %}
-{% if c=="IS_ELECTIVE"%}{% set req = 'Elective'%}{% endif %}
+{% if c=="IS_ELECTIVE"%}
+{% set req = 'Elective'%}
+{% endif %}
 {% for m in modules[l][s][c] %}
 {% for x in modules[l][s][c][m] %}
-<tr><td>{{req}}</td><td><a href='/module/{{m}}'>{{m}}</a></td><td>{{x['name']}}</td><td>{{x['credits']}}</td><td>{{x['sy']}} - {{x['ey']}}</td>
+{% set checkbox =''%}
+
+<tr><td>{{req}} {% if c=="IS_ELECTIVE"%}
+<input type='checkbox' id='check_{{m}}' name='check_{{m}}' />
+{% endif %} </td><td><a href='/module/{{m}}'>{{m}}</a></td><td>{{x['name']}}</td><td>{{x['credits']}}</td><td>{{x['sy']}} - {{x['ey']}}</td>
 {% endfor %}
 {% endfor %}
 {% endfor %}
 {% endfor %}
 {% endfor %}
 </table>
+<div id=constraintsetting>
+Minimum number to be chosen: <input type=text name='minRequired' size=5/><br/> 
+<!-- make these some form of number spinner dependent on the count of the modules selected -->
+Maximum numberto be chosen: <input type=text name='maxRequired' size=5/></br>
+<input type='submit' id='constraintsubmit' value='Add Constraint'/>
+</div>
+</form>
 <h4>Constraints</h4>
 {% if programme.optionGroups|length ==0 %}
 There are no module choice constraints
